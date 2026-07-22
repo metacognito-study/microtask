@@ -115,26 +115,26 @@
    {
     "id": "rxnt",
     "label": "Reactant (P falling)",
-    "x": 0.25,
-    "y": 0.3
+    "x": 0.208,
+    "y": 0.313
    },
    {
     "id": "prod",
     "label": "Product (P rising)",
-    "x": 0.25,
-    "y": 0.7
+    "x": 0.417,
+    "y": 0.531
    },
    {
     "id": "peq",
     "label": "Equilibrium pressure Peq",
-    "x": 0.75,
-    "y": 0.25
+    "x": 0.125,
+    "y": 0.625
    },
    {
     "id": "flat",
     "label": "At equilibrium (curves flat)",
-    "x": 0.7,
-    "y": 0.55
+    "x": 0.719,
+    "y": 0.547
    }
   ],
   "options": [
@@ -169,13 +169,13 @@
    {
     "id": "shift",
     "label": "System re-equilibrating",
-    "x": 0.62,
-    "y": 0.48
+    "x": 0.65,
+    "y": 0.55
    },
    {
     "id": "new",
     "label": "New equilibrium Peq",
-    "x": 0.82,
+    "x": 0.85,
     "y": 0.35
    }
   ],
@@ -1397,26 +1397,26 @@
    {
     "id": "elem",
     "label": "Pure element",
-    "x": 0.15,
-    "y": 0.5
+    "x": 0.133,
+    "y": 0.288
    },
    {
     "id": "comp",
     "label": "Pure compound",
-    "x": 0.38,
-    "y": 0.5
+    "x": 0.377,
+    "y": 0.288
    },
    {
     "id": "homo",
     "label": "Homogeneous mixture",
-    "x": 0.62,
-    "y": 0.5
+    "x": 0.621,
+    "y": 0.288
    },
    {
     "id": "hete",
     "label": "Heterogeneous mixture",
-    "x": 0.85,
-    "y": 0.5
+    "x": 0.865,
+    "y": 0.288
    }
   ],
   "options": [
@@ -2591,26 +2591,26 @@
    {
     "id": "anode",
     "label": "Anode (Zn, oxidation)",
-    "x": 0.15,
-    "y": 0.5
+    "x": 0.18,
+    "y": 0.55
    },
    {
     "id": "cath",
     "label": "Cathode (Cu, reduction)",
-    "x": 0.85,
-    "y": 0.5
+    "x": 0.82,
+    "y": 0.55
    },
    {
     "id": "sb",
     "label": "Salt bridge (ion flow)",
     "x": 0.5,
-    "y": 0.2
+    "y": 0.32
    },
    {
     "id": "wire",
     "label": "External circuit (e⁻ flow)",
     "x": 0.5,
-    "y": 0.05
+    "y": 0.12
    }
   ],
   "options": [
@@ -2674,26 +2674,26 @@
    {
     "id": "asol",
     "label": "Anode solution (Zn²⁺ builds)",
-    "x": 0.18,
-    "y": 0.72
+    "x": 0.2,
+    "y": 0.656
    },
    {
     "id": "csol",
     "label": "Cathode solution (Cu²⁺ used)",
-    "x": 0.82,
-    "y": 0.72
+    "x": 0.8,
+    "y": 0.656
    },
    {
     "id": "anion",
     "label": "Anions → anode side",
-    "x": 0.35,
-    "y": 0.28
+    "x": 0.379,
+    "y": 0.344
    },
    {
     "id": "cation",
     "label": "Cations → cathode side",
-    "x": 0.65,
-    "y": 0.28
+    "x": 0.619,
+    "y": 0.344
    }
   ],
   "options": [
@@ -3085,26 +3085,26 @@
    {
     "id": "funl",
     "label": "Funnel",
-    "x": 0.5,
-    "y": 0.2
+    "x": 0.263,
+    "y": 0.194
    },
    {
     "id": "filt",
     "label": "Filter paper",
-    "x": 0.5,
-    "y": 0.4
+    "x": 0.558,
+    "y": 0.288
    },
    {
     "id": "resd",
     "label": "Residue",
-    "x": 0.5,
-    "y": 0.55
+    "x": 0.479,
+    "y": 0.469
    },
    {
     "id": "filtrate",
     "label": "Filtrate",
-    "x": 0.5,
-    "y": 0.85
+    "x": 0.479,
+    "y": 0.875
    }
   ],
   "options": [
@@ -3935,14 +3935,14 @@
    {
     "id": "num",
     "label": "Magnitude (number)",
-    "x": 0.32,
-    "y": 0.5
+    "x": 0.396,
+    "y": 0.688
    },
    {
     "id": "unit",
     "label": "Unit",
-    "x": 0.68,
-    "y": 0.5
+    "x": 0.696,
+    "y": 0.688
    }
   ],
   "options": [
@@ -3963,8 +3963,8 @@
    {
     "id": "reac",
     "label": "Reactants",
-    "x": 0.1,
-    "y": 0.68
+    "x": 0.15,
+    "y": 0.619
    },
    {
     "id": "ts",
@@ -3975,14 +3975,14 @@
    {
     "id": "prod",
     "label": "Products",
-    "x": 0.9,
-    "y": 0.78
+    "x": 0.85,
+    "y": 0.75
    },
    {
     "id": "peak",
     "label": "Maximum energy point",
     "x": 0.5,
-    "y": 0.38
+    "y": 0.35
    }
   ],
   "options": [
@@ -4005,32 +4005,32 @@
    {
     "id": "r",
     "label": "Reactants",
-    "x": 0.1,
-    "y": 0.68
+    "x": 0.15,
+    "y": 0.65
    },
    {
     "id": "ts",
     "label": "Transition state",
     "x": 0.5,
-    "y": 0.1
+    "y": 0.12
    },
    {
     "id": "p",
     "label": "Products",
-    "x": 0.9,
+    "x": 0.85,
     "y": 0.78
    },
    {
     "id": "ea",
     "label": "Activation energy (Ea)",
-    "x": 0.32,
+    "x": 0.35,
     "y": 0.38
    },
    {
     "id": "dh",
     "label": "ΔH (enthalpy change)",
-    "x": 0.82,
-    "y": 0.52
+    "x": 0.65,
+    "y": 0.715
    }
   ],
   "options": [
@@ -4055,25 +4055,25 @@
     "id": "exo_diag",
     "label": "Exothermic (ΔH < 0)",
     "x": 0.25,
-    "y": 0.3
+    "y": 0.156
    },
    {
     "id": "endo_diag",
     "label": "Endothermic (ΔH > 0)",
     "x": 0.75,
-    "y": 0.3
+    "y": 0.156
    },
    {
     "id": "exo_dh",
     "label": "ΔH < 0 (downward)",
     "x": 0.25,
-    "y": 0.65
+    "y": 0.578
    },
    {
     "id": "endo_dh",
     "label": "ΔH > 0 (upward)",
     "x": 0.75,
-    "y": 0.65
+    "y": 0.578
    }
   ],
   "options": [
@@ -4097,25 +4097,25 @@
     "id": "fwd_ea",
     "label": "Forward Ea",
     "x": 0.3,
-    "y": 0.38
+    "y": 0.45
    },
    {
     "id": "rev_ea",
     "label": "Reverse Ea",
-    "x": 0.7,
-    "y": 0.52
+    "x": 0.604,
+    "y": 0.516
    },
    {
     "id": "r",
     "label": "Reactants",
-    "x": 0.1,
+    "x": 0.208,
     "y": 0.68
    },
    {
     "id": "ts",
     "label": "Transition state (TS)",
     "x": 0.5,
-    "y": 0.1
+    "y": 0.219
    }
   ],
   "options": [
@@ -4289,20 +4289,20 @@
    {
     "id": "prot",
     "label": "Proton (+1)",
-    "x": 0.42,
-    "y": 0.44
+    "x": 0.25,
+    "y": 0.5
    },
    {
     "id": "neut",
     "label": "Neutron (0)",
-    "x": 0.58,
-    "y": 0.56
+    "x": 0.406,
+    "y": 0.366
    },
    {
     "id": "elec",
     "label": "Electron (−1)",
-    "x": 0.88,
-    "y": 0.28
+    "x": 0.646,
+    "y": 0.5
    }
   ],
   "options": [
@@ -4585,26 +4585,26 @@
    {
     "id": "h3po4",
     "label": "Acid (starts with H)",
-    "x": 0.15,
-    "y": 0.5
+    "x": 0.138,
+    "y": 0.641
    },
    {
     "id": "kcl",
     "label": "Not an acid (no acidic H)",
-    "x": 0.4,
-    "y": 0.5
+    "x": 0.379,
+    "y": 0.641
    },
    {
     "id": "h5io6",
     "label": "Acid (starts with H)",
-    "x": 0.65,
-    "y": 0.5
+    "x": 0.621,
+    "y": 0.641
    },
    {
     "id": "naoh",
     "label": "Not an acid (base/hydroxide)",
-    "x": 0.88,
-    "y": 0.5
+    "x": 0.863,
+    "y": 0.641
    }
   ],
   "options": [
@@ -4625,26 +4625,26 @@
    {
     "id": "hcn",
     "label": "Binary acid (H + nonmetal only)",
-    "x": 0.15,
-    "y": 0.5
+    "x": 0.092,
+    "y": 0.261
    },
    {
     "id": "hi",
     "label": "Binary acid (H + nonmetal only)",
-    "x": 0.38,
-    "y": 0.5
+    "x": 0.092,
+    "y": 0.739
    },
    {
     "id": "h2so4",
     "label": "Oxyacid (contains oxygen)",
-    "x": 0.62,
-    "y": 0.5
+    "x": 0.577,
+    "y": 0.261
    },
    {
     "id": "hno3",
     "label": "Oxyacid (contains oxygen)",
-    "x": 0.85,
-    "y": 0.5
+    "x": 0.577,
+    "y": 0.739
    }
   ],
   "options": [
@@ -4950,20 +4950,20 @@
    {
     "id": "xax",
     "label": "Mass-to-charge ratio (m/z)",
-    "x": 0.55,
-    "y": 0.95
+    "x": 0.4,
+    "y": 0.781
    },
    {
     "id": "yax",
     "label": "Relative abundance (%)",
-    "x": 0.04,
-    "y": 0.45
+    "x": 0.146,
+    "y": 0.625
    },
    {
     "id": "base",
     "label": "Base peak (tallest bar)",
-    "x": 0.42,
-    "y": 0.08
+    "x": 0.55,
+    "y": 0.313
    }
   ],
   "options": [
@@ -5060,19 +5060,19 @@
     "id": "hcl",
     "label": "Acid (HCl)",
     "x": 0.2,
-    "y": 0.5
+    "y": 0.525
    },
    {
     "id": "naoh",
     "label": "Base (NaOH)",
     "x": 0.5,
-    "y": 0.5
+    "y": 0.525
    },
    {
     "id": "h2so4",
     "label": "Acid (H₂SO₄)",
     "x": 0.8,
-    "y": 0.5
+    "y": 0.525
    }
   ],
   "options": [
@@ -5094,26 +5094,26 @@
    {
     "id": "hcl",
     "label": "Binary acid",
-    "x": 0.15,
-    "y": 0.5
+    "x": 0.256,
+    "y": 0.259
    },
    {
     "id": "hbr",
     "label": "Binary acid",
-    "x": 0.38,
-    "y": 0.5
+    "x": 0.74,
+    "y": 0.259
    },
    {
     "id": "hno3",
     "label": "Oxyacid (has O)",
-    "x": 0.62,
-    "y": 0.5
+    "x": 0.256,
+    "y": 0.741
    },
    {
     "id": "hclo4",
     "label": "Oxyacid (has O)",
-    "x": 0.85,
-    "y": 0.5
+    "x": 0.74,
+    "y": 0.741
    }
   ],
   "options": [
@@ -5167,25 +5167,25 @@
     "id": "S",
     "label": "Central atom (S)",
     "x": 0.5,
-    "y": 0.5
+    "y": 0.563
    },
    {
     "id": "O",
     "label": "Oxygen atoms",
-    "x": 0.25,
-    "y": 0.3
+    "x": 0.5,
+    "y": 0.344
    },
    {
     "id": "OH",
     "label": "Ionizable −OH",
-    "x": 0.75,
-    "y": 0.7
+    "x": 0.708,
+    "y": 0.563
    },
    {
     "id": "whole",
     "label": "Oxyacid",
-    "x": 0.5,
-    "y": 0.08
+    "x": 0.208,
+    "y": 0.25
    }
   ],
   "options": [
@@ -5372,26 +5372,26 @@
    {
     "id": "xax",
     "label": "Mass-to-charge ratio (m/z)",
-    "x": 0.55,
-    "y": 0.95
+    "x": 0.233,
+    "y": 0.788
    },
    {
     "id": "yax",
     "label": "Relative abundance (%)",
-    "x": 0.03,
-    "y": 0.45
+    "x": 0.133,
+    "y": 0.338
    },
    {
     "id": "base",
     "label": "Base peak (100%)",
-    "x": 0.45,
-    "y": 0.05
+    "x": 0.546,
+    "y": 0.188
    },
    {
     "id": "mion",
     "label": "Molecular ion (M⁺)",
-    "x": 0.88,
-    "y": 0.35
+    "x": 0.746,
+    "y": 0.475
    }
   ],
   "options": [
@@ -5414,26 +5414,26 @@
    {
     "id": "stoich",
     "label": "Stoichiometric point",
-    "x": 0.5,
-    "y": 0.2
+    "x": 0.531,
+    "y": 0.288
    },
    {
     "id": "lim",
     "label": "Limiting reagent consumed",
-    "x": 0.25,
-    "y": 0.55
+    "x": 0.339,
+    "y": 0.534
    },
    {
     "id": "exc",
     "label": "Excess reagent remains",
-    "x": 0.75,
-    "y": 0.12
+    "x": 0.724,
+    "y": 0.288
    },
    {
     "id": "prod",
     "label": "Maximum product formed",
-    "x": 0.5,
-    "y": 0.5
+    "x": 0.146,
+    "y": 0.288
    }
   ],
   "options": [
@@ -5520,26 +5520,26 @@
    {
     "id": "rise",
     "label": "Limiting reagent region",
-    "x": 0.25,
-    "y": 0.55
+    "x": 0.377,
+    "y": 0.609
    },
    {
     "id": "bend",
     "label": "Stoichiometric point",
-    "x": 0.5,
-    "y": 0.2
+    "x": 0.608,
+    "y": 0.375
    },
    {
     "id": "flat",
     "label": "Excess reagent region",
-    "x": 0.75,
-    "y": 0.12
+    "x": 0.763,
+    "y": 0.375
    },
    {
     "id": "mix",
     "label": "Maximum product yield",
-    "x": 0.5,
-    "y": 0.5
+    "x": 0.146,
+    "y": 0.375
    }
   ],
   "options": [
@@ -5589,26 +5589,26 @@
    {
     "id": "lim",
     "label": "Limiting reactant",
-    "x": 0.2,
-    "y": 0.4
+    "x": 0.24,
+    "y": 0.344
    },
    {
     "id": "exc",
     "label": "Excess reactant",
-    "x": 0.5,
-    "y": 0.4
+    "x": 0.24,
+    "y": 0.656
    },
    {
     "id": "prod",
     "label": "Product (C)",
-    "x": 0.78,
-    "y": 0.55
+    "x": 0.75,
+    "y": 0.369
    },
    {
     "id": "left",
     "label": "Leftover excess",
-    "x": 0.5,
-    "y": 0.7
+    "x": 0.75,
+    "y": 0.672
    }
   ],
   "options": [
@@ -5829,26 +5829,26 @@
    {
     "id": "eq_neg",
     "label": "Exothermic (ΔH < 0)",
-    "x": 0.25,
-    "y": 0.35
+    "x": 0.256,
+    "y": 0.3
    },
    {
     "id": "eq_pos",
     "label": "Endothermic (ΔH > 0)",
-    "x": 0.75,
-    "y": 0.35
+    "x": 0.744,
+    "y": 0.3
    },
    {
     "id": "arrow_neg",
     "label": "Heat released to surroundings",
-    "x": 0.25,
-    "y": 0.7
+    "x": 0.256,
+    "y": 0.725
    },
    {
     "id": "arrow_pos",
     "label": "Heat absorbed from surroundings",
-    "x": 0.75,
-    "y": 0.7
+    "x": 0.744,
+    "y": 0.725
    }
   ],
   "options": [
@@ -5871,25 +5871,25 @@
     "id": "heat_product",
     "label": "Exothermic (heat on product side)",
     "x": 0.25,
-    "y": 0.4
+    "y": 0.234
    },
    {
     "id": "heat_reactant",
     "label": "Endothermic (heat on reactant side)",
     "x": 0.75,
-    "y": 0.4
+    "y": 0.234
    },
    {
     "id": "released",
     "label": "Energy released",
     "x": 0.25,
-    "y": 0.72
+    "y": 0.694
    },
    {
     "id": "absorbed",
     "label": "Energy absorbed",
     "x": 0.75,
-    "y": 0.72
+    "y": 0.694
    }
   ],
   "options": [
@@ -6194,26 +6194,26 @@
    {
     "id": "endo_eq",
     "label": "Endothermic",
-    "x": 0.25,
-    "y": 0.3
+    "x": 0.266,
+    "y": 0.226
    },
    {
     "id": "exo_eq",
     "label": "Exothermic",
-    "x": 0.75,
-    "y": 0.3
+    "x": 0.734,
+    "y": 0.226
    },
    {
     "id": "heat_in",
     "label": "Heat absorbed",
-    "x": 0.1,
-    "y": 0.55
+    "x": 0.286,
+    "y": 0.672
    },
    {
     "id": "heat_out",
     "label": "Heat released",
-    "x": 0.9,
-    "y": 0.55
+    "x": 0.755,
+    "y": 0.672
    }
   ],
   "options": [
@@ -6235,26 +6235,26 @@
    {
     "id": "endo",
     "label": "Endothermic (ΔH > 0)",
-    "x": 0.25,
-    "y": 0.35
+    "x": 0.266,
+    "y": 0.266
    },
    {
     "id": "exo",
     "label": "Exothermic (ΔH < 0)",
-    "x": 0.75,
-    "y": 0.35
+    "x": 0.734,
+    "y": 0.266
    },
    {
     "id": "plus",
     "label": "Positive ΔH (absorbs)",
-    "x": 0.25,
-    "y": 0.65
+    "x": 0.266,
+    "y": 0.688
    },
    {
     "id": "neg",
     "label": "Negative ΔH (releases)",
-    "x": 0.75,
-    "y": 0.65
+    "x": 0.734,
+    "y": 0.688
    }
   ],
   "options": [
@@ -6404,26 +6404,26 @@
    {
     "id": "slope1",
     "label": "Temperature changing",
-    "x": 0.12,
-    "y": 0.72
+    "x": 0.188,
+    "y": 0.719
    },
    {
     "id": "flat1",
     "label": "Phase change (flat)",
-    "x": 0.3,
-    "y": 0.58
+    "x": 0.333,
+    "y": 0.625
    },
    {
     "id": "slope2",
     "label": "Temperature changing",
-    "x": 0.52,
-    "y": 0.42
+    "x": 0.5,
+    "y": 0.438
    },
    {
     "id": "flat2",
     "label": "Phase change (flat)",
-    "x": 0.7,
-    "y": 0.28
+    "x": 0.708,
+    "y": 0.25
    }
   ],
   "options": [
@@ -6445,26 +6445,26 @@
    {
     "id": "s",
     "label": "Solid",
-    "x": 0.1,
-    "y": 0.78
+    "x": 0.188,
+    "y": 0.719
    },
    {
     "id": "sl",
     "label": "Solid + liquid",
-    "x": 0.28,
-    "y": 0.6
+    "x": 0.333,
+    "y": 0.625
    },
    {
     "id": "l",
     "label": "Liquid",
     "x": 0.5,
-    "y": 0.45
+    "y": 0.438
    },
    {
     "id": "lg",
     "label": "Liquid + gas",
-    "x": 0.7,
-    "y": 0.3
+    "x": 0.708,
+    "y": 0.25
    }
   ],
   "options": [
@@ -7116,32 +7116,32 @@
    {
     "id": "xax",
     "label": "Binding energy (MJ/mol)",
-    "x": 0.55,
-    "y": 0.96
+    "x": 0.5,
+    "y": 0.91
    },
    {
     "id": "yax",
     "label": "Relative # of electrons",
-    "x": 0.03,
-    "y": 0.4
+    "x": 0.07,
+    "y": 0.5
    },
    {
     "id": "val",
     "label": "Valence electrons (low IE)",
-    "x": 0.8,
-    "y": 0.15
+    "x": 0.833,
+    "y": 0.375
    },
    {
     "id": "core",
     "label": "Core electrons (high IE, 1s)",
-    "x": 0.15,
-    "y": 0.35
+    "x": 0.229,
+    "y": 0.375
    },
    {
     "id": "ht",
     "label": "Peak height = electron count",
-    "x": 0.5,
-    "y": 0.6
+    "x": 0.448,
+    "y": 0.375
    }
   ],
   "options": [
@@ -7498,26 +7498,26 @@
    {
     "id": "xax",
     "label": "Kinetic energy (Ek)",
-    "x": 0.55,
-    "y": 0.95
+    "x": 0.531,
+    "y": 0.85
    },
    {
     "id": "yax",
     "label": "Number of particles",
-    "x": 0.03,
-    "y": 0.4
+    "x": 0.146,
+    "y": 0.469
    },
    {
     "id": "avg",
     "label": "Average Ek (Ek̄)",
-    "x": 0.48,
-    "y": 0.15
+    "x": 0.469,
+    "y": 0.25
    },
    {
     "id": "are",
     "label": "All particles (area = total)",
-    "x": 0.65,
-    "y": 0.5
+    "x": 0.302,
+    "y": 0.65
    }
   ],
   "options": [
@@ -7963,26 +7963,26 @@
    {
     "id": "idip",
     "label": "Ion-dipole interaction",
-    "x": 0.2,
-    "y": 0.45
+    "x": 0.26,
+    "y": 0.266
    },
    {
     "id": "hbnd",
     "label": "H-bond / dipole-dipole",
-    "x": 0.5,
-    "y": 0.45
+    "x": 0.74,
+    "y": 0.266
    },
    {
     "id": "lds",
     "label": "London dispersion forces",
-    "x": 0.8,
-    "y": 0.45
+    "x": 0.74,
+    "y": 0.734
    },
    {
     "id": "hyd",
     "label": "Hydration sphere",
-    "x": 0.2,
-    "y": 0.75
+    "x": 0.26,
+    "y": 0.734
    }
   ],
   "options": [
