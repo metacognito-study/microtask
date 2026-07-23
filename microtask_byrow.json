@@ -8216,5 +8216,1335 @@
   ],
   "tool": "sorter",
   "subject": "chem"
+ },
+ "900001": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "acid_strength_3",
+  "slug_wired": "acid_strength_3",
+  "speculative_row": true,
+  "prompt": "Label the three acids by relative strength",
+  "options": [
+   "Strongest acid (lowest pKa)",
+   "Intermediate acid",
+   "Weakest acid (highest pKa)",
+   "Strong base",
+   "Neutral salt"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "Strongest acid (lowest pKa)",
+    "x": 0.167,
+    "y": 0.714
+   },
+   {
+    "id": "h1",
+    "label": "Intermediate acid",
+    "x": 0.333,
+    "y": 0.531
+   },
+   {
+    "id": "h2",
+    "label": "Weakest acid (highest pKa)",
+    "x": 0.5,
+    "y": 0.285
+   }
+  ]
+ },
+ "900002": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "energy_profile_cat",
+  "slug_wired": "energy_profile_cat",
+  "speculative_row": true,
+  "prompt": "Label the paths and energies on the profile",
+  "options": [
+   "Uncatalyzed path",
+   "Catalyzed path",
+   "Lower Ea (catalyzed)",
+   "ΔH (enthalpy change)",
+   "Higher ΔH",
+   "Reactants"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "Uncatalyzed path",
+    "x": 0.417,
+    "y": 0.25
+   },
+   {
+    "id": "h1",
+    "label": "Catalyzed path",
+    "x": 0.521,
+    "y": 0.438
+   },
+   {
+    "id": "h2",
+    "label": "Lower Ea (catalyzed)",
+    "x": 0.333,
+    "y": 0.438
+   },
+   {
+    "id": "h3",
+    "label": "ΔH (enthalpy change)",
+    "x": 0.625,
+    "y": 0.703
+   }
+  ]
+ },
+ "900003": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "mb_catalyst",
+  "slug_wired": "mb_catalyst",
+  "speculative_row": true,
+  "prompt": "Label the catalyzed and uncatalyzed activation energies",
+  "options": [
+   "Maxwell-Boltzmann distribution",
+   "Uncatalyzed Ea",
+   "Catalyzed Ea",
+   "Average kinetic energy",
+   "Enthalpy change (ΔH)"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "Maxwell-Boltzmann distribution",
+    "x": 0.229,
+    "y": 0.344
+   },
+   {
+    "id": "h1",
+    "label": "Uncatalyzed Ea",
+    "x": 0.625,
+    "y": 0.312
+   },
+   {
+    "id": "h2",
+    "label": "Catalyzed Ea",
+    "x": 0.458,
+    "y": 0.312
+   }
+  ]
+ },
+ "900004": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "mb_two_temps",
+  "slug_wired": "mb_two_temps",
+  "speculative_row": true,
+  "prompt": "Label the Maxwell-Boltzmann distributions and activation energy",
+  "options": [
+   "T₁ (lower)",
+   "T₂ (higher)",
+   "Activation Energy (Ea)",
+   "Molecules able to react at T₂",
+   "T₃ (intermediate)",
+   "Molecules unable to react"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "T₁ (lower)",
+    "x": 0.208,
+    "y": 0.3
+   },
+   {
+    "id": "h1",
+    "label": "T₂ (higher)",
+    "x": 0.269,
+    "y": 0.487
+   },
+   {
+    "id": "h2",
+    "label": "Activation Energy (Ea)",
+    "x": 0.521,
+    "y": 0.312
+   },
+   {
+    "id": "h3",
+    "label": "Molecules able to react at T₂",
+    "x": 0.625,
+    "y": 0.812
+   }
+  ]
+ },
+ "900005": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "morse_bond_order",
+  "slug_wired": "morse_bond_order",
+  "speculative_row": true,
+  "prompt": "Label the Morse curves for different bond orders",
+  "options": [
+   "Single bond",
+   "Double bond",
+   "Triple bond",
+   "Shortest bond length",
+   "Deepest well (strongest bond)",
+   "Quadruple bond",
+   "Longest bond length"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "Single bond",
+    "x": 0.396,
+    "y": 0.75
+   },
+   {
+    "id": "h1",
+    "label": "Double bond",
+    "x": 0.25,
+    "y": 0.312
+   },
+   {
+    "id": "h2",
+    "label": "Triple bond",
+    "x": 0.729,
+    "y": 0.672
+   },
+   {
+    "id": "h3",
+    "label": "Shortest bond length",
+    "x": 0.208,
+    "y": 0.625
+   },
+   {
+    "id": "h4",
+    "label": "Deepest well (strongest bond)",
+    "x": 0.271,
+    "y": 0.92
+   }
+  ]
+ },
+ "900006": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "morse_two_species",
+  "slug_wired": "morse_two_species",
+  "speculative_row": true,
+  "prompt": "Label the Morse curves based on bond properties",
+  "options": [
+   "Shorter, stronger bond",
+   "Longer, weaker bond",
+   "Shorter, weaker bond",
+   "Longer, stronger bond"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "Shorter, stronger bond",
+    "x": 0.283,
+    "y": 0.875
+   },
+   {
+    "id": "h1",
+    "label": "Longer, weaker bond",
+    "x": 0.433,
+    "y": 0.775
+   }
+  ]
+ },
+ "900007": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "rate_orders",
+  "slug_wired": "rate_orders",
+  "speculative_row": true,
+  "prompt": "Label the concentration-time curves by reaction order",
+  "options": [
+   "Zero-order (linear)",
+   "First-order (exponential decay)",
+   "Second-order (drops fast, levels off)",
+   "Third-order",
+   "Equilibrium"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "Zero-order (linear)",
+    "x": 0.5,
+    "y": 0.562
+   },
+   {
+    "id": "h1",
+    "label": "First-order (exponential decay)",
+    "x": 0.375,
+    "y": 0.734
+   },
+   {
+    "id": "h2",
+    "label": "Second-order (drops fast, levels off)",
+    "x": 0.167,
+    "y": 0.625
+   }
+  ]
+ },
+ "900008": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "solubility_two",
+  "slug_wired": "solubility_two",
+  "speculative_row": true,
+  "prompt": "Label the solubility curves based on temperature dependence",
+  "options": [
+   "More soluble at high temp",
+   "Solubility slightly decreases at high temp",
+   "Insoluble salt",
+   "Gas solubility"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "More soluble at high temp",
+    "x": 0.833,
+    "y": 0.406
+   },
+   {
+    "id": "h1",
+    "label": "Solubility slightly decreases at high temp",
+    "x": 0.729,
+    "y": 0.734
+   }
+  ]
+ },
+ "900009": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "titration_pka",
+  "slug_wired": "titration_pka",
+  "speculative_row": true,
+  "prompt": "Place the pKa values at the correct half-equivalence points",
+  "options": [
+   "pKa = 4.5",
+   "pKa = 9.0",
+   "Equivalence Point 1",
+   "Equivalence Point 2"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "pKa = 4.5",
+    "x": 0.25,
+    "y": 0.661
+   },
+   {
+    "id": "h1",
+    "label": "pKa = 9.0",
+    "x": 0.583,
+    "y": 0.403
+   }
+  ]
+ },
+ "900010": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "titration_sa_wa",
+  "slug_wired": "titration_sa_wa",
+  "speculative_row": true,
+  "prompt": "Label the titration curves",
+  "options": [
+   "Strong Acid Analyte",
+   "Weak Acid Analyte",
+   "Buffer Region",
+   "Equivalence Point (WA)",
+   "Strong Base Analyte",
+   "Half-equivalence Point"
+  ],
+  "hotspots": [
+   {
+    "id": "h0",
+    "label": "Strong Acid Analyte",
+    "x": 0.125,
+    "y": 0.815
+   },
+   {
+    "id": "h1",
+    "label": "Weak Acid Analyte",
+    "x": 0.271,
+    "y": 0.629
+   },
+   {
+    "id": "h2",
+    "label": "Buffer Region",
+    "x": 0.417,
+    "y": 0.56
+   },
+   {
+    "id": "h3",
+    "label": "Equivalence Point (WA)",
+    "x": 0.5,
+    "y": 0.398
+   }
+  ]
+ },
+ "900011": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "ad_as",
+  "slug_wired": "ad_as",
+  "speculative_row": true,
+  "prompt": "Label the curves and equilibrium in the AD-AS model.",
+  "options": [
+   "Aggregate demand",
+   "Short-run aggregate supply",
+   "Long-run aggregate supply",
+   "Equilibrium price level",
+   "Consumer price index",
+   "Potential GDP"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Aggregate demand",
+    "x": 0.8,
+    "y": 0.75
+   },
+   {
+    "id": "h2",
+    "label": "Short-run aggregate supply",
+    "x": 0.8,
+    "y": 0.25
+   },
+   {
+    "id": "h3",
+    "label": "Long-run aggregate supply",
+    "x": 0.53,
+    "y": 0.15
+   },
+   {
+    "id": "h4",
+    "label": "Equilibrium price level",
+    "x": 0.15,
+    "y": 0.5
+   }
+  ]
+ },
+ "900012": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "circular_flow",
+  "slug_wired": "circular_flow",
+  "speculative_row": true,
+  "prompt": "Label the key sectors and markets in the circular flow model.",
+  "options": [
+   "Households",
+   "Firms",
+   "Product market",
+   "Factor market",
+   "Government",
+   "Financial market"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Households",
+    "x": 0.15,
+    "y": 0.5
+   },
+   {
+    "id": "h2",
+    "label": "Firms",
+    "x": 0.85,
+    "y": 0.5
+   },
+   {
+    "id": "h3",
+    "label": "Product market",
+    "x": 0.5,
+    "y": 0.15
+   },
+   {
+    "id": "h4",
+    "label": "Factor market",
+    "x": 0.5,
+    "y": 0.85
+   }
+  ]
+ },
+ "900013": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "consumer_surplus",
+  "slug_wired": "consumer_surplus",
+  "speculative_row": true,
+  "prompt": "Label the areas and equilibrium values on this market diagram.",
+  "options": [
+   "Consumer surplus area",
+   "Producer surplus area",
+   "Equilibrium price",
+   "Equilibrium quantity",
+   "Deadweight loss",
+   "Shortage"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Consumer surplus area",
+    "x": 0.25,
+    "y": 0.3
+   },
+   {
+    "id": "h2",
+    "label": "Producer surplus area",
+    "x": 0.25,
+    "y": 0.65
+   },
+   {
+    "id": "h3",
+    "label": "Equilibrium price",
+    "x": 0.1,
+    "y": 0.5
+   },
+   {
+    "id": "h4",
+    "label": "Equilibrium quantity",
+    "x": 0.5,
+    "y": 0.88
+   }
+  ]
+ },
+ "900014": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "cost_curves",
+  "slug_wired": "cost_curves",
+  "speculative_row": true,
+  "prompt": "Label the key cost curves and points for a firm.",
+  "options": [
+   "Marginal cost",
+   "Average total cost",
+   "Average variable cost",
+   "Minimum efficient scale",
+   "Average fixed cost",
+   "Total revenue"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Marginal cost",
+    "x": 0.744,
+    "y": 0.188
+   },
+   {
+    "id": "h2",
+    "label": "Average total cost",
+    "x": 0.85,
+    "y": 0.35
+   },
+   {
+    "id": "h3",
+    "label": "Average variable cost",
+    "x": 0.298,
+    "y": 0.481
+   },
+   {
+    "id": "h4",
+    "label": "Minimum efficient scale",
+    "x": 0.5,
+    "y": 0.47
+   }
+  ]
+ },
+ "900015": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "loanable_funds",
+  "slug_wired": "loanable_funds",
+  "speculative_row": true,
+  "prompt": "Label the key components of the loanable funds market.",
+  "options": [
+   "Supply of loanable funds",
+   "Demand for loanable funds",
+   "Real interest rate",
+   "Quantity of loanable funds",
+   "Nominal interest rate",
+   "Money supply"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Supply of loanable funds",
+    "x": 0.8,
+    "y": 0.2
+   },
+   {
+    "id": "h2",
+    "label": "Demand for loanable funds",
+    "x": 0.8,
+    "y": 0.8
+   },
+   {
+    "id": "h3",
+    "label": "Real interest rate",
+    "x": 0.15,
+    "y": 0.5
+   },
+   {
+    "id": "h4",
+    "label": "Quantity of loanable funds",
+    "x": 0.5,
+    "y": 0.88
+   }
+  ]
+ },
+ "900016": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "money_market",
+  "slug_wired": "money_market",
+  "speculative_row": true,
+  "prompt": "Label the components of the money market.",
+  "options": [
+   "Money supply",
+   "Money demand",
+   "Nominal interest rate",
+   "Quantity of money",
+   "Real interest rate",
+   "Loanable funds"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Money supply",
+    "x": 0.47,
+    "y": 0.15
+   },
+   {
+    "id": "h2",
+    "label": "Money demand",
+    "x": 0.8,
+    "y": 0.75
+   },
+   {
+    "id": "h3",
+    "label": "Nominal interest rate",
+    "x": 0.15,
+    "y": 0.45
+   },
+   {
+    "id": "h4",
+    "label": "Quantity of money",
+    "x": 0.45,
+    "y": 0.88
+   }
+  ]
+ },
+ "900017": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "monopoly",
+  "slug_wired": "monopoly",
+  "speculative_row": true,
+  "prompt": "Label the curves and key points for a monopoly.",
+  "options": [
+   "Demand curve",
+   "Marginal revenue",
+   "Monopoly price",
+   "Monopoly quantity",
+   "Perfect competition price",
+   "Marginal product"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Demand curve",
+    "x": 0.708,
+    "y": 0.563
+   },
+   {
+    "id": "h2",
+    "label": "Marginal revenue",
+    "x": 0.5,
+    "y": 0.65
+   },
+   {
+    "id": "h3",
+    "label": "Monopoly price",
+    "x": 0.15,
+    "y": 0.328
+   },
+   {
+    "id": "h4",
+    "label": "Monopoly quantity",
+    "x": 0.396,
+    "y": 0.88
+   }
+  ]
+ },
+ "900018": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "per_unit_tax",
+  "slug_wired": "per_unit_tax",
+  "speculative_row": true,
+  "prompt": "Label the components of this market with a per-unit tax.",
+  "options": [
+   "Price buyers pay",
+   "Price sellers receive",
+   "Tax wedge",
+   "Deadweight loss",
+   "Consumer surplus",
+   "Producer surplus"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Price buyers pay",
+    "x": 0.12,
+    "y": 0.3
+   },
+   {
+    "id": "h2",
+    "label": "Price sellers receive",
+    "x": 0.12,
+    "y": 0.65
+   },
+   {
+    "id": "h3",
+    "label": "Tax wedge",
+    "x": 0.417,
+    "y": 0.3
+   },
+   {
+    "id": "h4",
+    "label": "Deadweight loss",
+    "x": 0.45,
+    "y": 0.47
+   }
+  ]
+ },
+ "900019": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "phillips_curve",
+  "slug_wired": "phillips_curve",
+  "speculative_row": true,
+  "prompt": "Label the short-run and long-run Phillips curves.",
+  "options": [
+   "Short-run Phillips curve",
+   "Long-run Phillips curve",
+   "Natural rate of unemployment",
+   "Inflation rate",
+   "Aggregate supply",
+   "GDP growth rate"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Short-run Phillips curve",
+    "x": 0.8,
+    "y": 0.75
+   },
+   {
+    "id": "h2",
+    "label": "Long-run Phillips curve",
+    "x": 0.47,
+    "y": 0.15
+   },
+   {
+    "id": "h3",
+    "label": "Natural rate of unemployment",
+    "x": 0.45,
+    "y": 0.88
+   },
+   {
+    "id": "h4",
+    "label": "Inflation rate",
+    "x": 0.15,
+    "y": 0.15
+   }
+  ]
+ },
+ "900020": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "ppc_points",
+  "slug_wired": "ppc_points",
+  "speculative_row": true,
+  "prompt": "Label the key points and concepts on this Production Possibilities Curve.",
+  "options": [
+   "Efficient point (on curve)",
+   "Inefficient point (inside)",
+   "Unattainable point (outside)",
+   "Opportunity cost",
+   "Constant opportunity cost",
+   "Economic growth"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Efficient point (on curve)",
+    "x": 0.456,
+    "y": 0.319
+   },
+   {
+    "id": "h2",
+    "label": "Inefficient point (inside)",
+    "x": 0.35,
+    "y": 0.65
+   },
+   {
+    "id": "h3",
+    "label": "Unattainable point (outside)",
+    "x": 0.75,
+    "y": 0.25
+   },
+   {
+    "id": "h4",
+    "label": "Opportunity cost",
+    "x": 0.615,
+    "y": 0.5
+   }
+  ]
+ },
+ "900021": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "price_ceiling",
+  "slug_wired": "price_ceiling",
+  "speculative_row": true,
+  "prompt": "Label the key points and areas resulting from this price ceiling.",
+  "options": [
+   "Price ceiling",
+   "Quantity supplied",
+   "Quantity demanded",
+   "Shortage",
+   "Price floor",
+   "Surplus"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Price ceiling",
+    "x": 0.8,
+    "y": 0.65
+   },
+   {
+    "id": "h2",
+    "label": "Quantity supplied",
+    "x": 0.35,
+    "y": 0.88
+   },
+   {
+    "id": "h3",
+    "label": "Quantity demanded",
+    "x": 0.65,
+    "y": 0.88
+   },
+   {
+    "id": "h4",
+    "label": "Shortage",
+    "x": 0.5,
+    "y": 0.7
+   }
+  ]
+ },
+ "900022": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "sd_equilibrium",
+  "slug_wired": "sd_equilibrium",
+  "speculative_row": true,
+  "prompt": "Label the key components of this market diagram.",
+  "options": [
+   "Demand curve",
+   "Supply curve",
+   "Equilibrium price",
+   "Equilibrium quantity",
+   "Price ceiling",
+   "Deadweight loss"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Demand curve",
+    "x": 0.8,
+    "y": 0.8
+   },
+   {
+    "id": "h2",
+    "label": "Supply curve",
+    "x": 0.8,
+    "y": 0.2
+   },
+   {
+    "id": "h3",
+    "label": "Equilibrium price",
+    "x": 0.15,
+    "y": 0.5
+   },
+   {
+    "id": "h4",
+    "label": "Equilibrium quantity",
+    "x": 0.5,
+    "y": 0.88
+   }
+  ]
+ },
+ "900023": {
+  "tool": "labeler",
+  "subject": "econ",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "shift_demand_right",
+  "slug_wired": "shift_demand_right",
+  "speculative_row": true,
+  "prompt": "Label the axes, the two demand curves, and the direction of the shift",
+  "options": [
+   "Price",
+   "Quantity",
+   "D₁",
+   "D₂",
+   "Shift right (increase in demand)",
+   "Shift left (decrease in demand)",
+   "Quantity demanded",
+   "Equilibrium",
+   "Price level",
+   "Average price",
+   "Cost"
+  ],
+  "hotspots": [
+   {
+    "id": "h_price",
+    "label": "Price",
+    "x": 0.083,
+    "y": 0.625
+   },
+   {
+    "id": "h_quant",
+    "label": "Quantity",
+    "x": 0.792,
+    "y": 0.875
+   },
+   {
+    "id": "h_d1",
+    "label": "D₁",
+    "x": 0.167,
+    "y": 0.25
+   },
+   {
+    "id": "h_d2",
+    "label": "D₂",
+    "x": 0.333,
+    "y": 0.25
+   },
+   {
+    "id": "h_shift",
+    "label": "Shift right (increase in demand)",
+    "x": 0.5,
+    "y": 0.469
+   }
+  ]
+ },
+ "900024": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "table_buffer_excess_base",
+  "slug_wired": "table_buffer_excess_base",
+  "speculative_row": true,
+  "prompt": "Predict the direction of change for each parameter.",
+  "options": [
+   "Increases (↑)",
+   "Decreases (↓)",
+   "No change (↔)"
+  ],
+  "hotspots": [
+   {
+    "id": "r1c0",
+    "label": "Answer for Moles A⁻",
+    "x": 0.203,
+    "y": 0.406,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r1c1",
+    "label": "Answer for Moles HA",
+    "x": 0.401,
+    "y": 0.406,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r1c2",
+    "label": "Answer for Ratio [A⁻]/[HA]",
+    "x": 0.599,
+    "y": 0.406,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r1c3",
+    "label": "Answer for pH",
+    "x": 0.797,
+    "y": 0.406,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r2c0",
+    "label": "Answer for Overall capacity",
+    "x": 0.271,
+    "y": 0.75,
+    "answer": "No change (↔)"
+   },
+   {
+    "id": "r2c1",
+    "label": "Answer for Capacity against acid",
+    "x": 0.5,
+    "y": 0.75,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r2c2",
+    "label": "Answer for Capacity against base",
+    "x": 0.729,
+    "y": 0.75,
+    "answer": "Decreases (↓)"
+   }
+  ]
+ },
+ "900025": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "table_buffer_impure_base",
+  "slug_wired": "table_buffer_impure_base",
+  "speculative_row": true,
+  "prompt": "Predict the direction of change for each parameter.",
+  "options": [
+   "Increases (↑)",
+   "Decreases (↓)",
+   "No change (↔)"
+  ],
+  "hotspots": [
+   {
+    "id": "r1c0",
+    "label": "Answer for Moles A⁻",
+    "x": 0.203,
+    "y": 0.406,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r1c1",
+    "label": "Answer for Moles HA",
+    "x": 0.401,
+    "y": 0.406,
+    "answer": "No change (↔)"
+   },
+   {
+    "id": "r1c2",
+    "label": "Answer for Ratio [A⁻]/[HA]",
+    "x": 0.599,
+    "y": 0.406,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r1c3",
+    "label": "Answer for pH",
+    "x": 0.797,
+    "y": 0.406,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r2c0",
+    "label": "Answer for Overall capacity",
+    "x": 0.271,
+    "y": 0.75,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r2c1",
+    "label": "Answer for Capacity against acid",
+    "x": 0.5,
+    "y": 0.75,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r2c2",
+    "label": "Answer for Capacity against base",
+    "x": 0.729,
+    "y": 0.75,
+    "answer": "No change (↔)"
+   }
+  ]
+ },
+ "900026": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "buffer_overdilution",
+  "slug_wired": "buffer_overdilution",
+  "speculative_row": true,
+  "prompt": "Predict the direction of change for each quantity",
+  "options": [
+   "Increases (↑)",
+   "Decreases (↓)",
+   "No change (↔)"
+  ],
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "No change (↔)",
+    "x": 0.3,
+    "y": 0.55
+   },
+   {
+    "id": "h2",
+    "label": "No change (↔)",
+    "x": 0.45,
+    "y": 0.55
+   },
+   {
+    "id": "h3",
+    "label": "No change (↔)",
+    "x": 0.6,
+    "y": 0.55
+   },
+   {
+    "id": "h4",
+    "label": "No change (↔)",
+    "x": 0.75,
+    "y": 0.55
+   },
+   {
+    "id": "h5",
+    "label": "Decreases (↓)",
+    "x": 0.9,
+    "y": 0.55
+   }
+  ]
+ },
+ "900027": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "table_buffer_strong_acid",
+  "slug_wired": "table_buffer_strong_acid",
+  "speculative_row": true,
+  "prompt": "Predict the direction of change for each parameter.",
+  "options": [
+   "Increases (↑)",
+   "Decreases (↓)",
+   "No change (↔)"
+  ],
+  "hotspots": [
+   {
+    "id": "r1c0",
+    "label": "Answer for Moles A⁻",
+    "x": 0.203,
+    "y": 0.406,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r1c1",
+    "label": "Answer for Moles HA",
+    "x": 0.401,
+    "y": 0.406,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r1c2",
+    "label": "Answer for Ratio [A⁻]/[HA]",
+    "x": 0.599,
+    "y": 0.406,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r1c3",
+    "label": "Answer for pH",
+    "x": 0.797,
+    "y": 0.406,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r2c0",
+    "label": "Answer for Overall capacity",
+    "x": 0.271,
+    "y": 0.75,
+    "answer": "No change (↔)"
+   },
+   {
+    "id": "r2c1",
+    "label": "Answer for Capacity against acid",
+    "x": 0.5,
+    "y": 0.75,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r2c2",
+    "label": "Answer for Capacity against base",
+    "x": 0.729,
+    "y": 0.75,
+    "answer": "Increases (↑)"
+   }
+  ]
+ },
+ "900028": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "table_lechatelier_pressure",
+  "slug_wired": "table_lechatelier_pressure",
+  "speculative_row": true,
+  "prompt": "Predict the direction of change for each parameter.",
+  "options": [
+   "Increases (↑)",
+   "Decreases (↓)",
+   "No change (↔)"
+  ],
+  "hotspots": [
+   {
+    "id": "r1c0",
+    "label": "Answer for Value of K",
+    "x": 0.302,
+    "y": 0.406,
+    "answer": "No change (↔)"
+   },
+   {
+    "id": "r1c1",
+    "label": "Answer for Total Pressure",
+    "x": 0.5,
+    "y": 0.406,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r1c2",
+    "label": "Answer for Rate (forward)",
+    "x": 0.698,
+    "y": 0.406,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r2c0",
+    "label": "Answer for Rate (reverse)",
+    "x": 0.271,
+    "y": 0.75,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r2c1",
+    "label": "Answer for Moles Products",
+    "x": 0.5,
+    "y": 0.75,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r2c2",
+    "label": "Answer for Moles Reactants",
+    "x": 0.729,
+    "y": 0.75,
+    "answer": "Decreases (↓)"
+   }
+  ]
+ },
+ "900029": {
+  "tool": "labeler",
+  "subject": "chem",
+  "gate_status": "reviewed",
+  "svgKey": null,
+  "slug": "table_lechatelier_temp",
+  "slug_wired": "table_lechatelier_temp",
+  "speculative_row": true,
+  "prompt": "Predict the direction of change for each parameter.",
+  "options": [
+   "Increases (↑)",
+   "Decreases (↓)",
+   "No change (↔)"
+  ],
+  "hotspots": [
+   {
+    "id": "r1c0",
+    "label": "Answer for Value of K",
+    "x": 0.302,
+    "y": 0.406,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r1c1",
+    "label": "Answer for Total Pressure",
+    "x": 0.5,
+    "y": 0.406,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r1c2",
+    "label": "Answer for Rate (forward)",
+    "x": 0.698,
+    "y": 0.406,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r2c0",
+    "label": "Answer for Rate (reverse)",
+    "x": 0.271,
+    "y": 0.75,
+    "answer": "Increases (↑)"
+   },
+   {
+    "id": "r2c1",
+    "label": "Answer for Moles Products",
+    "x": 0.5,
+    "y": 0.75,
+    "answer": "Decreases (↓)"
+   },
+   {
+    "id": "r2c2",
+    "label": "Answer for Moles Reactants",
+    "x": 0.729,
+    "y": 0.75,
+    "answer": "Increases (↑)"
+   }
+  ]
  }
 }
