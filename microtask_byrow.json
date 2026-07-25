@@ -8570,5 +8570,2758 @@
     ],
     "_refresh_of_row": "1137",
     "_refresh_note": "refresh variant of Ch13 Le Chatelier justify-shift family (row 1137, pressure/volume stressor)"
+  },
+  "901001": {
+    "svgKey": "chem_cmp/2-1-a_v1",
+    "slug": "2-1-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the bond type and electron behavior for each region/atom pair on the bonding continuum.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Nonpolar covalent",
+        "x": 0.151,
+        "y": 0.375
+      },
+      {
+        "id": "h2",
+        "label": "electrons shared equally",
+        "x": 0.151,
+        "y": 0.738
+      },
+      {
+        "id": "h3",
+        "label": "polar covalent",
+        "x": 0.384,
+        "y": 0.375
+      },
+      {
+        "id": "h4",
+        "label": "electrons shared unequally",
+        "x": 0.384,
+        "y": 0.738
+      },
+      {
+        "id": "h5",
+        "label": "ionic",
+        "x": 0.618,
+        "y": 0.375
+      },
+      {
+        "id": "h6",
+        "label": "electrons transferred",
+        "x": 0.618,
+        "y": 0.738
+      },
+      {
+        "id": "h7",
+        "label": "metallic",
+        "x": 0.851,
+        "y": 0.375
+      },
+      {
+        "id": "h8",
+        "label": "electrons delocalized",
+        "x": 0.851,
+        "y": 0.738
+      }
+    ],
+    "options": [
+      "Nonpolar covalent",
+      "polar covalent",
+      "ionic",
+      "metallic",
+      "electrons shared equally",
+      "electrons shared unequally",
+      "electrons transferred",
+      "electrons delocalized",
+      "strictly ionic above ΔEN = 1.7",
+      "purely covalent below ΔEN = 1.7",
+      "metal present so purely ionic",
+      "electrons shared in metal bonds",
+      "sharp numerical boundary between ionic and covalent",
+      "covalent due to metal element"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901002": {
+    "svgKey": "chem_cmp/2-1-a_v2",
+    "slug": "2-1-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the bonding model and primary charge carrier for each substance based on element clues and macroscopic properties.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Ionic solid",
+        "x": 0.258,
+        "y": 0.269
+      },
+      {
+        "id": "h2",
+        "label": "metallic solid",
+        "x": 0.742,
+        "y": 0.269
+      },
+      {
+        "id": "h3",
+        "label": "network covalent",
+        "x": 0.258,
+        "y": 0.863
+      },
+      {
+        "id": "h4",
+        "label": "molecular covalent",
+        "x": 0.742,
+        "y": 0.863
+      },
+      {
+        "id": "h5",
+        "label": "mobile ions",
+        "x": 0.258,
+        "y": 0.45
+      },
+      {
+        "id": "h6",
+        "label": "delocalized electrons",
+        "x": 0.742,
+        "y": 0.45
+      }
+    ],
+    "options": [
+      "Ionic solid",
+      "molecular covalent",
+      "metallic solid",
+      "network covalent",
+      "mobile ions",
+      "delocalized electrons",
+      "shared electron pairs",
+      "fixed lattice ions",
+      "neutral molecules",
+      "polar covalent network"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901003": {
+    "svgKey": "chem_cmp/2-1-a_v3",
+    "slug": "2-1-a_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the expected bond type, relative polarity, and electronegativity characteristics for the marked element pairs and atoms on the periodic table.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Least polar bond",
+        "x": 0.135,
+        "y": 0.75
+      },
+      {
+        "id": "h2",
+        "label": "most polar covalent bond",
+        "x": 0.5,
+        "y": 0.75
+      },
+      {
+        "id": "h3",
+        "label": "predominantly ionic bond",
+        "x": 0.865,
+        "y": 0.75
+      },
+      {
+        "id": "h4",
+        "label": "metallic bonding",
+        "x": 0.313,
+        "y": 0.906
+      },
+      {
+        "id": "h5",
+        "label": "higher-electronegativity atom",
+        "x": 0.688,
+        "y": 0.906
+      }
+    ],
+    "options": [
+      "Least polar bond",
+      "most polar covalent bond",
+      "predominantly ionic bond",
+      "metallic bonding",
+      "higher-electronegativity atom",
+      "strictly ionic based on metal+nonmetal rule",
+      "pure nonpolar covalent in all nonmetals",
+      "lower-electronegativity atom",
+      "equal electron sharing in polar bond"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901004": {
+    "svgKey": "chem_cmp/2-1-a_v4",
+    "slug": "2-1-a_v4",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify partial charges, relative bond dipoles, and bonding types for C–H, N–H, O–H, and C–F bonds based on electronegativity differences.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Partial positive end",
+        "x": 0.724,
+        "y": 0.253
+      },
+      {
+        "id": "h2",
+        "label": "partial negative end",
+        "x": 0.897,
+        "y": 0.509
+      },
+      {
+        "id": "h3",
+        "label": "smallest bond dipole",
+        "x": 0.142,
+        "y": 0.75
+      },
+      {
+        "id": "h4",
+        "label": "largest bond dipole",
+        "x": 0.85,
+        "y": 0.75
+      },
+      {
+        "id": "h5",
+        "label": "polar covalent bond.",
+        "x": 0.608,
+        "y": 0.75
+      }
+    ],
+    "options": [
+      "Partial positive end",
+      "partial negative end",
+      "smallest bond dipole",
+      "largest bond dipole",
+      "polar covalent bond.",
+      "dipole points toward less electronegative atom",
+      "nonpolar molecule overall",
+      "zero net molecular dipole",
+      "nonpolar covalent bond",
+      "ionic bond"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901005": {
+    "svgKey": "chem_cmp/2-2-a_v1",
+    "slug": "2-2-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.2.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the bond orders, equilibrium distances, and well depths on the potential-energy curves for C–C, C=C, and C≡C.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "triple bond",
+        "x": 0.229,
+        "y": 0.094
+      },
+      {
+        "id": "h2",
+        "label": "shortest equilibrium distance",
+        "x": 0.292,
+        "y": 0.281
+      },
+      {
+        "id": "h3",
+        "label": "deepest potential well",
+        "x": 0.292,
+        "y": 0.844
+      },
+      {
+        "id": "h4",
+        "label": "double bond",
+        "x": 0.458,
+        "y": 0.453
+      },
+      {
+        "id": "h5",
+        "label": "Single bond",
+        "x": 0.667,
+        "y": 0.453
+      },
+      {
+        "id": "h6",
+        "label": "greatest bond energy",
+        "x": 0.156,
+        "y": 0.563
+      }
+    ],
+    "options": [
+      "Single bond",
+      "double bond",
+      "triple bond",
+      "shortest equilibrium distance",
+      "greatest bond energy",
+      "deepest potential well",
+      "longest equilibrium distance",
+      "lowest bond energy",
+      "shallower potential well",
+      "weakest bond energy"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901006": {
+    "svgKey": "chem_cmp/2-2-a_v2",
+    "slug": "2-2-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.2.A",
+    "gate_status": "reviewed",
+    "prompt": "Represent the relationship between potential energy and internuclear distance by labeling the dominant interaction forces, key distance markers, energy states, and asymptotic behavior.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Net repulsion",
+        "x": 0.219,
+        "y": 0.166
+      },
+      {
+        "id": "h2",
+        "label": "minimum potential energy",
+        "x": 0.25,
+        "y": 0.656
+      },
+      {
+        "id": "h3",
+        "label": "equilibrium bond length",
+        "x": 0.354,
+        "y": 0.913
+      },
+      {
+        "id": "h4",
+        "label": "net attraction",
+        "x": 0.573,
+        "y": 0.453
+      },
+      {
+        "id": "h5",
+        "label": "atoms effectively separated",
+        "x": 0.854,
+        "y": 0.188
+      }
+    ],
+    "options": [
+      "Net repulsion",
+      "equilibrium bond length",
+      "net attraction",
+      "atoms effectively separated",
+      "minimum potential energy",
+      "Strongest attractive force",
+      "Zero interaction forces",
+      "Net attraction at minimum",
+      "Zero potential energy",
+      "Equal attraction and repulsion at large distance"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901007": {
+    "svgKey": "chem_cmp/2-2-a_v3",
+    "slug": "2-2-a_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.2.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the ion pairs, relative Coulombic attraction strength, potential well depth, and lattice interaction energy magnitude.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Na⁺/Cl⁻ pair",
+        "x": 0.7,
+        "y": 0.3
+      },
+      {
+        "id": "h2",
+        "label": "Mg²⁺/O²⁻ pair",
+        "x": 0.7,
+        "y": 0.62
+      },
+      {
+        "id": "h3",
+        "label": "stronger ionic attraction",
+        "x": 0.22,
+        "y": 0.38
+      },
+      {
+        "id": "h4",
+        "label": "deeper well",
+        "x": 0.375,
+        "y": 0.84
+      },
+      {
+        "id": "h5",
+        "label": "larger lattice interaction energy",
+        "x": 0.22,
+        "y": 0.7
+      }
+    ],
+    "options": [
+      "Na⁺/Cl⁻ pair",
+      "Mg²⁺/O²⁻ pair",
+      "stronger ionic attraction",
+      "deeper well",
+      "larger lattice interaction energy",
+      "equal ionic attraction due to similar radii",
+      "shallower well",
+      "smaller lattice interaction energy",
+      "equal lattice interaction energy",
+      "attraction depends only on ionic radius"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901008": {
+    "svgKey": "chem_cmp/2-2-a_v4",
+    "slug": "2-2-a_v4",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.2.A",
+    "gate_status": "reviewed",
+    "prompt": "Compare potential energy curves for ionic compounds LiF and CsI. Students connect smaller ionic radii to shorter equilibrium distance, stronger attraction, and shallower well.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "LiF",
+        "x": 0.156,
+        "y": 0.15
+      },
+      {
+        "id": "h2",
+        "label": "CsI",
+        "x": 0.792,
+        "y": 0.15
+      },
+      {
+        "id": "h3",
+        "label": "shorter equilibrium distance",
+        "x": 0.281,
+        "y": 0.906
+      },
+      {
+        "id": "h4",
+        "label": "stronger attraction",
+        "x": 0.146,
+        "y": 0.609
+      },
+      {
+        "id": "h5",
+        "label": "shallower well.",
+        "x": 0.573,
+        "y": 0.609
+      }
+    ],
+    "options": [
+      "LiF",
+      "CsI",
+      "shorter equilibrium distance",
+      "stronger attraction",
+      "shallower well.",
+      "longer equilibrium distance",
+      "deeper well",
+      "weaker attraction in LiF",
+      "stronger attraction in CsI due to more total electrons",
+      "larger ion radius increases attraction strength"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901009": {
+    "svgKey": "chem_cmp/2-3-a_v1",
+    "slug": "2-3-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the ions, Coulombic interactions, and structural features in the ionic solid particulate model.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Cation",
+        "x": 0.15,
+        "y": 0.28
+      },
+      {
+        "id": "h2",
+        "label": "anion",
+        "x": 0.15,
+        "y": 0.52
+      },
+      {
+        "id": "h3",
+        "label": "nearest opposite-charge neighbor",
+        "x": 0.15,
+        "y": 0.76
+      },
+      {
+        "id": "h4",
+        "label": "attractive interaction",
+        "x": 0.85,
+        "y": 0.28
+      },
+      {
+        "id": "h5",
+        "label": "repulsive interaction",
+        "x": 0.85,
+        "y": 0.52
+      },
+      {
+        "id": "h6",
+        "label": "repeating ionic lattice",
+        "x": 0.85,
+        "y": 0.76
+      }
+    ],
+    "options": [
+      "Cation",
+      "anion",
+      "nearest opposite-charge neighbor",
+      "attractive interaction",
+      "repulsive interaction",
+      "repeating ionic lattice",
+      "discrete NaCl molecule",
+      "clustered like-charge ions",
+      "isolated ion pair",
+      "covalent electron sharing",
+      "random ion arrangement",
+      "like-charge attraction"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901010": {
+    "svgKey": "chem_cmp/2-3-a_v2",
+    "slug": "2-3-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the constituent ion formulas, particle stoichiometry ratio, repeating unit property, and solid structure classification for the particulate model of an ionic solid.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Ca²⁺",
+        "x": 0.167,
+        "y": 0.838
+      },
+      {
+        "id": "h2",
+        "label": "F⁻",
+        "x": 0.367,
+        "y": 0.838
+      },
+      {
+        "id": "h3",
+        "label": "one cation to two anions",
+        "x": 0.742,
+        "y": 0.309
+      },
+      {
+        "id": "h4",
+        "label": "charge-neutral repeating unit",
+        "x": 0.742,
+        "y": 0.578
+      },
+      {
+        "id": "h5",
+        "label": "ionic crystal",
+        "x": 0.742,
+        "y": 0.847
+      }
+    ],
+    "options": [
+      "Ca²⁺",
+      "F⁻",
+      "one cation to two anions",
+      "charge-neutral repeating unit",
+      "ionic crystal",
+      "one cation to one anion",
+      "two cations to one anion",
+      "Ca⁺",
+      "F²⁻",
+      "molecular crystal",
+      "charged ionic cluster",
+      "two cations to two anions"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901011": {
+    "svgKey": "chem_cmp/2-3-a_v3",
+    "slug": "2-3-a_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Label the ionic crystal regions and repulsion forces responsible for brittle cleavage upon layer displacement.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Stable alternating lattice",
+        "x": 0.234,
+        "y": 0.781
+      },
+      {
+        "id": "h2",
+        "label": "shifted layer",
+        "x": 0.823,
+        "y": 0.291
+      },
+      {
+        "id": "h3",
+        "label": "cation–cation repulsion",
+        "x": 0.651,
+        "y": 0.541
+      },
+      {
+        "id": "h4",
+        "label": "anion–anion repulsion",
+        "x": 0.87,
+        "y": 0.541
+      },
+      {
+        "id": "h5",
+        "label": "brittle fracture",
+        "x": 0.761,
+        "y": 0.781
+      }
+    ],
+    "options": [
+      "Stable alternating lattice",
+      "shifted layer",
+      "cation–cation repulsion",
+      "anion–anion repulsion",
+      "brittle fracture",
+      "weak ionic bonds break under force",
+      "covalent bonds breaking between ions",
+      "delocalized electron sea sliding past ions",
+      "flexible ion rearrangement without repulsion",
+      "thermal expansion of the ionic crystal",
+      "attraction between identical charge ions"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901012": {
+    "svgKey": "chem_cmp/2-3-a_v4",
+    "slug": "2-3-a_v4",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Represent an ionic solid with a particulate model consistent with Coulomb’s law and the properties of its constituent ions. Identify ion mobility, conductivity states, and circuit completion in solid and molten ionic compounds.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Fixed ions",
+        "x": 0.258,
+        "y": 0.438
+      },
+      {
+        "id": "h2",
+        "label": "mobile ions",
+        "x": 0.742,
+        "y": 0.438
+      },
+      {
+        "id": "h3",
+        "label": "nonconducting ionic solid",
+        "x": 0.258,
+        "y": 0.781
+      },
+      {
+        "id": "h4",
+        "label": "conducting molten ionic compound",
+        "x": 0.742,
+        "y": 0.781
+      },
+      {
+        "id": "h5",
+        "label": "electric-current path.",
+        "x": 0.742,
+        "y": 0.181
+      }
+    ],
+    "options": [
+      "Fixed ions",
+      "mobile ions",
+      "nonconducting ionic solid",
+      "conducting molten ionic compound",
+      "electric-current path.",
+      "conducting ionic solid",
+      "mobile ions in solid lattice",
+      "nonconducting molten ionic compound",
+      "fixed ions in molten liquid",
+      "free electron-current path",
+      "electrons carrying current through solid lattice"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901013": {
+    "svgKey": "chem_cmp/2-4-a_v1",
+    "slug": "2-4-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.4.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the structural components, electron characteristics, lattice type, and electrical properties in this metallic bonding model.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Positive metal cores",
+        "x": 0.167,
+        "y": 0.734
+      },
+      {
+        "id": "h2",
+        "label": "delocalized valence electrons",
+        "x": 0.5,
+        "y": 0.734
+      },
+      {
+        "id": "h3",
+        "label": "metallic lattice",
+        "x": 0.833,
+        "y": 0.734
+      },
+      {
+        "id": "h4",
+        "label": "mobile electrons",
+        "x": 0.333,
+        "y": 0.891
+      },
+      {
+        "id": "h5",
+        "label": "electrical conductivity",
+        "x": 0.667,
+        "y": 0.891
+      }
+    ],
+    "options": [
+      "Positive metal cores",
+      "delocalized valence electrons",
+      "metallic lattice",
+      "mobile electrons",
+      "electrical conductivity",
+      "Alternating positive and negative ions",
+      "Localized two-atom covalent bonds",
+      "Fixed electron pairs between adjacent cores",
+      "Directional shared pair bonds",
+      "Rigid ionic lattice",
+      "Insulating charge localization"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901014": {
+    "svgKey": "chem_cmp/2-4-a_v2",
+    "slug": "2-4-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.4.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the host metal lattice, small solute species occupying gaps, void structure, mechanical lattice effect, and alloy classification for this metallic solid model.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Host metal atoms",
+        "x": 0.177,
+        "y": 0.75
+      },
+      {
+        "id": "h2",
+        "label": "interstitial atoms",
+        "x": 0.5,
+        "y": 0.75
+      },
+      {
+        "id": "h3",
+        "label": "occupied lattice gaps",
+        "x": 0.823,
+        "y": 0.75
+      },
+      {
+        "id": "h4",
+        "label": "more rigid lattice",
+        "x": 0.333,
+        "y": 0.913
+      },
+      {
+        "id": "h5",
+        "label": "interstitial alloy",
+        "x": 0.667,
+        "y": 0.913
+      }
+    ],
+    "options": [
+      "Host metal atoms",
+      "interstitial atoms",
+      "occupied lattice gaps",
+      "more rigid lattice",
+      "interstitial alloy",
+      "substitutional atoms",
+      "substitutional alloy",
+      "replaced lattice sites",
+      "comparable atomic radii",
+      "increased malleability",
+      "directional covalent bonds"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901015": {
+    "svgKey": "chem_cmp/2-4-a_v3",
+    "slug": "2-4-a_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.4.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the structural features, atomic size relationship, alloy classification, and bonding character in this metallic solid model.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Host metal atom",
+        "x": 0.177,
+        "y": 0.75
+      },
+      {
+        "id": "h2",
+        "label": "substitutional atom",
+        "x": 0.5,
+        "y": 0.75
+      },
+      {
+        "id": "h3",
+        "label": "comparable atomic radius",
+        "x": 0.823,
+        "y": 0.75
+      },
+      {
+        "id": "h4",
+        "label": "substitutional alloy",
+        "x": 0.333,
+        "y": 0.913
+      },
+      {
+        "id": "h5",
+        "label": "delocalized electrons",
+        "x": 0.667,
+        "y": 0.913
+      }
+    ],
+    "options": [
+      "Host metal atom",
+      "substitutional atom",
+      "comparable atomic radius",
+      "substitutional alloy",
+      "delocalized electrons",
+      "interstitial atom",
+      "interstitial alloy",
+      "significantly smaller radius",
+      "localized electron pairs",
+      "directional covalent bonds",
+      "rigid ionic lattice"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901016": {
+    "svgKey": "chem_cmp/2-4-a_v4",
+    "slug": "2-4-a_v4",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.4.A",
+    "gate_status": "reviewed",
+    "prompt": "Compare metallic solid layer sliding with ionic lattice shift under stress. Identify how delocalized electron sea continuity maintains attraction and malleability versus ionic charge repulsion.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Metal-layer sliding",
+        "x": 0.229,
+        "y": 0.344
+      },
+      {
+        "id": "h2",
+        "label": "electron sea maintained",
+        "x": 0.229,
+        "y": 0.594
+      },
+      {
+        "id": "h3",
+        "label": "metallic attraction retained",
+        "x": 0.188,
+        "y": 0.797
+      },
+      {
+        "id": "h4",
+        "label": "malleable solid",
+        "x": 0.453,
+        "y": 0.797
+      },
+      {
+        "id": "h5",
+        "label": "ionic fracture comparison",
+        "x": 0.792,
+        "y": 0.75
+      }
+    ],
+    "options": [
+      "Metal-layer sliding",
+      "electron sea maintained",
+      "metallic attraction retained",
+      "malleable solid",
+      "ionic fracture comparison",
+      "brittle solid due to strong bonding",
+      "directional bonds break under stress",
+      "electrostatic repulsion forces cleavage",
+      "fixed localized electron pairs",
+      "cation repulsion breaks lattice"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901017": {
+    "svgKey": "chem_cmp/2-5-a_v1",
+    "slug": "2-5-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.5.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the structural features, bonding elements, electron counts, and octet status in the Lewis diagram for water (H₂O).",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Central O atom",
+        "x": 0.15,
+        "y": 0.197
+      },
+      {
+        "id": "h2",
+        "label": "O–H single bond",
+        "x": 0.15,
+        "y": 0.469
+      },
+      {
+        "id": "h3",
+        "label": "lone pair",
+        "x": 0.85,
+        "y": 0.197
+      },
+      {
+        "id": "h4",
+        "label": "eight electrons around O",
+        "x": 0.85,
+        "y": 0.469
+      },
+      {
+        "id": "h5",
+        "label": "total valence electrons = 8",
+        "x": 0.15,
+        "y": 0.741
+      }
+    ],
+    "options": [
+      "Central O atom",
+      "O–H single bond",
+      "lone pair",
+      "eight electrons around O",
+      "total valence electrons = 8",
+      "Terminal O atom",
+      "O=H double bond",
+      "lone pair on H",
+      "two electrons around O",
+      "four electrons around O",
+      "total valence electrons = 6",
+      "total valence electrons = 10",
+      "nonbonding H pair",
+      "triple bond"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901018": {
+    "svgKey": "chem_cmp/2-5-a_v3",
+    "slug": "2-5-a_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.5.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the bonding configuration, central atom lone-pair status, polyatomic bracket representation, overall charge, and total valence electron count for the ammonium ion (NH₄⁺).",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Four N–H single bonds",
+        "x": 0.146,
+        "y": 0.781
+      },
+      {
+        "id": "h2",
+        "label": "no lone pair on N",
+        "x": 0.292,
+        "y": 0.203
+      },
+      {
+        "id": "h3",
+        "label": "bracketed ion",
+        "x": 0.469,
+        "y": 0.594
+      },
+      {
+        "id": "h4",
+        "label": "+1 overall charge",
+        "x": 0.469,
+        "y": 0.25
+      },
+      {
+        "id": "h5",
+        "label": "total valence electrons = 8",
+        "x": 0.76,
+        "y": 0.781
+      }
+    ],
+    "options": [
+      "Four N–H single bonds",
+      "no lone pair on N",
+      "bracketed ion",
+      "+1 overall charge",
+      "total valence electrons = 8",
+      "one lone pair on central N",
+      "total valence electrons = 9",
+      "total valence electrons = 10",
+      "-1 overall charge",
+      "unbracketed neutral molecule",
+      "three single bonds and one lone pair",
+      "neutral charge (0)"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901019": {
+    "svgKey": "chem_cmp/2-5-a_v4",
+    "slug": "2-5-a_v4",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.5.A",
+    "gate_status": "reviewed",
+    "prompt": "Represent the hydrogen cyanide (HCN) molecule with a Lewis diagram. Identify single and triple bonds, lone pairs, octet rule satisfaction, and total valence electron count.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "H–C single bond",
+        "x": 0.333,
+        "y": 0.266
+      },
+      {
+        "id": "h2",
+        "label": "C≡N triple bond",
+        "x": 0.583,
+        "y": 0.266
+      },
+      {
+        "id": "h3",
+        "label": "lone pair on N",
+        "x": 0.849,
+        "y": 0.375
+      },
+      {
+        "id": "h4",
+        "label": "complete octets",
+        "x": 0.258,
+        "y": 0.822
+      },
+      {
+        "id": "h5",
+        "label": "total valence electrons = 10.",
+        "x": 0.742,
+        "y": 0.822
+      }
+    ],
+    "options": [
+      "H–C single bond",
+      "C≡N triple bond",
+      "lone pair on N",
+      "complete octets",
+      "total valence electrons = 10.",
+      "C=N double bond",
+      "lone pair on C",
+      "central H atom",
+      "incomplete octet on C",
+      "total valence electrons = 12."
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901020": {
+    "svgKey": "chem_cmp/2-6-a_v1",
+    "slug": "2-6-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.6.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the resonance structures, formal charges, and bonding properties of ozone (O₃).",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Equivalent resonance structures",
+        "x": 0.5,
+        "y": 0.422
+      },
+      {
+        "id": "h2",
+        "label": "+1 formal charge",
+        "x": 0.152,
+        "y": 0.125
+      },
+      {
+        "id": "h3",
+        "label": "−1 formal charge",
+        "x": 0.344,
+        "y": 0.469
+      },
+      {
+        "id": "h4",
+        "label": "delocalized π bonding",
+        "x": 0.193,
+        "y": 0.719
+      },
+      {
+        "id": "h5",
+        "label": "equal O–O bond lengths",
+        "x": 0.823,
+        "y": 0.719
+      }
+    ],
+    "options": [
+      "Equivalent resonance structures",
+      "+1 formal charge",
+      "−1 formal charge",
+      "delocalized π bonding",
+      "equal O–O bond lengths",
+      "Rapidly oscillating single and double bonds",
+      "One permanent single and one permanent double bond",
+      "Alternating resonance isomers",
+      "Unequal O–O bond lengths",
+      "Localized π bond",
+      "0 formal charge",
+      "+2 formal charge"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901021": {
+    "svgKey": "chem_cmp/2-6-a_v2",
+    "slug": "2-6-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "2.6.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the resonance contributor relationship, formal charges, delocalization, and ion notation in the Lewis structures of the nitrate ion (NO3-).",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Three equivalent contributors",
+        "x": 0.156,
+        "y": 0.719
+      },
+      {
+        "id": "h2",
+        "label": "formal charge on N",
+        "x": 0.5,
+        "y": 0.719
+      },
+      {
+        "id": "h3",
+        "label": "formal charge on singly bonded O",
+        "x": 0.844,
+        "y": 0.719
+      },
+      {
+        "id": "h4",
+        "label": "delocalized negative charge",
+        "x": 0.327,
+        "y": 0.894
+      },
+      {
+        "id": "h5",
+        "label": "bracketed −1 ion.",
+        "x": 0.673,
+        "y": 0.894
+      }
+    ],
+    "options": [
+      "Three equivalent contributors",
+      "formal charge on N",
+      "formal charge on singly bonded O",
+      "delocalized negative charge",
+      "bracketed −1 ion.",
+      "single true ground-state structure",
+      "double bond fixed on upper oxygen",
+      "nonequivalent resonance contributors",
+      "formal charge of 0 on N",
+      "formal charge on double bonded O",
+      "formal charge of -1 on double bonded O",
+      "formal charge of 0 on singly bonded O",
+      "full -1 charge fixed on double bonded O",
+      "localized negative charge on central N",
+      "bracketed neutral molecule"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901022": {
+    "svgKey": "chem_cmp/3-1-a_v2",
+    "slug": "3-1-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "3.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the correct comparative properties for n-pentane and neopentane.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Greater contact surface",
+        "x": 0.25,
+        "y": 0.5625
+      },
+      {
+        "id": "h2",
+        "label": "stronger dispersion attraction",
+        "x": 0.25,
+        "y": 0.734375
+      },
+      {
+        "id": "h3",
+        "label": "higher boiling point",
+        "x": 0.25,
+        "y": 0.90625
+      },
+      {
+        "id": "h4",
+        "label": "more compact shape",
+        "x": 0.75,
+        "y": 0.5625
+      },
+      {
+        "id": "h5",
+        "label": "weaker dispersion attraction",
+        "x": 0.75,
+        "y": 0.734375
+      }
+    ],
+    "options": [
+      "Greater contact surface",
+      "more compact shape",
+      "stronger dispersion attraction",
+      "weaker dispersion attraction",
+      "higher boiling point",
+      "equal boiling points",
+      "identical dispersion attraction",
+      "identical intermolecular forces",
+      "same shape"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901023": {
+    "svgKey": "chem_cmp/3-1-a_v5",
+    "slug": "3-1-a_v5",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "3.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the types of intermolecular forces present, rank their relative strengths, and select the correct orientation of water.",
+    "hotspots": [
+      {
+        "id": "h_ion_dipole",
+        "label": "Ion–dipole",
+        "x": 0.2708333333333333,
+        "y": 0.5078125
+      },
+      {
+        "id": "h_correct_orientation",
+        "label": "correct water orientation.",
+        "x": 0.46875,
+        "y": 0.1796875
+      },
+      {
+        "id": "h_strongest",
+        "label": "strongest interaction",
+        "x": 0.16666666666666666,
+        "y": 0.1796875
+      },
+      {
+        "id": "h_hydrogen_bonding",
+        "label": "hydrogen bonding",
+        "x": 0.6458333333333334,
+        "y": 0.5078125
+      },
+      {
+        "id": "h_london_dispersion",
+        "label": "London dispersion",
+        "x": 0.4166666666666667,
+        "y": 0.9140625
+      },
+      {
+        "id": "h_weakest",
+        "label": "weakest interaction",
+        "x": 0.4166666666666667,
+        "y": 0.6015625
+      }
+    ],
+    "options": [
+      "Ion–dipole",
+      "hydrogen bonding",
+      "London dispersion",
+      "strongest interaction",
+      "weakest interaction",
+      "correct water orientation.",
+      "reversed water orientation.",
+      "hydrogen bonding is always stronger than ion–dipole attraction",
+      "dipole-dipole"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901024": {
+    "svgKey": "chem_cmp/3-10-a_v4",
+    "slug": "3-10-a_v4",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "3.10.A",
+    "gate_status": "reviewed",
+    "prompt": "Compare methanol, butanol, and octanol. Identify the structural regions and rank their water solubility.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Hydrogen-bonding head",
+        "x": 0.8333,
+        "y": 0.375
+      },
+      {
+        "id": "h2",
+        "label": "nonpolar carbon chain",
+        "x": 0.375,
+        "y": 0.25
+      },
+      {
+        "id": "h3",
+        "label": "highest water solubility",
+        "x": 0.2083,
+        "y": 0.1406
+      },
+      {
+        "id": "h4",
+        "label": "lowest water solubility",
+        "x": 0.2083,
+        "y": 0.875
+      },
+      {
+        "id": "h5",
+        "label": "increasing dispersion-dominated region",
+        "x": 0.1458,
+        "y": 0.5
+      }
+    ],
+    "options": [
+      "Hydrogen-bonding head",
+      "nonpolar carbon chain",
+      "highest water solubility",
+      "lowest water solubility",
+      "increasing dispersion-dominated region",
+      "Identical solubility for all alcohols",
+      "Only O-H groups determine solubility",
+      "Decreasing dispersion-dominated region"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901025": {
+    "svgKey": "chem_cmp/3-12-a_v1",
+    "slug": "3-12-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "3.12.A",
+    "gate_status": "reviewed",
+    "prompt": "Label the properties and states in this electronic transition diagram.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Lower electronic state",
+        "x": 0.375,
+        "y": 0.8906
+      },
+      {
+        "id": "h2",
+        "label": "higher electronic state",
+        "x": 0.375,
+        "y": 0.1718
+      },
+      {
+        "id": "h3",
+        "label": "absorbed photon",
+        "x": 0.2083,
+        "y": 0.5625
+      },
+      {
+        "id": "h4",
+        "label": "energy gained by species",
+        "x": 0.6666,
+        "y": 0.5312
+      },
+      {
+        "id": "h5",
+        "label": "ΔE = hν",
+        "x": 0.8958,
+        "y": 0.5312
+      }
+    ],
+    "options": [
+      "Lower electronic state",
+      "higher electronic state",
+      "absorbed photon",
+      "energy gained by species",
+      "ΔE = hν",
+      "Downward transition (emission)",
+      "Any photon energy absorbed",
+      "Continuous energy level"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901026": {
+    "svgKey": "chem_cmp/3-12-a_v2",
+    "slug": "3-12-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "3.12.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the features of the electronic transition shown below. Select the correct labels for the states, the energy change, and the emitted photon.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Excited state",
+        "x": 0.2917,
+        "y": 0.1406
+      },
+      {
+        "id": "h2",
+        "label": "lower state",
+        "x": 0.1771,
+        "y": 0.7344
+      },
+      {
+        "id": "h3",
+        "label": "emitted photon",
+        "x": 0.7708,
+        "y": 0.3438
+      },
+      {
+        "id": "h4",
+        "label": "species loses energy",
+        "x": 0.1771,
+        "y": 0.4688
+      },
+      {
+        "id": "h5",
+        "label": "photon energy equals level difference.",
+        "x": 0.6667,
+        "y": 0.8438
+      }
+    ],
+    "options": [
+      "Excited state",
+      "lower state",
+      "emitted photon",
+      "species loses energy",
+      "photon energy equals level difference.",
+      "absorbed photon",
+      "species gains energy",
+      "photon energy is negative"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901027": {
+    "svgKey": "chem_cmp/3-7-a_v2",
+    "slug": "3-7-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "3.7.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the components of the dimensional-analysis path for calculating the number of particles.",
+    "hotspots": [
+      {
+        "id": "h_vol",
+        "label": "Solution volume in liters",
+        "x": 0.354,
+        "y": 0.5
+      },
+      {
+        "id": "h_mol",
+        "label": "moles solute",
+        "x": 0.615,
+        "y": 0.5
+      },
+      {
+        "id": "h_avo",
+        "label": "Avogadro’s number",
+        "x": 0.865,
+        "y": 0.5
+      },
+      {
+        "id": "h_part",
+        "label": "number of solute particles",
+        "x": 0.802,
+        "y": 0.688
+      },
+      {
+        "id": "h_path",
+        "label": "dimensional-analysis path",
+        "x": 0.521,
+        "y": 0.891
+      }
+    ],
+    "options": [
+      "Solution volume in liters",
+      "moles solute",
+      "Avogadro’s number",
+      "number of solute particles",
+      "dimensional-analysis path",
+      "Molarity × Avogadro’s number",
+      "Molarity of solution"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901028": {
+    "svgKey": "chem_cmp/5-11-a_a_v1",
+    "slug": "5-11-a_a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.11.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the key features of the reaction energy profile.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Uncatalyzed transition state",
+        "x": 0.5416666666666666,
+        "y": 0.125
+      },
+      {
+        "id": "h2",
+        "label": "Two catalyzed transition states",
+        "x": 0.7083333333333334,
+        "y": 0.34375
+      },
+      {
+        "id": "h3",
+        "label": "Two catalyzed transition states",
+        "x": 0.375,
+        "y": 0.28125
+      },
+      {
+        "id": "h4",
+        "label": "Catalyzed intermediate",
+        "x": 0.5,
+        "y": 0.5625
+      },
+      {
+        "id": "h5",
+        "label": "Lower maximum activation barrier",
+        "x": 0.20833333333333334,
+        "y": 0.34375
+      },
+      {
+        "id": "h6",
+        "label": "Unchanged ΔH",
+        "x": 0.875,
+        "y": 0.5625
+      }
+    ],
+    "options": [
+      "Uncatalyzed transition state",
+      "Two catalyzed transition states",
+      "Catalyzed intermediate",
+      "Lower maximum activation barrier",
+      "Unchanged ΔH",
+      "Lower product energy",
+      "More negative ΔH"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901029": {
+    "svgKey": "chem_cmp/5-11-a_a_v2",
+    "slug": "5-11-a_a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.11.A",
+    "gate_status": "reviewed",
+    "prompt": "The same catalyzed and uncatalyzed profiles are interpreted in the reverse direction. Products are treated as the starting side, and students label forward and reverse activation energies for both pathways, the alternative multistep mechanism, and the unchanged magnitude and sign reversal of ΔH when direction is reversed.",
+    "hotspots": [
+      {
+        "id": "ea_fwd_uncat",
+        "label": "Forward activation energy, uncatalyzed pathway",
+        "x": 0.1875,
+        "y": 0.3125
+      },
+      {
+        "id": "ea_fwd_cat",
+        "label": "Forward activation energy, catalyzed pathway",
+        "x": 0.25,
+        "y": 0.5625
+      },
+      {
+        "id": "ea_rev_uncat",
+        "label": "Reverse activation energy, uncatalyzed pathway",
+        "x": 0.8958,
+        "y": 0.1562
+      },
+      {
+        "id": "ea_rev_cat",
+        "label": "Reverse activation energy, catalyzed pathway",
+        "x": 0.8125,
+        "y": 0.3438
+      },
+      {
+        "id": "multistep",
+        "label": "Alternative multistep mechanism",
+        "x": 0.5625,
+        "y": 0.6562
+      },
+      {
+        "id": "delta_h",
+        "label": "Delta H unchanged in magnitude, reversed in sign",
+        "x": 0.8542,
+        "y": 0.625
+      }
+    ],
+    "options": [
+      "Forward activation energy, uncatalyzed pathway",
+      "Reverse activation energy, uncatalyzed pathway",
+      "Forward activation energy, catalyzed pathway",
+      "Reverse activation energy, catalyzed pathway",
+      "Alternative multistep mechanism",
+      "Delta H unchanged in magnitude, reversed in sign",
+      "Catalyst lowers only the forward activation energy"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901030": {
+    "svgKey": "chem_cmp/5-11-a_a_v3",
+    "slug": "5-11-a_a_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.11.A",
+    "gate_status": "reviewed",
+    "prompt": "Label the features of this catalyzed reaction mechanism and energy profile.",
+    "hotspots": [
+      {
+        "id": "h1_cat_before",
+        "label": "Catalyst before reaction",
+        "x": 0.23958333333333334,
+        "y": 0.203125
+      },
+      {
+        "id": "h2_intermediate",
+        "label": "Catalyst-containing intermediate",
+        "x": 0.40625,
+        "y": 0.203125
+      },
+      {
+        "id": "h3_cat_regen",
+        "label": "Regenerated catalyst",
+        "x": 0.4479166666666667,
+        "y": 0.390625
+      },
+      {
+        "id": "h4_transition",
+        "label": "Transition states",
+        "x": 0.7291666666666666,
+        "y": 0.171875
+      },
+      {
+        "id": "h5_lower_pathway",
+        "label": "Lower-barrier catalyzed pathway",
+        "x": 0.7708333333333334,
+        "y": 0.5625
+      }
+    ],
+    "options": [
+      "Catalyst before reaction",
+      "Catalyst-containing intermediate",
+      "Regenerated catalyst",
+      "Transition states",
+      "Lower-barrier catalyzed pathway",
+      "Net reactant (consumed)",
+      "Net product (produced)"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901031": {
+    "svgKey": "chem_cmp/5-3-a_c_v1",
+    "slug": "5-3-a_c_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the rate law expression of a chemical reaction using data that show how the concentrations of reaction species change over time.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Linear plot: [A] versus time, zero order",
+        "x": 0.219,
+        "y": 0.131
+      },
+      {
+        "id": "h2",
+        "label": "Slope equals negative k",
+        "x": 0.219,
+        "y": 0.609
+      },
+      {
+        "id": "h5",
+        "label": "Constant reaction rate, not constant concentration",
+        "x": 0.5,
+        "y": 0.852
+      },
+      {
+        "id": "h3",
+        "label": "Non-linear ln[A] versus time plot",
+        "x": 0.51,
+        "y": 0.131
+      },
+      {
+        "id": "h4",
+        "label": "Non-linear 1/[A] versus time plot",
+        "x": 0.802,
+        "y": 0.131
+      }
+    ],
+    "options": [
+      "Linear plot: [A] versus time, zero order",
+      "Slope equals negative k",
+      "Non-linear ln[A] versus time plot",
+      "Non-linear 1/[A] versus time plot",
+      "Constant reaction rate, not constant concentration",
+      "Reaction order is the coefficient of A in the balanced equation",
+      "Reaction rate depends on the coefficient of A"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901032": {
+    "svgKey": "chem_cmp/5-3-a_c_v2",
+    "slug": "5-3-a_c_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the features of the first-order reaction data.",
+    "hotspots": [
+      {
+        "id": "h_transform",
+        "label": "First-order transform",
+        "x": 0.4895833333333333,
+        "y": 0.171875
+      },
+      {
+        "id": "h_slope",
+        "label": "Slope = −k",
+        "x": 0.4765625,
+        "y": 0.486328125
+      },
+      {
+        "id": "h_curve",
+        "label": "Curved [A] plot vs straight line",
+        "x": 0.21875,
+        "y": 0.5625
+      },
+      {
+        "id": "h_halflife",
+        "label": "Constant half-life",
+        "x": 0.17708333333333334,
+        "y": 0.765625
+      }
+    ],
+    "options": [
+      "First-order transform",
+      "Slope = −k",
+      "Curved [A] plot vs straight line",
+      "Constant half-life",
+      "Linear 1/[A] plot",
+      "Linear [A] plot",
+      "Slope = k",
+      "Second-order transform",
+      "Zero-order transform"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901033": {
+    "svgKey": "chem_cmp/5-3-a_c_v3",
+    "slug": "5-3-a_c_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the correct rate law and its properties from the concentration-time plots.",
+    "hotspots": [
+      {
+        "id": "h_a",
+        "label": "Non-linear [A] versus time plot",
+        "x": 0.1625,
+        "y": 0.5875
+      },
+      {
+        "id": "h_lna",
+        "label": "ln[A] versus time plot, near-linear early but deviating over full range",
+        "x": 0.5,
+        "y": 0.5459
+      },
+      {
+        "id": "h_reject",
+        "label": "Reject the habitual logarithmic choice",
+        "x": 0.5729,
+        "y": 0.2969
+      },
+      {
+        "id": "h_1a",
+        "label": "Linear plot: 1/[A] versus time, second order",
+        "x": 0.7375,
+        "y": 0.5625
+      },
+      {
+        "id": "h_slope",
+        "label": "Positive slope equals k",
+        "x": 0.9,
+        "y": 0.4115
+      }
+    ],
+    "options": [
+      "Linear plot: 1/[A] versus time, second order",
+      "Positive slope equals k",
+      "Non-linear [A] versus time plot",
+      "ln[A] versus time plot, near-linear early but deviating over full range",
+      "Reject the habitual logarithmic choice",
+      "Linear plot: ln[A] versus time, second order",
+      "All non-zero-order reactions use ln[A]",
+      "Negative slope equals -k",
+      "Logarithmic plot correctly linearizes data",
+      "1/[A] versus time plot, first order"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901034": {
+    "svgKey": "chem_cmp/5-7-a_b_v1",
+    "slug": "5-7-a_b_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.7.A",
+    "gate_status": "reviewed",
+    "prompt": "Label the components of this two-step reaction mechanism.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Transition state 1",
+        "x": 0.333,
+        "y": 0.094
+      },
+      {
+        "id": "h2",
+        "label": "Transition state 2",
+        "x": 0.75,
+        "y": 0.156
+      },
+      {
+        "id": "h3",
+        "label": "Intermediate",
+        "x": 0.5,
+        "y": 0.797
+      },
+      {
+        "id": "h4",
+        "label": "Step 1 barrier",
+        "x": 0.208,
+        "y": 0.312
+      },
+      {
+        "id": "h5",
+        "label": "Step 2 barrier",
+        "x": 0.542,
+        "y": 0.438
+      },
+      {
+        "id": "h6",
+        "label": "Step 2 (Rate-determining step)",
+        "x": 0.729,
+        "y": 0.797
+      }
+    ],
+    "options": [
+      "Transition state 1",
+      "Transition state 2",
+      "Intermediate",
+      "Step 1 barrier",
+      "Step 2 barrier",
+      "Step 2 (Rate-determining step)",
+      "Step 1 (Rate-determining step)",
+      "Highest absolute peak",
+      "Largest activation barrier"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901035": {
+    "svgKey": "chem_cmp/5-7-a_b_v2",
+    "slug": "5-7-a_b_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.7.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the components of the reaction mechanism. Label the peaks, valleys, intermediates, final products, and the rate-determining step.",
+    "hotspots": [
+      {
+        "id": "peak1",
+        "label": "Transition State",
+        "x": 0.208,
+        "y": 0.312
+      },
+      {
+        "id": "valley1",
+        "label": "Reaction Intermediate",
+        "x": 0.333,
+        "y": 0.812
+      },
+      {
+        "id": "peak2",
+        "label": "Rate-Determining Step (RDS)",
+        "x": 0.479,
+        "y": 0.125
+      },
+      {
+        "id": "valley2",
+        "label": "Reaction Intermediate",
+        "x": 0.625,
+        "y": 0.812
+      },
+      {
+        "id": "peak3",
+        "label": "Transition State",
+        "x": 0.771,
+        "y": 0.375
+      },
+      {
+        "id": "product",
+        "label": "Final Product",
+        "x": 0.927,
+        "y": 0.672
+      }
+    ],
+    "options": [
+      "Transition State",
+      "Reaction Intermediate",
+      "Rate-Determining Step (RDS)",
+      "Final Product",
+      "Stable Product",
+      "First Elementary Step (Rate Limiting)"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901036": {
+    "svgKey": "chem_cmp/5-8-a_b_v3",
+    "slug": "5-8-a_b_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "5.8.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the key components of the reaction mechanism and determine the correct rate law.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Step 1 as the rate-determining step",
+        "x": 0.15,
+        "y": 0.15
+      },
+      {
+        "id": "h2",
+        "label": "Intermediate produced by Step 1",
+        "x": 0.4375,
+        "y": 0.15
+      },
+      {
+        "id": "h3",
+        "label": "Same intermediate consumed by Step 2",
+        "x": 0.2604,
+        "y": 0.35
+      },
+      {
+        "id": "h4",
+        "label": "Rate law matching molecularity of the slow first elementary step",
+        "x": 0.25,
+        "y": 0.8125
+      },
+      {
+        "id": "h5",
+        "label": "Overall balanced equation, whose coefficients must NOT be used for the rate law",
+        "x": 0.25,
+        "y": 0.55
+      }
+    ],
+    "options": [
+      "Step 1 as the rate-determining step",
+      "Intermediate produced by Step 1",
+      "Same intermediate consumed by Step 2",
+      "Rate law matching molecularity of the slow first elementary step",
+      "Overall balanced equation, whose coefficients must NOT be used for the rate law",
+      "Rank 1 rate-law error: use coefficients from the overall balanced equation instead of the reactants in the slow elementary step."
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901037": {
+    "svgKey": "chem_cmp/8-1-a_v1",
+    "slug": "8-1-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the values for a neutral water solution at 25°C.",
+    "hotspots": [
+      {
+        "id": "h_h3o",
+        "label": "1.0×10⁻⁷ M",
+        "x": 0.318,
+        "y": 0.438
+      },
+      {
+        "id": "h_ph",
+        "label": "7.00",
+        "x": 0.531,
+        "y": 0.438
+      },
+      {
+        "id": "h_kw",
+        "label": "1.0×10⁻¹⁴",
+        "x": 0.781,
+        "y": 0.438
+      },
+      {
+        "id": "h_oh",
+        "label": "1.0×10⁻⁷ M",
+        "x": 0.318,
+        "y": 0.688
+      },
+      {
+        "id": "h_poh",
+        "label": "7.00",
+        "x": 0.531,
+        "y": 0.688
+      },
+      {
+        "id": "h_phpoh",
+        "label": "14.00",
+        "x": 0.839,
+        "y": 0.688
+      }
+    ],
+    "options": [
+      "1.0×10⁻⁷ M",
+      "7.00",
+      "1.0×10⁻¹⁴",
+      "14.00",
+      "0 M",
+      "1.0×10⁻¹⁴ M",
+      "0"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901038": {
+    "svgKey": "chem_cmp/8-1-a_v2",
+    "slug": "8-1-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the correct concept for each observation of neutral water at 50 °C.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "temperature-dependent Kw",
+        "x": 0.74,
+        "y": 0.206
+      },
+      {
+        "id": "h2",
+        "label": "pKw",
+        "x": 0.74,
+        "y": 0.369
+      },
+      {
+        "id": "h3",
+        "label": "[H₃O⁺] = [OH⁻]",
+        "x": 0.74,
+        "y": 0.531
+      },
+      {
+        "id": "h4",
+        "label": "pH = pOH",
+        "x": 0.74,
+        "y": 0.694
+      },
+      {
+        "id": "h5",
+        "label": "neutral pH not necessarily 7",
+        "x": 0.74,
+        "y": 0.856
+      }
+    ],
+    "options": [
+      "[H₃O⁺] = [OH⁻]",
+      "temperature-dependent Kw",
+      "neutral pH not necessarily 7",
+      "pKw",
+      "pH = pOH",
+      "neutral pH = 7",
+      "neutral pH = 7.0 at all temperatures",
+      "pH + pOH = 14",
+      "[H₃O⁺] > [OH⁻]",
+      "[H₃O⁺] < [OH⁻]",
+      "Kw = 1.0 × 10⁻¹⁴"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901039": {
+    "svgKey": "chem_cmp/8-1-a_v3",
+    "slug": "8-1-a_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.1.A",
+    "gate_status": "reviewed",
+    "prompt": "Label the steps to calculate pH and pOH from Kw in neutral water.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Set [H₃O⁺] = [OH⁻] = x",
+        "x": 0.5,
+        "y": 0.188
+      },
+      {
+        "id": "h2",
+        "label": "x² = Kw",
+        "x": 0.5,
+        "y": 0.375
+      },
+      {
+        "id": "h3",
+        "label": "x = √Kw",
+        "x": 0.5,
+        "y": 0.562
+      },
+      {
+        "id": "h4",
+        "label": "pH = −log x",
+        "x": 0.25,
+        "y": 0.812
+      },
+      {
+        "id": "h5",
+        "label": "pOH = −log x",
+        "x": 0.75,
+        "y": 0.812
+      }
+    ],
+    "options": [
+      "Set [H₃O⁺] = [OH⁻] = x",
+      "x² = Kw",
+      "x = √Kw",
+      "pH = −log x",
+      "pOH = −log x",
+      "x = Kw",
+      "pH = −log(Kw)",
+      "pOH = −log(Kw)",
+      "[H₃O⁺] = Kw"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901040": {
+    "svgKey": "chem_cmp/8-1-a_v4",
+    "slug": "8-1-a_v4",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.1.A",
+    "gate_status": "reviewed",
+    "prompt": "",
+    "hotspots": [
+      {
+        "id": "water",
+        "label": "Water molecules",
+        "x": 0.17708333333333334,
+        "y": 0.625
+      },
+      {
+        "id": "hydronium",
+        "label": "hydronium ion",
+        "x": 0.5208333333333334,
+        "y": 0.59375
+      },
+      {
+        "id": "hydroxide",
+        "label": "hydroxide ion",
+        "x": 0.32083333333333336,
+        "y": 0.375
+      },
+      {
+        "id": "equal_counts",
+        "label": "equal H₃O⁺/OH⁻ counts",
+        "x": 0.8854166666666666,
+        "y": 0.6015625
+      },
+      {
+        "id": "neutral",
+        "label": "neutral solution",
+        "x": 0.875,
+        "y": 0.265625
+      },
+      {
+        "id": "dynamic_eq",
+        "label": "dynamic equilibrium",
+        "x": 0.4166666666666667,
+        "y": 0.90625
+      }
+    ],
+    "options": [
+      "Water molecules",
+      "hydronium ion",
+      "hydroxide ion",
+      "equal H₃O⁺/OH⁻ counts",
+      "neutral solution",
+      "dynamic equilibrium",
+      "pure water has only H₂O",
+      "large equal concentrations",
+      "only water exists",
+      "high ion counts"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901041": {
+    "svgKey": "chem_cmp/8-10-a_v1",
+    "slug": "8-10-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.10.A",
+    "gate_status": "reviewed",
+    "prompt": "",
+    "hotspots": [
+      {
+        "id": "h_start",
+        "x": 0.083,
+        "y": 0.828,
+        "label": "Same pH"
+      },
+      {
+        "id": "h_b_conc",
+        "x": 0.771,
+        "y": 0.25,
+        "label": "lower total concentration"
+      },
+      {
+        "id": "h_b_cap",
+        "x": 0.771,
+        "y": 0.422,
+        "label": "smaller buffer capacity."
+      },
+      {
+        "id": "h_x_conc",
+        "x": 0.771,
+        "y": 0.688,
+        "label": "higher total concentration"
+      },
+      {
+        "id": "h_x_cap",
+        "x": 0.771,
+        "y": 0.859,
+        "label": "greater buffer capacity"
+      }
+    ],
+    "options": [
+      "Same pH",
+      "higher total concentration",
+      "lower total concentration",
+      "greater buffer capacity",
+      "smaller buffer capacity.",
+      "different pH",
+      "same buffer capacity",
+      "higher pH (higher conc.)",
+      "lower pH (lower conc.)"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901042": {
+    "svgKey": "chem_cmp/8-10-a_v2",
+    "slug": "8-10-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.10.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the type, primary neutralizing strength, and limiting component of each buffer.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "acid-rich buffer",
+        "x": 0.292,
+        "y": 0.18
+      },
+      {
+        "id": "h2",
+        "label": "Greater capacity against added base",
+        "x": 0.292,
+        "y": 0.9
+      },
+      {
+        "id": "h3",
+        "label": "limiting buffer component.",
+        "x": 0.354,
+        "y": 0.367
+      },
+      {
+        "id": "h4",
+        "label": "base-rich buffer",
+        "x": 0.75,
+        "y": 0.18
+      },
+      {
+        "id": "h5",
+        "label": "greater capacity against added acid",
+        "x": 0.75,
+        "y": 0.9
+      },
+      {
+        "id": "h6",
+        "label": "limiting buffer component.",
+        "x": 0.667,
+        "y": 0.367
+      }
+    ],
+    "options": [
+      "Greater capacity against added base",
+      "greater capacity against added acid",
+      "acid-rich buffer",
+      "base-rich buffer",
+      "limiting buffer component.",
+      "major buffer component",
+      "highest total concentration",
+      "lowest total concentration"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901043": {
+    "svgKey": "chem_cmp/8-11-a_v2",
+    "slug": "8-11-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.11.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the qualitative effect of pH changes on salt solubility for Mg(OH)2.",
+    "hotspots": [
+      {
+        "id": "h_rule",
+        "label": "Le Châtelier shift.",
+        "x": 0.5,
+        "y": 0.21875
+      },
+      {
+        "id": "h_acid_interaction",
+        "label": "Acid consumes OH⁻",
+        "x": 0.25,
+        "y": 0.6875
+      },
+      {
+        "id": "h_acid_effect",
+        "label": "solubility increases as pH decreases",
+        "x": 0.25,
+        "y": 0.859375
+      },
+      {
+        "id": "h_base_interaction",
+        "label": "added OH⁻ common ion",
+        "x": 0.75,
+        "y": 0.6875
+      },
+      {
+        "id": "h_base_effect",
+        "label": "solubility decreases as pH increases",
+        "x": 0.75,
+        "y": 0.859375
+      }
+    ],
+    "options": [
+      "Acid consumes OH⁻",
+      "solubility increases as pH decreases",
+      "added OH⁻ common ion",
+      "solubility decreases as pH increases",
+      "Le Châtelier shift.",
+      "solubility increases as pH increases because both have OH⁻",
+      "hydroxide solids dissolve better in basic solution",
+      "added OH⁻ increases dissolution",
+      "basic solution enhances solubility of hydroxide"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901044": {
+    "svgKey": "chem_cmp/8-2-a_v2",
+    "slug": "8-2-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.2.A",
+    "gate_status": "reviewed",
+    "prompt": "",
+    "hotspots": [
+      {
+        "id": "dissociation",
+        "x": 0.59375,
+        "y": 0.1875,
+        "label": "Complete dissociation"
+      },
+      {
+        "id": "na_conc",
+        "x": 0.2916666666666667,
+        "y": 0.484375,
+        "label": "[Na⁺] = base concentration"
+      },
+      {
+        "id": "oh_conc",
+        "x": 0.7083333333333334,
+        "y": 0.484375,
+        "label": "[OH⁻] = base concentration"
+      },
+      {
+        "id": "poh",
+        "x": 0.7083333333333334,
+        "y": 0.65625,
+        "label": "pOH = 3.00"
+      },
+      {
+        "id": "ph",
+        "x": 0.7083333333333334,
+        "y": 0.828125,
+        "label": "pH = 11.00"
+      }
+    ],
+    "options": [
+      "Complete dissociation",
+      "[OH⁻] = base concentration",
+      "[Na⁺] = base concentration",
+      "pOH = 3.00",
+      "pH = 11.00",
+      "pH = 3.00",
+      "pOH = 11.00"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901045": {
+    "svgKey": "chem_cmp/8-3-a_v3",
+    "slug": "8-3-a_v3",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the relative concentration, percent ionization, [H₃O⁺], and Ka for these two weak-acid solutions.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "More dilute solution",
+        "x": 0.25,
+        "y": 0.64
+      },
+      {
+        "id": "h2",
+        "label": "greater percent ionization",
+        "x": 0.25,
+        "y": 0.82
+      },
+      {
+        "id": "h3",
+        "label": "more concentrated solution",
+        "x": 0.75,
+        "y": 0.64
+      },
+      {
+        "id": "h4",
+        "label": "greater [H₃O⁺]",
+        "x": 0.75,
+        "y": 0.82
+      },
+      {
+        "id": "h5",
+        "label": "same Ka",
+        "x": 0.5,
+        "y": 0.46
+      }
+    ],
+    "options": [
+      "More dilute solution",
+      "more concentrated solution",
+      "greater percent ionization",
+      "smaller percent ionization",
+      "greater [H₃O⁺]",
+      "smaller [H₃O⁺]",
+      "same Ka",
+      "larger Ka"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901046": {
+    "svgKey": "chem_cmp/8-3-a_v4",
+    "slug": "8-3-a_v4",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Compare two weak acids at the same initial concentration with different Ka values using particulate equilibrium diagrams. Students label stronger weak acid and relative ionization.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Larger Ka",
+        "x": 0.271,
+        "y": 0.15
+      },
+      {
+        "id": "h2",
+        "label": "smaller Ka",
+        "x": 0.729,
+        "y": 0.15
+      },
+      {
+        "id": "h3",
+        "label": "more H₃O⁺/A⁻",
+        "x": 0.271,
+        "y": 0.5
+      },
+      {
+        "id": "h4",
+        "label": "more un-ionized HA",
+        "x": 0.729,
+        "y": 0.675
+      },
+      {
+        "id": "h5",
+        "label": "lower pH.",
+        "x": 0.271,
+        "y": 0.85
+      }
+    ],
+    "options": [
+      "Larger Ka",
+      "smaller Ka",
+      "more H₃O⁺/A⁻",
+      "more un-ionized HA",
+      "lower pH.",
+      "Equal Ka",
+      "Equal % ionization",
+      "more H₃O⁺ in smaller Ka",
+      "higher pH",
+      "Equal pH"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901047": {
+    "svgKey": "chem_cmp/8-3-a_v5",
+    "slug": "8-3-a_v5",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.3.A",
+    "gate_status": "reviewed",
+    "prompt": "Label the conjugate species, equilibrium constant product, logarithmic relationship, and relative strength trend for a weak acid-base pair",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Conjugate acid",
+        "x": 0.264,
+        "y": 0.206
+      },
+      {
+        "id": "h2",
+        "label": "conjugate base",
+        "x": 0.736,
+        "y": 0.206
+      },
+      {
+        "id": "h3",
+        "label": "KaKb = Kw",
+        "x": 0.854,
+        "y": 0.606
+      },
+      {
+        "id": "h4",
+        "label": "pKa + pKb = pKw",
+        "x": 0.333,
+        "y": 0.731
+      },
+      {
+        "id": "h5",
+        "label": "stronger acid/weaker conjugate base",
+        "x": 0.854,
+        "y": 0.847
+      }
+    ],
+    "options": [
+      "Conjugate acid",
+      "conjugate base",
+      "KaKb = Kw",
+      "pKa + pKb = pKw",
+      "stronger acid/weaker conjugate base",
+      "Ka + Kb = Kw",
+      "pKa × pKb = pKw",
+      "Stronger acid → stronger conjugate base",
+      "Ka and Kb are independent",
+      "Strong acid gives a strong conjugate base"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901048": {
+    "svgKey": "chem_cmp/8-4-a_v1",
+    "slug": "8-4-a_v1",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.4.A",
+    "gate_status": "reviewed",
+    "prompt": "Label the reaction step, limiting reactant, species formed/remaining, and resulting solution state after mixing HA with limited OH⁻.",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "OH⁻ limiting reactant",
+        "x": 0.179,
+        "y": 0.3
+      },
+      {
+        "id": "h2",
+        "label": "HA remains",
+        "x": 0.819,
+        "y": 0.278
+      },
+      {
+        "id": "h3",
+        "label": "A⁻ formed",
+        "x": 0.819,
+        "y": 0.619
+      },
+      {
+        "id": "h4",
+        "label": "buffer mixture",
+        "x": 0.667,
+        "y": 0.859
+      },
+      {
+        "id": "h5",
+        "label": "stoichiometric neutralization first",
+        "x": 0.481,
+        "y": 0.481
+      }
+    ],
+    "options": [
+      "OH⁻ limiting reactant",
+      "HA remains",
+      "A⁻ formed",
+      "buffer mixture",
+      "stoichiometric neutralization first",
+      "Ka equilibrium controls species prior to reaction",
+      "Equivalence point reached when acid and base are mixed",
+      "OH⁻ excess reactant in solution",
+      "HA fully neutralized to zero",
+      "Neutral pH solution (pH = 7.0)"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
+  },
+  "901049": {
+    "svgKey": "chem_cmp/8-4-a_v2",
+    "slug": "8-4-a_v2",
+    "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "8.4.A",
+    "gate_status": "reviewed",
+    "prompt": "Identify the species, stoichiometry, and equilibrium conditions present in a weak acid - strong base equivalence mixture",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Complete stoichiometric conversion",
+        "x": 0.271,
+        "y": 0.234
+      },
+      {
+        "id": "h2",
+        "label": "conjugate base A⁻",
+        "x": 0.604,
+        "y": 0.469
+      },
+      {
+        "id": "h3",
+        "label": "no excess OH⁻",
+        "x": 0.229,
+        "y": 0.656
+      },
+      {
+        "id": "h4",
+        "label": "basic equivalence solution",
+        "x": 0.802,
+        "y": 0.131
+      },
+      {
+        "id": "h5",
+        "label": "A⁻ + H₂O ⇌ HA + OH⁻",
+        "x": 0.729,
+        "y": 0.781
+      }
+    ],
+    "options": [
+      "Complete stoichiometric conversion",
+      "conjugate base A⁻",
+      "no excess OH⁻",
+      "basic equivalence solution",
+      "A⁻ + H₂O ⇌ HA + OH⁻",
+      "Neutral equivalence solution (pH = 7.0)",
+      "Equal concentrations of HA and A⁻",
+      "Excess strong base OH⁻",
+      "HA + H₂O ⇌ A⁻ + H₃O⁺",
+      "Unreacted weak acid HA is major species"
+    ],
+    "_speculative_row": true,
+    "_source": "C5/C6 gap-variant campaign 2026-07-25"
   }
 }
