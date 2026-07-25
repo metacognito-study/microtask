@@ -1,4 +1,246 @@
 {
+  "694": {
+    "gate_status": "reviewed",
+    "items": [
+      {
+        "id": "a",
+        "label": "C≡C (triple bond, BO=3) - shortest",
+        "order": 1
+      },
+      {
+        "id": "b",
+        "label": "C=C (double bond, BO=2)",
+        "order": 2
+      },
+      {
+        "id": "c",
+        "label": "C-C (single bond, BO=1) - longest",
+        "order": 3
+      }
+    ],
+    "prompt": "Order these carbon-carbon bonds from shortest to longest",
+    "tool": "sequencer",
+    "subject": "chem"
+  },
+  "1061": {
+    "tool": "labeler",
+    "subject": "chem",
+    "gate_status": "reviewed",
+    "svgKey": "chem_cmp/mb_catalyst",
+    "prompt": "Label the two activation-energy positions on one distribution",
+    "options": [
+      "Energy distribution curve",
+      "Catalysed activation energy",
+      "Uncatalysed activation energy",
+      "Extra molecules able to react",
+      "Average kinetic energy",
+      "Enthalpy change",
+      "Higher temperature",
+      "Bond energy"
+    ],
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Energy distribution curve",
+        "x": 0.292,
+        "y": 0.25
+      },
+      {
+        "id": "h2",
+        "label": "Catalysed activation energy",
+        "x": 0.417,
+        "y": 0.628
+      },
+      {
+        "id": "h3",
+        "label": "Uncatalysed activation energy",
+        "x": 0.708,
+        "y": 0.806
+      },
+      {
+        "id": "h4",
+        "label": "Extra molecules able to react",
+        "x": 0.562,
+        "y": 0.844
+      }
+    ]
+  },
+  "1059": {
+    "tool": "labeler",
+    "subject": "chem",
+    "gate_status": "reviewed",
+    "svgKey": "chem_cmp/mb_two_temps",
+    "prompt": "Label the two temperature curves and the activation-energy region",
+    "options": [
+      "Lower temperature (T₁)",
+      "Higher temperature (T₂)",
+      "Activation energy (Ea)",
+      "Molecules with E ≥ Ea",
+      "Average kinetic energy",
+      "Most probable speed",
+      "Catalysed pathway",
+      "Enthalpy change"
+    ],
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Lower temperature (T₁)",
+        "x": 0.25,
+        "y": 0.684
+      },
+      {
+        "id": "h2",
+        "label": "Higher temperature (T₂)",
+        "x": 0.5,
+        "y": 0.77
+      },
+      {
+        "id": "h3",
+        "label": "Activation energy (Ea)",
+        "x": 0.812,
+        "y": 0.375
+      },
+      {
+        "id": "h4",
+        "label": "Molecules with E ≥ Ea",
+        "x": 0.875,
+        "y": 0.781
+      }
+    ]
+  },
+  "704": {
+    "tool": "labeler",
+    "subject": "chem",
+    "gate_status": "reviewed",
+    "svgKey": "chem_cmp/morse_bond_order",
+    "prompt": "Label the potential-energy curves for different bond orders",
+    "options": [
+      "Single bond",
+      "Double bond",
+      "Triple bond",
+      "Shortest bond length",
+      "Deepest well (strongest bond)",
+      "Longest bond length",
+      "Weakest bond",
+      "Activation energy",
+      "Zero point of energy"
+    ],
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Single bond",
+        "x": 0.917,
+        "y": 0.318
+      },
+      {
+        "id": "h2",
+        "label": "Double bond",
+        "x": 0.75,
+        "y": 0.318
+      },
+      {
+        "id": "h3",
+        "label": "Triple bond",
+        "x": 0.583,
+        "y": 0.317
+      },
+      {
+        "id": "h4",
+        "label": "Shortest bond length",
+        "x": 0.292,
+        "y": 0.281
+      },
+      {
+        "id": "h5",
+        "label": "Deepest well (strongest bond)",
+        "x": 0.167,
+        "y": 0.875
+      }
+    ]
+  },
+  "716": {
+    "tool": "labeler",
+    "subject": "chem",
+    "gate_status": "reviewed",
+    "svgKey": "chem_cmp/lewis_structure_resonance_v5",
+    "prompt": "Label the resonance structures and the bond-order feature they show",
+    "options": [
+      "Resonance structure A",
+      "Resonance structure B",
+      "Double bond in this structure",
+      "Single bond in this structure",
+      "The only correct structure",
+      "Tautomer",
+      "Isomer",
+      "Ionic bond"
+    ],
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Resonance structure A",
+        "x": 0.25,
+        "y": 0.734
+      },
+      {
+        "id": "h2",
+        "label": "Resonance structure B",
+        "x": 0.75,
+        "y": 0.734
+      },
+      {
+        "id": "h3",
+        "label": "Double bond in this structure",
+        "x": 0.177,
+        "y": 0.422
+      },
+      {
+        "id": "h4",
+        "label": "Single bond in this structure",
+        "x": 0.677,
+        "y": 0.422
+      }
+    ]
+  },
+  "1133": {
+    "tool": "labeler",
+    "subject": "chem",
+    "gate_status": "reviewed",
+    "svgKey": "tables/lechatelier_temp",
+    "prompt": "Predict the direction of shift for each quantity",
+    "options": [
+      "Increases (↑)",
+      "Decreases (↓)",
+      "No change (↔)",
+      "Shifts toward products",
+      "Shifts toward reactants"
+    ],
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Shifts toward reactants",
+        "x": 0.367,
+        "y": 0.594
+      },
+      {
+        "id": "h2",
+        "label": "Decreases (↓)",
+        "x": 0.538,
+        "y": 0.594
+      },
+      {
+        "id": "h3",
+        "label": "Decreases (↓)",
+        "x": 0.708,
+        "y": 0.594
+      },
+      {
+        "id": "h4",
+        "label": "Increases (↑)",
+        "x": 0.879,
+        "y": 0.594
+      }
+    ]
+  },
   "10": {
     "gate_status": "reviewed",
     "items": [
@@ -7391,29 +7633,6 @@
     "tool": "sorter",
     "subject": "chem"
   },
-  "694": {
-    "gate_status": "reviewed",
-    "items": [
-      {
-        "id": "a",
-        "label": "C≡C (triple bond, BO=3) - shortest",
-        "order": 1
-      },
-      {
-        "id": "b",
-        "label": "C=C (double bond, BO=2)",
-        "order": 2
-      },
-      {
-        "id": "c",
-        "label": "C-C (single bond, BO=1) - longest",
-        "order": 3
-      }
-    ],
-    "prompt": "Order these carbon-carbon bonds from shortest to longest",
-    "tool": "sequencer",
-    "subject": "chem"
-  },
   "708": {
     "gate_status": "reviewed",
     "items": [
@@ -8217,142 +8436,6 @@
     "tool": "sorter",
     "subject": "chem"
   },
-  "900030": {
-    "tool": "labeler",
-    "subject": "chem",
-    "gate_status": "reviewed",
-    "svgKey": "chem_cmp/mb_catalyst",
-    "prompt": "Label the two activation-energy positions on one distribution",
-    "options": [
-      "Energy distribution curve",
-      "Catalysed activation energy",
-      "Uncatalysed activation energy",
-      "Extra molecules able to react",
-      "Average kinetic energy",
-      "Enthalpy change",
-      "Higher temperature",
-      "Bond energy"
-    ],
-    "hotspots": [
-      {
-        "id": "h1",
-        "label": "Energy distribution curve",
-        "x": 0.292,
-        "y": 0.25
-      },
-      {
-        "id": "h2",
-        "label": "Catalysed activation energy",
-        "x": 0.417,
-        "y": 0.628
-      },
-      {
-        "id": "h3",
-        "label": "Uncatalysed activation energy",
-        "x": 0.708,
-        "y": 0.806
-      },
-      {
-        "id": "h4",
-        "label": "Extra molecules able to react",
-        "x": 0.562,
-        "y": 0.844
-      }
-    ]
-  },
-  "900031": {
-    "tool": "labeler",
-    "subject": "chem",
-    "gate_status": "reviewed",
-    "svgKey": "chem_cmp/mb_two_temps",
-    "prompt": "Label the two temperature curves and the activation-energy region",
-    "options": [
-      "Lower temperature (T₁)",
-      "Higher temperature (T₂)",
-      "Activation energy (Ea)",
-      "Molecules with E ≥ Ea",
-      "Average kinetic energy",
-      "Most probable speed",
-      "Catalysed pathway",
-      "Enthalpy change"
-    ],
-    "hotspots": [
-      {
-        "id": "h1",
-        "label": "Lower temperature (T₁)",
-        "x": 0.25,
-        "y": 0.684
-      },
-      {
-        "id": "h2",
-        "label": "Higher temperature (T₂)",
-        "x": 0.5,
-        "y": 0.77
-      },
-      {
-        "id": "h3",
-        "label": "Activation energy (Ea)",
-        "x": 0.812,
-        "y": 0.375
-      },
-      {
-        "id": "h4",
-        "label": "Molecules with E ≥ Ea",
-        "x": 0.875,
-        "y": 0.781
-      }
-    ]
-  },
-  "900032": {
-    "tool": "labeler",
-    "subject": "chem",
-    "gate_status": "reviewed",
-    "svgKey": "chem_cmp/morse_bond_order",
-    "prompt": "Label the potential-energy curves for different bond orders",
-    "options": [
-      "Single bond",
-      "Double bond",
-      "Triple bond",
-      "Shortest bond length",
-      "Deepest well (strongest bond)",
-      "Longest bond length",
-      "Weakest bond",
-      "Activation energy",
-      "Zero point of energy"
-    ],
-    "hotspots": [
-      {
-        "id": "h1",
-        "label": "Single bond",
-        "x": 0.917,
-        "y": 0.318
-      },
-      {
-        "id": "h2",
-        "label": "Double bond",
-        "x": 0.75,
-        "y": 0.318
-      },
-      {
-        "id": "h3",
-        "label": "Triple bond",
-        "x": 0.583,
-        "y": 0.317
-      },
-      {
-        "id": "h4",
-        "label": "Shortest bond length",
-        "x": 0.292,
-        "y": 0.281
-      },
-      {
-        "id": "h5",
-        "label": "Deepest well (strongest bond)",
-        "x": 0.167,
-        "y": 0.875
-      }
-    ]
-  },
   "900033": {
     "tool": "labeler",
     "subject": "chem",
@@ -8396,55 +8479,88 @@
       }
     ]
   },
-  "900034": {
-    "tool": "labeler",
+  "1421b": {
+    "svgKey": "tables/buffer_overdilution",
+    "slug": "buffer_overdilution",
     "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "1421",
     "gate_status": "reviewed",
-    "svgKey": "chem_cmp/lewis_structure_resonance_v5",
-    "prompt": "Label the resonance structures and the bond-order feature they show",
-    "options": [
-      "Resonance structure A",
-      "Resonance structure B",
-      "Double bond in this structure",
-      "Single bond in this structure",
-      "The only correct structure",
-      "Tautomer",
-      "Isomer",
-      "Ionic bond"
-    ],
+    "prompt": "Predict the direction of change for each quantity",
     "hotspots": [
       {
         "id": "h1",
-        "label": "Resonance structure A",
-        "x": 0.25,
-        "y": 0.734
+        "label": "No change (↔)",
+        "x": 0.296,
+        "y": 0.656
       },
       {
         "id": "h2",
-        "label": "Resonance structure B",
-        "x": 0.75,
-        "y": 0.734
+        "label": "No change (↔)",
+        "x": 0.45,
+        "y": 0.656
       },
       {
         "id": "h3",
-        "label": "Double bond in this structure",
-        "x": 0.177,
-        "y": 0.422
+        "label": "No change (↔)",
+        "x": 0.604,
+        "y": 0.656
       },
       {
         "id": "h4",
-        "label": "Single bond in this structure",
-        "x": 0.677,
-        "y": 0.422
+        "label": "No change (↔)",
+        "x": 0.758,
+        "y": 0.656
+      },
+      {
+        "id": "h5",
+        "label": "Decreases (↓)",
+        "x": 0.912,
+        "y": 0.656
       }
-    ]
+    ],
+    "options": [
+      "Increases (↑)",
+      "Decreases (↓)",
+      "No change (↔)"
+    ],
+    "_refresh_of_row": "1421",
+    "_refresh_note": "refresh variant of Ch15 buffer-preparation-errors family (row 1421); sibling to the impure-component variant already on that row"
   },
-  "900035": {
-    "tool": "labeler",
+  "1137b": {
+    "svgKey": "tables/lechatelier_pressure",
+    "slug": "lechatelier_pressure",
     "subject": "chem",
+    "tool": "labeler",
+    "LO_code": "1137",
     "gate_status": "reviewed",
-    "svgKey": "tables/lechatelier_temp",
     "prompt": "Predict the direction of shift for each quantity",
+    "hotspots": [
+      {
+        "id": "h1",
+        "label": "Increases (↑)",
+        "x": 0.359,
+        "y": 0.641
+      },
+      {
+        "id": "h2",
+        "label": "Shifts toward products",
+        "x": 0.536,
+        "y": 0.641
+      },
+      {
+        "id": "h3",
+        "label": "Increases (↑)",
+        "x": 0.714,
+        "y": 0.641
+      },
+      {
+        "id": "h4",
+        "label": "No change (↔)",
+        "x": 0.891,
+        "y": 0.641
+      }
+    ],
     "options": [
       "Increases (↑)",
       "Decreases (↓)",
@@ -8452,31 +8568,7 @@
       "Shifts toward products",
       "Shifts toward reactants"
     ],
-    "hotspots": [
-      {
-        "id": "h1",
-        "label": "Shifts toward reactants",
-        "x": 0.367,
-        "y": 0.594
-      },
-      {
-        "id": "h2",
-        "label": "Decreases (↓)",
-        "x": 0.538,
-        "y": 0.594
-      },
-      {
-        "id": "h3",
-        "label": "Decreases (↓)",
-        "x": 0.708,
-        "y": 0.594
-      },
-      {
-        "id": "h4",
-        "label": "Increases (↑)",
-        "x": 0.879,
-        "y": 0.594
-      }
-    ]
+    "_refresh_of_row": "1137",
+    "_refresh_note": "refresh variant of Ch13 Le Chatelier justify-shift family (row 1137, pressure/volume stressor)"
   }
 }
