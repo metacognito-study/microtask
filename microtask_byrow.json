@@ -14,22 +14,24 @@
    },
    {
     "id": "c",
-    "label": "Design and conduct a controlled experiment and collect data",
+    "label": "Design and conduct experiment",
     "order": 3
    },
    {
     "id": "d",
-    "label": "Analyze the data",
-    "order": 4
+    "label": "Collect and analyze data",
+    "note": "Students sometimes place data collection right after forming the hypothesis, skipping over designing and conducting the actual experiment first. A planned procedure and apparatus must be in place before any data can be collected during it.",
+    "order": 4,
+    "trap": true
    },
    {
     "id": "e",
-    "label": "Draw a conclusion from the evidence",
+    "label": "Draw a conclusion",
     "order": 5
    },
    {
     "id": "f",
-    "label": "Repeat / replicate to check the result",
+    "label": "Communicate / publish results",
     "order": 6
    }
   ],
@@ -80,6 +82,37 @@
   "subject": "chem",
   "svgKey": "ch13/row_1012",
   "tool": "labeler"
+ },
+ "1013": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Start: ln[A]t = ln[A]₀ − kt",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "At t₁/₂: sub [A]t = [A]₀/2",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Simplify to: ln(1/2) = −kt₁/₂",
+    "note": "ln(1/2) is a negative number, since 1/2 is less than 1, and it equals negative ln(2), which is where the 0.693 in the final half-life formula comes from. It is easy to treat ln(1/2) as positive or lose track of its sign through the rearrangement.",
+    "order": 3,
+    "trap": true
+   },
+   {
+    "id": "d",
+    "label": "Solve: t₁/₂ = 0.693/k",
+    "order": 4
+   }
+  ],
+  "prompt": "Order the steps that derive the half-life of a first-order reaction from the integrated rate law.",
+  "remapped_from_key": "1578",
+  "remapped_on": "2026-09-05",
+  "tool": "sequencer"
  },
  "1025": {
   "gate_status": "reviewed",
@@ -226,10 +259,30 @@
    },
    {
     "bin": "Nonmetal",
+    "id": "n15",
+    "label": "Sulfur (S)"
+   },
+   {
+    "bin": "Nonmetal",
     "id": "n16",
     "label": "Carbon (C)",
     "note": "Misconception: sits in the 'staircase' column but period-2 C is a nonmetal, not a metalloid.",
     "trap": true
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n17",
+    "label": "Silicon (Si)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n18",
+    "label": "Germanium (Ge)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n19",
+    "label": "Arsenic (As)"
    },
    {
     "bin": "Metalloid",
@@ -809,6 +862,132 @@
     "bin": "Gas",
     "id": "f",
     "label": "Particles fill the container"
+   },
+   {
+    "bin": "Solid",
+    "id": "n1",
+    "label": "NaCl table salt crystals"
+   },
+   {
+    "bin": "Solid",
+    "id": "n2",
+    "label": "Sucrose, C₁₂H₂₂O₁₁"
+   },
+   {
+    "bin": "Solid",
+    "id": "n3",
+    "label": "Copper wire, Cu metal"
+   },
+   {
+    "bin": "Solid",
+    "id": "n4",
+    "label": "Iodine, I₂, dark purple crystals"
+   },
+   {
+    "bin": "Solid",
+    "id": "n5",
+    "label": "Calcium carbonate, CaCO₃ (limestone)"
+   },
+   {
+    "bin": "Solid",
+    "id": "n6",
+    "label": "Sulfur, S₈, yellow chunks"
+   },
+   {
+    "bin": "Solid",
+    "id": "n7",
+    "label": "Naphthalene mothballs, C₁₀H₈",
+    "note": "Sublimes but mp 80C, solid at 25C; correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Solid",
+    "id": "n8",
+    "label": "Aluminum foil, Al metal"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n9",
+    "label": "Water, H₂O"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n10",
+    "label": "Ethanol, C₂H₅OH, in a beaker"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n11",
+    "label": "Elemental mercury, Hg",
+    "note": "Only metal liquid at 25C (mp -39C); correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Liquid",
+    "id": "n12",
+    "label": "Acetone, C₃H₆O, nail polish remover"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n13",
+    "label": "Bromine, Br₂, red-brown",
+    "note": "One of two liquid elements (mp -7C, bp 59C); correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Liquid",
+    "id": "n14",
+    "label": "Benzene, C₆H₆"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n15",
+    "label": "Glycerol, C₃H₈O₃"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n16",
+    "label": "Concentrated sulfuric acid, H₂SO₄"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n17",
+    "label": "Olive oil poured from a bottle"
+   },
+   {
+    "bin": "Gas",
+    "id": "n18",
+    "label": "Oxygen we breathe, O₂"
+   },
+   {
+    "bin": "Gas",
+    "id": "n19",
+    "label": "Carbon dioxide, CO₂"
+   },
+   {
+    "bin": "Gas",
+    "id": "n20",
+    "label": "Nitrogen, N₂, most of the air"
+   },
+   {
+    "bin": "Gas",
+    "id": "n21",
+    "label": "Helium, He, filling a balloon"
+   },
+   {
+    "bin": "Gas",
+    "id": "n22",
+    "label": "Ammonia, NH₃, sharp-smelling"
+   },
+   {
+    "bin": "Gas",
+    "id": "n23",
+    "label": "Chlorine, Cl₂, pale green"
+   },
+   {
+    "bin": "Gas",
+    "id": "n24",
+    "label": "Neon, Ne, in a glowing sign"
    }
   ],
   "prompt": "Sort each description or substance by its state of matter at room temperature.",
@@ -2134,35 +2313,161 @@
    {
     "bin": "Chemical change",
     "id": "a",
-    "label": "Before: 2 A₂ + 2 B₂. After: 4 AB"
+    "label": "New particle combinations form"
    },
    {
     "bin": "Physical change",
     "id": "b",
-    "label": "The same AB particles end up farther apart"
+    "label": "Same particles rearranged"
    },
    {
     "bin": "Chemical change",
     "id": "c",
-    "label": "Before: 4 AB. After: 2 A₂ + 2 B₂"
+    "label": "Iron rusting"
    },
    {
     "bin": "Physical change",
     "id": "d",
-    "label": "The same A particles, only the spacing changes"
+    "label": "Ice melting"
    },
    {
     "bin": "Chemical change",
     "id": "e",
-    "label": "Before: 2 A₂. After: 4 separate A atoms"
+    "label": "Wood burning"
    },
    {
     "bin": "Physical change",
     "id": "f",
-    "label": "The same AB particles go from an ordered to a disordered arrangement"
+    "label": "Glass breaking"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n1",
+    "label": "Rusting of an iron nail left outdoors"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n2",
+    "label": "Burning propane, C₃H₈, in a gas grill"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n3",
+    "label": "Baking soda reacting with vinegar to release CO₂"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n4",
+    "label": "Magnesium ribbon burning with a bright white flame"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n5",
+    "label": "Souring of milk into curds over several days"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n6",
+    "label": "Electrolysis of water into H₂ and O₂ gases"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n7",
+    "label": "Zinc metal dissolving in hydrochloric acid, bubbling"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n8",
+    "label": "A sliced apple turning brown in air"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n9",
+    "label": "Photosynthesis producing glucose from CO₂ and H₂O"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n10",
+    "label": "Silver spoon tarnishing to a dark Ag₂S coating"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n11",
+    "label": "Dissolving table salt, NaCl, in a glass of water",
+    "note": "Dissociation into hydrated ions; recoverable by evaporation, no new substance. Physical. Correct.",
+    "trap": true
+   },
+   {
+    "bin": "Physical change",
+    "id": "n12",
+    "label": "Fizzing bubbles when a carbonated soda is opened",
+    "note": "Dissolved CO₂ escaping solution (pressure release); existing substance, no bonds broken/formed. Physical. Correct.",
+    "trap": true
+   },
+   {
+    "bin": "Physical change",
+    "id": "n13",
+    "label": "Ice cubes melting into liquid water on a counter"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n14",
+    "label": "Crushing an aluminum can flat with your foot"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n15",
+    "label": "Boiling water evaporating into steam on a stove"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n16",
+    "label": "Grinding a lump of chalk into fine powder"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n17",
+    "label": "Copper wire drawn out into a thinner strand"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n18",
+    "label": "Dry ice, solid CO₂, subliming into gas",
+    "note": "Solid to gas CO₂; state change only, molecule unchanged. Correct.",
+    "trap": true
+   },
+   {
+    "bin": "Physical change",
+    "id": "n19",
+    "label": "Mixing sand and iron filings together in a dish"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n20",
+    "label": "Water freezing into ice inside a freezer tray"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n21",
+    "label": "Cooking an egg until the clear part turns white"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n22",
+    "label": "Hydrogen peroxide decomposing into water and O₂"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n23",
+    "label": "Wax melting in a warm candle dish"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n24",
+    "label": "Stretching a rubber band between your fingers"
    }
   ],
-  "prompt": "Compare each before-and-after particle description. Sort by whether particle identity changes.",
+  "prompt": "Sort each process by whether a new substance forms.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -2296,6 +2601,91 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1461": {
+  "bins": [
+   "Qsp > Ksp",
+   "Qsp = Ksp",
+   "Qsp < Ksp"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Qsp > Ksp",
+    "id": "r1",
+    "label": "CaSO₄ (Ksp = 4.9e-5): a beaker holds [Ca2+] = 1.0e-2 and [SO₄ 2-] = 1.0e-2"
+   },
+   {
+    "bin": "Qsp > Ksp",
+    "id": "r2",
+    "label": "AgCl (Ksp = 1.8e-10): a mixture is measured at [Ag+] = 1.0e-4 and [Cl-] = 1.0e-4"
+   },
+   {
+    "bin": "Qsp > Ksp",
+    "id": "r3",
+    "label": "BaSO₄ (Ksp = 1.1e-10): a solution shows [Ba2+] = 3.0e-5 and [SO₄ 2-] = 2.0e-5"
+   },
+   {
+    "bin": "Qsp > Ksp",
+    "id": "r4",
+    "label": "PbI₂ (Ksp = 7.1e-9): a flask contains [Pb2+] = 1.0e-3 and [I-] = 1.0e-2",
+    "note": "Q = (1e-3)(1e-2)^2 = 1e-7 > 7.1e-9; requires squaring [I-]",
+    "trap": true
+   },
+   {
+    "bin": "Qsp > Ksp",
+    "id": "r5",
+    "label": "CaCO₃ (Ksp = 3.4e-9): a hard-water sample reads [Ca2+] = 1.0e-4 and [CO₃ 2-] = 1.0e-4"
+   },
+   {
+    "bin": "Qsp = Ksp",
+    "id": "r6",
+    "label": "CaF₂ (Ksp = 3.9e-11): sample reads [Ca2+] = 2.15e-4 and [F-] = 4.3e-4",
+    "note": "Q = (2.15e-4)(4.3e-4)^2 = 3.97e-11 ~ Ksp; requires squaring [F-]",
+    "trap": true
+   },
+   {
+    "bin": "Qsp = Ksp",
+    "id": "r7",
+    "label": "BaSO₄ (Ksp = 1.1e-10): a solution shows [Ba2+] = 1.05e-5 and [SO₄ 2-] = 1.05e-5"
+   },
+   {
+    "bin": "Qsp = Ksp",
+    "id": "r8",
+    "label": "Mg(OH)₂ (Ksp = 5.6e-12): sample reads [Mg2+] = 1.12e-4 and [OH-] = 2.24e-4"
+   },
+   {
+    "bin": "Qsp < Ksp",
+    "id": "r9",
+    "label": "AgCl (Ksp = 1.8e-10): a dilute mixture reads [Ag+] = 1.0e-6 and [Cl-] = 1.0e-6"
+   },
+   {
+    "bin": "Qsp < Ksp",
+    "id": "r10",
+    "label": "CaSO₄ (Ksp = 4.9e-5): a beaker holds [Ca2+] = 1.0e-3 and [SO₄ 2-] = 1.0e-3"
+   },
+   {
+    "bin": "Qsp < Ksp",
+    "id": "r11",
+    "label": "BaSO₄ (Ksp = 1.1e-10): a solution shows [Ba2+] = 2.0e-6 and [SO₄ 2-] = 3.0e-6"
+   },
+   {
+    "bin": "Qsp < Ksp",
+    "id": "r12",
+    "label": "PbI₂ (Ksp = 7.1e-9): a flask contains [Pb2+] = 1.0e-4 and [I-] = 1.0e-4",
+    "note": "Q = (1e-4)(1e-4)^2 = 1e-12 < 7.1e-9; requires squaring [I-]",
+    "trap": true
+   },
+   {
+    "bin": "Qsp < Ksp",
+    "id": "r13",
+    "label": "CaF₂ (Ksp = 3.9e-11): a very dilute sample reads [Ca2+] = 1.0e-5 and [F-] = 1.0e-5"
+   }
+  ],
+  "prompt": "Compute the ion product Qsp for each sample and compare it with the given Ksp. Sort each one by the result.",
+  "remapped_from_key": "1315",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
  "147": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -2339,6 +2729,56 @@
   "subject": "chem",
   "svgKey": "ch01/row_147",
   "tool": "labeler"
+ },
+ "1474": {
+  "bins": [
+   "Equilibrium reached",
+   "Not at equilibrium"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Equilibrium reached",
+    "id": "a",
+    "label": "Undissolved solid present"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "b",
+    "label": "All solid dissolved; no excess"
+   },
+   {
+    "bin": "Equilibrium reached",
+    "id": "c",
+    "label": "Dissolution = re-precipitation"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "d",
+    "label": "Qsp still less than Ksp"
+   },
+   {
+    "bin": "Equilibrium reached",
+    "id": "e",
+    "label": "Saturated solution + solid"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "f",
+    "label": "All added salt fully dissolved"
+   },
+   {
+    "bin": "Equilibrium reached",
+    "id": "n1",
+    "label": "More solid is added to an already-saturated solution; the amount dissolved does not increase",
+    "note": "Once Qsp equals Ksp, the solution is saturated and adding more solid does not dissolve further, since dissolution and precipitation are already balanced. Seeing 'more solid added' tempts a guess that the system must be reacting and moving away from equilibrium.",
+    "trap": true
+   }
+  ],
+  "prompt": "A solubility equilibrium needs dissolution and re-precipitation happening at equal rates. Sort each situation by whether that equilibrium has actually been reached.",
+  "remapped_from_key": "1319",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
  },
  "15": {
   "bins": [
@@ -2464,35 +2904,42 @@
    {
     "bin": "Boils off",
     "id": "a",
-    "label": "The water in salt water"
+    "label": "The liquid with the lower boiling point in the mix"
    },
    {
     "bin": "Stays as residue",
     "id": "b",
-    "label": "The NaCl in salt water"
+    "label": "The dissolved solute with a very high boiling point"
    },
    {
     "bin": "Boils off",
     "id": "c",
-    "label": "The water in CuSO₄(aq)"
+    "label": "Ethanol from ethanol-water"
    },
    {
     "bin": "Stays as residue",
     "id": "d",
-    "label": "The CuSO₄ dissolved in that solution"
+    "label": "Salt from salt water"
    },
    {
     "bin": "Boils off",
     "id": "e",
-    "label": "A volatile solvent"
+    "label": "Lower-boiling-point component"
    },
    {
     "bin": "Stays as residue",
     "id": "f",
-    "label": "A nonvolatile dissolved solid"
+    "label": "A solid dissolved in liquid"
+   },
+   {
+    "bin": "Stays as residue",
+    "id": "n1",
+    "label": "Glycerin from glycerin-water",
+    "note": "Glycerin boils near 290 degrees C, far above water's 100 degrees C, so during simple distillation the water vapor leaves first and glycerin stays behind in the flask. Being a liquid does not guarantee a substance boils off; only having the lower boiling point does.",
+    "trap": true
    }
   ],
-  "prompt": "During evaporation, sort each component by whether it boils off or stays as residue.",
+  "prompt": "Sort each component of a mixture by what happens to it during simple distillation.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -2945,25 +3392,25 @@
     "label": "1/[A] vs t is linear (pos.)"
    },
    {
-    "bin": "Zero order",
-    "id": "h1",
-    "label": "Successive half-lives get shorter as [A] falls"
+    "bin": "First order",
+    "id": "d",
+    "label": "Half-life is constant"
    },
    {
-    "bin": "First order",
-    "id": "h2",
-    "label": "Successive half-lives are constant"
+    "bin": "Zero order",
+    "id": "e",
+    "label": "Rate = k (no [A] term)"
    },
    {
     "bin": "Second order",
-    "id": "h3",
-    "label": "Successive half-lives get longer as [A] falls"
+    "id": "f",
+    "label": "Rate = k[A]²"
    },
    {
     "bin": "Second order",
     "id": "n1",
-    "label": "1/[A] vs t is linear AND successive half-lives lengthen",
-    "note": "Not a contradiction: for second order both are true at once, the linear 1/[A] plot and lengthening half-lives are the same fact seen two ways.",
+    "label": "Doubling [A] quadruples the rate",
+    "note": "Rate proportional to [A] squared means doubling the concentration multiplies the rate by 2 squared, which is 4. This states the order through a rate-doubling relationship in words instead of a graph shape, so the row's usual graph-reading shortcut does not apply.",
     "trap": true
    }
   ],
@@ -3514,6 +3961,21 @@
     "right": "A factor kept the same in every trial so it cannot affect the result"
    },
    {
+    "id": "d",
+    "left": "Hypothesis",
+    "right": "A testable statement of what you expect the independent variable to do"
+   },
+   {
+    "id": "e",
+    "left": "Control group / trial",
+    "right": "A baseline trial run with no change to the independent variable, for comparison"
+   },
+   {
+    "id": "f",
+    "left": "Confounding variable",
+    "right": "An unnoticed factor that changed along with the independent variable, so it clouds the result"
+   },
+   {
     "id": "n1",
     "label": "COMMON MISTAKE: calling the controlled variable the one that stays the same because it is being measured",
     "note": "The word 'controlled' gets students thinking about what stays fixed, but they then default to calling it the measured quantity, mixing up controlled variable with dependent variable.",
@@ -3771,6 +4233,13 @@
       "bin": "Controlled variable",
       "id": "sc1g",
       "label": "The temperature at which the trial is run"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc1h",
+      "label": "The identity of the precipitate (silver chloride, silver bromide or silver iodide)",
+      "note": "Which precipitate forms follows from the halide chosen, so it is the observed outcome (dependent), not the variable the student set.",
+      "trap": true
      }
     ],
     "scene": "A student is investigating how the identity of the halide salt affects the mass of precipitate formed. They repeat the reaction with NaCl, NaBr and NaI, keeping the volume and concentration of silver nitrate the same each time."
@@ -4915,23 +5384,30 @@
   "items": [
    {
     "id": "a",
-    "label": "10.00 mL volumetric pipette, ±0.02 mL",
+    "label": "Analytical balance ±0.0001 g",
     "order": 1
    },
    {
     "id": "b",
-    "label": "50.00 mL burette, ±0.05 mL",
+    "label": "Burette ±0.01 mL",
     "order": 2
    },
    {
     "id": "c",
-    "label": "50 mL graduated cylinder, ±0.5 mL",
-    "order": 3
+    "label": "Pipette ±0.02 mL",
+    "note": "A pipette is often introduced as 'the precise volume-delivery tool', which tempts ranking it above a burette by reputation. But precision here is set by the actual uncertainty value given, and the burette's plus-or-minus 0.01 mL beats the pipette's plus-or-minus 0.02 mL despite pipettes being associated with careful single-volume delivery.",
+    "order": 3,
+    "trap": true
    },
    {
     "id": "d",
-    "label": "100 mL beaker, ±5 mL",
+    "label": "Graduated cylinder ±0.1 mL",
     "order": 4
+   },
+   {
+    "id": "e",
+    "label": "Beaker ±5 mL",
+    "order": 5
    }
   ],
   "prompt": "Order these instruments from most precise to least precise.",
@@ -5145,6 +5621,305 @@
   ],
   "prompt": "Sort each species by whether it is oxidized or reduced.",
   "subject": "chem",
+  "tool": "sorter"
+ },
+ "394": {
+  "bins": [
+   "Monoprotic",
+   "Diprotic",
+   "Triprotic"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Monoprotic",
+    "id": "a",
+    "label": "HCl"
+   },
+   {
+    "bin": "Diprotic",
+    "id": "b",
+    "label": "H₂SO₄"
+   },
+   {
+    "bin": "Triprotic",
+    "id": "c",
+    "label": "H₃PO₄"
+   },
+   {
+    "bin": "Monoprotic",
+    "id": "d",
+    "label": "HNO₃"
+   },
+   {
+    "bin": "Diprotic",
+    "id": "e",
+    "label": "H₂CO₃"
+   },
+   {
+    "bin": "Monoprotic",
+    "id": "f",
+    "label": "HC₂H₃O₂ (acetic acid)"
+   },
+   {
+    "bin": "Triprotic",
+    "id": "n1",
+    "label": "H₃AsO₄"
+   },
+   {
+    "bin": "Monoprotic",
+    "id": "n2",
+    "label": "HBr"
+   },
+   {
+    "bin": "Diprotic",
+    "id": "n3",
+    "label": "H₂S"
+   },
+   {
+    "bin": "Diprotic",
+    "id": "n4",
+    "label": "H₂C₂O₄ (oxalic acid)"
+   },
+   {
+    "bin": "Triprotic",
+    "id": "n5",
+    "label": "citric acid, C₆H₈O₇"
+   },
+   {
+    "bin": "Monoprotic",
+    "id": "n6",
+    "label": "HClO₄"
+   },
+   {
+    "bin": "Diprotic",
+    "id": "n7",
+    "label": "H₂SO₃"
+   },
+   {
+    "bin": "Diprotic",
+    "id": "n8",
+    "label": "H₃PO₃ (phosphorous acid)",
+    "note": "One H is P-H (non-ionizable), leaving 2 acidic OH protons. Correctly diprotic.",
+    "trap": true
+   },
+   {
+    "bin": "Monoprotic",
+    "id": "n9",
+    "label": "CH₃COOH (acetic acid)",
+    "note": "Only the carboxyl H ionizes; CH₃ hydrogens do not. Correctly monoprotic.",
+    "trap": true
+   },
+   {
+    "bin": "Diprotic",
+    "id": "n10",
+    "label": "H₂Se"
+   },
+   {
+    "bin": "Monoprotic",
+    "id": "n11",
+    "label": "HCN"
+   },
+   {
+    "bin": "Diprotic",
+    "id": "n12",
+    "label": "H₂CrO₄ (chromic acid)"
+   },
+   {
+    "bin": "Monoprotic",
+    "id": "n13",
+    "label": "HClO"
+   },
+   {
+    "bin": "Diprotic",
+    "id": "n14",
+    "label": "H₂SiO₃"
+   },
+   {
+    "bin": "Monoprotic",
+    "id": "n15",
+    "label": "HIO₃",
+    "note": "Iodic acid, one ionizable OH proton despite crowded formula. Correctly monoprotic.",
+    "trap": true
+   },
+   {
+    "bin": "Diprotic",
+    "id": "n16",
+    "label": "malonic acid, CH₂(COOH)₂"
+   }
+  ],
+  "prompt": "Sort each acid by how many acidic (ionizable) protons it has.",
+  "remapped_from_key": "365",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
+ "407": {
+  "bins": [
+   "Redox reaction",
+   "Not a redox reaction"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Redox reaction",
+    "id": "a",
+    "label": "2Na + Cl₂ → 2NaCl (0→±)"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "b",
+    "label": "HCl + NaOH → NaCl + H₂O"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "c",
+    "label": "Fe + CuSO₄ → FeSO₄ + Cu"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "d",
+    "label": "Na₂CO₃ + CaCl₂ → CaCO₃↓"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "e",
+    "label": "Zn + H₂SO₄ → ZnSO₄ + H₂"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "f",
+    "label": "AgNO₃ + NaCl → AgCl↓"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n1",
+    "label": "Zn(s) + Cu2+ goes to Zn2+ + Cu(s)"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n2",
+    "label": "2Na(s) + Cl₂(g) goes to 2NaCl(s)"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n3",
+    "label": "CH₄ + 2O₂ goes to CO₂ + 2H₂O"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n4",
+    "label": "Fe2+ goes to Fe3+ + e-"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n5",
+    "label": "2H₂ + O₂ goes to 2H₂O"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n6",
+    "label": "Cl₂ + 2KBr goes to 2KCl + Br₂"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n7",
+    "label": "Mg(s) + 2HCl goes to MgCl₂ + H₂(g)"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n8",
+    "label": "2KClO₃ goes to 2KCl + 3O₂"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n9",
+    "label": "Cu(s) + 2AgNO₃ goes to Cu(NO₃)₂ + 2Ag(s)"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n10",
+    "label": "N₂ + 3H₂ goes to 2NH₃"
+   },
+   {
+    "bin": "Redox reaction",
+    "id": "n11",
+    "label": "SO₂ + H₂O₂ goes to H₂SO₄"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n12",
+    "label": "AgNO₃(aq) + NaCl(aq) goes to AgCl(s) + NaNO₃(aq)"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n13",
+    "label": "HCl(aq) + NaOH(aq) goes to NaCl(aq) + H₂O"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n14",
+    "label": "CaCO₃(s) goes to CaO(s) + CO₂(g)",
+    "note": "Ca +2, C +4, O -2 all unchanged. Trap decomposition, not redox.",
+    "trap": true
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n15",
+    "label": "NaCl(s) dissolving to Na+(aq) + Cl-(aq)"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n16",
+    "label": "CO₂(g) + H₂O goes to H₂CO₃(aq)"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n17",
+    "label": "H₂SO₄ + 2KOH goes to K₂SO₄ + 2H₂O"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n18",
+    "label": "NH₃(g) + HCl(g) goes to NH₄Cl(s)"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n19",
+    "label": "Pb2+(aq) + 2I-(aq) goes to PbI₂(s)"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n20",
+    "label": "2NaHCO₃(s) goes to Na₂CO₃ + H₂O + CO₂",
+    "note": "Na +1, H +1, C +4, O -2 unchanged. Trap decomposition, not redox.",
+    "trap": true
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n21",
+    "label": "CH₃COOH + H₂O goes to CH₃COO- + H₃O+"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n22",
+    "label": "BaCl₂(aq) + Na₂SO₄(aq) goes to BaSO₄(s) + 2NaCl(aq)"
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n23",
+    "label": "Cu2+(aq) + 4NH₃ goes to Cu(NH₃)₄ 2+",
+    "note": "Cu +2, N -3, H +1 unchanged. Complex formation, not redox.",
+    "trap": true
+   },
+   {
+    "bin": "Not a redox reaction",
+    "id": "n24",
+    "label": "Mg(OH)₂(s) + 2HNO₃ goes to Mg(NO₃)₂ + 2H₂O"
+   }
+  ],
+  "prompt": "Sort each reaction by whether oxidation numbers change.",
+  "remapped_from_key": "378",
+  "remapped_on": "2026-09-05",
   "tool": "sorter"
  },
  "416": {
@@ -5592,6 +6367,90 @@
   ],
   "tool": "sorter"
  },
+ "551": {
+  "bins": [
+   "Exothermic",
+   "Endothermic"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Exothermic",
+    "id": "r1",
+    "label": "Methane gas burns completely in a Bunsen burner"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "r2",
+    "label": "Solid ammonium nitrate is stirred into water in a cold pack",
+    "note": "NH₄NO₃ dissolution absorbs heat; the beaker gets colder.",
+    "trap": true
+   },
+   {
+    "bin": "Exothermic",
+    "id": "r3",
+    "label": "Hydrochloric acid is neutralized by sodium hydroxide solution"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "r4",
+    "label": "A strip of magnesium ribbon reacts vigorously with dilute acid, bubbling and giving off gas"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "r5",
+    "label": "Ice cubes absorb heat from a drink and melt"
+   }
+  ],
+  "prompt": "Sort each process by whether it releases heat to the surroundings or absorbs heat from them.",
+  "remapped_from_key": "529",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
+ "555": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "endo",
+    "label": "Endothermic (ΔH > 0)",
+    "x": 0.25,
+    "y": 0.35
+   },
+   {
+    "id": "exo",
+    "label": "Exothermic (ΔH < 0)",
+    "x": 0.75,
+    "y": 0.35
+   },
+   {
+    "id": "plus",
+    "label": "Positive ΔH (absorbs)",
+    "note": "A positive delta-H means the products end up with more enthalpy than the reactants, so energy had to be absorbed to get there, making it endothermic. The sign convention runs opposite to the intuition that 'positive' should mean more energy released.",
+    "trap": true,
+    "x": 0.25,
+    "y": 0.65
+   },
+   {
+    "id": "neg",
+    "label": "Negative ΔH (releases)",
+    "x": 0.75,
+    "y": 0.65
+   }
+  ],
+  "options": [
+   "Endothermic (ΔH > 0)",
+   "Exothermic (ΔH < 0)",
+   "Positive ΔH (absorbs)",
+   "Negative ΔH (releases)",
+   "Enthalpy of formation",
+   "Activation energy"
+  ],
+  "prompt": "Label each ΔH sign as endothermic or exothermic",
+  "remapped_from_key": "494",
+  "remapped_on": "2026-09-05",
+  "svgKey": "ch06/row_494",
+  "tool": "labeler"
+ },
  "590": {
   "bins": [
    "Longer bond / lower energy",
@@ -5642,38 +6501,49 @@
  },
  "606": {
   "bins": [
-   "Stronger electron-nucleus attraction",
-   "Weaker electron-nucleus attraction"
+   "Radius increases",
+   "Radius decreases"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "Stronger electron-nucleus attraction",
+    "bin": "Radius increases",
     "id": "a",
-    "label": "Same distance, higher Z_eff"
+    "label": "Moving down Group 1: Li to Cs"
    },
    {
-    "bin": "Weaker electron-nucleus attraction",
+    "bin": "Radius decreases",
     "id": "b",
-    "label": "Same Z_eff, greater electron-nucleus distance"
+    "label": "Across Period 3: Na to Cl"
    },
    {
-    "bin": "Stronger electron-nucleus attraction",
+    "bin": "Radius increases",
     "id": "c",
-    "label": "Higher Z_eff at the same distance"
+    "label": "Adding a new electron shell"
    },
    {
-    "bin": "Stronger electron-nucleus attraction",
+    "bin": "Radius decreases",
     "id": "d",
-    "label": "Smaller electron-nucleus distance at the same Z_eff"
+    "label": "Increasing Z_eff (same period)"
    },
    {
-    "bin": "Weaker electron-nucleus attraction",
+    "bin": "Radius increases",
     "id": "e",
-    "label": "Adding a shell, so the outer-electron distance grows"
+    "label": "Same group: Period 2 to 3"
+   },
+   {
+    "bin": "Radius decreases",
+    "id": "f",
+    "label": "More protons, same shell n"
+   },
+   {
+    "bin": "Radius decreases",
+    "id": "n1",
+    "label": "A neutral sodium atom loses its one valence electron, forming Na⁺",
+    "note": "Removing the outer electron leaves only inner, more tightly held electrons around the same nuclear charge, shrinking the radius. This is not a period/group position shift, so scanning for 'which direction on the table' does not apply here.",
+    "trap": true
    }
   ],
-  "prompt": "Coulomb attraction scales with effective nuclear charge and with electron-nucleus distance. Sort each change by its effect on that attraction.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -5681,27 +6551,29 @@
   "gate_status": "reviewed",
   "items": [
    {
-    "id": "b",
-    "label": "Line B, slope 3.0 g/mL",
+    "id": "a",
+    "label": "Sample B: 15.0 g in 5.0 mL",
     "order": 1
    },
    {
-    "id": "a",
-    "label": "Line A, slope 2.0 g/mL",
+    "id": "b",
+    "label": "Sample A: 20.0 g in 10.0 mL",
     "order": 2
    },
    {
     "id": "c",
-    "label": "Line C, slope 1.0 g/mL",
-    "order": 3
+    "label": "Sample C: 8.0 g in 8.0 mL",
+    "note": "Sample C's mass (8.0 g) and volume (8.0 mL) happen to be the same number, giving a density of exactly 1.0 g/mL, close to water's. This is just how these particular numbers work out, not a signal about density rank, so each sample's ratio still has to be calculated rather than pattern-matched.",
+    "order": 3,
+    "trap": true
    },
    {
     "id": "d",
-    "label": "Line D, slope 0.60 g/mL",
+    "label": "Sample D: 12.0 g in 20.0 mL",
     "order": 4
    }
   ],
-  "prompt": "A mass-versus-volume graph has mass on the y-axis and volume on the x-axis. All four lines are straight and pass through the origin. Order lines B, A, C and D from highest to lowest density.",
+  "prompt": "Order these samples by density. (density = mass divided by volume)",
   "subject": "chem",
   "tool": "sequencer"
  },
@@ -6277,86 +7149,87 @@
  },
  "842": {
   "bins": [
-   "Supports graphite conductivity",
-   "Does not explain graphite conductivity"
+   "Covalent-network",
+   "Not covalent-network"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "Supports graphite conductivity",
+    "bin": "Covalent-network",
     "id": "a",
-    "label": "Each carbon forms three C-C bonds, leaving one delocalized electron"
+    "label": "Diamond"
    },
    {
-    "bin": "Supports graphite conductivity",
+    "bin": "Covalent-network",
     "id": "b",
-    "label": "Delocalized electrons move freely through the sheets"
+    "label": "SiO₂ (quartz)"
    },
    {
-    "bin": "Supports graphite conductivity",
+    "bin": "Not covalent-network",
     "id": "c",
-    "label": "Those mobile electrons carry the current"
+    "label": "NaCl"
    },
    {
-    "bin": "Does not explain graphite conductivity",
+    "bin": "Covalent-network",
     "id": "d",
-    "label": "All four outer electrons are localized in bonds",
-    "note": "That is diamond. If all four were localized there would be no mobile carrier and graphite would not conduct.",
-    "trap": true
+    "label": "SiC"
    },
    {
-    "bin": "Does not explain graphite conductivity",
+    "bin": "Not covalent-network",
     "id": "e",
-    "label": "The conductivity comes from ions moving",
-    "note": "Graphite has no ions. Ionic conduction needs mobile ions, as in a molten salt or solution.",
-    "trap": true
+    "label": "Ice"
    },
    {
-    "bin": "Does not explain graphite conductivity",
+    "bin": "Covalent-network",
     "id": "f",
-    "label": "Weak forces between layers alone cause the conductivity",
-    "note": "Weak interlayer forces explain why graphite is slippery and flakes, not why it conducts.",
+    "label": "BN (boron nitride)"
+   },
+   {
+    "bin": "Not covalent-network",
+    "id": "g",
+    "label": "Copper"
+   },
+   {
+    "bin": "Covalent-network",
+    "id": "n1",
+    "label": "Silicon (Si), the base material in computer chips",
+    "note": "Silicon has the same diamond-cubic covalent network structure as carbon in diamond: hard, brittle, and high-melting. Its association with electronics tempts students to lump it in with metallic conductors like copper (already in this row) rather than recognizing it as a covalent network solid.",
     "trap": true
    }
   ],
-  "prompt": "Graphite has layered covalent bonding. Sort each statement by whether it correctly explains graphite's electrical conductivity.",
   "subject": "chem",
   "tool": "sorter"
  },
  "877": {
   "bins": [
-   "Temperature change",
-   "Phase change"
+   "KE changes",
+   "PE changes"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "Temperature change",
-    "id": "a",
-    "label": "Solid ice warmed from -20°C to -5°C"
+    "bin": "KE changes",
+    "id": "r1",
+    "label": "Solid ice is warmed from -20C to -5C, still fully solid"
    },
    {
-    "bin": "Temperature change",
-    "id": "b",
-    "label": "Liquid water heated from 30°C toward boiling"
+    "bin": "KE changes",
+    "id": "r2",
+    "label": "Liquid water is heated from 30C toward its boiling point"
    },
    {
-    "bin": "Phase change",
-    "id": "c",
-    "label": "Water boiling steadily at its boiling point"
+    "bin": "PE changes",
+    "id": "r3",
+    "label": "Water is boiling steadily in an open pot on constant heat",
+    "note": "Misconception: a boiling pot keeps getting hotter. Once boiling, energy overcomes IPFs at constant T, so it is potential energy.",
+    "trap": true
    },
    {
-    "bin": "Temperature change",
-    "id": "d",
-    "label": "Steam warmed from 110°C to 130°C"
-   },
-   {
-    "bin": "Phase change",
-    "id": "e",
-    "label": "Ice melting at 0°C"
+    "bin": "KE changes",
+    "id": "r4",
+    "label": "Steam in a sealed flask goes from 110C to 130C"
    }
   ],
-  "prompt": "Sort each heating-curve stage by what is changing.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -12472,6 +13345,51 @@
   "slug": "buffer_strong_acid",
   "subject": "chem",
   "svgKey": "tables/buffer_strong_acid",
+  "tool": "labeler"
+ },
+ "910": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "idip",
+    "label": "Ion-dipole interaction",
+    "x": 0.2,
+    "y": 0.45
+   },
+   {
+    "id": "hbnd",
+    "label": "H-bond / dipole-dipole",
+    "x": 0.5,
+    "y": 0.45
+   },
+   {
+    "id": "lds",
+    "label": "London dispersion forces",
+    "x": 0.8,
+    "y": 0.45
+   },
+   {
+    "id": "hyd",
+    "label": "Hydration sphere",
+    "note": "A hydration sphere is the shell of water molecules oriented around a dissolved ion, held together by ion-dipole attraction. It looks like a cluster of individual ion-dipole interactions, which can tempt labeling it as just 'Ion-dipole interaction' rather than recognizing the whole organized shell as the hydration sphere.",
+    "trap": true,
+    "x": 0.2,
+    "y": 0.75
+   }
+  ],
+  "options": [
+   "Ion-dipole interaction",
+   "H-bond / dipole-dipole",
+   "London dispersion forces",
+   "Hydration sphere",
+   "Covalent bond",
+   "Ionic bond",
+   "Metallic bond"
+  ],
+  "prompt": "Label each interaction type in these solution diagrams",
+  "remapped_from_key": "923",
+  "remapped_on": "2026-09-05",
+  "svgKey": "ch11/row_923",
   "tool": "labeler"
  },
  "94": {
