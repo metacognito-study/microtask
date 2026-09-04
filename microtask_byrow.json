@@ -4,7 +4,7 @@
   "items": [
    {
     "id": "a",
-    "label": "Make an observation / ask a Q",
+    "label": "Make an observation / ask a question",
     "order": 1
    },
    {
@@ -20,7 +20,9 @@
    {
     "id": "d",
     "label": "Collect and analyze data",
-    "order": 4
+    "note": "Students sometimes place data collection right after forming the hypothesis, skipping over designing and conducting the actual experiment first. A planned procedure and apparatus must be in place before any data can be collected during it.",
+    "order": 4,
+    "trap": true
    },
    {
     "id": "e",
@@ -33,6 +35,7 @@
     "order": 6
    }
   ],
+  "prompt": "Put the stages of the scientific method in the correct order.",
   "subject": "chem",
   "tool": "sequencer"
  },
@@ -54,13 +57,15 @@
    {
     "id": "shift",
     "label": "System re-equilibrating",
-    "x": 0.65,
-    "y": 0.55
+    "note": "The re-equilibrating region shows the system moving toward a new equilibrium gradually after a perturbation, not settling immediately. It is easy to mistake the sudden jump right at the perturbation for the whole shift, when the curved region afterward is the actual re-equilibrating process.",
+    "trap": true,
+    "x": 0.62,
+    "y": 0.48
    },
    {
     "id": "new",
     "label": "New equilibrium Peq",
-    "x": 0.85,
+    "x": 0.82,
     "y": 0.35
    }
   ],
@@ -148,49 +153,300 @@
     "bin": "Metalloid",
     "id": "g",
     "label": "Arsenic (As)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n1",
+    "label": "Potassium (K)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n2",
+    "label": "Barium (Ba)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n3",
+    "label": "Aluminum (Al)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n4",
+    "label": "Nickel (Ni)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n5",
+    "label": "Tin (Sn)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n6",
+    "label": "Cesium (Cs)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n7",
+    "label": "Lead (Pb)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n8",
+    "label": "Titanium (Ti)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n9",
+    "label": "Selenium (Se)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n10",
+    "label": "Fluorine (F)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n11",
+    "label": "Phosphorus (P)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n12",
+    "label": "Argon (Ar)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n13",
+    "label": "Iodine (I)",
+    "note": "Misconception: shiny gray solid looks metallic, but iodine is a nonmetal (Group 17).",
+    "trap": true
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n14",
+    "label": "Bromine (Br)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n15",
+    "label": "Sulfur (S)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n16",
+    "label": "Carbon (C)",
+    "note": "Misconception: sits in the 'staircase' column but period-2 C is a nonmetal, not a metalloid.",
+    "trap": true
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n17",
+    "label": "Silicon (Si)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n18",
+    "label": "Germanium (Ge)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n19",
+    "label": "Arsenic (As)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n20",
+    "label": "Antimony (Sb)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n21",
+    "label": "Tellurium (Te)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n22",
+    "label": "Boron (B)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n23",
+    "label": "Gallium (Ga)",
+    "note": "Misconception: low melting point and staircase-adjacency suggest metalloid, but Ga is a metal.",
+    "trap": true
    }
   ],
+  "prompt": "Sort each element by its position on the periodic table: metal, nonmetal, or metalloid.",
   "subject": "chem",
   "tool": "sorter"
  },
  "105": {
   "bins": [
    "Ionic compound",
-   "Covalent compound"
+   "Covalent compound",
+   "Not a compound"
   ],
   "gate_status": "reviewed",
   "items": [
    {
     "bin": "Ionic compound",
     "id": "a",
-    "label": "NaCl (sodium + chlorine)"
+    "label": "NaCl"
    },
    {
     "bin": "Covalent compound",
     "id": "b",
-    "label": "CO₂ (carbon + oxygen)"
+    "label": "CO2"
    },
    {
     "bin": "Ionic compound",
     "id": "c",
-    "label": "MgO (magnesium + oxygen)"
+    "label": "MgO"
    },
    {
     "bin": "Covalent compound",
     "id": "d",
-    "label": "H₂O (hydrogen + oxygen)"
+    "label": "H2O"
    },
    {
     "bin": "Ionic compound",
     "id": "e",
-    "label": "CaF₂ (calcium + fluorine)"
+    "label": "CaF2"
    },
    {
     "bin": "Covalent compound",
     "id": "f",
-    "label": "NH₃ (nitrogen + hydrogen)"
+    "label": "NH3"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n1",
+    "label": "MgCl₂"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n3",
+    "label": "K₂O"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n4",
+    "label": "NF₃"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n5",
+    "label": "CaBr₂"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n6",
+    "label": "SO₃"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n7",
+    "label": "Al₂O₃"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n8",
+    "label": "PCl₅"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n9",
+    "label": "Na₂SO₄"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n10",
+    "label": "SiCl₄"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n11",
+    "label": "NH₄Cl",
+    "note": "NH4+ polyatomic cation with Cl-; ionic despite all-nonmetal atoms.",
+    "trap": true
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n12",
+    "label": "Li₃N"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n13",
+    "label": "P₄O₁₀"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n14",
+    "label": "BaCO₃"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n15",
+    "label": "N₂O₄"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n17",
+    "label": "FeCl₃"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n18",
+    "label": "ClF₃"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n19",
+    "label": "KNO₃"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n20",
+    "label": "CS₂"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n21",
+    "label": "Cs₂S"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n22",
+    "label": "BF₃"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n23",
+    "label": "SrO"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n24",
+    "label": "SF₆"
+   },
+   {
+    "bin": "Not a compound",
+    "id": "e1",
+    "label": "Cu, a copper wire"
+   },
+   {
+    "bin": "Not a compound",
+    "id": "e2",
+    "label": "O2, the oxygen we breathe"
+   },
+   {
+    "bin": "Not a compound",
+    "id": "e3",
+    "label": "Fe, an iron nail"
    }
   ],
+  "prompt": "Sort each substance into ionic compound, covalent compound, or not a compound at all.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -575,8 +831,135 @@
     "bin": "Gas",
     "id": "f",
     "label": "Particles fill the container"
+   },
+   {
+    "bin": "Solid",
+    "id": "n1",
+    "label": "NaCl table salt crystals"
+   },
+   {
+    "bin": "Solid",
+    "id": "n2",
+    "label": "Sucrose, C₁₂H₂₂O₁₁"
+   },
+   {
+    "bin": "Solid",
+    "id": "n3",
+    "label": "Copper wire, Cu metal"
+   },
+   {
+    "bin": "Solid",
+    "id": "n4",
+    "label": "Iodine, I₂, dark purple crystals"
+   },
+   {
+    "bin": "Solid",
+    "id": "n5",
+    "label": "Calcium carbonate, CaCO₃ (limestone)"
+   },
+   {
+    "bin": "Solid",
+    "id": "n6",
+    "label": "Sulfur, S₈, yellow chunks"
+   },
+   {
+    "bin": "Solid",
+    "id": "n7",
+    "label": "Naphthalene mothballs, C₁₀H₈",
+    "note": "Sublimes but mp 80C, solid at 25C; correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Solid",
+    "id": "n8",
+    "label": "Aluminum foil, Al metal"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n9",
+    "label": "Water, H₂O"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n10",
+    "label": "Ethanol, C₂H₅OH, in a beaker"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n11",
+    "label": "Elemental mercury, Hg",
+    "note": "Only metal liquid at 25C (mp -39C); correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Liquid",
+    "id": "n12",
+    "label": "Acetone, C₃H₆O, nail polish remover"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n13",
+    "label": "Bromine, Br₂, red-brown",
+    "note": "One of two liquid elements (mp -7C, bp 59C); correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Liquid",
+    "id": "n14",
+    "label": "Benzene, C₆H₆"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n15",
+    "label": "Glycerol, C₃H₈O₃"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n16",
+    "label": "Concentrated sulfuric acid, H₂SO₄"
+   },
+   {
+    "bin": "Liquid",
+    "id": "n17",
+    "label": "Olive oil poured from a bottle"
+   },
+   {
+    "bin": "Gas",
+    "id": "n18",
+    "label": "Oxygen we breathe, O₂"
+   },
+   {
+    "bin": "Gas",
+    "id": "n19",
+    "label": "Carbon dioxide, CO₂"
+   },
+   {
+    "bin": "Gas",
+    "id": "n20",
+    "label": "Nitrogen, N₂, most of the air"
+   },
+   {
+    "bin": "Gas",
+    "id": "n21",
+    "label": "Helium, He, filling a balloon"
+   },
+   {
+    "bin": "Gas",
+    "id": "n22",
+    "label": "Ammonia, NH₃, sharp-smelling"
+   },
+   {
+    "bin": "Gas",
+    "id": "n23",
+    "label": "Chlorine, Cl₂, pale green"
+   },
+   {
+    "bin": "Gas",
+    "id": "n24",
+    "label": "Neon, Ne, in a glowing sign"
    }
   ],
+  "prompt": "Sort each description or substance by its state of matter at room temperature.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -617,8 +1000,137 @@
     "bin": "Mixture",
     "id": "f",
     "label": "Air (N₂, O₂, Ar)"
+   },
+   {
+    "bin": "Element",
+    "id": "n1",
+    "label": "Ne"
+   },
+   {
+    "bin": "Element",
+    "id": "n2",
+    "label": "A cube of solid gold, Au"
+   },
+   {
+    "bin": "Element",
+    "id": "n3",
+    "label": "P₄, white phosphorus"
+   },
+   {
+    "bin": "Element",
+    "id": "n4",
+    "label": "S₈, a ring of eight sulfur atoms",
+    "note": "Allotrope of one element; subscript does not make it a compound.",
+    "trap": true
+   },
+   {
+    "bin": "Element",
+    "id": "n5",
+    "label": "Diamond, a lattice of only carbon atoms"
+   },
+   {
+    "bin": "Element",
+    "id": "n6",
+    "label": "Cl₂ gas in a sealed flask",
+    "note": "Diatomic molecule of one element, not a compound.",
+    "trap": true
+   },
+   {
+    "bin": "Element",
+    "id": "n7",
+    "label": "A copper wire, only Cu atoms"
+   },
+   {
+    "bin": "Element",
+    "id": "n8",
+    "label": "O₃, ozone"
+   },
+   {
+    "bin": "Element",
+    "id": "n9",
+    "label": "Fe, a nail of solid iron"
+   },
+   {
+    "bin": "Compound",
+    "id": "n10",
+    "label": "NaCl crystals"
+   },
+   {
+    "bin": "Compound",
+    "id": "n11",
+    "label": "H₂O₂, hydrogen peroxide"
+   },
+   {
+    "bin": "Compound",
+    "id": "n12",
+    "label": "C₆H₁₂O₆, glucose"
+   },
+   {
+    "bin": "Compound",
+    "id": "n13",
+    "label": "NH₃"
+   },
+   {
+    "bin": "Compound",
+    "id": "n14",
+    "label": "CaCO₃, limestone crystal"
+   },
+   {
+    "bin": "Compound",
+    "id": "n15",
+    "label": "Pure MgO powder"
+   },
+   {
+    "bin": "Compound",
+    "id": "n16",
+    "label": "KMnO₄"
+   },
+   {
+    "bin": "Compound",
+    "id": "n17",
+    "label": "Distilled water in a beaker",
+    "note": "Distilled water is pure H₂O, a single compound, not a mixture.",
+    "trap": true
+   },
+   {
+    "bin": "Mixture",
+    "id": "n18",
+    "label": "Air in a sealed room"
+   },
+   {
+    "bin": "Mixture",
+    "id": "n19",
+    "label": "Salt water in a beaker"
+   },
+   {
+    "bin": "Mixture",
+    "id": "n20",
+    "label": "Bronze, a blend of copper and tin",
+    "note": "Alloy is a metal mixture, not a compound.",
+    "trap": true
+   },
+   {
+    "bin": "Mixture",
+    "id": "n21",
+    "label": "Sand stirred into water"
+   },
+   {
+    "bin": "Mixture",
+    "id": "n22",
+    "label": "Sweetened iced tea"
+   },
+   {
+    "bin": "Mixture",
+    "id": "n23",
+    "label": "A flask of oxygen and nitrogen gases"
+   },
+   {
+    "bin": "Mixture",
+    "id": "n24",
+    "label": "Italian salad dressing with oil and vinegar"
    }
   ],
+  "prompt": "Sort each substance into element, compound, or mixture.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -710,26 +1222,28 @@
    {
     "id": "elem",
     "label": "Pure element",
-    "x": 0.133,
-    "y": 0.288
+    "x": 0.15,
+    "y": 0.5
    },
    {
     "id": "comp",
     "label": "Pure compound",
-    "x": 0.377,
-    "y": 0.288
+    "note": "This diagram shows a compound held together by ionic bonding, which might tempt the answer 'Ionic compound'. But the category being tested is broader: any matter made of one type of particle that is not a single element counts as a pure compound, whether the bonding inside it is ionic or covalent.",
+    "trap": true,
+    "x": 0.38,
+    "y": 0.5
    },
    {
     "id": "homo",
     "label": "Homogeneous mixture",
-    "x": 0.621,
-    "y": 0.288
+    "x": 0.62,
+    "y": 0.5
    },
    {
     "id": "hete",
     "label": "Heterogeneous mixture",
-    "x": 0.865,
-    "y": 0.288
+    "x": 0.85,
+    "y": 0.5
    }
   ],
   "options": [
@@ -890,7 +1404,7 @@
  "13": {
   "bins": [
    "Observation",
-   "Inference / Conclusion"
+   "Inference or conclusion"
   ],
   "gate_status": "reviewed",
   "items": [
@@ -900,7 +1414,7 @@
     "label": "The copper strip turned green"
    },
    {
-    "bin": "Inference / Conclusion",
+    "bin": "Inference or conclusion",
     "id": "b",
     "label": "The strip reacted with moisture"
    },
@@ -910,7 +1424,7 @@
     "label": "Flame color is bright orange"
    },
    {
-    "bin": "Inference / Conclusion",
+    "bin": "Inference or conclusion",
     "id": "d",
     "label": "Sodium ions are present"
    },
@@ -920,11 +1434,138 @@
     "label": "Mass decreased by 0.42 g"
    },
    {
-    "bin": "Inference / Conclusion",
+    "bin": "Inference or conclusion",
     "id": "f",
     "label": "A gas was produced"
+   },
+   {
+    "bin": "Observation",
+    "id": "n1",
+    "label": "The solution turned from colorless to deep blue."
+   },
+   {
+    "bin": "Observation",
+    "id": "n2",
+    "label": "A gas bubbled up when the tablet was dropped in water."
+   },
+   {
+    "bin": "Observation",
+    "id": "n3",
+    "label": "The thermometer in the beaker reads 62.4 degrees C."
+   },
+   {
+    "bin": "Observation",
+    "id": "n4",
+    "label": "A white solid formed at the bottom of the test tube."
+   },
+   {
+    "bin": "Observation",
+    "id": "n5",
+    "label": "The mass on the balance decreased from 4.10 g to 3.85 g."
+   },
+   {
+    "bin": "Observation",
+    "id": "n6",
+    "label": "The metal strip felt warm to the touch after the reaction."
+   },
+   {
+    "bin": "Observation",
+    "id": "n7",
+    "label": "The flame glowed bright yellow when the wire was heated."
+   },
+   {
+    "bin": "Observation",
+    "id": "n8",
+    "label": "The pH paper turned red when dipped in the sample."
+   },
+   {
+    "bin": "Observation",
+    "id": "n9",
+    "label": "A sharp odor was detected above the reaction flask."
+   },
+   {
+    "bin": "Observation",
+    "id": "n10",
+    "label": "The liquid rose to the 25.0 mL mark on the buret."
+   },
+   {
+    "bin": "Observation",
+    "id": "n11",
+    "label": "The crystals appeared as long, six-sided needles under the lens."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n12",
+    "label": "The sample must contain a sodium ion."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n13",
+    "label": "The reaction released energy to its surroundings.",
+    "note": "'Felt warm' is the datum; 'released energy' interprets it, so it is an inference not an observation.",
+    "trap": true
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n14",
+    "label": "A precipitate formed because the product is insoluble.",
+    "note": "Only the solid forming is observed; the causal 'because insoluble' clause is the inference.",
+    "trap": true
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n15",
+    "label": "The unknown gas was likely hydrogen."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n16",
+    "label": "The blue color means copper ions are in solution."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n17",
+    "label": "The solution is acidic based on the red litmus result."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n18",
+    "label": "The lost mass shows a gas escaped the container."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n19",
+    "label": "The bonds in the reactants were weaker than in the products."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n20",
+    "label": "The mixture reached equilibrium when the color stopped changing.",
+    "note": "'Color stopped changing' is observed; declaring equilibrium is a macro-micro inference.",
+    "trap": true
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n21",
+    "label": "This substance is a strong electrolyte."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n22",
+    "label": "The compound has a higher boiling point than water."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n23",
+    "label": "The reaction rate doubled because the temperature rose."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n24",
+    "label": "The bubbles indicate the reaction produced a gas."
    }
   ],
+  "prompt": "Sort each statement into what was directly observed versus what was concluded from it.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -964,8 +1605,81 @@
     "bin": "Intensive property",
     "id": "f",
     "label": "Boiling point"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n1",
+    "label": "The mass of a copper wire is 45 grams"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n2",
+    "label": "A sample of ethanol has a density of 0.789 g/mL"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n4",
+    "label": "Gold melts at 1064 C"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n6",
+    "label": "The molar mass of glucose is 180 g/mol"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n7",
+    "label": "The volume of a helium balloon is 3.2 liters"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n8",
+    "label": "Liquid mercury boils at 357 C"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n10",
+    "label": "Pure water freezes at 0 C at 1 atm"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n13",
+    "label": "The temperature of a beaker of boiling soup is 100 C"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n14",
+    "label": "A block of iron weighs 210 grams"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n16",
+    "label": "The length of a magnesium ribbon is 8 cm"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n19",
+    "label": "The density of solid lead is 11.3 g per cm3",
+    "note": "Ratio of two extensives is amount-independent; intensive. Correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n21",
+    "label": "The color of a copper sulfate solution is blue"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n22",
+    "label": "The mass of NaOH dissolved to make a solution"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n24",
+    "label": "The total surface area of a pile of zinc granules"
    }
   ],
+  "prompt": "Sort each quantity by whether it depends on the amount of substance present.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -1005,8 +1719,81 @@
     "bin": "Intensive property",
     "id": "f",
     "label": "Specific heat capacity"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n1",
+    "label": "The mass of a copper wire is 45 grams"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n2",
+    "label": "A sample of ethanol has a density of 0.789 g/mL"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n4",
+    "label": "Gold melts at 1064 C"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n6",
+    "label": "The molar mass of glucose is 180 g/mol"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n7",
+    "label": "The volume of a helium balloon is 3.2 liters"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n8",
+    "label": "Liquid mercury boils at 357 C"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n10",
+    "label": "Pure water freezes at 0 C at 1 atm"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n13",
+    "label": "The temperature of a beaker of boiling soup is 100 C"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n14",
+    "label": "A block of iron weighs 210 grams"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n16",
+    "label": "The length of a magnesium ribbon is 8 cm"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n19",
+    "label": "The density of solid lead is 11.3 g per cm3",
+    "note": "Ratio of two extensives is amount-independent; intensive. Correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n21",
+    "label": "The color of a copper sulfate solution is blue"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n22",
+    "label": "The mass of NaOH dissolved to make a solution"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n24",
+    "label": "The total surface area of a pile of zinc granules"
    }
   ],
+  "prompt": "Sort each quantity by whether it depends on the amount of substance present.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -1046,8 +1833,81 @@
     "bin": "Extensive property",
     "id": "f",
     "label": "Number of moles"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n1",
+    "label": "The mass of a copper wire is 45 grams"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n2",
+    "label": "A sample of ethanol has a density of 0.789 g/mL"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n4",
+    "label": "Gold melts at 1064 C"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n6",
+    "label": "The molar mass of glucose is 180 g/mol"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n7",
+    "label": "The volume of a helium balloon is 3.2 liters"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n8",
+    "label": "Liquid mercury boils at 357 C"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n10",
+    "label": "Pure water freezes at 0 C at 1 atm"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n13",
+    "label": "The temperature of a beaker of boiling soup is 100 C"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n14",
+    "label": "A block of iron weighs 210 grams"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n16",
+    "label": "The length of a magnesium ribbon is 8 cm"
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n19",
+    "label": "The density of solid lead is 11.3 g per cm3",
+    "note": "Ratio of two extensives is amount-independent; intensive. Correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Intensive property",
+    "id": "n21",
+    "label": "The color of a copper sulfate solution is blue"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n22",
+    "label": "The mass of NaOH dissolved to make a solution"
+   },
+   {
+    "bin": "Extensive property",
+    "id": "n24",
+    "label": "The total surface area of a pile of zinc granules"
    }
   ],
+  "prompt": "Sort each quantity by whether it depends on the amount of substance present.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -1257,8 +2117,111 @@
     "bin": "Endothermic",
     "id": "f",
     "label": "Photosynthesis"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n1",
+    "label": "Combustion of methane, CH₄ + 2O₂ -> CO₂ + 2H₂O"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n2",
+    "label": "Melting of ice cubes at 0 C"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n3",
+    "label": "Formation of water from H₂ and O₂ gases"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n4",
+    "label": "Boiling liquid ethanol into vapor"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n5",
+    "label": "Neutralizing HCl with NaOH solution"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n6",
+    "label": "Dissolving NH₄NO₃ so the beaker feels cold"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n7",
+    "label": "A hand warmer where iron powder oxidizes"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n8",
+    "label": "Photosynthesis storing energy in glucose bonds"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n9",
+    "label": "Freezing liquid water into solid ice",
+    "note": "Freezing releases heat as lattice forms. Correct; good trap.",
+    "trap": true
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n10",
+    "label": "Condensing steam into liquid droplets on a mirror"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n11",
+    "label": "Thermal decomposition of CaCO₃ into CaO and CO₂"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n14",
+    "label": "Respiration converting glucose and O₂ to CO₂ and water"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n15",
+    "label": "Sublimation of solid CO₂ (dry ice) into gas"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n16",
+    "label": "Burning magnesium ribbon in air with bright light"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n17",
+    "label": "An instant cold pack activated at a sports injury"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n18",
+    "label": "Mixing concentrated H₂SO₄ into water, flask heats up"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n19",
+    "label": "Baking soda and vinegar making the beaker cool"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n20",
+    "label": "Vaporizing liquid nitrogen into gas"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n21",
+    "label": "Rusting of an iron nail over time"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "n23",
+    "label": "Solidifying molten candle wax as it cools"
    }
   ],
+  "prompt": "Sort each process or fact by whether heat is released or absorbed.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -1345,8 +2308,135 @@
     "bin": "Physical change",
     "id": "f",
     "label": "Glass breaking"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n1",
+    "label": "Rusting of an iron nail left outdoors"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n2",
+    "label": "Burning propane, C₃H₈, in a gas grill"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n3",
+    "label": "Baking soda reacting with vinegar to release CO₂"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n4",
+    "label": "Magnesium ribbon burning with a bright white flame"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n5",
+    "label": "Souring of milk into curds over several days"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n6",
+    "label": "Electrolysis of water into H₂ and O₂ gases"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n7",
+    "label": "Zinc metal dissolving in hydrochloric acid, bubbling"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n8",
+    "label": "A sliced apple turning brown in air"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n9",
+    "label": "Photosynthesis producing glucose from CO₂ and H₂O"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n10",
+    "label": "Silver spoon tarnishing to a dark Ag₂S coating"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n11",
+    "label": "Dissolving table salt, NaCl, in a glass of water",
+    "note": "Dissociation into hydrated ions; recoverable by evaporation, no new substance. Physical. Correct.",
+    "trap": true
+   },
+   {
+    "bin": "Physical change",
+    "id": "n12",
+    "label": "Fizzing bubbles when a carbonated soda is opened",
+    "note": "Dissolved CO₂ escaping solution (pressure release); existing substance, no bonds broken/formed. Physical. Correct.",
+    "trap": true
+   },
+   {
+    "bin": "Physical change",
+    "id": "n13",
+    "label": "Ice cubes melting into liquid water on a counter"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n14",
+    "label": "Crushing an aluminum can flat with your foot"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n15",
+    "label": "Boiling water evaporating into steam on a stove"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n16",
+    "label": "Grinding a lump of chalk into fine powder"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n17",
+    "label": "Copper wire drawn out into a thinner strand"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n18",
+    "label": "Dry ice, solid CO₂, subliming into gas",
+    "note": "Solid to gas CO₂; state change only, molecule unchanged. Correct.",
+    "trap": true
+   },
+   {
+    "bin": "Physical change",
+    "id": "n19",
+    "label": "Mixing sand and iron filings together in a dish"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n20",
+    "label": "Water freezing into ice inside a freezer tray"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n21",
+    "label": "Cooking an egg until the clear part turns white"
+   },
+   {
+    "bin": "Chemical change",
+    "id": "n22",
+    "label": "Hydrogen peroxide decomposing into water and O₂"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n23",
+    "label": "Wax melting in a warm candle dish"
+   },
+   {
+    "bin": "Physical change",
+    "id": "n24",
+    "label": "Stretching a rubber band between your fingers"
    }
   ],
+  "prompt": "Sort each process by whether a new substance forms.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -1486,26 +2576,28 @@
    {
     "id": "funl",
     "label": "Funnel",
-    "x": 0.263,
-    "y": 0.194
+    "x": 0.5,
+    "y": 0.2
    },
    {
     "id": "filt",
     "label": "Filter paper",
-    "x": 0.558,
-    "y": 0.288
+    "x": 0.5,
+    "y": 0.4
    },
    {
     "id": "resd",
     "label": "Residue",
-    "x": 0.479,
-    "y": 0.469
+    "note": "The solid trapped on the filter paper is the residue in a filtration setup. 'Precipitate' specifically refers to a solid that forms from a chemical reaction happening in solution, a different situation even though both end up as a solid.",
+    "trap": true,
+    "x": 0.5,
+    "y": 0.55
    },
    {
     "id": "filtrate",
     "label": "Filtrate",
-    "x": 0.479,
-    "y": 0.875
+    "x": 0.5,
+    "y": 0.85
    }
   ],
   "options": [
@@ -1525,7 +2617,7 @@
  "15": {
   "bins": [
    "Observation",
-   "Inference/Conclusion"
+   "Inference or conclusion"
   ],
   "gate_status": "reviewed",
   "items": [
@@ -1535,7 +2627,7 @@
     "label": "A white solid forms in flask"
    },
    {
-    "bin": "Inference/Conclusion",
+    "bin": "Inference or conclusion",
     "id": "b",
     "label": "Silver chloride precipitated"
    },
@@ -1545,7 +2637,7 @@
     "label": "Temperature rises to 45°C"
    },
    {
-    "bin": "Inference/Conclusion",
+    "bin": "Inference or conclusion",
     "id": "d",
     "label": "The reaction is exothermic"
    },
@@ -1555,33 +2647,106 @@
     "label": "Gas bubbles at the electrode"
    },
    {
-    "bin": "Inference/Conclusion",
+    "bin": "Inference or conclusion",
     "id": "f",
     "label": "Hydrogen gas is produced"
+   },
+   {
+    "bin": "Observation",
+    "id": "n1",
+    "label": "The solution turned from colorless to deep blue."
+   },
+   {
+    "bin": "Observation",
+    "id": "n2",
+    "label": "A gas bubbled up when the tablet was dropped in water."
+   },
+   {
+    "bin": "Observation",
+    "id": "n3",
+    "label": "The thermometer in the beaker reads 62.4 degrees C."
+   },
+   {
+    "bin": "Observation",
+    "id": "n4",
+    "label": "A white solid formed at the bottom of the test tube."
+   },
+   {
+    "bin": "Observation",
+    "id": "n5",
+    "label": "The mass on the balance decreased from 4.10 g to 3.85 g."
+   },
+   {
+    "bin": "Observation",
+    "id": "n6",
+    "label": "The metal strip felt warm to the touch after the reaction."
+   },
+   {
+    "bin": "Observation",
+    "id": "n7",
+    "label": "The flame glowed bright yellow when the wire was heated."
+   },
+   {
+    "bin": "Observation",
+    "id": "n8",
+    "label": "The pH paper turned red when dipped in the sample."
+   },
+   {
+    "bin": "Observation",
+    "id": "n9",
+    "label": "A sharp odor was detected above the reaction flask."
+   },
+   {
+    "bin": "Observation",
+    "id": "n10",
+    "label": "The liquid rose to the 25.0 mL mark on the buret."
+   },
+   {
+    "bin": "Observation",
+    "id": "n11",
+    "label": "The crystals appeared as long, six-sided needles under the lens."
+   },
+   {
+    "bin": "Observation",
+    "id": "n12",
+    "label": "The stopwatch showed 14.2 seconds when the color vanished."
+   },
+   {
+    "bin": "Observation",
+    "id": "n13",
+    "label": "The current in the circuit measured 0.35 amperes."
+   },
+   {
+    "bin": "Inference or conclusion",
+    "id": "n14",
+    "label": "The vinegar sample is acidic.",
+    "note": "Turning litmus paper red is the observation; labeling the vinegar 'acidic' interprets that color change as a class of substance, so it is a conclusion, not a raw datum.",
+    "trap": true
    }
   ],
+  "prompt": "Sort each statement into what was directly observed versus what was concluded from it.",
   "subject": "chem",
   "tool": "sorter"
  },
  "151": {
   "bins": [
-   "Boils off (volatile)",
+   "Boils off",
    "Stays as residue"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "Boils off (volatile)",
+    "bin": "Boils off",
     "id": "a",
-    "label": "More volatile liquid in mix"
+    "label": "The liquid with the lower boiling point in the mix"
    },
    {
     "bin": "Stays as residue",
     "id": "b",
-    "label": "Non-volatile dissolved solute"
+    "label": "The dissolved solute with a very high boiling point"
    },
    {
-    "bin": "Boils off (volatile)",
+    "bin": "Boils off",
     "id": "c",
     "label": "Ethanol from ethanol-water"
    },
@@ -1591,7 +2756,7 @@
     "label": "Salt from salt water"
    },
    {
-    "bin": "Boils off (volatile)",
+    "bin": "Boils off",
     "id": "e",
     "label": "Lower-boiling-point component"
    },
@@ -1599,8 +2764,16 @@
     "bin": "Stays as residue",
     "id": "f",
     "label": "A solid dissolved in liquid"
+   },
+   {
+    "bin": "Stays as residue",
+    "id": "n1",
+    "label": "Glycerin from glycerin-water",
+    "note": "Glycerin boils near 290 degrees C, far above water's 100 degrees C, so during simple distillation the water vapor leaves first and glycerin stays behind in the flask. Being a liquid does not guarantee a substance boils off; only having the lower boiling point does.",
+    "trap": true
    }
   ],
+  "prompt": "Sort each component of a mixture by what happens to it during simple distillation.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -1666,31 +2839,164 @@
   "tool": "sequencer"
  },
  "1554": {
+  "bins": [
+   "Higher entropy",
+   "Lower entropy"
+  ],
   "gate_status": "reviewed",
   "items": [
    {
-    "id": "a",
-    "label": "Rate = k → 0th overall",
-    "order": 1
+    "bin": "Higher entropy",
+    "id": "s1",
+    "label": "Ne(g) in a rigid flask is connected by an open valve to a second, evacuated rigid flask of equal size"
    },
    {
-    "id": "b",
-    "label": "Rate = k[A] → 1st overall",
-    "order": 2
+    "bin": "Lower entropy",
+    "id": "s2",
+    "label": "A movable piston is pushed steadily inward on a sample of N₂(g) at constant temperature"
    },
    {
-    "id": "c",
-    "label": "Rate = k[A][B] → 2nd overall",
-    "order": 3
+    "bin": "Higher entropy",
+    "id": "s3",
+    "label": "CH₄(g) in a sealed cylinder as the external pressure on its piston slowly falls, temperature held constant"
    },
    {
-    "id": "d",
-    "label": "Rate = k[A]²[B] → 3rd order",
-    "order": 4
+    "bin": "Lower entropy",
+    "id": "s4",
+    "label": "Air sealed in a syringe as someone presses the plunger toward the tip"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s5",
+    "label": "He(g) confined by a piston while the pressure pushing on that piston is steadily raised"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s6",
+    "label": "O₂(g) trapped by a piston as the surrounding pressure suddenly drops to a much lower value"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s7",
+    "label": "A gas held at constant temperature is let into an evacuated chamber that has no work done on the surroundings",
+    "note": "Trap: free expansion into vacuum does zero work, so students often say dS=0. Entropy still rises because the gas accesses far more microstates in the emptied space.",
+    "trap": true
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s8",
+    "label": "CO₂(g) forced deeper into a scuba tank as a compressor keeps running against it"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s9",
+    "label": "A rising air bubble in a lake reaches shallower water where the water column above presses on it far less"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s10",
+    "label": "A sinking pocket of air is crushed by the growing water column as it descends in the ocean"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s11",
+    "label": "A weather balloon of Ar climbs to high altitude where the outside atmospheric pressure is far lower"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s12",
+    "label": "H₂(g) at constant temperature moves from a high-pressure region to a connected low-pressure region"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s13",
+    "label": "Ne(g) is drawn from a wide flask into a narrow one connected to it while temperature stays fixed"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s14",
+    "label": "A weather balloon of H₂ descends toward sea level where the surrounding air pressure keeps climbing"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s15",
+    "label": "CH₄(g) held at constant temperature is released through an open valve into a much larger evacuated tank",
+    "note": "Trap: irreversible expansion into vacuum feels like nothing happened since no heat is exchanged; entropy of the gas still increases from the greater spatial spread of microstates.",
+    "trap": true
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s16",
+    "label": "A gas confined by a piston as the load resting on that piston is steadily increased"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s17",
+    "label": "N₂(g) at constant temperature moving from a region held at 3 atm to one held at 1 atm"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s18",
+    "label": "CO₂(g) released from a valve spreads until it fills an entire room at constant temperature"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s19",
+    "label": "O₂(g) in a piston chamber as the surrounding pressure is turned up while temperature is unchanged"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s20",
+    "label": "Helium in a sealed syringe as someone slowly pulls the plunger outward"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s21",
+    "label": "N₂O(g) pressed into a fictional dive shop's storage cylinder by a running compressor"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s22",
+    "label": "A gas at constant temperature is allowed to escape into a connected empty vessel through an open stopcock"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s23",
+    "label": "Ar(g) sealed by a piston as the outside pressure is gradually cranked higher at fixed temperature"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s24",
+    "label": "An air pocket rising toward the water surface as the pressure of the water above it steadily eases"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s25",
+    "label": "CH₄(g) held by a piston as a heavier weight is set on top, temperature held constant"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s26",
+    "label": "Ne(g) at constant temperature let into a connected flask that was pumped down to vacuum"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s27",
+    "label": "H₂(g) in a piston chamber squeezed by rising external pressure at a fixed temperature"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "s28",
+    "label": "CO₂(g) at constant temperature moved from a narrow tube into a connected wide chamber through an open valve"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "s29",
+    "label": "N₂(g) confined by a piston as the surrounding pressure is steadily raised, temperature unchanged"
    }
   ],
   "subject": "chem",
-  "tool": "sequencer"
+  "tool": "sorter"
  },
  "1563": {
   "bins": [
@@ -1933,37 +3239,107 @@
     "bin": "Second order",
     "id": "f",
     "label": "Rate = k[A]²"
+   },
+   {
+    "bin": "Second order",
+    "id": "n1",
+    "label": "Doubling [A] quadruples the rate",
+    "note": "Rate proportional to [A] squared means doubling the concentration multiplies the rate by 2 squared, which is 4. This states the order through a rate-doubling relationship in words instead of a graph shape, so the row's usual graph-reading shortcut does not apply.",
+    "trap": true
    }
   ],
   "subject": "chem",
   "tool": "sorter"
  },
  "1569": {
+  "bins": [
+   "Favoured",
+   "Unfavoured"
+  ],
   "gate_status": "reviewed",
   "items": [
    {
-    "id": "a",
-    "label": "Linear [A] vs t → zero-order",
-    "order": 1
+    "bin": "Favoured",
+    "id": "r1",
+    "label": "Butane burns completely in a camp stove, giving off strong heat and forming CO₂ gas and water vapour at 298 K"
    },
    {
-    "id": "b",
-    "label": "Write IRL: [A]t = [A]₀ − kt",
-    "order": 2
+    "bin": "Favoured",
+    "id": "r2",
+    "label": "A polished iron gate left outside slowly turns to reddish flakes over several weeks in ordinary air"
    },
    {
-    "id": "c",
-    "label": "Plug in known: k, [A]₀, t",
-    "order": 3
+    "bin": "Favoured",
+    "id": "r3",
+    "label": "Hydrogen gas mixed with oxygen is sparked and forms water, releasing a great deal of heat"
    },
    {
-    "id": "d",
-    "label": "Solve for the unknown variable",
-    "order": 4
+    "bin": "Favoured",
+    "id": "r4",
+    "label": "A zinc strip dipped in a copper(II) solution deposits copper metal while the zinc dissolves, running a cell that lights a bulb on its own"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r5",
+    "label": "Nitrogen and hydrogen combine over a catalyst to make ammonia, and the mixture ends up far richer in product than reactant at equilibrium"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r6",
+    "label": "A pinch of table salt stirred into a glass of water dissolves fully and stays dissolved at room temperature"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r7",
+    "label": "Solid dry ice (CO₂) left on a lab bench turns directly into gas and disperses at 300 K"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r8",
+    "label": "A cool ice cube placed in a warm room melts into liquid water on its own at 25 C",
+    "note": "Trap for the misconception that endothermic = non-spontaneous. Melting at 25 C absorbs heat yet is spontaneous because the entropy gain dominates.",
+    "trap": true
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r9",
+    "label": "Green plants build glucose and oxygen from carbon dioxide and water in a sealed dark box with no light or other energy supplied"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r10",
+    "label": "A beaker of pure liquid water sits at room temperature and is expected to split by itself into hydrogen and oxygen gas"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r11",
+    "label": "Liquid water sitting in a warm room at 25 C and 1 atm is expected to turn to solid ice on its own"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r12",
+    "label": "Ordinary oxygen gas is expected to convert into ozone by itself in still air at room temperature"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r13",
+    "label": "Passing electricity through molten salt is required to force sodium metal and chlorine gas apart; the split does not happen on its own at room temperature"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r14",
+    "label": "Nitrogen and oxygen in cool room air are expected to combine into nitrogen monoxide by themselves at 298 K"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r15",
+    "label": "A slightly heat-absorbing reaction that produces only a small increase in disorder, run at low temperature near 200 K",
+    "note": "Trap for the misconception that any entropy increase guarantees spontaneity. With positive ΔH and only small positive ΔS, at low T the TΔS term is too small to overcome ΔH, so ΔG stays positive.",
+    "trap": true
    }
   ],
   "subject": "chem",
-  "tool": "sequencer"
+  "tool": "sorter"
  },
  "1590": {
   "gate_status": "reviewed",
@@ -1998,14 +3374,16 @@
    {
     "id": "num",
     "label": "Magnitude (number)",
-    "x": 0.396,
-    "y": 0.688
+    "note": "Significant figures describes how precisely the magnitude is written, but this hotspot is asking for the magnitude value itself, not the count of significant figures in it. Sig figs is the concept most associated with the numeric part of a measurement, which is why it gets reached for here by mistake.",
+    "trap": true,
+    "x": 0.32,
+    "y": 0.5
    },
    {
     "id": "unit",
     "label": "Unit",
-    "x": 0.696,
-    "y": 0.688
+    "x": 0.68,
+    "y": 0.5
    }
   ],
   "options": [
@@ -2485,8 +3863,130 @@
     "bin": "Metal",
     "id": "g",
     "label": "Gold (Au)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n1",
+    "label": "Potassium (K)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n2",
+    "label": "Barium (Ba)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n3",
+    "label": "Aluminum (Al)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n4",
+    "label": "Nickel (Ni)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n5",
+    "label": "Tin (Sn)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n6",
+    "label": "Cesium (Cs)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n7",
+    "label": "Lead (Pb)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n8",
+    "label": "Titanium (Ti)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n9",
+    "label": "Selenium (Se)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n10",
+    "label": "Fluorine (F)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n11",
+    "label": "Phosphorus (P)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n12",
+    "label": "Argon (Ar)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n13",
+    "label": "Iodine (I)",
+    "note": "Misconception: shiny gray solid looks metallic, but iodine is a nonmetal (Group 17).",
+    "trap": true
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n14",
+    "label": "Bromine (Br)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n15",
+    "label": "Sulfur (S)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n16",
+    "label": "Carbon (C)",
+    "note": "Misconception: sits in the 'staircase' column but period-2 C is a nonmetal, not a metalloid.",
+    "trap": true
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n17",
+    "label": "Silicon (Si)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n18",
+    "label": "Germanium (Ge)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n19",
+    "label": "Arsenic (As)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n20",
+    "label": "Antimony (Sb)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n21",
+    "label": "Tellurium (Te)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n22",
+    "label": "Boron (B)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n23",
+    "label": "Gallium (Ga)",
+    "note": "Misconception: low melting point and staircase-adjacency suggest metalloid, but Ga is a metal.",
+    "trap": true
    }
   ],
+  "prompt": "Sort each element by its position on the periodic table: metal, nonmetal, or metalloid.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -2527,6 +4027,223 @@
     "bin": "Controlled variable",
     "id": "f",
     "label": "Mass of catalyst held constant"
+   }
+  ],
+  "prompt": "Sort each item by its role in this experiment: independent, dependent, or controlled variable.",
+  "scenarios": [
+   {
+    "items": [
+     {
+      "bin": "Independent variable",
+      "id": "sc1a",
+      "label": "The halide salt used in the trial (NaCl, NaBr or NaI)"
+     },
+     {
+      "bin": "Independent variable",
+      "id": "sc1b",
+      "label": "Which halide salt was chosen for the trial"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc1c",
+      "label": "The mass of precipitate formed in the trial"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc1d",
+      "label": "The mass of solid collected on the filter paper at the end"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc1e",
+      "label": "The volume of silver nitrate solution added"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc1f",
+      "label": "The concentration of the silver nitrate solution"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc1g",
+      "label": "The temperature at which the trial is run"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc1h",
+      "label": "The identity of the precipitate (silver chloride, silver bromide or silver iodide)",
+      "note": "Which precipitate forms follows from the halide chosen, so it is the observed outcome (dependent), not the variable the student set.",
+      "trap": true
+     }
+    ],
+    "scene": "A student is investigating how the identity of the halide salt affects the mass of precipitate formed. They repeat the reaction with NaCl, NaBr and NaI, keeping the volume and concentration of silver nitrate the same each time."
+   },
+   {
+    "items": [
+     {
+      "bin": "Independent variable",
+      "id": "sc2a",
+      "label": "The concentration of the hydrochloric acid (0.5 M, 1.0 M or 2.0 M)"
+     },
+     {
+      "bin": "Independent variable",
+      "id": "sc2b",
+      "label": "How concentrated the acid is in each run"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc2c",
+      "label": "The volume of hydrogen gas collected after a set time"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc2d",
+      "label": "How quickly the hydrogen gas is produced"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc2e",
+      "label": "The length of magnesium ribbon used in each run"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc2f",
+      "label": "The temperature of the reaction mixture"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc2g",
+      "label": "The volume of acid used in each run"
+     }
+    ],
+    "scene": "A scientist is investigating how the concentration of hydrochloric acid affects how quickly hydrogen gas is produced when it reacts with magnesium ribbon. They run the reaction with 0.5 M, 1.0 M and 2.0 M HCl."
+   },
+   {
+    "items": [
+     {
+      "bin": "Independent variable",
+      "id": "sc3a",
+      "label": "The temperature of the water bath (20 °C, 40 °C or 60 °C)"
+     },
+     {
+      "bin": "Independent variable",
+      "id": "sc3b",
+      "label": "The temperature setting chosen for each run"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc3c",
+      "label": "The time taken for the reaction to finish"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc3d",
+      "label": "The rate of the reaction in each run"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc3e",
+      "label": "The concentration of the reactants used"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc3f",
+      "label": "The total volume of the reaction mixture"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc3g",
+      "label": "The container used for each run"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc3h",
+      "label": "The rate of the reaction, which the student calculates from the time",
+      "note": "Rate is the measured outcome of the experiment, so it is the dependent variable, not the variable the student set.",
+      "trap": true
+     }
+    ],
+    "scene": "A student is investigating how temperature affects the rate of a reaction. They carry out the same reaction in water baths held at 20 °C, 40 °C and 60 °C."
+   },
+   {
+    "items": [
+     {
+      "bin": "Independent variable",
+      "id": "sc4a",
+      "label": "The particle size of the calcium carbonate (chips or powder)"
+     },
+     {
+      "bin": "Independent variable",
+      "id": "sc4b",
+      "label": "How finely divided the solid is in each run"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc4c",
+      "label": "The time taken for the reaction to stop bubbling"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc4d",
+      "label": "How quickly carbon dioxide is produced"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc4e",
+      "label": "The mass of calcium carbonate used in each run"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc4f",
+      "label": "The concentration of the hydrochloric acid"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc4g",
+      "label": "The temperature of the reaction mixture"
+     }
+    ],
+    "scene": "A scientist is investigating how the particle size of calcium carbonate affects how quickly it reacts with hydrochloric acid. They use large chips, small chips and a powder, all of the same mass."
+   },
+   {
+    "items": [
+     {
+      "bin": "Independent variable",
+      "id": "sc5a",
+      "label": "The concentration of the sodium thiosulfate solution"
+     },
+     {
+      "bin": "Independent variable",
+      "id": "sc5b",
+      "label": "How much thiosulfate is dissolved in each trial"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc5c",
+      "label": "The time taken for the mixture to turn cloudy"
+     },
+     {
+      "bin": "Dependent variable",
+      "id": "sc5d",
+      "label": "How long a mark underneath the flask stays visible"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc5e",
+      "label": "The concentration of the acid added"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc5f",
+      "label": "The volume of each solution mixed"
+     },
+     {
+      "bin": "Controlled variable",
+      "id": "sc5g",
+      "label": "The temperature of both solutions before mixing"
+     }
+    ],
+    "scene": "A student is investigating how the concentration of sodium thiosulfate affects the time it takes for a mixture to turn cloudy. They mix the same acid with three different concentrations of thiosulfate."
    }
   ],
   "subject": "chem",
@@ -2573,66 +4290,322 @@
     "bin": "Different elements",
     "id": "g",
     "label": "¹H and ⁴He (1p vs 2p)"
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n1",
+    "label": "Carbon-12 and Carbon-14"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n2",
+    "label": "An atom with 6 protons and an atom with 8 protons"
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n3",
+    "label": "O-16 and O-18"
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n4",
+    "label": "35Cl and 37Cl"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n5",
+    "label": "An atom of sodium and an atom of potassium"
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n6",
+    "label": "Two atoms, both with 17 protons, but 18 and 20 neutrons"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n7",
+    "label": "An atom with 11 protons and an atom with 12 protons"
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n8",
+    "label": "Hydrogen-1 and Hydrogen-3"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n9",
+    "label": "A neon atom and an argon atom"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n10",
+    "label": "An atom with atomic number 26 and one with atomic number 29"
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n11",
+    "label": "K-39 and K-41"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n12",
+    "label": "A nitrogen atom and an oxygen atom"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n13",
+    "label": "Na-23 and Mg-24, each with 12 neutrons",
+    "note": "Na Z=11 (23-12=11 protons), Mg Z=12 (24-12=12 protons). Same neutron count but different protons = different elements. Correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n14",
+    "label": "Mg-24 and Mg-26"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n15",
+    "label": "An atom with 15 protons and an atom with 16 protons"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n16",
+    "label": "Two atoms both with mass number 40: one with 20 protons, one with 18",
+    "note": "20 protons = Ca, 18 protons = Ar. Same mass number but different Z = different elements (isobars). Correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n17",
+    "label": "Fe-54 and Fe-56"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n18",
+    "label": "A calcium atom and a strontium atom"
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n19",
+    "label": "N-14 and N-15"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n21",
+    "label": "An atom with 7 protons and an atom with 20 protons"
+   },
+   {
+    "bin": "Isotopes",
+    "id": "n22",
+    "label": "Boron-10 and Boron-11"
+   },
+   {
+    "bin": "Different elements",
+    "id": "n23",
+    "label": "A helium atom and a lithium atom"
    }
   ],
+  "prompt": "Sort each pair of atoms by whether they are isotopes of the same element or different elements.",
   "subject": "chem",
   "tool": "sorter"
  },
  "192": {
   "bins": [
    "Ionic compound",
-   "Covalent compound"
+   "Covalent compound",
+   "Not a compound"
   ],
   "gate_status": "reviewed",
   "items": [
    {
     "bin": "Ionic compound",
     "id": "a",
-    "label": "NaCl (Na + Cl)"
+    "label": "NaCl"
    },
    {
     "bin": "Covalent compound",
     "id": "b",
-    "label": "CO₂ (C + O)"
+    "label": "CO2"
    },
    {
     "bin": "Ionic compound",
     "id": "c",
-    "label": "MgO (Mg + O)"
+    "label": "MgO"
    },
    {
     "bin": "Covalent compound",
     "id": "d",
-    "label": "H₂O (H + O)"
+    "label": "H2O"
    },
    {
     "bin": "Ionic compound",
     "id": "e",
-    "label": "CaF₂ (Ca + F)"
+    "label": "CaF2"
    },
    {
     "bin": "Covalent compound",
     "id": "f",
-    "label": "NH₃ (N + H)"
+    "label": "NH3"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n1",
+    "label": "MgCl₂"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n2",
+    "label": "CO₂"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n3",
+    "label": "K₂O"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n4",
+    "label": "NF₃"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n5",
+    "label": "CaBr₂"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n6",
+    "label": "SO₃"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n7",
+    "label": "Al₂O₃"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n8",
+    "label": "PCl₅"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n9",
+    "label": "Na₂SO₄"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n10",
+    "label": "SiCl₄"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n11",
+    "label": "NH₄Cl",
+    "note": "NH4+ polyatomic cation with Cl-; ionic despite all-nonmetal atoms.",
+    "trap": true
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n12",
+    "label": "Li₃N"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n13",
+    "label": "P₄O₁₀"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n14",
+    "label": "BaCO₃"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n15",
+    "label": "N₂O₄"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n16",
+    "label": "H₂O",
+    "note": "Two nonmetals sharing electrons; molecular/covalent despite polarity.",
+    "trap": true
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n17",
+    "label": "FeCl₃"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n18",
+    "label": "ClF₃"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n19",
+    "label": "KNO₃"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n20",
+    "label": "CS₂"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n21",
+    "label": "Cs₂S"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n22",
+    "label": "BF₃"
+   },
+   {
+    "bin": "Ionic compound",
+    "id": "n23",
+    "label": "SrO"
+   },
+   {
+    "bin": "Covalent compound",
+    "id": "n24",
+    "label": "SF₆"
+   },
+   {
+    "bin": "Not a compound",
+    "id": "e1",
+    "label": "Cu, a copper wire"
+   },
+   {
+    "bin": "Not a compound",
+    "id": "e2",
+    "label": "O2, the oxygen we breathe"
+   },
+   {
+    "bin": "Not a compound",
+    "id": "e3",
+    "label": "Ar, argon gas in a bulb"
    }
   ],
+  "prompt": "Sort each substance into ionic compound, covalent compound, or not a compound at all.",
   "subject": "chem",
   "tool": "sorter"
  },
  "21": {
   "bins": [
    "Exact number",
-   "Measured number"
+   "Inexact number"
   ],
   "gate_status": "reviewed",
   "items": [
    {
     "bin": "Exact number",
     "id": "a",
-    "label": "12 eggs in a dozen (defined)"
+    "label": "12 eggs in a dozen"
    },
    {
-    "bin": "Measured number",
+    "bin": "Inexact number",
     "id": "b",
     "label": "Length = 25.4 cm"
    },
@@ -2642,21 +4615,134 @@
     "label": "3 students in the class"
    },
    {
-    "bin": "Measured number",
+    "bin": "Inexact number",
     "id": "d",
     "label": "Mass = 12.56 g"
    },
    {
     "bin": "Exact number",
     "id": "e",
-    "label": "1 km = 1000 m (definition)"
+    "label": "1 km = 1000 m"
    },
    {
-    "bin": "Measured number",
+    "bin": "Inexact number",
     "id": "f",
     "label": "Temperature = 23.1°C"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n1",
+    "label": "The 12 used to define the atomic mass unit, based on carbon-12"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n2",
+    "label": "The mass of a copper penny read as 3.11 g on a balance"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n3",
+    "label": "There are 2 hydrogen atoms in one H2O molecule"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n4",
+    "label": "The length of a strip of magnesium recorded as 4.5 cm"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n5",
+    "label": "1000 mL in 1 L"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n6",
+    "label": "The temperature of a water bath read as 24.8 C"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n7",
+    "label": "The volume of gas collected reported as 45.2 mL"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n8",
+    "label": "Avogadro's number, 6.02214076 x 10^23"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n9",
+    "label": "The pH of a solution read as 3.42 from a meter"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n10",
+    "label": "100 cm in 1 m"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n11",
+    "label": "The mass of NaCl on an analytical balance is 0.2507 g"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n12",
+    "label": "The 6 carbon atoms in one C6H12O6 formula unit"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n13",
+    "label": "The concentration titrated and found to be 0.104 M"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n14",
+    "label": "1 inch equals 2.54 cm",
+    "note": "1 in = 2.54 cm is a definition (exact by international agreement), despite looking measured. Correctly Exact.",
+    "trap": true
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n15",
+    "label": "The time for a reaction, read off a stopwatch, was 38.6 s"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n16",
+    "label": "The number of protons in a fluorine atom is 9"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n17",
+    "label": "The density of a metal computed from lab data as 7.86 g/mL"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n18",
+    "label": "3 sodium ions balance one phosphate ion in Na3PO4"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n20",
+    "label": "The absorbance of a dye read off a spectrophotometer as 0.671"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n21",
+    "label": "The 4 oxygen atoms shown in one sulfate ion SO4 2-"
+   },
+   {
+    "bin": "Inexact number",
+    "id": "n22",
+    "label": "The boiling point of ethanol recorded in lab as 78.1 C"
+   },
+   {
+    "bin": "Exact number",
+    "id": "n24",
+    "label": "A student counts 30 desks in a classroom"
    }
   ],
+  "prompt": "Sort each number into exact (defined or counted) versus measured (read from an instrument, always uncertain).",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -2839,6 +4925,12 @@
   "tool": "labeler"
  },
  "224": {
+  "distractors": [
+   "chlorous acid",
+   "hypochlorous acid",
+   "nitrate acid",
+   "sulfite acid"
+  ],
   "gate_status": "reviewed",
   "pairs": [
    {
@@ -2870,8 +4962,17 @@
     "id": "f",
     "left": "HNO₂",
     "right": "nitrous acid"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: naming H2SO3 sulfuric acid",
+    "note": "H2SO3 and H2SO4 differ by only one oxygen and one letter in their names, and students default to the more familiar -ic ending without checking the oxygen count.",
+    "right": "WRONG - the -ic suffix (sulfuric acid, H2SO4) is for the oxyanion with more oxygen; H2SO3 has one fewer oxygen and takes the -ous suffix, sulfurous acid",
+    "trap": true
    }
   ],
+  "prompt": "Match each formula to its correct name.",
+  "responseSurplus": 4,
   "subject": "chem",
   "tool": "matcher"
  },
@@ -3048,33 +5149,69 @@
   "gate_status": "reviewed",
   "items": [
    {
-    "id": "a",
-    "label": "Analytical balance ± 0.0001 g (most precise)",
-    "order": 1
+    "answer": "0.1 cm",
+    "options": [
+     "0.1 cm",
+     "1 cm",
+     "0.05 cm",
+     "10 cm"
+    ],
+    "svgFile": "ruler_cm.svg"
    },
    {
-    "id": "b",
-    "label": "Burette ± 0.02 mL",
-    "order": 2
+    "answer": "1 mm",
+    "options": [
+     "1 mm",
+     "0.1 mm",
+     "10 mm",
+     "0.5 mm"
+    ],
+    "svgFile": "ruler_mm.svg"
    },
    {
-    "id": "c",
-    "label": "Volumetric pipette ± 0.05 mL",
-    "order": 3
+    "answer": "0.001 g",
+    "options": [
+     "0.001 g",
+     "0.01 g",
+     "0.1 g",
+     "1 g"
+    ],
+    "svgFile": "balance.svg"
    },
    {
-    "id": "d",
-    "label": "Graduated cylinder ± 0.1 mL",
-    "order": 4
+    "answer": "0.1 °C",
+    "options": [
+     "0.1 °C",
+     "1 °C",
+     "0.01 °C",
+     "10 °C"
+    ],
+    "svgFile": "thermometer.svg"
    },
    {
-    "id": "e",
-    "label": "Beaker ± 5 mL (least precise)",
-    "order": 5
+    "answer": "0.1 mL",
+    "options": [
+     "0.1 mL",
+     "1 mL",
+     "0.01 mL",
+     "10 mL"
+    ],
+    "svgFile": "pipet.svg"
+   },
+   {
+    "answer": "0.1 in",
+    "options": [
+     "0.1 in",
+     "1 in",
+     "0.01 in",
+     "10 in"
+    ],
+    "svgFile": "ruler_in.svg"
    }
   ],
+  "prompt": "For each instrument, choose its least count.",
   "subject": "chem",
-  "tool": "sequencer"
+  "tool": "instrument"
  },
  "29": {
   "gate_status": "reviewed",
@@ -3092,7 +5229,9 @@
    {
     "id": "c",
     "label": "Pipette ±0.02 mL",
-    "order": 3
+    "note": "A pipette is often introduced as 'the precise volume-delivery tool', which tempts ranking it above a burette by reputation. But precision here is set by the actual uncertainty value given, and the burette's plus-or-minus 0.01 mL beats the pipette's plus-or-minus 0.02 mL despite pipettes being associated with careful single-volume delivery.",
+    "order": 3,
+    "trap": true
    },
    {
     "id": "d",
@@ -3105,6 +5244,7 @@
     "order": 5
    }
   ],
+  "prompt": "Order these instruments from most precise to least precise.",
   "subject": "chem",
   "tool": "sequencer"
  },
@@ -3152,83 +5292,168 @@
  },
  "366": {
   "bins": [
-   "Monobasic (1 OH⁻)",
-   "Dibasic (2 OH⁻)"
+   "Monobasic",
+   "Dibasic"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "Monobasic (1 OH⁻)",
+    "bin": "Monobasic",
     "id": "a",
     "label": "NaOH"
    },
    {
-    "bin": "Dibasic (2 OH⁻)",
+    "bin": "Dibasic",
     "id": "b",
     "label": "Ca(OH)₂"
    },
    {
-    "bin": "Monobasic (1 OH⁻)",
+    "bin": "Monobasic",
     "id": "c",
     "label": "KOH"
    },
    {
-    "bin": "Dibasic (2 OH⁻)",
+    "bin": "Dibasic",
     "id": "d",
     "label": "Mg(OH)₂"
    },
    {
-    "bin": "Monobasic (1 OH⁻)",
+    "bin": "Monobasic",
     "id": "e",
     "label": "LiOH"
    },
    {
-    "bin": "Dibasic (2 OH⁻)",
+    "bin": "Dibasic",
     "id": "f",
     "label": "Ba(OH)₂"
+   },
+   {
+    "bin": "Monobasic",
+    "id": "n1",
+    "label": "Ammonia, NH₃",
+    "note": "Ammonia carries no hydroxide group at all, so scanning the formula for OH finds nothing. Ammonia is still a base: in water NH₃ accepts one proton, NH₃ + H₂O gives NH₄⁺ and OH⁻, releasing a single hydroxide ion per formula unit.",
+    "trap": true
    }
   ],
+  "prompt": "Sort each base by how many hydroxide ions it releases per formula unit.",
   "subject": "chem",
   "tool": "sorter"
  },
  "379": {
   "bins": [
-   "Oxidized (OX# rises)",
-   "Reduced (OX# falls)"
+   "Oxidized",
+   "Reduced"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "Oxidized (OX# rises)",
-    "id": "a",
-    "label": "Fe: 0 → +2 in Fe + CuSO₄"
+    "bin": "Oxidized",
+    "id": "r1",
+    "label": "Iron filings dropped into copper(II) sulfate solution: what happens to the iron"
    },
    {
-    "bin": "Reduced (OX# falls)",
-    "id": "b",
-    "label": "Cu: +2 → 0 in Fe + CuSO₄"
+    "bin": "Reduced",
+    "id": "r2",
+    "label": "The copper that plates onto the iron in a Fe + CuSO₄ mixture"
    },
    {
-    "bin": "Oxidized (OX# rises)",
-    "id": "c",
-    "label": "Zn: 0 → +2 in Zn + H₂SO₄"
+    "bin": "Oxidized",
+    "id": "r3",
+    "label": "Zinc metal dissolving as it reacts with dilute sulfuric acid"
    },
    {
-    "bin": "Reduced (OX# falls)",
-    "id": "d",
-    "label": "H: +1 → 0 in Zn + H₂SO₄"
+    "bin": "Reduced",
+    "id": "r4",
+    "label": "The hydrogen of the acid as bubbles of H₂ gas form on the zinc"
    },
    {
-    "bin": "Oxidized (OX# rises)",
-    "id": "e",
-    "label": "Na: 0 → +1 in 2Na + Cl₂"
+    "bin": "Oxidized",
+    "id": "r5",
+    "label": "Sodium metal reacting with chlorine gas: track the sodium"
    },
    {
-    "bin": "Reduced (OX# falls)",
-    "id": "f",
-    "label": "Cl: 0 → -1 in 2Na + Cl₂"
+    "bin": "Reduced",
+    "id": "r6",
+    "label": "Chlorine gas reacting with sodium metal: track the chlorine"
+   },
+   {
+    "bin": "Oxidized",
+    "id": "r7",
+    "label": "A magnesium ribbon burning in air to form magnesium oxide"
+   },
+   {
+    "bin": "Oxidized",
+    "id": "r8",
+    "label": "An aluminum electrode losing mass as it dissolves into solution"
+   },
+   {
+    "bin": "Oxidized",
+    "id": "r9",
+    "label": "Carbon in methane after it fully combusts to carbon dioxide"
+   },
+   {
+    "bin": "Oxidized",
+    "id": "r10",
+    "label": "Sulfur in hydrogen sulfide gas after it burns to sulfur dioxide"
+   },
+   {
+    "bin": "Oxidized",
+    "id": "r11",
+    "label": "Nitrogen in ammonia after it is converted to nitrogen monoxide"
+   },
+   {
+    "bin": "Oxidized",
+    "id": "r12",
+    "label": "Oxygen in hydrogen peroxide as it decomposes and releases O₂ gas",
+    "note": "Peroxide oxygen (-1) goes to O₂ (0), so it is oxidized; counters the 'oxygen is always reduced' misconception.",
+    "trap": true
+   },
+   {
+    "bin": "Reduced",
+    "id": "r13",
+    "label": "Copper ions in solution plating out as solid copper on an electrode"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r14",
+    "label": "Silver ions in solution depositing as a silver coating on a wire"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r15",
+    "label": "Chlorine gas being bubbled into water and forming chloride ions"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r16",
+    "label": "Manganese in the purple permanganate ion after it turns into pale Mn2+"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r17",
+    "label": "Oxygen gas taken up during respiration to become the oxygen in water"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r18",
+    "label": "Nitrogen in the nitrate ion after it is converted to nitrogen dioxide",
+    "note": "N in NO3- (+5) drops to N in NO₂ (+4); requires assigning oxidation states rather than pattern-matching N-to-NOx as oxidation.",
+    "trap": true
+   },
+   {
+    "bin": "Reduced",
+    "id": "r19",
+    "label": "Sulfur in the sulfate ion after it is converted to sulfur dioxide",
+    "note": "S in SO₄ 2- is +6 and drops to +4 in SO₂; forming a smaller gas molecule does not mean oxidation.",
+    "trap": true
+   },
+   {
+    "bin": "Oxidized",
+    "id": "r20",
+    "label": "A lithium atom in a battery reacting to enter the electrolyte as its ion"
    }
   ],
+  "prompt": "Sort each species by whether it is oxidized or reduced.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -3239,25 +5464,27 @@
     "id": "heat_product",
     "label": "Exothermic (heat on product side)",
     "x": 0.25,
-    "y": 0.234
+    "y": 0.4
    },
    {
     "id": "heat_reactant",
     "label": "Endothermic (heat on reactant side)",
+    "note": "Endothermic reactions write heat on the reactant side because that heat must be supplied for the reaction to proceed, as if heat itself were being consumed like a reactant. This is the opposite placement from exothermic reactions, where heat appears as a released product.",
+    "trap": true,
     "x": 0.75,
-    "y": 0.234
+    "y": 0.4
    },
    {
     "id": "released",
     "label": "Energy released",
     "x": 0.25,
-    "y": 0.694
+    "y": 0.72
    },
    {
     "id": "absorbed",
     "label": "Energy absorbed",
     "x": 0.75,
-    "y": 0.694
+    "y": 0.72
    }
   ],
   "options": [
@@ -3352,6 +5579,13 @@
     "bin": "Not a combustion reaction",
     "id": "f",
     "label": "Photosynthesis stores solar energy"
+   },
+   {
+    "bin": "Not a combustion reaction",
+    "id": "n1",
+    "label": "HCl + NaOH -> NaCl + H₂O + heat",
+    "note": "This releases heat like the combustion examples, but it is a neutralization, not a fuel-plus-O₂-to-CO₂-and-H₂O reaction. Releasing heat does not by itself make a reaction a combustion reaction.",
+    "trap": true
    }
   ],
   "subject": "chem",
@@ -3468,8 +5702,16 @@
     "bin": "Not a mass tool",
     "id": "f",
     "label": "Ruler / metre stick"
+   },
+   {
+    "bin": "Not a mass tool",
+    "id": "n1",
+    "label": "Spring scale",
+    "note": "A spring scale reads the pull of gravity on an object, so its result changes with location (Earth vs. the Moon), unlike a balance reading, which compares against fixed reference masses. That force reading is weight, not mass.",
+    "trap": true
    }
   ],
+  "prompt": "Sort each instrument by whether it measures mass.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -3696,6 +5938,13 @@
     "bin": "Shorter bond / higher energy",
     "id": "f",
     "label": "C-F bond (F is very small)"
+   },
+   {
+    "bin": "Longer bond / lower energy",
+    "id": "n1",
+    "label": "F-F single bond (F is a very small atom)",
+    "note": "F-F is anomalously weak and long for such a small atom because the two densely packed lone-pair-rich fluorines repel each other strongly at bonding distance. 'Smaller atom = shorter, stronger bond' is the rule that solves every other item here, but it fails for F-F specifically.",
+    "trap": true
    }
   ],
   "subject": "chem",
@@ -3737,6 +5986,13 @@
     "bin": "Radius decreases",
     "id": "f",
     "label": "More protons, same shell n"
+   },
+   {
+    "bin": "Radius decreases",
+    "id": "n1",
+    "label": "A neutral sodium atom loses its one valence electron, forming Na⁺",
+    "note": "Removing the outer electron leaves only inner, more tightly held electrons around the same nuclear charge, shrinking the radius. This is not a period/group position shift, so scanning for 'which direction on the table' does not apply here.",
+    "trap": true
    }
   ],
   "subject": "chem",
@@ -3747,25 +6003,28 @@
   "items": [
    {
     "id": "a",
-    "label": "Substance A: slope 8.9 g/mL",
+    "label": "Sample B: 15.0 g in 5.0 mL",
     "order": 1
    },
    {
     "id": "b",
-    "label": "Substance B: slope 2.7 g/mL",
+    "label": "Sample A: 20.0 g in 10.0 mL",
     "order": 2
    },
    {
     "id": "c",
-    "label": "Substance C: slope 1.0 g/mL",
-    "order": 3
+    "label": "Sample C: 8.0 g in 8.0 mL",
+    "note": "Sample C's mass (8.0 g) and volume (8.0 mL) happen to be the same number, giving a density of exactly 1.0 g/mL, close to water's. This is just how these particular numbers work out, not a signal about density rank, so each sample's ratio still has to be calculated rather than pattern-matched.",
+    "order": 3,
+    "trap": true
    },
    {
     "id": "d",
-    "label": "Substance D: slope 0.79 g/mL",
+    "label": "Sample D: 12.0 g in 20.0 mL",
     "order": 4
    }
   ],
+  "prompt": "Order these samples by density. (density = mass divided by volume)",
   "subject": "chem",
   "tool": "sequencer"
  },
@@ -3780,7 +6039,9 @@
    {
     "id": "b",
     "label": "C=C (double bond, BO=2)",
-    "order": 2
+    "note": "It is easy to assume bond length scales evenly with bond order, so a double bond should sit exactly midway between single and triple. The relationship is not linear: most of the shortening happens going from single to double, with a smaller further decrease from double to triple.",
+    "order": 2,
+    "trap": true
    },
    {
     "id": "c",
@@ -3947,33 +6208,35 @@
   "hotspots": [
    {
     "id": "xax",
-    "label": "Kinetic energy (Ek)",
-    "x": 0.531,
-    "y": 0.85
+    "label": "Kinetic energy (KE)",
+    "x": 0.55,
+    "y": 0.95
    },
    {
     "id": "yax",
     "label": "Number of particles",
-    "x": 0.146,
-    "y": 0.469
+    "x": 0.03,
+    "y": 0.4
    },
    {
     "id": "avg",
-    "label": "Average Ek (Ek̄)",
-    "x": 0.469,
-    "y": 0.25
+    "label": "Average KE",
+    "note": "Temperature is proportional to average kinetic energy, so the two get treated as interchangeable, but this marker specifically locates the average KE value on the kinetic-energy axis of THIS diagram, not a separate temperature scale.",
+    "trap": true,
+    "x": 0.48,
+    "y": 0.15
    },
    {
     "id": "are",
     "label": "All particles (area = total)",
-    "x": 0.302,
-    "y": 0.65
+    "x": 0.65,
+    "y": 0.5
    }
   ],
   "options": [
-   "Kinetic energy (Ek)",
+   "Kinetic energy (KE)",
    "Number of particles",
-   "Average Ek (Ek̄)",
+   "Average KE",
    "All particles (area = total)",
    "Temperature",
    "Potential energy",
@@ -4236,16 +6499,24 @@
     "label": "Boiling water ≈ 373"
    },
    {
-    "bin": "Kelvin (K)",
-    "id": "f",
-    "label": "Required in all gas law calcs"
-   },
-   {
     "bin": "Celsius (°C)",
     "id": "g",
     "label": "Used in everyday lab work"
+   },
+   {
+    "bin": "Kelvin (K)",
+    "id": "h",
+    "label": "SI base unit of temperature"
+   },
+   {
+    "bin": "Kelvin (K)",
+    "id": "n1",
+    "label": "Cannot go below zero",
+    "note": "Kelvin's zero is absolute zero, the true physical floor, so a Kelvin value can never read negative. Celsius's zero is only water's freezing point, an arbitrary marker, which is why Celsius readings go negative all the time (a cold night at -10 degrees Celsius is still a positive 263 K).",
+    "trap": true
    }
   ],
+  "prompt": "Sort each fact by which temperature scale it describes.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -4337,37 +6608,44 @@
    {
     "bin": "Covalent-network",
     "id": "a",
-    "label": "Diamond: C atoms, all covalent"
+    "label": "Diamond"
    },
    {
     "bin": "Covalent-network",
     "id": "b",
-    "label": "SiO₂ (quartz): Si-O lattice"
+    "label": "SiO₂ (quartz)"
    },
    {
     "bin": "Not covalent-network",
     "id": "c",
-    "label": "NaCl: ionic crystal"
+    "label": "NaCl"
    },
    {
     "bin": "Covalent-network",
     "id": "d",
-    "label": "SiC (very hard, high mp)"
+    "label": "SiC"
    },
    {
     "bin": "Not covalent-network",
     "id": "e",
-    "label": "Ice: H₂O molecules + IMFs"
+    "label": "Ice"
    },
    {
     "bin": "Covalent-network",
     "id": "f",
-    "label": "BN (boron nitride, like C)"
+    "label": "BN (boron nitride)"
    },
    {
     "bin": "Not covalent-network",
     "id": "g",
-    "label": "Copper: metallic solid"
+    "label": "Copper"
+   },
+   {
+    "bin": "Covalent-network",
+    "id": "n1",
+    "label": "Silicon (Si), the base material in computer chips",
+    "note": "Silicon has the same diamond-cubic covalent network structure as carbon in diamond: hard, brittle, and high-melting. Its association with electronics tempts students to lump it in with metallic conductors like copper (already in this row) rather than recognizing it as a covalent network solid.",
+    "trap": true
    }
   ],
   "subject": "chem",
@@ -4375,46 +6653,44 @@
  },
  "877": {
   "bins": [
-   "KE changes (ΔT)",
-   "PE changes (phase)"
+   "KE changes",
+   "PE changes"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "KE changes (ΔT)",
-    "id": "a",
-    "label": "Sloped segment: T is rising"
+    "bin": "KE changes",
+    "id": "r1",
+    "label": "Solid ice is warmed from -20C to -5C, still fully solid"
    },
    {
-    "bin": "PE changes (phase)",
-    "id": "b",
-    "label": "Flat segment: phase transition"
+    "bin": "KE changes",
+    "id": "r2",
+    "label": "Liquid water is heated from 30C toward its boiling point"
    },
    {
-    "bin": "KE changes (ΔT)",
-    "id": "c",
-    "label": "Particles moving faster"
+    "bin": "PE changes",
+    "id": "r3",
+    "label": "Water is boiling steadily in an open pot on constant heat",
+    "note": "Misconception: a boiling pot keeps getting hotter. Once boiling, energy overcomes IPFs at constant T, so it is potential energy.",
+    "trap": true
    },
    {
-    "bin": "PE changes (phase)",
-    "id": "d",
-    "label": "IMFs breaking (phase change)"
-   },
-   {
-    "bin": "KE changes (ΔT)",
-    "id": "e",
-    "label": "Temperature increases"
-   },
-   {
-    "bin": "PE changes (phase)",
-    "id": "f",
-    "label": "Intermolecular forces overcome"
+    "bin": "KE changes",
+    "id": "r4",
+    "label": "Steam in a sealed flask goes from 110C to 130C"
    }
   ],
   "subject": "chem",
   "tool": "sorter"
  },
  "9": {
+  "distractors": [
+   "The list of steps you follow in the procedure",
+   "The variable you deliberately change between trials",
+   "A number read off an instrument together with its units",
+   "A guess with no evidence to support it"
+  ],
   "gate_status": "reviewed",
   "items": [
    {
@@ -4448,8 +6724,54 @@
     "order": 6
    }
   ],
+  "pairs": [
+   {
+    "id": "a",
+    "left": "Observation",
+    "right": "Data you directly notice or measure, whether qualitative or quantitative"
+   },
+   {
+    "id": "b",
+    "left": "Hypothesis",
+    "right": "A tentative, testable explanation"
+   },
+   {
+    "id": "c",
+    "left": "Inference",
+    "right": "An interpretation of the evidence"
+   },
+   {
+    "id": "d",
+    "left": "Prediction",
+    "right": "What you expect to happen"
+   },
+   {
+    "id": "e",
+    "left": "Conclusion",
+    "right": "What the data support"
+   },
+   {
+    "id": "f",
+    "left": "Theory",
+    "right": "An explanation of a set of observations, supported by evidence"
+   },
+   {
+    "id": "g",
+    "left": "Law",
+    "right": "A statement of universal validity about repeatedly verified events"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: treating a theory as a guess with no evidence",
+    "note": "Students hear 'just a theory' in everyday speech and assume it means an unproven hunch, when in science a theory is the opposite: the most well-tested, evidence-backed explanation available.",
+    "right": "WRONG - a theory is a well-supported explanation backed by many observations, not an unfounded guess",
+    "trap": true
+   }
+  ],
+  "prompt": "Match each investigation term to its meaning.",
+  "responseSurplus": 4,
   "subject": "chem",
-  "tool": "sequencer"
+  "tool": "matcher"
  },
  "900033": {
   "gate_status": "reviewed",
@@ -10482,7 +12804,9 @@
    {
     "id": "a",
     "label": "Set A: range = 0.2 mL",
-    "order": 1
+    "note": "A small range shows the measurements cluster tightly together, which is precision, but that says nothing about whether they are close to the true value, which is accuracy. Set A being the most precise set here does not by itself mean it is also the most accurate one.",
+    "order": 1,
+    "trap": true
    },
    {
     "id": "b",
@@ -10500,6 +12824,7 @@
     "order": 4
    }
   ],
+  "prompt": "Order these data sets from most precise to least precise.",
   "subject": "chem",
   "tool": "sequencer"
  },
@@ -10527,6 +12852,7 @@
     "order": 4
    }
   ],
+  "prompt": "Order these data sets from most accurate to least accurate.",
   "subject": "chem",
   "tool": "sequencer"
  },
