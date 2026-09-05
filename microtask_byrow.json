@@ -5824,7 +5824,7 @@
   "subject": "chem",
   "tool": "sequencer"
  },
- "302": {
+ "347": {
   "gate_status": "reviewed",
   "hotspots": [
    {
@@ -7127,7 +7127,7 @@
   "remapped_on": "2026-09-05",
   "tool": "sorter"
  },
- "716": {
+ "723": {
   "gate_status": "reviewed",
   "hotspots": [
    {
