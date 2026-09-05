@@ -908,47 +908,6 @@
   "svgKey": "ch13/row_1012",
   "tool": "labeler"
  },
- "1158": {
-  "bins": [
-   "Weaker base",
-   "Stronger base"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Weaker base",
-    "id": "a",
-    "label": "NH₂OH (OH group on N)"
-   },
-   {
-    "bin": "Stronger base",
-    "id": "b",
-    "label": "CH₃NH₂ (alkyl, donates e⁻)"
-   },
-   {
-    "bin": "Weaker base",
-    "id": "c",
-    "label": "CF₃NH₂ (F groups pull LP)"
-   },
-   {
-    "bin": "Stronger base",
-    "id": "d",
-    "label": "(CH₃)₃N (3 alkyl groups)"
-   },
-   {
-    "bin": "Weaker base",
-    "id": "e",
-    "label": "Cl₃CNH₂ (Cl pulls e⁻ from N)"
-   },
-   {
-    "bin": "Stronger base",
-    "id": "f",
-    "label": "CH₃CH₂NH₂ (ethylamine)"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
  "116": {
   "bins": [
    "Solid",
@@ -1322,88 +1281,6 @@
   "subject": "chem",
   "tool": "sorter"
  },
- "1207": {
-  "bins": [
-   "Present initially",
-   "Absent at start"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Present initially",
-    "id": "a",
-    "label": "H₃O⁺ (from strong acid)"
-   },
-   {
-    "bin": "Present initially",
-    "id": "b",
-    "label": "Acid's anion (e.g. Cl⁻)"
-   },
-   {
-    "bin": "Absent at start",
-    "id": "c",
-    "label": "OH⁻ from base"
-   },
-   {
-    "bin": "Present initially",
-    "id": "d",
-    "label": "H₂O (solvent present)"
-   },
-   {
-    "bin": "Absent at start",
-    "id": "e",
-    "label": "Neutral salt (not yet formed)"
-   },
-   {
-    "bin": "Absent at start",
-    "id": "f",
-    "label": "Excess NaOH"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
- "1224": {
-  "bins": [
-   "In buffer region",
-   "NOT in buffer region"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "In buffer region",
-    "id": "a",
-    "label": "Weak acid HA"
-   },
-   {
-    "bin": "In buffer region",
-    "id": "b",
-    "label": "Conjugate base A⁻"
-   },
-   {
-    "bin": "NOT in buffer region",
-    "id": "c",
-    "label": "Large excess OH⁻"
-   },
-   {
-    "bin": "In buffer region",
-    "id": "d",
-    "label": "Spectator cation (Na⁺)"
-   },
-   {
-    "bin": "NOT in buffer region",
-    "id": "e",
-    "label": "H₃O⁺ in large excess"
-   },
-   {
-    "bin": "In buffer region",
-    "id": "f",
-    "label": "HA and A⁻ both significant"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
  "126": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -1587,174 +1464,6 @@
     "label": "H minus (hydride ion)"
    }
   ],
-  "tool": "sorter"
- },
- "13": {
-  "bins": [
-   "Observation",
-   "Inference or conclusion"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Observation",
-    "id": "a",
-    "label": "The copper strip turned green"
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "b",
-    "label": "The strip reacted with moisture"
-   },
-   {
-    "bin": "Observation",
-    "id": "c",
-    "label": "Flame color is bright orange"
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "d",
-    "label": "Sodium ions are present"
-   },
-   {
-    "bin": "Observation",
-    "id": "e",
-    "label": "Mass decreased by 0.42 g"
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "f",
-    "label": "A gas was produced"
-   },
-   {
-    "bin": "Observation",
-    "id": "n1",
-    "label": "The solution turned from colorless to deep blue."
-   },
-   {
-    "bin": "Observation",
-    "id": "n2",
-    "label": "A gas bubbled up when the tablet was dropped in water."
-   },
-   {
-    "bin": "Observation",
-    "id": "n3",
-    "label": "The thermometer in the beaker reads 62.4 degrees C."
-   },
-   {
-    "bin": "Observation",
-    "id": "n4",
-    "label": "A white solid formed at the bottom of the test tube."
-   },
-   {
-    "bin": "Observation",
-    "id": "n5",
-    "label": "The mass on the balance decreased from 4.10 g to 3.85 g."
-   },
-   {
-    "bin": "Observation",
-    "id": "n6",
-    "label": "The metal strip felt warm to the touch after the reaction."
-   },
-   {
-    "bin": "Observation",
-    "id": "n7",
-    "label": "The flame glowed bright yellow when the wire was heated."
-   },
-   {
-    "bin": "Observation",
-    "id": "n8",
-    "label": "The pH paper turned red when dipped in the sample."
-   },
-   {
-    "bin": "Observation",
-    "id": "n9",
-    "label": "A sharp odor was detected above the reaction flask."
-   },
-   {
-    "bin": "Observation",
-    "id": "n10",
-    "label": "The liquid rose to the 25.0 mL mark on the buret."
-   },
-   {
-    "bin": "Observation",
-    "id": "n11",
-    "label": "The crystals appeared as long, six-sided needles under the lens."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n12",
-    "label": "The sample must contain a sodium ion."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n13",
-    "label": "The reaction released energy to its surroundings.",
-    "note": "'Felt warm' is the datum; 'released energy' interprets it, so it is an inference not an observation.",
-    "trap": true
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n14",
-    "label": "A precipitate formed because the product is insoluble.",
-    "note": "Only the solid forming is observed; the causal 'because insoluble' clause is the inference.",
-    "trap": true
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n15",
-    "label": "The unknown gas was likely hydrogen."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n16",
-    "label": "The blue color means copper ions are in solution."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n17",
-    "label": "The solution is acidic based on the red litmus result."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n18",
-    "label": "The lost mass shows a gas escaped the container."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n19",
-    "label": "The bonds in the reactants were weaker than in the products."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n20",
-    "label": "The mixture reached equilibrium when the color stopped changing.",
-    "note": "'Color stopped changing' is observed; declaring equilibrium is a macro-micro inference.",
-    "trap": true
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n21",
-    "label": "This substance is a strong electrolyte."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n22",
-    "label": "The compound has a higher boiling point than water."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n23",
-    "label": "The reaction rate doubled because the temperature rose."
-   },
-   {
-    "bin": "Inference or conclusion",
-    "id": "n24",
-    "label": "The bubbles indicate the reaction produced a gas."
-   }
-  ],
-  "prompt": "Sort each statement into what was directly observed versus what was concluded from it.",
-  "subject": "chem",
   "tool": "sorter"
  },
  "130": {
@@ -2081,129 +1790,6 @@
    }
   ],
   "prompt": "Sort each quantity by whether it depends on the amount of substance present.",
-  "subject": "chem",
-  "tool": "sorter"
- },
- "1337": {
-  "bins": [
-   "Higher entropy (V↑)",
-   "Lower entropy (V↓)"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Higher entropy (V↑)",
-    "id": "a",
-    "label": "1 mol gas in 10 L vs 5 L"
-   },
-   {
-    "bin": "Lower entropy (V↓)",
-    "id": "b",
-    "label": "Same gas compressed to half V"
-   },
-   {
-    "bin": "Higher entropy (V↑)",
-    "id": "c",
-    "label": "Gas expanding into vacuum"
-   },
-   {
-    "bin": "Lower entropy (V↓)",
-    "id": "d",
-    "label": "Gas compressed by piston"
-   },
-   {
-    "bin": "Higher entropy (V↑)",
-    "id": "e",
-    "label": "Same n, T; V doubled"
-   },
-   {
-    "bin": "Lower entropy (V↓)",
-    "id": "f",
-    "label": "Same n, T; V halved"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
- "1342": {
-  "bins": [
-   "ΔS > 0",
-   "ΔS < 0"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "ΔS > 0",
-    "id": "a",
-    "label": "NaCl(s) dissolving in H₂O"
-   },
-   {
-    "bin": "ΔS < 0",
-    "id": "b",
-    "label": "Sugar crystallizing from soln"
-   },
-   {
-    "bin": "ΔS > 0",
-    "id": "c",
-    "label": "KNO₃(s) dissolving in H₂O"
-   },
-   {
-    "bin": "ΔS < 0",
-    "id": "d",
-    "label": "AgCl precipitating out"
-   },
-   {
-    "bin": "ΔS > 0",
-    "id": "e",
-    "label": "Ordered solid → spread ions"
-   },
-   {
-    "bin": "ΔS < 0",
-    "id": "f",
-    "label": "Ions collecting into crystal"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
- "1352": {
-  "bins": [
-   "Favoured (ΔG < 0)",
-   "Unfavoured (ΔG > 0)"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Favoured (ΔG < 0)",
-    "id": "a",
-    "label": "ΔH < 0, ΔS > 0 (all T)"
-   },
-   {
-    "bin": "Unfavoured (ΔG > 0)",
-    "id": "b",
-    "label": "ΔH > 0, ΔS < 0 (all T)"
-   },
-   {
-    "bin": "Favoured (ΔG < 0)",
-    "id": "c",
-    "label": "ΔH < 0, ΔS < 0, low T"
-   },
-   {
-    "bin": "Unfavoured (ΔG > 0)",
-    "id": "d",
-    "label": "ΔH < 0, ΔS < 0, high T"
-   },
-   {
-    "bin": "Favoured (ΔG < 0)",
-    "id": "e",
-    "label": "ΔH > 0, ΔS > 0, high T"
-   },
-   {
-    "bin": "Unfavoured (ΔG > 0)",
-    "id": "f",
-    "label": "ΔH > 0, ΔS > 0, low T"
-   }
-  ],
   "subject": "chem",
   "tool": "sorter"
  },
@@ -2638,47 +2224,6 @@
   "subject": "chem",
   "tool": "sorter"
  },
- "1416": {
-  "bins": [
-   "Anode",
-   "Cathode"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Anode",
-    "id": "a",
-    "label": "Where oxidation occurs"
-   },
-   {
-    "bin": "Cathode",
-    "id": "b",
-    "label": "Where reduction occurs"
-   },
-   {
-    "bin": "Anode",
-    "id": "c",
-    "label": "Negative terminal in galvanic"
-   },
-   {
-    "bin": "Cathode",
-    "id": "d",
-    "label": "Positive terminal in galvanic"
-   },
-   {
-    "bin": "Anode",
-    "id": "e",
-    "label": "Metal dissolves (loses mass)"
-   },
-   {
-    "bin": "Cathode",
-    "id": "f",
-    "label": "Metal deposits (gains mass)"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
  "1421b": {
   "LO_code": "1421",
   "_refresh_note": "refresh variant of Ch15 buffer-preparation-errors family (row 1421); sibling to the impure-component variant already on that row",
@@ -2726,47 +2271,6 @@
   "subject": "chem",
   "svgKey": "tables/buffer_overdilution",
   "tool": "labeler"
- },
- "1427": {
-  "bins": [
-   "Anode role",
-   "Cathode role"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Anode role",
-    "id": "a",
-    "label": "Surface where oxidation occurs"
-   },
-   {
-    "bin": "Cathode role",
-    "id": "b",
-    "label": "Surface where reduction occurs"
-   },
-   {
-    "bin": "Anode role",
-    "id": "c",
-    "label": "Zn electrode in Zn-Cu cell"
-   },
-   {
-    "bin": "Cathode role",
-    "id": "d",
-    "label": "Cu electrode in Zn-Cu cell"
-   },
-   {
-    "bin": "Anode role",
-    "id": "e",
-    "label": "Graphite (inert, oxidation)"
-   },
-   {
-    "bin": "Cathode role",
-    "id": "f",
-    "label": "Pt (inert, reduction site)"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
  },
  "1461": {
   "bins": [
@@ -3270,33 +2774,6 @@
   "svgKey": "ch06/row_545",
   "tool": "labeler"
  },
- "1551": {
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "id": "a",
-    "label": "2 runs: only [A] changes",
-    "order": 1
-   },
-   {
-    "id": "b",
-    "label": "Compute rate ratio R₂/R₁",
-    "order": 2
-   },
-   {
-    "id": "c",
-    "label": "Compute [A]₂/[A]₁ ratio",
-    "order": 3
-   },
-   {
-    "id": "d",
-    "label": "Rate ratio ≈ 1 → m = 0",
-    "order": 4
-   }
-  ],
-  "subject": "chem",
-  "tool": "sequencer"
- },
  "1554": {
   "bins": [
    "Higher entropy",
@@ -3452,48 +2929,6 @@
     "bin": "Lower entropy",
     "id": "s29",
     "label": "N₂(g) confined by a piston as the surrounding pressure is steadily raised, temperature unchanged"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
- "1563": {
-  "bins": [
-   "Tests order in [A]",
-   "Tests order in [B]",
-   "Invalid (both vary)"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Tests order in [A]",
-    "id": "a",
-    "label": "Run 1&2: [A]×2, [B] const."
-   },
-   {
-    "bin": "Tests order in [B]",
-    "id": "b",
-    "label": "Run 2&3: [A] const, [B]×2"
-   },
-   {
-    "bin": "Tests order in [A]",
-    "id": "c",
-    "label": "Run 1&3: [A]×3, [B] const."
-   },
-   {
-    "bin": "Tests order in [B]",
-    "id": "d",
-    "label": "Runs 3&4: [A] same, [B] halves"
-   },
-   {
-    "bin": "Invalid (both vary)",
-    "id": "e",
-    "label": "Runs 1&4: [A]×2, [B]×3 change"
-   },
-   {
-    "bin": "Invalid (both vary)",
-    "id": "f",
-    "label": "Runs 2&5: [A]÷2, [B]×2 change"
    }
   ],
   "subject": "chem",
@@ -3661,55 +3096,6 @@
   ],
   "tool": "sorter"
  },
- "1568": {
-  "bins": [
-   "Zero order",
-   "First order",
-   "Second order"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Zero order",
-    "id": "a",
-    "label": "[A] vs t linear, neg. slope"
-   },
-   {
-    "bin": "First order",
-    "id": "b",
-    "label": "ln[A] vs t is linear (neg.)"
-   },
-   {
-    "bin": "Second order",
-    "id": "c",
-    "label": "1/[A] vs t is linear (pos.)"
-   },
-   {
-    "bin": "Zero order",
-    "id": "h1",
-    "label": "Successive half-lives get shorter as [A] falls"
-   },
-   {
-    "bin": "First order",
-    "id": "h2",
-    "label": "Successive half-lives are constant"
-   },
-   {
-    "bin": "Second order",
-    "id": "h3",
-    "label": "Successive half-lives get longer as [A] falls"
-   },
-   {
-    "bin": "Second order",
-    "id": "n1",
-    "label": "1/[A] vs t is linear AND successive half-lives lengthen",
-    "note": "Not a contradiction: for second order both are true at once, the linear 1/[A] plot and lengthening half-lives are the same fact seen two ways.",
-    "trap": true
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
  "1569": {
   "bins": [
    "Favoured",
@@ -3800,32 +3186,46 @@
   "subject": "chem",
   "tool": "sorter"
  },
- "1590": {
+ "1583": {
+  "bins": [
+   "Favoured (ΔG < 0)",
+   "Unfavoured (ΔG > 0)"
+  ],
   "gate_status": "reviewed",
   "items": [
    {
+    "bin": "Favoured (ΔG < 0)",
     "id": "a",
-    "label": "Get [A] vs time data",
-    "order": 1
+    "label": "ΔH < 0, ΔS > 0 (all T)"
    },
    {
+    "bin": "Unfavoured (ΔG > 0)",
     "id": "b",
-    "label": "Calculate 1/[A] at each time",
-    "order": 2
+    "label": "ΔH > 0, ΔS < 0 (all T)"
    },
    {
+    "bin": "Favoured (ΔG < 0)",
     "id": "c",
-    "label": "Plot 1/[A] vs time",
-    "order": 3
+    "label": "ΔH < 0, ΔS < 0, low T"
    },
    {
+    "bin": "Unfavoured (ΔG > 0)",
     "id": "d",
-    "label": "Linear pos. slope → 2nd order",
-    "order": 4
+    "label": "ΔH < 0, ΔS < 0, high T"
+   },
+   {
+    "bin": "Favoured (ΔG < 0)",
+    "id": "e",
+    "label": "ΔH > 0, ΔS > 0, high T"
+   },
+   {
+    "bin": "Unfavoured (ΔG > 0)",
+    "id": "f",
+    "label": "ΔH > 0, ΔS > 0, low T"
    }
   ],
   "subject": "chem",
-  "tool": "sequencer"
+  "tool": "sorter"
  },
  "16": {
   "gate_status": "reviewed",
@@ -4002,90 +3402,6 @@
   "remapped_from_key": "1389",
   "remapped_on": "2026-09-05",
   "tool": "sorter"
- },
- "1606": {
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "reac",
-    "label": "Reactants",
-    "x": 0.15,
-    "y": 0.619
-   },
-   {
-    "id": "ts",
-    "label": "Transition state (‡)",
-    "x": 0.5,
-    "y": 0.12
-   },
-   {
-    "id": "prod",
-    "label": "Products",
-    "x": 0.85,
-    "y": 0.75
-   },
-   {
-    "id": "peak",
-    "label": "Maximum energy point",
-    "x": 0.5,
-    "y": 0.35
-   }
-  ],
-  "options": [
-   "Reactants",
-   "Transition state (‡)",
-   "Products",
-   "Maximum energy point",
-   "Intermediate",
-   "Activated complex",
-   "Equilibrium state"
-  ],
-  "prompt": "Label the reactants, transition state, and products",
-  "subject": "chem",
-  "svgKey": "ch12/row_1606",
-  "tool": "labeler"
- },
- "1619": {
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "exo_diag",
-    "label": "Exothermic (ΔH < 0)",
-    "x": 0.25,
-    "y": 0.156
-   },
-   {
-    "id": "endo_diag",
-    "label": "Endothermic (ΔH > 0)",
-    "x": 0.75,
-    "y": 0.156
-   },
-   {
-    "id": "exo_dh",
-    "label": "ΔH < 0 (downward)",
-    "x": 0.25,
-    "y": 0.578
-   },
-   {
-    "id": "endo_dh",
-    "label": "ΔH > 0 (upward)",
-    "x": 0.75,
-    "y": 0.578
-   }
-  ],
-  "options": [
-   "Exothermic (ΔH < 0)",
-   "Endothermic (ΔH > 0)",
-   "ΔH < 0 (downward)",
-   "ΔH > 0 (upward)",
-   "Activation energy",
-   "Zero enthalpy",
-   "Equilibrium"
-  ],
-  "prompt": "Label each diagram as exothermic or endothermic",
-  "subject": "chem",
-  "svgKey": "ch12/row_1619",
-  "tool": "labeler"
  },
  "1632": {
   "bins": [
@@ -4411,175 +3727,6 @@
   "responseSurplus": 4,
   "tool": "matcher"
  },
- "177": {
-  "bins": [
-   "Metal",
-   "Nonmetal",
-   "Metalloid"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Metal",
-    "id": "a",
-    "label": "Iron (Fe)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "b",
-    "label": "Oxygen (O)"
-   },
-   {
-    "bin": "Metalloid",
-    "id": "c",
-    "label": "Silicon (Si)"
-   },
-   {
-    "bin": "Metal",
-    "id": "d",
-    "label": "Sodium (Na)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "e",
-    "label": "Chlorine (Cl)"
-   },
-   {
-    "bin": "Metalloid",
-    "id": "f",
-    "label": "Germanium (Ge)"
-   },
-   {
-    "bin": "Metal",
-    "id": "g",
-    "label": "Gold (Au)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n1",
-    "label": "Potassium (K)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n2",
-    "label": "Barium (Ba)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n3",
-    "label": "Aluminum (Al)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n4",
-    "label": "Nickel (Ni)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n5",
-    "label": "Tin (Sn)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n6",
-    "label": "Cesium (Cs)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n7",
-    "label": "Lead (Pb)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n8",
-    "label": "Titanium (Ti)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "n9",
-    "label": "Selenium (Se)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "n10",
-    "label": "Fluorine (F)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "n11",
-    "label": "Phosphorus (P)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "n12",
-    "label": "Argon (Ar)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "n13",
-    "label": "Iodine (I)",
-    "note": "Misconception: shiny gray solid looks metallic, but iodine is a nonmetal (Group 17).",
-    "trap": true
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "n14",
-    "label": "Bromine (Br)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "n15",
-    "label": "Sulfur (S)"
-   },
-   {
-    "bin": "Nonmetal",
-    "id": "n16",
-    "label": "Carbon (C)",
-    "note": "Misconception: sits in the 'staircase' column but period-2 C is a nonmetal, not a metalloid.",
-    "trap": true
-   },
-   {
-    "bin": "Metalloid",
-    "id": "n17",
-    "label": "Silicon (Si)"
-   },
-   {
-    "bin": "Metalloid",
-    "id": "n18",
-    "label": "Germanium (Ge)"
-   },
-   {
-    "bin": "Metalloid",
-    "id": "n19",
-    "label": "Arsenic (As)"
-   },
-   {
-    "bin": "Metalloid",
-    "id": "n20",
-    "label": "Antimony (Sb)"
-   },
-   {
-    "bin": "Metalloid",
-    "id": "n21",
-    "label": "Tellurium (Te)"
-   },
-   {
-    "bin": "Metalloid",
-    "id": "n22",
-    "label": "Boron (B)"
-   },
-   {
-    "bin": "Metal",
-    "id": "n23",
-    "label": "Gallium (Ga)",
-    "note": "Misconception: low melting point and staircase-adjacency suggest metalloid, but Ga is a metal.",
-    "trap": true
-   }
-  ],
-  "prompt": "Sort each element by its position on the periodic table: metal, nonmetal, or metalloid.",
-  "subject": "chem",
-  "tool": "sorter"
- },
  "18": {
   "bins": [
    "Independent variable",
@@ -4832,7 +3979,7 @@
   "subject": "chem",
   "tool": "sorter"
  },
- "183": {
+ "189": {
   "bins": [
    "Isotopes",
    "Different elements"
@@ -4990,188 +4137,6 @@
    }
   ],
   "prompt": "Sort each pair of atoms by whether they are isotopes of the same element or different elements.",
-  "subject": "chem",
-  "tool": "sorter"
- },
- "192": {
-  "bins": [
-   "Ionic compound",
-   "Covalent compound",
-   "Not a compound"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Ionic compound",
-    "id": "a",
-    "label": "NaCl"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "b",
-    "label": "CO2"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "c",
-    "label": "MgO"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "d",
-    "label": "H2O"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "e",
-    "label": "CaF2"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "f",
-    "label": "NH3"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n1",
-    "label": "MgCl₂"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n2",
-    "label": "CO₂"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n3",
-    "label": "K₂O"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n4",
-    "label": "NF₃"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n5",
-    "label": "CaBr₂"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n6",
-    "label": "SO₃"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n7",
-    "label": "Al₂O₃"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n8",
-    "label": "PCl₅"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n9",
-    "label": "Na₂SO₄"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n10",
-    "label": "SiCl₄"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n11",
-    "label": "NH₄Cl",
-    "note": "NH4+ polyatomic cation with Cl-; ionic despite all-nonmetal atoms.",
-    "trap": true
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n12",
-    "label": "Li₃N"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n13",
-    "label": "P₄O₁₀"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n14",
-    "label": "BaCO₃"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n15",
-    "label": "N₂O₄"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n16",
-    "label": "H₂O",
-    "note": "Two nonmetals sharing electrons; molecular/covalent despite polarity.",
-    "trap": true
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n17",
-    "label": "FeCl₃"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n18",
-    "label": "ClF₃"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n19",
-    "label": "KNO₃"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n20",
-    "label": "CS₂"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n21",
-    "label": "Cs₂S"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n22",
-    "label": "BF₃"
-   },
-   {
-    "bin": "Ionic compound",
-    "id": "n23",
-    "label": "SrO"
-   },
-   {
-    "bin": "Covalent compound",
-    "id": "n24",
-    "label": "SF₆"
-   },
-   {
-    "bin": "Not a compound",
-    "id": "e1",
-    "label": "Cu, a copper wire"
-   },
-   {
-    "bin": "Not a compound",
-    "id": "e2",
-    "label": "O2, the oxygen we breathe"
-   },
-   {
-    "bin": "Not a compound",
-    "id": "e3",
-    "label": "Ar, argon gas in a bulb"
-   }
-  ],
-  "prompt": "Sort each substance into ionic compound, covalent compound, or not a compound at all.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -5507,7 +4472,7 @@
   "svgKey": "ch02/row_222",
   "tool": "labeler"
  },
- "224": {
+ "232": {
   "distractors": [
    "chlorous acid",
    "hypochlorous acid",
@@ -5824,6 +4789,54 @@
   "subject": "chem",
   "tool": "sequencer"
  },
+ "301": {
+  "bins": [
+   "Exothermic combustion",
+   "Not a combustion reaction"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Exothermic combustion",
+    "id": "a",
+    "label": "CH₄ + 2O₂ → CO₂ + 2H₂O + heat"
+   },
+   {
+    "bin": "Not a combustion reaction",
+    "id": "b",
+    "label": "NaCl dissolved in water"
+   },
+   {
+    "bin": "Exothermic combustion",
+    "id": "c",
+    "label": "C₃H₈ burns in propane torch"
+   },
+   {
+    "bin": "Not a combustion reaction",
+    "id": "d",
+    "label": "Ice melts by absorbing heat"
+   },
+   {
+    "bin": "Exothermic combustion",
+    "id": "e",
+    "label": "C₆H₆ + O₂ → CO₂ + H₂O (benzene burns)"
+   },
+   {
+    "bin": "Not a combustion reaction",
+    "id": "f",
+    "label": "Photosynthesis stores solar energy"
+   },
+   {
+    "bin": "Not a combustion reaction",
+    "id": "n1",
+    "label": "HCl + NaOH -> NaCl + H₂O + heat",
+    "note": "This releases heat like the combustion examples, but it is a neutralization, not a fuel-plus-O₂-to-CO₂-and-H₂O reaction. Releasing heat does not by itself make a reaction a combustion reaction.",
+    "trap": true
+   }
+  ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "347": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -5865,173 +4878,6 @@
   "subject": "chem",
   "svgKey": "ch03/row_302",
   "tool": "labeler"
- },
- "366": {
-  "bins": [
-   "Monobasic",
-   "Dibasic"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Monobasic",
-    "id": "a",
-    "label": "NaOH"
-   },
-   {
-    "bin": "Dibasic",
-    "id": "b",
-    "label": "Ca(OH)₂"
-   },
-   {
-    "bin": "Monobasic",
-    "id": "c",
-    "label": "KOH"
-   },
-   {
-    "bin": "Dibasic",
-    "id": "d",
-    "label": "Mg(OH)₂"
-   },
-   {
-    "bin": "Monobasic",
-    "id": "e",
-    "label": "LiOH"
-   },
-   {
-    "bin": "Dibasic",
-    "id": "f",
-    "label": "Ba(OH)₂"
-   },
-   {
-    "bin": "Monobasic",
-    "id": "n1",
-    "label": "Ammonia, NH₃",
-    "note": "Ammonia carries no hydroxide group at all, so scanning the formula for OH finds nothing. Ammonia is still a base: in water NH₃ accepts one proton, NH₃ + H₂O gives NH₄⁺ and OH⁻, releasing a single hydroxide ion per formula unit.",
-    "trap": true
-   }
-  ],
-  "prompt": "Sort each base by how many hydroxide ions it releases per formula unit.",
-  "subject": "chem",
-  "tool": "sorter"
- },
- "379": {
-  "bins": [
-   "Oxidized",
-   "Reduced"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Oxidized",
-    "id": "r1",
-    "label": "Iron filings dropped into copper(II) sulfate solution: what happens to the iron"
-   },
-   {
-    "bin": "Reduced",
-    "id": "r2",
-    "label": "The copper that plates onto the iron in a Fe + CuSO₄ mixture"
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r3",
-    "label": "Zinc metal dissolving as it reacts with dilute sulfuric acid"
-   },
-   {
-    "bin": "Reduced",
-    "id": "r4",
-    "label": "The hydrogen of the acid as bubbles of H₂ gas form on the zinc"
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r5",
-    "label": "Sodium metal reacting with chlorine gas: track the sodium"
-   },
-   {
-    "bin": "Reduced",
-    "id": "r6",
-    "label": "Chlorine gas reacting with sodium metal: track the chlorine"
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r7",
-    "label": "A magnesium ribbon burning in air to form magnesium oxide"
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r8",
-    "label": "An aluminum electrode losing mass as it dissolves into solution"
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r9",
-    "label": "Carbon in methane after it fully combusts to carbon dioxide"
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r10",
-    "label": "Sulfur in hydrogen sulfide gas after it burns to sulfur dioxide"
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r11",
-    "label": "Nitrogen in ammonia after it is converted to nitrogen monoxide"
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r12",
-    "label": "Oxygen in hydrogen peroxide as it decomposes and releases O₂ gas",
-    "note": "Peroxide oxygen (-1) goes to O₂ (0), so it is oxidized; counters the 'oxygen is always reduced' misconception.",
-    "trap": true
-   },
-   {
-    "bin": "Reduced",
-    "id": "r13",
-    "label": "Copper ions in solution plating out as solid copper on an electrode"
-   },
-   {
-    "bin": "Reduced",
-    "id": "r14",
-    "label": "Silver ions in solution depositing as a silver coating on a wire"
-   },
-   {
-    "bin": "Reduced",
-    "id": "r15",
-    "label": "Chlorine gas being bubbled into water and forming chloride ions"
-   },
-   {
-    "bin": "Reduced",
-    "id": "r16",
-    "label": "Manganese in the purple permanganate ion after it turns into pale Mn2+"
-   },
-   {
-    "bin": "Reduced",
-    "id": "r17",
-    "label": "Oxygen gas taken up during respiration to become the oxygen in water"
-   },
-   {
-    "bin": "Reduced",
-    "id": "r18",
-    "label": "Nitrogen in the nitrate ion after it is converted to nitrogen dioxide",
-    "note": "N in NO3- (+5) drops to N in NO₂ (+4); requires assigning oxidation states rather than pattern-matching N-to-NOx as oxidation.",
-    "trap": true
-   },
-   {
-    "bin": "Reduced",
-    "id": "r19",
-    "label": "Sulfur in the sulfate ion after it is converted to sulfur dioxide",
-    "note": "S in SO₄ 2- is +6 and drops to +4 in SO₂; forming a smaller gas molecule does not mean oxidation.",
-    "trap": true
-   },
-   {
-    "bin": "Oxidized",
-    "id": "r20",
-    "label": "A lithium atom in a battery reacting to enter the electrolyte as its ion"
-   }
-  ],
-  "prompt": "Sort each species by whether it is oxidized or reduced.",
-  "subject": "chem",
-  "tool": "sorter"
  },
  "394": {
   "bins": [
@@ -6161,6 +5007,55 @@
   "prompt": "Sort each acid by how many acidic (ionizable) protons it has.",
   "remapped_from_key": "365",
   "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
+ "395": {
+  "bins": [
+   "Monobasic",
+   "Dibasic"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Monobasic",
+    "id": "a",
+    "label": "NaOH"
+   },
+   {
+    "bin": "Dibasic",
+    "id": "b",
+    "label": "Ca(OH)₂"
+   },
+   {
+    "bin": "Monobasic",
+    "id": "c",
+    "label": "KOH"
+   },
+   {
+    "bin": "Dibasic",
+    "id": "d",
+    "label": "Mg(OH)₂"
+   },
+   {
+    "bin": "Monobasic",
+    "id": "e",
+    "label": "LiOH"
+   },
+   {
+    "bin": "Dibasic",
+    "id": "f",
+    "label": "Ba(OH)₂"
+   },
+   {
+    "bin": "Monobasic",
+    "id": "n1",
+    "label": "Ammonia, NH₃",
+    "note": "Ammonia carries no hydroxide group at all, so scanning the formula for OH finds nothing. Ammonia is still a base: in water NH₃ accepts one proton, NH₃ + H₂O gives NH₄⁺ and OH⁻, releasing a single hydroxide ion per formula unit.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each base by how many hydroxide ions it releases per formula unit.",
+  "subject": "chem",
   "tool": "sorter"
  },
  "407": {
@@ -6332,212 +5227,121 @@
   "remapped_on": "2026-09-05",
   "tool": "sorter"
  },
- "416": {
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "heat_product",
-    "label": "Exothermic (heat on product side)",
-    "x": 0.25,
-    "y": 0.4
-   },
-   {
-    "id": "heat_reactant",
-    "label": "Endothermic (heat on reactant side)",
-    "note": "Endothermic reactions write heat on the reactant side because that heat must be supplied for the reaction to proceed, as if heat itself were being consumed like a reactant. This is the opposite placement from exothermic reactions, where heat appears as a released product.",
-    "trap": true,
-    "x": 0.75,
-    "y": 0.4
-   },
-   {
-    "id": "released",
-    "label": "Energy released",
-    "x": 0.25,
-    "y": 0.72
-   },
-   {
-    "id": "absorbed",
-    "label": "Energy absorbed",
-    "x": 0.75,
-    "y": 0.72
-   }
-  ],
-  "options": [
-   "Exothermic (heat on product side)",
-   "Endothermic (heat on reactant side)",
-   "Energy released",
-   "Energy absorbed",
-   "Enthalpy of formation",
-   "Neutralization"
-  ],
-  "prompt": "Label each reaction as endothermic or exothermic from whether heat appears as a product or reactant",
-  "subject": "chem",
-  "svgKey": "ch06/row_416",
-  "tool": "labeler"
- },
- "430": {
+ "408": {
   "bins": [
-   "Boyle's Law",
-   "Charles's Law",
-   "Avogadro's Law",
-   "Gay-Lussac's Law"
+   "Oxidized",
+   "Reduced"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "Boyle's Law",
-    "id": "a",
-    "label": "Syringe compressed; T, n fixed"
+    "bin": "Oxidized",
+    "id": "r1",
+    "label": "Iron filings dropped into copper(II) sulfate solution: what happens to the iron"
    },
    {
-    "bin": "Charles's Law",
-    "id": "b",
-    "label": "Balloon heated; P, n fixed"
+    "bin": "Reduced",
+    "id": "r2",
+    "label": "The copper that plates onto the iron in a Fe + CuSO₄ mixture"
    },
    {
-    "bin": "Avogadro's Law",
-    "id": "c",
-    "label": "Air pumped in; T, P fixed"
+    "bin": "Oxidized",
+    "id": "r3",
+    "label": "Zinc metal dissolving as it reacts with dilute sulfuric acid"
    },
    {
-    "bin": "Gay-Lussac's Law",
-    "id": "d",
-    "label": "Sealed tank heated; V, n fixed"
+    "bin": "Reduced",
+    "id": "r4",
+    "label": "The hydrogen of the acid as bubbles of H₂ gas form on the zinc"
    },
    {
-    "bin": "Boyle's Law",
-    "id": "e",
-    "label": "PV = const; T, n held"
+    "bin": "Oxidized",
+    "id": "r5",
+    "label": "Sodium metal reacting with chlorine gas: track the sodium"
    },
    {
-    "bin": "Charles's Law",
-    "id": "f",
-    "label": "V/T = const; P, n held"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
- "445": {
-  "bins": [
-   "Exothermic combustion",
-   "Not a combustion reaction"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Exothermic combustion",
-    "id": "a",
-    "label": "CH₄ + 2O₂ → CO₂ + 2H₂O + heat"
+    "bin": "Reduced",
+    "id": "r6",
+    "label": "Chlorine gas reacting with sodium metal: track the chlorine"
    },
    {
-    "bin": "Not a combustion reaction",
-    "id": "b",
-    "label": "NaCl dissolved in water"
+    "bin": "Oxidized",
+    "id": "r7",
+    "label": "A magnesium ribbon burning in air to form magnesium oxide"
    },
    {
-    "bin": "Exothermic combustion",
-    "id": "c",
-    "label": "C₃H₈ burns in propane torch"
+    "bin": "Oxidized",
+    "id": "r8",
+    "label": "An aluminum electrode losing mass as it dissolves into solution"
    },
    {
-    "bin": "Not a combustion reaction",
-    "id": "d",
-    "label": "Ice melts by absorbing heat"
+    "bin": "Oxidized",
+    "id": "r9",
+    "label": "Carbon in methane after it fully combusts to carbon dioxide"
    },
    {
-    "bin": "Exothermic combustion",
-    "id": "e",
-    "label": "C₆H₆ + O₂ → CO₂ + H₂O (benzene burns)"
+    "bin": "Oxidized",
+    "id": "r10",
+    "label": "Sulfur in hydrogen sulfide gas after it burns to sulfur dioxide"
    },
    {
-    "bin": "Not a combustion reaction",
-    "id": "f",
-    "label": "Photosynthesis stores solar energy"
+    "bin": "Oxidized",
+    "id": "r11",
+    "label": "Nitrogen in ammonia after it is converted to nitrogen monoxide"
    },
    {
-    "bin": "Not a combustion reaction",
-    "id": "n1",
-    "label": "HCl + NaOH -> NaCl + H₂O + heat",
-    "note": "This releases heat like the combustion examples, but it is a neutralization, not a fuel-plus-O₂-to-CO₂-and-H₂O reaction. Releasing heat does not by itself make a reaction a combustion reaction.",
+    "bin": "Oxidized",
+    "id": "r12",
+    "label": "Oxygen in hydrogen peroxide as it decomposes and releases O₂ gas",
+    "note": "Peroxide oxygen (-1) goes to O₂ (0), so it is oxidized; counters the 'oxygen is always reduced' misconception.",
     "trap": true
+   },
+   {
+    "bin": "Reduced",
+    "id": "r13",
+    "label": "Copper ions in solution plating out as solid copper on an electrode"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r14",
+    "label": "Silver ions in solution depositing as a silver coating on a wire"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r15",
+    "label": "Chlorine gas being bubbled into water and forming chloride ions"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r16",
+    "label": "Manganese in the purple permanganate ion after it turns into pale Mn2+"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r17",
+    "label": "Oxygen gas taken up during respiration to become the oxygen in water"
+   },
+   {
+    "bin": "Reduced",
+    "id": "r18",
+    "label": "Nitrogen in the nitrate ion after it is converted to nitrogen dioxide",
+    "note": "N in NO3- (+5) drops to N in NO₂ (+4); requires assigning oxidation states rather than pattern-matching N-to-NOx as oxidation.",
+    "trap": true
+   },
+   {
+    "bin": "Reduced",
+    "id": "r19",
+    "label": "Sulfur in the sulfate ion after it is converted to sulfur dioxide",
+    "note": "S in SO₄ 2- is +6 and drops to +4 in SO₂; forming a smaller gas molecule does not mean oxidation.",
+    "trap": true
+   },
+   {
+    "bin": "Oxidized",
+    "id": "r20",
+    "label": "A lithium atom in a battery reacting to enter the electrolyte as its ion"
    }
   ],
-  "subject": "chem",
-  "tool": "sorter"
- },
- "447": {
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "id": "a",
-    "label": "Write each step's thermochemical equation with its known ΔH",
-    "order": 1
-   },
-   {
-    "id": "b",
-    "label": "Decide whether each step needs to be reversed (change sign of ΔH)",
-    "order": 2
-   },
-   {
-    "id": "c",
-    "label": "Scale any equation by a whole-number factor (multiply ΔH by the same factor)",
-    "order": 3
-   },
-   {
-    "id": "d",
-    "label": "Add all adjusted equations and cancel species appearing on both sides",
-    "order": 4
-   },
-   {
-    "id": "e",
-    "label": "Sum all adjusted ΔH values to obtain the overall enthalpy change",
-    "order": 5
-   }
-  ],
-  "prompt": "Order the operations to calculate ΔH for a multi-step process using Hess's law",
-  "subject": "chem",
-  "tool": "sequencer"
- },
- "452": {
-  "bins": [
-   "Z < 1 (attractions)",
-   "Z = 1 (ideal)",
-   "Z > 1 (vol. effect)"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Z < 1 (attractions)",
-    "id": "a",
-    "label": "CO₂ at high P, low T: Z = 0.85"
-   },
-   {
-    "bin": "Z = 1 (ideal)",
-    "id": "b",
-    "label": "Ideal gas at STP: Z = 1.00"
-   },
-   {
-    "bin": "Z > 1 (vol. effect)",
-    "id": "c",
-    "label": "H₂ at 200 atm, 25°C: Z = 1.07"
-   },
-   {
-    "bin": "Z < 1 (attractions)",
-    "id": "d",
-    "label": "Gas at moderate T; Z = 0.93"
-   },
-   {
-    "bin": "Z > 1 (vol. effect)",
-    "id": "e",
-    "label": "He at 300 atm, 0°C: Z = 1.14"
-   },
-   {
-    "bin": "Z = 1 (ideal)",
-    "id": "f",
-    "label": "N₂ at 1 atm, 25°C: Z ≈ 1.00"
-   }
-  ],
+  "prompt": "Sort each species by whether it is oxidized or reduced.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -6861,54 +5665,6 @@
   "svgKey": "ch06/row_494",
   "tool": "labeler"
  },
- "590": {
-  "bins": [
-   "Longer bond / lower energy",
-   "Shorter bond / higher energy"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Longer bond / lower energy",
-    "id": "a",
-    "label": "C-Br vs C-F (Br is larger)"
-   },
-   {
-    "bin": "Shorter bond / higher energy",
-    "id": "b",
-    "label": "N-F vs N-I (F is smaller)"
-   },
-   {
-    "bin": "Longer bond / lower energy",
-    "id": "c",
-    "label": "Si-H vs C-H (Si is larger)"
-   },
-   {
-    "bin": "Shorter bond / higher energy",
-    "id": "d",
-    "label": "O-H vs S-H (O is smaller)"
-   },
-   {
-    "bin": "Longer bond / lower energy",
-    "id": "e",
-    "label": "P-Cl vs N-Cl (P is larger)"
-   },
-   {
-    "bin": "Shorter bond / higher energy",
-    "id": "f",
-    "label": "C-F bond (F is very small)"
-   },
-   {
-    "bin": "Longer bond / lower energy",
-    "id": "n1",
-    "label": "F-F single bond (F is a very small atom)",
-    "note": "F-F is anomalously weak and long for such a small atom because the two densely packed lone-pair-rich fluorines repel each other strongly at bonding distance. 'Smaller atom = shorter, stronger bond' is the rule that solves every other item here, but it fails for F-F specifically.",
-    "trap": true
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
- },
  "606": {
   "bins": [
    "Stronger electron-nucleus attraction",
@@ -6974,31 +5730,6 @@
   "subject": "chem",
   "tool": "sequencer"
  },
- "694": {
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "id": "a",
-    "label": "C≡C (triple bond, BO=3) - shortest",
-    "order": 1
-   },
-   {
-    "id": "b",
-    "label": "C=C (double bond, BO=2)",
-    "note": "It is easy to assume bond length scales evenly with bond order, so a double bond should sit exactly midway between single and triple. The relationship is not linear: most of the shortening happens going from single to double, with a smaller further decrease from double to triple.",
-    "order": 2,
-    "trap": true
-   },
-   {
-    "id": "c",
-    "label": "C-C (single bond, BO=1) - longest",
-    "order": 3
-   }
-  ],
-  "prompt": "Order these carbon-carbon bonds from shortest to longest",
-  "subject": "chem",
-  "tool": "sequencer"
- },
  "704": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -7049,33 +5780,53 @@
   "svgKey": "chem_cmp/morse_bond_order",
   "tool": "labeler"
  },
- "708": {
+ "709": {
+  "bins": [
+   "Longer bond / lower energy",
+   "Shorter bond / higher energy"
+  ],
   "gate_status": "reviewed",
   "items": [
    {
+    "bin": "Longer bond / lower energy",
     "id": "a",
-    "label": "N₂ (BO = 3, no resonance)",
-    "order": 1
+    "label": "C-Br vs C-F (Br is larger)"
    },
    {
+    "bin": "Shorter bond / higher energy",
     "id": "b",
-    "label": "O₃ O-O bond (BO = 1.5)",
-    "order": 2
+    "label": "N-F vs N-I (F is smaller)"
    },
    {
+    "bin": "Longer bond / lower energy",
     "id": "c",
-    "label": "CO₃²⁻ C-O bond (BO = 1.33)",
-    "order": 3
+    "label": "Si-H vs C-H (Si is larger)"
    },
    {
+    "bin": "Shorter bond / higher energy",
     "id": "d",
-    "label": "H₂O O-H bond (BO = 1)",
-    "order": 4
+    "label": "O-H vs S-H (O is smaller)"
+   },
+   {
+    "bin": "Longer bond / lower energy",
+    "id": "e",
+    "label": "P-Cl vs N-Cl (P is larger)"
+   },
+   {
+    "bin": "Shorter bond / higher energy",
+    "id": "f",
+    "label": "C-F bond (F is very small)"
+   },
+   {
+    "bin": "Longer bond / lower energy",
+    "id": "n1",
+    "label": "F-F single bond (F is a very small atom)",
+    "note": "F-F is anomalously weak and long for such a small atom because the two densely packed lone-pair-rich fluorines repel each other strongly at bonding distance. 'Smaller atom = shorter, stronger bond' is the rule that solves every other item here, but it fails for F-F specifically.",
+    "trap": true
    }
   ],
-  "prompt": "Order these bonds from highest to lowest bond order",
   "subject": "chem",
-  "tool": "sequencer"
+  "tool": "sorter"
  },
  "710": {
   "bins": [
@@ -7126,6 +5877,31 @@
   "remapped_from_key": "693",
   "remapped_on": "2026-09-05",
   "tool": "sorter"
+ },
+ "711": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "C≡C (triple bond, BO=3) - shortest",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "C=C (double bond, BO=2)",
+    "note": "It is easy to assume bond length scales evenly with bond order, so a double bond should sit exactly midway between single and triple. The relationship is not linear: most of the shortening happens going from single to double, with a smaller further decrease from double to triple.",
+    "order": 2,
+    "trap": true
+   },
+   {
+    "id": "c",
+    "label": "C-C (single bond, BO=1) - longest",
+    "order": 3
+   }
+  ],
+  "prompt": "Order these carbon-carbon bonds from shortest to longest",
+  "subject": "chem",
+  "tool": "sequencer"
  },
  "723": {
   "gate_status": "reviewed",
@@ -7242,59 +6018,6 @@
   "subject": "chem",
   "svgKey": "ch01/row_79",
   "tool": "labeler"
- },
- "808": {
-  "bins": [
-   "Ionic solid",
-   "Metallic solid",
-   "Molecular solid",
-   "Covalent-network"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Ionic solid",
-    "id": "a",
-    "label": "NaCl (Na⁺ and Cl⁻ lattice)"
-   },
-   {
-    "bin": "Metallic solid",
-    "id": "b",
-    "label": "Iron (Fe) wire"
-   },
-   {
-    "bin": "Molecular solid",
-    "id": "c",
-    "label": "Ice (H₂O molecules)"
-   },
-   {
-    "bin": "Covalent-network",
-    "id": "d",
-    "label": "Diamond (all C-C bonds)"
-   },
-   {
-    "bin": "Ionic solid",
-    "id": "e",
-    "label": "CaF₂ (fluorite structure)"
-   },
-   {
-    "bin": "Metallic solid",
-    "id": "f",
-    "label": "Copper wire (Cu metal)"
-   },
-   {
-    "bin": "Molecular solid",
-    "id": "g",
-    "label": "Dry ice (solid CO₂)"
-   },
-   {
-    "bin": "Covalent-network",
-    "id": "h",
-    "label": "SiO₂ (quartz, giant covalent)"
-   }
-  ],
-  "subject": "chem",
-  "tool": "sorter"
  },
  "809": {
   "bins": [
@@ -7513,42 +6236,6 @@
    }
   ],
   "prompt": "Sort each fact by which temperature scale it describes.",
-  "subject": "chem",
-  "tool": "sorter"
- },
- "837": {
-  "bins": [
-   "Substitutional alloy",
-   "Interstitial alloy"
-  ],
-  "gate_status": "reviewed",
-  "items": [
-   {
-    "bin": "Substitutional alloy",
-    "id": "a",
-    "label": "Brass (Cu + Zn, similar size)"
-   },
-   {
-    "bin": "Interstitial alloy",
-    "id": "b",
-    "label": "Steel (Fe + C, C atoms small)"
-   },
-   {
-    "bin": "Substitutional alloy",
-    "id": "c",
-    "label": "Bronze (Cu + Sn, similar)"
-   },
-   {
-    "bin": "Interstitial alloy",
-    "id": "d",
-    "label": "Iron + small C atoms in gaps"
-   },
-   {
-    "bin": "Substitutional alloy",
-    "id": "e",
-    "label": "Sterling silver (Ag + Cu)"
-   }
-  ],
   "subject": "chem",
   "tool": "sorter"
  },
@@ -13946,42 +12633,50 @@
   "subject": "chem",
   "tool": "sequencer"
  },
- "995": {
+ "983": {
   "bins": [
-   "At equilibrium",
-   "Not at equilibrium"
+   "Zero order",
+   "First order",
+   "Second order"
   ],
   "gate_status": "reviewed",
   "items": [
    {
-    "bin": "At equilibrium",
+    "bin": "Zero order",
     "id": "a",
-    "label": "Concentration-time curves flat"
+    "label": "[A] vs t linear, neg. slope"
    },
    {
-    "bin": "Not at equilibrium",
+    "bin": "First order",
     "id": "b",
-    "label": "Both curves still changing"
+    "label": "ln[A] vs t is linear (neg.)"
    },
    {
-    "bin": "At equilibrium",
+    "bin": "Second order",
     "id": "c",
-    "label": "All concentrations constant"
+    "label": "1/[A] vs t is linear (pos.)"
    },
    {
-    "bin": "Not at equilibrium",
-    "id": "d",
-    "label": "Product curve still rising"
+    "bin": "Zero order",
+    "id": "h1",
+    "label": "Successive half-lives get shorter as [A] falls"
    },
    {
-    "bin": "At equilibrium",
-    "id": "e",
-    "label": "Reactant + product lines flat"
+    "bin": "First order",
+    "id": "h2",
+    "label": "Successive half-lives are constant"
    },
    {
-    "bin": "Not at equilibrium",
-    "id": "f",
-    "label": "Reactant curve still falling"
+    "bin": "Second order",
+    "id": "h3",
+    "label": "Successive half-lives get longer as [A] falls"
+   },
+   {
+    "bin": "Second order",
+    "id": "n1",
+    "label": "1/[A] vs t is linear AND successive half-lives lengthen",
+    "note": "Not a contradiction: for second order both are true at once, the linear 1/[A] plot and lengthening half-lives are the same fact seen two ways.",
+    "trap": true
    }
   ],
   "subject": "chem",
