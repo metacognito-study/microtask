@@ -37,50 +37,6 @@
   "subject": "chem",
   "tool": "sequencer"
  },
- "1012": {
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "orig",
-    "label": "Original equilibrium",
-    "x": 0.2,
-    "y": 0.4
-   },
-   {
-    "id": "pert",
-    "label": "Volume change (perturbation)",
-    "x": 0.48,
-    "y": 0.2
-   },
-   {
-    "id": "shift",
-    "label": "System re-equilibrating",
-    "note": "The re-equilibrating region shows the system moving toward a new equilibrium gradually after a perturbation, not settling immediately. It is easy to mistake the sudden jump right at the perturbation for the whole shift, when the curved region afterward is the actual re-equilibrating process.",
-    "trap": true,
-    "x": 0.62,
-    "y": 0.48
-   },
-   {
-    "id": "new",
-    "label": "New equilibrium Peq",
-    "x": 0.82,
-    "y": 0.35
-   }
-  ],
-  "options": [
-   "Original equilibrium",
-   "Volume change (perturbation)",
-   "System re-equilibrating",
-   "New equilibrium Peq",
-   "Temperature change",
-   "Catalyst added",
-   "Endpoint"
-  ],
-  "prompt": "Label the key events on this equilibrium-shift graph",
-  "subject": "chem",
-  "svgKey": "ch13/row_1012",
-  "tool": "labeler"
- },
  "1013": {
   "gate_status": "reviewed",
   "items": [
@@ -906,6 +862,50 @@
   "slug": "lechatelier_pressure",
   "subject": "chem",
   "svgKey": "tables/lechatelier_pressure",
+  "tool": "labeler"
+ },
+ "1154": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "orig",
+    "label": "Original equilibrium",
+    "x": 0.2,
+    "y": 0.4
+   },
+   {
+    "id": "pert",
+    "label": "Volume change (perturbation)",
+    "x": 0.48,
+    "y": 0.2
+   },
+   {
+    "id": "shift",
+    "label": "System re-equilibrating",
+    "note": "The re-equilibrating region shows the system moving toward a new equilibrium gradually after a perturbation, not settling immediately. It is easy to mistake the sudden jump right at the perturbation for the whole shift, when the curved region afterward is the actual re-equilibrating process.",
+    "trap": true,
+    "x": 0.62,
+    "y": 0.48
+   },
+   {
+    "id": "new",
+    "label": "New equilibrium Peq",
+    "x": 0.82,
+    "y": 0.35
+   }
+  ],
+  "options": [
+   "Original equilibrium",
+   "Volume change (perturbation)",
+   "System re-equilibrating",
+   "New equilibrium Peq",
+   "Temperature change",
+   "Catalyst added",
+   "Endpoint"
+  ],
+  "prompt": "Label the key events on this equilibrium-shift graph",
+  "subject": "chem",
+  "svgKey": "ch13/row_1012",
   "tool": "labeler"
  },
  "1158": {
