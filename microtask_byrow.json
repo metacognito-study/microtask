@@ -170,6 +170,98 @@
   "svgKey": "ch13/row_1004",
   "tool": "labeler"
  },
+ "1023": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Linear plot: [A] versus time, zero order",
+    "x": 0.219,
+    "y": 0.131
+   },
+   {
+    "id": "h2",
+    "label": "Slope equals negative k",
+    "x": 0.219,
+    "y": 0.609
+   },
+   {
+    "id": "h5",
+    "label": "Constant reaction rate, not constant concentration",
+    "x": 0.5,
+    "y": 0.852
+   },
+   {
+    "id": "h3",
+    "label": "Non-linear ln[A] versus time plot",
+    "x": 0.51,
+    "y": 0.131
+   },
+   {
+    "id": "h4",
+    "label": "Non-linear 1/[A] versus time plot",
+    "x": 0.802,
+    "y": 0.131
+   }
+  ],
+  "options": [
+   "Linear plot: [A] versus time, zero order",
+   "Slope equals negative k",
+   "Non-linear ln[A] versus time plot",
+   "Non-linear 1/[A] versus time plot",
+   "Constant reaction rate, not constant concentration",
+   "Reaction order is the coefficient of A in the balanced equation",
+   "Reaction rate depends on the coefficient of A"
+  ],
+  "prompt": "Identify the rate law expression of a chemical reaction using data that show how the concentrations of reaction species change over time.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/5-3-a_c_v1",
+  "tool": "labeler"
+ },
+ "1024": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h_transform",
+    "label": "First-order transform",
+    "x": 0.4895833333333333,
+    "y": 0.171875
+   },
+   {
+    "id": "h_slope",
+    "label": "Slope = −k",
+    "x": 0.4765625,
+    "y": 0.486328125
+   },
+   {
+    "id": "h_curve",
+    "label": "Curved [A] plot vs straight line",
+    "x": 0.21875,
+    "y": 0.5625
+   },
+   {
+    "id": "h_halflife",
+    "label": "Constant half-life",
+    "x": 0.17708333333333334,
+    "y": 0.765625
+   }
+  ],
+  "options": [
+   "First-order transform",
+   "Slope = −k",
+   "Curved [A] plot vs straight line",
+   "Constant half-life",
+   "Linear 1/[A] plot",
+   "Linear [A] plot",
+   "Slope = k",
+   "Second-order transform",
+   "Zero-order transform"
+  ],
+  "prompt": "Identify the features of the first-order reaction data.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/5-3-a_c_v2",
+  "tool": "labeler"
+ },
  "1025": {
   "content_version": "41639bc29f93",
   "gate_status": "reviewed",
@@ -416,6 +508,53 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1036": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Step 1 as the rate-determining step",
+    "x": 0.15,
+    "y": 0.15
+   },
+   {
+    "id": "h2",
+    "label": "Intermediate produced by Step 1",
+    "x": 0.4375,
+    "y": 0.15
+   },
+   {
+    "id": "h3",
+    "label": "Same intermediate consumed by Step 2",
+    "x": 0.2604,
+    "y": 0.35
+   },
+   {
+    "id": "h4",
+    "label": "Rate law matching molecularity of the slow first elementary step",
+    "x": 0.25,
+    "y": 0.8125
+   },
+   {
+    "id": "h5",
+    "label": "Overall balanced equation, whose coefficients must NOT be used for the rate law",
+    "x": 0.25,
+    "y": 0.55
+   }
+  ],
+  "options": [
+   "Step 1 as the rate-determining step",
+   "Intermediate produced by Step 1",
+   "Same intermediate consumed by Step 2",
+   "Rate law matching molecularity of the slow first elementary step",
+   "Overall balanced equation, whose coefficients must NOT be used for the rate law",
+   "Rank 1 rate-law error: use coefficients from the overall balanced equation instead of the reactants in the slow elementary step."
+  ],
+  "prompt": "Identify the key components of the reaction mechanism and determine the correct rate law.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/5-8-a_b_v3",
+  "tool": "labeler"
  },
  "1037": {
   "bins": [
@@ -1135,6 +1274,103 @@
   "responseSurplus": 4,
   "subject": "chem",
   "tool": "matcher"
+ },
+ "1067": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Uncatalyzed transition state",
+    "x": 0.5416666666666666,
+    "y": 0.125
+   },
+   {
+    "id": "h2",
+    "label": "Two catalyzed transition states",
+    "x": 0.7083333333333334,
+    "y": 0.34375
+   },
+   {
+    "id": "h3",
+    "label": "Two catalyzed transition states",
+    "x": 0.375,
+    "y": 0.28125
+   },
+   {
+    "id": "h4",
+    "label": "Catalyzed intermediate",
+    "x": 0.5,
+    "y": 0.5625
+   },
+   {
+    "id": "h5",
+    "label": "Lower maximum activation barrier",
+    "x": 0.20833333333333334,
+    "y": 0.34375
+   },
+   {
+    "id": "h6",
+    "label": "Unchanged ΔH",
+    "x": 0.875,
+    "y": 0.5625
+   }
+  ],
+  "options": [
+   "Uncatalyzed transition state",
+   "Two catalyzed transition states",
+   "Catalyzed intermediate",
+   "Lower maximum activation barrier",
+   "Unchanged ΔH",
+   "Lower product energy",
+   "More negative ΔH"
+  ],
+  "prompt": "Identify the key features of the reaction energy profile.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/5-11-a_a_v1",
+  "tool": "labeler"
+ },
+ "1073": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Uncatalysed pathway",
+    "x": 0.5,
+    "y": 0.125
+   },
+   {
+    "id": "h2",
+    "label": "Catalysed pathway",
+    "x": 0.688,
+    "y": 0.594
+   },
+   {
+    "id": "h3",
+    "label": "Lower activation energy",
+    "x": 0.5,
+    "y": 0.391
+   },
+   {
+    "id": "h4",
+    "label": "Enthalpy change (ΔH)",
+    "x": 0.854,
+    "y": 0.641
+   }
+  ],
+  "options": [
+   "Uncatalysed pathway",
+   "Catalysed pathway",
+   "Lower activation energy",
+   "Enthalpy change (ΔH)",
+   "Higher activation energy",
+   "Transition state",
+   "Reactants",
+   "Products"
+  ],
+  "prompt": "Label the catalysed and uncatalysed reaction pathways",
+  "subject": "chem",
+  "svgKey": "chem_cmp/energy_profile_cat",
+  "tool": "labeler"
  },
  "1092": {
   "bins": [
@@ -2130,6 +2366,60 @@
   "prompt": "Sort each substance into element, compound, or mixture.",
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1201": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h_h3o",
+    "label": "1.0×10⁻⁷ M",
+    "x": 0.318,
+    "y": 0.438
+   },
+   {
+    "id": "h_ph",
+    "label": "7.00",
+    "x": 0.531,
+    "y": 0.438
+   },
+   {
+    "id": "h_kw",
+    "label": "1.0×10⁻¹⁴",
+    "x": 0.781,
+    "y": 0.438
+   },
+   {
+    "id": "h_oh",
+    "label": "1.0×10⁻⁷ M",
+    "x": 0.318,
+    "y": 0.688
+   },
+   {
+    "id": "h_poh",
+    "label": "7.00",
+    "x": 0.531,
+    "y": 0.688
+   },
+   {
+    "id": "h_phpoh",
+    "label": "14.00",
+    "x": 0.839,
+    "y": 0.688
+   }
+  ],
+  "options": [
+   "1.0×10⁻⁷ M",
+   "7.00",
+   "1.0×10⁻¹⁴",
+   "14.00",
+   "0 M",
+   "1.0×10⁻¹⁴ M",
+   "0"
+  ],
+  "prompt": "Identify the values for a neutral water solution at 25°C.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/8-1-a_v1",
+  "tool": "labeler"
  },
  "1202": {
   "bins": [
@@ -3621,6 +3911,57 @@
   "prompt": "Sort each quantity by whether it depends on the amount of substance present.",
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1311": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Larger Ka",
+    "x": 0.271,
+    "y": 0.15
+   },
+   {
+    "id": "h2",
+    "label": "smaller Ka",
+    "x": 0.729,
+    "y": 0.15
+   },
+   {
+    "id": "h3",
+    "label": "more H₃O⁺/A⁻",
+    "x": 0.271,
+    "y": 0.5
+   },
+   {
+    "id": "h4",
+    "label": "more un-ionized HA",
+    "x": 0.729,
+    "y": 0.675
+   },
+   {
+    "id": "h5",
+    "label": "lower pH.",
+    "x": 0.271,
+    "y": 0.85
+   }
+  ],
+  "options": [
+   "Larger Ka",
+   "smaller Ka",
+   "more H₃O⁺/A⁻",
+   "more un-ionized HA",
+   "lower pH.",
+   "Equal Ka",
+   "Equal % ionization",
+   "more H₃O⁺ in smaller Ka",
+   "higher pH",
+   "Equal pH"
+  ],
+  "prompt": "Compare two weak acids at the same initial concentration with different Ka values using particulate equilibrium diagrams. Students label stronger weak acid and relative ionization.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/8-3-a_v4",
+  "tool": "labeler"
  },
  "1315": {
   "bins": [
@@ -5176,6 +5517,55 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1355": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Initial strong-acid solution",
+    "x": 0.20208333333333334,
+    "y": 0.379375
+   },
+   {
+    "id": "h2",
+    "label": "excess H₃O⁺",
+    "x": 0.3754166666666666,
+    "y": 0.6690625
+   },
+   {
+    "id": "h3",
+    "label": "equivalence point",
+    "x": 0.5875,
+    "y": 0.4925
+   },
+   {
+    "id": "h4",
+    "label": "neutral equivalence pH",
+    "x": 0.125,
+    "y": 0.139375
+   },
+   {
+    "id": "h5",
+    "label": "excess OH⁻",
+    "x": 0.7416666666666667,
+    "y": 0.3159375
+   }
+  ],
+  "options": [
+   "Initial strong-acid solution",
+   "excess H₃O⁺",
+   "equivalence point",
+   "neutral equivalence pH",
+   "excess OH⁻",
+   "pH 7 midpoint",
+   "Endpoint",
+   "Weak acid initial solution"
+  ],
+  "prompt": "Identify the key regions and features of this titration curve.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/8-5-a_v1",
+  "tool": "labeler"
+ },
  "1359": {
   "bins": [
    "Present initially",
@@ -5515,6 +5905,64 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1371": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Weak base initially",
+    "x": 0.208,
+    "y": 0.141
+   },
+   {
+    "id": "h2",
+    "label": "B/HB⁺ buffer",
+    "x": 0.5,
+    "y": 0.156
+   },
+   {
+    "id": "h3",
+    "label": "half-equivalence",
+    "x": 0.208,
+    "y": 0.438
+   },
+   {
+    "id": "h4",
+    "label": "acidic equivalence point",
+    "x": 0.271,
+    "y": 0.609
+   },
+   {
+    "id": "h5",
+    "label": "equivalence dominated by HB⁺",
+    "x": 0.271,
+    "y": 0.797
+   },
+   {
+    "id": "h6",
+    "label": "excess acid",
+    "x": 0.688,
+    "y": 0.406
+   }
+  ],
+  "options": [
+   "Weak base initially",
+   "Weak acid initially",
+   "B/HB⁺ buffer",
+   "HA/A⁻ buffer",
+   "half-equivalence",
+   "equivalence dominated by HB⁺",
+   "equivalence dominated by A⁻",
+   "acidic equivalence point",
+   "basic equivalence point",
+   "excess acid",
+   "excess base"
+  ],
+  "prompt": "Label the key regions and points of the titration curve.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/8-5-a_v3",
+  "tool": "labeler"
+ },
  "1376": {
   "bins": [
    "In buffer region",
@@ -5563,6 +6011,55 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1382": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Weak acid initially",
+    "x": 0.1979,
+    "y": 0.781
+   },
+   {
+    "id": "h2",
+    "label": "buffer region",
+    "x": 0.2604,
+    "y": 0.515
+   },
+   {
+    "id": "h3",
+    "label": "half-equivalence pH = pKa",
+    "x": 0.3645,
+    "y": 0.703
+   },
+   {
+    "id": "h4",
+    "label": "equivalence dominated by A⁻",
+    "x": 0.3645,
+    "y": 0.296
+   },
+   {
+    "id": "h5",
+    "label": "basic equivalence point",
+    "x": 0.6145,
+    "y": 0.328
+   }
+  ],
+  "options": [
+   "Weak acid initially",
+   "buffer region",
+   "half-equivalence pH = pKa",
+   "equivalence dominated by A⁻",
+   "basic equivalence point",
+   "equivalence pH = pKa",
+   "neutral equivalence point",
+   "equivalence dominated by HA"
+  ],
+  "prompt": "Identify the key components of this weak-acid titration curve.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/8-5-a_v2",
+  "tool": "labeler"
  },
  "1388": {
   "bins": [
@@ -5927,6 +6424,108 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1392": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h_reaction",
+    "label": "proton-transfer reaction",
+    "x": 0.5,
+    "y": 0.125
+   },
+   {
+    "id": "h_b",
+    "label": "B remains",
+    "x": 0.20833333333333334,
+    "y": 0.34375
+   },
+   {
+    "id": "h_hb",
+    "label": "HB⁺ formed",
+    "x": 0.5,
+    "y": 0.4375
+   },
+   {
+    "id": "h_h3o",
+    "label": "H₃O⁺ limiting reactant",
+    "x": 0.7708333333333334,
+    "y": 0.53125
+   },
+   {
+    "id": "h_buffer",
+    "label": "weak-base buffer",
+    "x": 0.3958333333333333,
+    "y": 0.88125
+   }
+  ],
+  "options": [
+   "H₃O⁺ limiting reactant",
+   "B remains",
+   "HB⁺ formed",
+   "weak-base buffer",
+   "proton-transfer reaction",
+   "H₃O⁺ remains free",
+   "HB⁺ remains",
+   "B limiting reactant",
+   "weak-acid buffer",
+   "B formed"
+  ],
+  "prompt": "Identify the major species and reaction components when a weak base is mixed with a smaller amount of strong acid.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/8-4-a_v4",
+  "tool": "labeler"
+ },
+ "1393": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Complete stoichiometric conversion",
+    "x": 0.271,
+    "y": 0.234
+   },
+   {
+    "id": "h2",
+    "label": "conjugate base A⁻",
+    "x": 0.604,
+    "y": 0.469
+   },
+   {
+    "id": "h3",
+    "label": "no excess OH⁻",
+    "x": 0.229,
+    "y": 0.656
+   },
+   {
+    "id": "h4",
+    "label": "basic equivalence solution",
+    "x": 0.802,
+    "y": 0.131
+   },
+   {
+    "id": "h5",
+    "label": "A⁻ + H₂O ⇌ HA + OH⁻",
+    "x": 0.729,
+    "y": 0.781
+   }
+  ],
+  "options": [
+   "Complete stoichiometric conversion",
+   "conjugate base A⁻",
+   "no excess OH⁻",
+   "basic equivalence solution",
+   "A⁻ + H₂O ⇌ HA + OH⁻",
+   "Neutral equivalence solution (pH = 7.0)",
+   "Equal concentrations of HA and A⁻",
+   "Excess strong base OH⁻",
+   "HA + H₂O ⇌ A⁻ + H₃O⁺",
+   "Unreacted weak acid HA is major species"
+  ],
+  "prompt": "Identify the species, stoichiometry, and equilibrium conditions present in a weak acid - strong base equivalence mixture",
+  "subject": "chem",
+  "svgKey": "chem_cmp/8-4-a_v2",
+  "tool": "labeler"
+ },
  "1397": {
   "bins": [
    "Will occur",
@@ -6262,6 +6861,57 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1400": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Conjugate acid",
+    "x": 0.264,
+    "y": 0.206
+   },
+   {
+    "id": "h2",
+    "label": "conjugate base",
+    "x": 0.736,
+    "y": 0.206
+   },
+   {
+    "id": "h3",
+    "label": "KaKb = Kw",
+    "x": 0.854,
+    "y": 0.606
+   },
+   {
+    "id": "h4",
+    "label": "pKa + pKb = pKw",
+    "x": 0.333,
+    "y": 0.731
+   },
+   {
+    "id": "h5",
+    "label": "stronger acid/weaker conjugate base",
+    "x": 0.854,
+    "y": 0.847
+   }
+  ],
+  "options": [
+   "Conjugate acid",
+   "conjugate base",
+   "KaKb = Kw",
+   "pKa + pKb = pKw",
+   "stronger acid/weaker conjugate base",
+   "Ka + Kb = Kw",
+   "pKa × pKb = pKw",
+   "Stronger acid → stronger conjugate base",
+   "Ka and Kb are independent",
+   "Strong acid gives a strong conjugate base"
+  ],
+  "prompt": "Label the conjugate species, equilibrium constant product, logarithmic relationship, and relative strength trend for a weak acid-base pair",
+  "subject": "chem",
+  "svgKey": "chem_cmp/8-3-a_v5",
+  "tool": "labeler"
  },
  "1403": {
   "bins": [
@@ -8063,6 +8713,41 @@
   ],
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "1550": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Lower entropy",
+    "x": 0.25,
+    "y": 0.866
+   },
+   {
+    "id": "h2",
+    "label": "Higher entropy",
+    "x": 0.75,
+    "y": 0.866
+   },
+   {
+    "id": "h3",
+    "label": "More microstates/dispersal",
+    "x": 0.75,
+    "y": 0.5
+   }
+  ],
+  "options": [
+   "Higher entropy",
+   "Lower entropy",
+   "More microstates/dispersal",
+   "Higher enthalpy",
+   "Lower enthalpy",
+   "Equilibrium"
+  ],
+  "prompt": "Label which system has higher entropy and why",
+  "subject": "chem",
+  "svgKey": "chem_cmp/entropy_comparison_v5",
+  "tool": "labeler"
  },
  "1552": {
   "content_version": "70f9a8ad1887",
@@ -10602,6 +11287,79 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "199": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Nonpolar covalent",
+    "x": 0.151,
+    "y": 0.375
+   },
+   {
+    "id": "h2",
+    "label": "electrons shared equally",
+    "x": 0.151,
+    "y": 0.738
+   },
+   {
+    "id": "h3",
+    "label": "polar covalent",
+    "x": 0.384,
+    "y": 0.375
+   },
+   {
+    "id": "h4",
+    "label": "electrons shared unequally",
+    "x": 0.384,
+    "y": 0.738
+   },
+   {
+    "id": "h5",
+    "label": "ionic",
+    "x": 0.618,
+    "y": 0.375
+   },
+   {
+    "id": "h6",
+    "label": "electrons transferred",
+    "x": 0.618,
+    "y": 0.738
+   },
+   {
+    "id": "h7",
+    "label": "metallic",
+    "x": 0.851,
+    "y": 0.375
+   },
+   {
+    "id": "h8",
+    "label": "electrons delocalized",
+    "x": 0.851,
+    "y": 0.738
+   }
+  ],
+  "options": [
+   "Nonpolar covalent",
+   "polar covalent",
+   "ionic",
+   "metallic",
+   "electrons shared equally",
+   "electrons shared unequally",
+   "electrons transferred",
+   "electrons delocalized",
+   "strictly ionic above ΔEN = 1.7",
+   "purely covalent below ΔEN = 1.7",
+   "metal present so purely ionic",
+   "electrons shared in metal bonds",
+   "sharp numerical boundary between ionic and covalent",
+   "covalent due to metal element"
+  ],
+  "prompt": "Identify the bond type and electron behavior for each region/atom pair on the bonding continuum.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-1-a_v1",
+  "tool": "labeler"
+ },
  "200": {
   "bins": [
    "+1 cation",
@@ -12008,6 +12766,54 @@
   "prompt": "Label reactants and product in this particle diagram",
   "subject": "chem",
   "svgKey": "ch03/row_314",
+  "tool": "labeler"
+ },
+ "358": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h_vol",
+    "label": "Solution volume in liters",
+    "x": 0.354,
+    "y": 0.5
+   },
+   {
+    "id": "h_mol",
+    "label": "moles solute",
+    "x": 0.615,
+    "y": 0.5
+   },
+   {
+    "id": "h_avo",
+    "label": "Avogadro’s number",
+    "x": 0.865,
+    "y": 0.5
+   },
+   {
+    "id": "h_part",
+    "label": "number of solute particles",
+    "x": 0.802,
+    "y": 0.688
+   },
+   {
+    "id": "h_path",
+    "label": "dimensional-analysis path",
+    "x": 0.521,
+    "y": 0.891
+   }
+  ],
+  "options": [
+   "Solution volume in liters",
+   "moles solute",
+   "Avogadro’s number",
+   "number of solute particles",
+   "dimensional-analysis path",
+   "Molarity × Avogadro’s number",
+   "Molarity of solution"
+  ],
+  "prompt": "Identify the components of the dimensional-analysis path for calculating the number of particles.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/3-7-a_v2",
   "tool": "labeler"
  },
  "365": {
@@ -13648,6 +14454,49 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "604": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "4s orbital",
+    "x": 0.229,
+    "y": 0.5
+   },
+   {
+    "id": "h2",
+    "label": "3d orbitals",
+    "x": 0.563,
+    "y": 0.703
+   },
+   {
+    "id": "h3",
+    "label": "Spin-up electron (unpaired)",
+    "x": 0.396,
+    "y": 0.5
+   },
+   {
+    "id": "h4",
+    "label": "Spin-up electron (unpaired)",
+    "x": 0.729,
+    "y": 0.5
+   }
+  ],
+  "options": [
+   "4s orbital",
+   "3d orbitals",
+   "Spin-up electron (unpaired)",
+   "Paired electrons (opposite spins)",
+   "2p orbital",
+   "4p orbital",
+   "Spin-down only",
+   "Empty orbital"
+  ],
+  "prompt": "Label the orbital diagram boxes and the electron arrows for this element",
+  "subject": "chem",
+  "svgKey": "chem_cmp/electron_config_orbital_v3",
+  "tool": "labeler"
+ },
  "606": {
   "bins": [
    "Radius increases",
@@ -14305,6 +15154,157 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "702": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "triple bond",
+    "x": 0.229,
+    "y": 0.094
+   },
+   {
+    "id": "h2",
+    "label": "shortest equilibrium distance",
+    "x": 0.292,
+    "y": 0.281
+   },
+   {
+    "id": "h3",
+    "label": "deepest potential well",
+    "x": 0.292,
+    "y": 0.844
+   },
+   {
+    "id": "h4",
+    "label": "double bond",
+    "x": 0.458,
+    "y": 0.453
+   },
+   {
+    "id": "h5",
+    "label": "Single bond",
+    "x": 0.667,
+    "y": 0.453
+   },
+   {
+    "id": "h6",
+    "label": "greatest bond energy",
+    "x": 0.156,
+    "y": 0.563
+   }
+  ],
+  "options": [
+   "Single bond",
+   "double bond",
+   "triple bond",
+   "shortest equilibrium distance",
+   "greatest bond energy",
+   "deepest potential well",
+   "longest equilibrium distance",
+   "lowest bond energy",
+   "shallower potential well",
+   "weakest bond energy"
+  ],
+  "prompt": "Identify the bond orders, equilibrium distances, and well depths on the potential-energy curves for C–C, C=C, and C≡C.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-2-a_v1",
+  "tool": "labeler"
+ },
+ "703": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Shorter bond length",
+    "x": 0.281,
+    "y": 0.436
+   },
+   {
+    "id": "h2",
+    "label": "Stronger bond (deeper well)",
+    "x": 0.333,
+    "y": 0.812
+   },
+   {
+    "id": "h3",
+    "label": "Longer bond length",
+    "x": 0.573,
+    "y": 0.374
+   },
+   {
+    "id": "h4",
+    "label": "Weaker bond (shallower well)",
+    "x": 0.625,
+    "y": 0.562
+   }
+  ],
+  "options": [
+   "Shorter bond length",
+   "Longer bond length",
+   "Stronger bond (deeper well)",
+   "Weaker bond (shallower well)",
+   "Higher activation energy",
+   "Endothermic",
+   "Exothermic",
+   "Bond order zero"
+  ],
+  "prompt": "Label the bond length and bond strength on two potential-energy curves",
+  "subject": "chem",
+  "svgKey": "chem_cmp/morse_two_species",
+  "tool": "labeler"
+ },
+ "704": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Net repulsion",
+    "x": 0.219,
+    "y": 0.166
+   },
+   {
+    "id": "h2",
+    "label": "minimum potential energy",
+    "x": 0.25,
+    "y": 0.656
+   },
+   {
+    "id": "h3",
+    "label": "equilibrium bond length",
+    "x": 0.354,
+    "y": 0.913
+   },
+   {
+    "id": "h4",
+    "label": "net attraction",
+    "x": 0.573,
+    "y": 0.453
+   },
+   {
+    "id": "h5",
+    "label": "atoms effectively separated",
+    "x": 0.854,
+    "y": 0.188
+   }
+  ],
+  "options": [
+   "Net repulsion",
+   "equilibrium bond length",
+   "net attraction",
+   "atoms effectively separated",
+   "minimum potential energy",
+   "Strongest attractive force",
+   "Zero interaction forces",
+   "Net attraction at minimum",
+   "Zero potential energy",
+   "Equal attraction and repulsion at large distance"
+  ],
+  "prompt": "Represent the relationship between potential energy and internuclear distance by labeling the dominant interaction forces, key distance markers, energy states, and asymptotic behavior.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-2-a_v2",
+  "tool": "labeler"
+ },
  "709": {
   "bins": [
    "Longer bond / lower energy",
@@ -14378,6 +15378,57 @@
   "subject": "chem",
   "tool": "sequencer"
  },
+ "713": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Central C atom",
+    "x": 0.5,
+    "y": 0.15
+   },
+   {
+    "id": "h2",
+    "label": "C=O double bond",
+    "x": 0.25,
+    "y": 0.85
+   },
+   {
+    "id": "h3",
+    "label": "two lone pairs on each O",
+    "x": 0.15,
+    "y": 0.2
+   },
+   {
+    "id": "h4",
+    "label": "complete octets",
+    "x": 0.85,
+    "y": 0.2
+   },
+   {
+    "id": "h5",
+    "label": "total valence electrons = 16",
+    "x": 0.75,
+    "y": 0.85
+   }
+  ],
+  "options": [
+   "Central C atom",
+   "C=O double bond",
+   "two lone pairs on each O",
+   "complete octets",
+   "total valence electrons = 16",
+   "C–O single bond",
+   "three lone pairs on each O",
+   "six electrons around C",
+   "incomplete octet on C",
+   "total valence electrons = 20"
+  ],
+  "prompt": "Identify the features of the valid Lewis structure for CO₂, including bonds, lone pairs, and electron budget.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-5-a_v2",
+  "tool": "labeler"
+ },
  "715": {
   "content_version": "fb1f0809a7bc",
   "gate_status": "reviewed",
@@ -14401,6 +15452,62 @@
   "prompt": "Order these bonds from fewest to most π bonds (lowest to highest bond order)",
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "719": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h_elec_geom",
+    "label": "Tetrahedral electron-domain geometry",
+    "x": 0.5,
+    "y": 0.109375
+   },
+   {
+    "id": "h_ch4",
+    "label": "tetrahedral molecule",
+    "x": 0.16666666666666666,
+    "y": 0.890625
+   },
+   {
+    "id": "h_nh3",
+    "label": "trigonal pyramidal molecule",
+    "x": 0.5,
+    "y": 0.890625
+   },
+   {
+    "id": "h_h2o",
+    "label": "bent molecule",
+    "x": 0.8333333333333334,
+    "y": 0.890625
+   },
+   {
+    "id": "h_angle",
+    "label": "approximate bond angle.",
+    "x": 0.2708333333333333,
+    "y": 0.484375
+   },
+   {
+    "id": "h_comp",
+    "label": "lone-pair compression",
+    "x": 0.7291666666666666,
+    "y": 0.453125
+   }
+  ],
+  "options": [
+   "Tetrahedral electron-domain geometry",
+   "tetrahedral molecule",
+   "trigonal pyramidal molecule",
+   "bent molecule",
+   "lone-pair compression",
+   "approximate bond angle.",
+   "Molecular geometry is tetrahedral for all four-domain molecules",
+   "Square planar molecule",
+   "Lone pairs count as bonded atoms for molecular shape"
+  ],
+  "prompt": "Match the correct geometries and structural features for molecules with four electron domains.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-7-a_v1",
+  "tool": "labeler"
  },
  "725": {
   "content_version": "5763e9daf0fc",
@@ -14430,6 +15537,312 @@
   "prompt": "Order these bonds from highest to lowest bond order",
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "732": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h3",
+    "label": "sp³ carbon",
+    "x": 0.125,
+    "y": 0.78125
+   },
+   {
+    "id": "h5",
+    "label": "free rotation",
+    "x": 0.25,
+    "y": 0.25
+   },
+   {
+    "id": "h1",
+    "label": "C–C σ bond",
+    "x": 0.3333333333333333,
+    "y": 0.78125
+   },
+   {
+    "id": "h4",
+    "label": "sp² carbon",
+    "x": 0.9166666666666666,
+    "y": 0.78125
+   },
+   {
+    "id": "h2",
+    "label": "C–C π bond",
+    "x": 0.75,
+    "y": 0.78125
+   },
+   {
+    "id": "h6",
+    "label": "restricted rotation",
+    "x": 0.75,
+    "y": 0.21875
+   }
+  ],
+  "options": [
+   "C–C σ bond",
+   "C–C π bond",
+   "sp³ carbon",
+   "sp² carbon",
+   "free rotation",
+   "restricted rotation",
+   "2 electron domains per double bond",
+   "double bonds permit free rotation",
+   "both bonds equally strong"
+  ],
+  "prompt": "Identify the bond types, carbon hybridizations, and rotation capabilities in ethane and ethene.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-7-a_v4",
+  "tool": "labeler"
+ },
+ "735": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Linear nonpolar molecule",
+    "x": 0.25,
+    "y": 0.609375
+   },
+   {
+    "id": "h2",
+    "label": "bond dipoles cancel",
+    "x": 0.25,
+    "y": 0.796875
+   },
+   {
+    "id": "h3",
+    "label": "bent polar molecule",
+    "x": 0.75,
+    "y": 0.609375
+   },
+   {
+    "id": "h4",
+    "label": "bond dipoles do not cancel",
+    "x": 0.75,
+    "y": 0.796875
+   },
+   {
+    "id": "h5",
+    "label": "lone pair on central atom",
+    "x": 0.8541666666666666,
+    "y": 0.1875
+   }
+  ],
+  "options": [
+   "Linear nonpolar molecule",
+   "bent polar molecule",
+   "bond dipoles cancel",
+   "bond dipoles do not cancel",
+   "lone pair on central atom",
+   "Linear polar molecule",
+   "bent nonpolar molecule",
+   "no lone pairs on central atom",
+   "any molecule with polar bonds is polar"
+  ],
+  "prompt": "Identify geometry and net dipole for CO₂ and SO₂.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-7-a_v2",
+  "tool": "labeler"
+ },
+ "750": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Three equivalent contributors",
+    "x": 0.156,
+    "y": 0.719
+   },
+   {
+    "id": "h2",
+    "label": "formal charge on N",
+    "x": 0.5,
+    "y": 0.719
+   },
+   {
+    "id": "h3",
+    "label": "formal charge on singly bonded O",
+    "x": 0.844,
+    "y": 0.719
+   },
+   {
+    "id": "h4",
+    "label": "delocalized negative charge",
+    "x": 0.327,
+    "y": 0.894
+   },
+   {
+    "id": "h5",
+    "label": "bracketed −1 ion.",
+    "x": 0.673,
+    "y": 0.894
+   }
+  ],
+  "options": [
+   "Three equivalent contributors",
+   "formal charge on N",
+   "formal charge on singly bonded O",
+   "delocalized negative charge",
+   "bracketed −1 ion.",
+   "single true ground-state structure",
+   "double bond fixed on upper oxygen",
+   "nonequivalent resonance contributors",
+   "formal charge of 0 on N",
+   "formal charge on double bonded O",
+   "formal charge of -1 on double bonded O",
+   "formal charge of 0 on singly bonded O",
+   "full -1 charge fixed on double bonded O",
+   "localized negative charge on central N",
+   "bracketed neutral molecule"
+  ],
+  "prompt": "Identify the resonance contributor relationship, formal charges, delocalization, and ion notation in the Lewis structures of the nitrate ion (NO3-).",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-6-a_v2",
+  "tool": "labeler"
+ },
+ "752": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Equivalent resonance contributors",
+    "x": 0.125,
+    "y": 0.103125
+   },
+   {
+    "id": "h2",
+    "label": "two −1 oxygens per contributor",
+    "x": 0.5,
+    "y": 0.475
+   },
+   {
+    "id": "h3",
+    "label": "equal C–O bonds",
+    "x": 0.21875,
+    "y": 0.9
+   },
+   {
+    "id": "h4",
+    "label": "bond order between single and double",
+    "x": 0.21875,
+    "y": 0.61875
+   },
+   {
+    "id": "h5",
+    "label": "−2 overall charge",
+    "x": 0.8541666666666666,
+    "y": 0.78125
+   }
+  ],
+  "options": [
+   "Equivalent resonance contributors",
+   "two −1 oxygens per contributor",
+   "equal C–O bonds",
+   "bond order between single and double",
+   "−2 overall charge",
+   "Three ordinary single bonds",
+   "Three full double bonds",
+   "Rapidly oscillating single and double bonds",
+   "One permanent double and two permanent single bonds",
+   "Unequal resonance contributors",
+   "three −1 oxygens per contributor"
+  ],
+  "prompt": "Identify the resonance features and bond properties of the carbonate ion (CO₃²⁻).",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-6-a_v3",
+  "tool": "labeler"
+ },
+ "768": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Lowest-magnitude formal charges",
+    "x": 0.15,
+    "y": 0.85
+   },
+   {
+    "id": "h2",
+    "label": "negative charge on more electronegative O",
+    "x": 0.38,
+    "y": 0.85
+   },
+   {
+    "id": "h3",
+    "label": "preferred contributor",
+    "x": 0.62,
+    "y": 0.85
+   },
+   {
+    "id": "h4",
+    "label": "less important contributor",
+    "x": 0.85,
+    "y": 0.85
+   },
+   {
+    "id": "h5",
+    "label": "overall neutral molecule.",
+    "x": 0.5,
+    "y": 0.15
+   }
+  ],
+  "options": [
+   "Lowest-magnitude formal charges",
+   "negative charge on more electronegative O",
+   "preferred contributor",
+   "less important contributor",
+   "overall neutral molecule.",
+   "zero formal charge on central atom",
+   "positive charge on more electronegative O",
+   "negative charge on less electronegative N"
+  ],
+  "prompt": "Evaluate the N2O Lewis structures to determine the most important contributor based on formal charges.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-6-a_v4",
+  "tool": "labeler"
+ },
+ "776": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "CH3OH",
+    "x": 0.75,
+    "y": 0.594
+   },
+   {
+    "id": "h2",
+    "label": "C2H6",
+    "x": 0.25,
+    "y": 0.594
+   },
+   {
+    "id": "h3",
+    "label": "Hydrogen bonding",
+    "x": 0.75,
+    "y": 0.812
+   },
+   {
+    "id": "h4",
+    "label": "London dispersion forces",
+    "x": 0.25,
+    "y": 0.812
+   }
+  ],
+  "options": [
+   "C2H6",
+   "CH3OH",
+   "Hydrogen bonding",
+   "Dipole-dipole forces",
+   "London dispersion forces",
+   "Ionic bonding",
+   "Covalent bonding",
+   "Metallic bonding"
+  ],
+  "prompt": "Label which molecule has the dominant intermolecular force and identify that force",
+  "subject": "chem",
+  "svgKey": "chem_cmp/intermolecular_force_comparison_v5",
+  "tool": "labeler"
  },
  "78": {
   "content_version": "062b8b1f360c",
@@ -14726,6 +16139,110 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "830": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Host metal atom",
+    "x": 0.177,
+    "y": 0.75
+   },
+   {
+    "id": "h2",
+    "label": "substitutional atom",
+    "x": 0.5,
+    "y": 0.75
+   },
+   {
+    "id": "h3",
+    "label": "comparable atomic radius",
+    "x": 0.823,
+    "y": 0.75
+   },
+   {
+    "id": "h4",
+    "label": "substitutional alloy",
+    "x": 0.333,
+    "y": 0.913
+   },
+   {
+    "id": "h5",
+    "label": "delocalized electrons",
+    "x": 0.667,
+    "y": 0.913
+   }
+  ],
+  "options": [
+   "Host metal atom",
+   "substitutional atom",
+   "comparable atomic radius",
+   "substitutional alloy",
+   "delocalized electrons",
+   "interstitial atom",
+   "interstitial alloy",
+   "significantly smaller radius",
+   "localized electron pairs",
+   "directional covalent bonds",
+   "rigid ionic lattice"
+  ],
+  "prompt": "Identify the structural features, atomic size relationship, alloy classification, and bonding character in this metallic solid model.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-4-a_v3",
+  "tool": "labeler"
+ },
+ "831": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Host metal atoms",
+    "x": 0.177,
+    "y": 0.75
+   },
+   {
+    "id": "h2",
+    "label": "interstitial atoms",
+    "x": 0.5,
+    "y": 0.75
+   },
+   {
+    "id": "h3",
+    "label": "occupied lattice gaps",
+    "x": 0.823,
+    "y": 0.75
+   },
+   {
+    "id": "h4",
+    "label": "more rigid lattice",
+    "x": 0.333,
+    "y": 0.913
+   },
+   {
+    "id": "h5",
+    "label": "interstitial alloy",
+    "x": 0.667,
+    "y": 0.913
+   }
+  ],
+  "options": [
+   "Host metal atoms",
+   "interstitial atoms",
+   "occupied lattice gaps",
+   "more rigid lattice",
+   "interstitial alloy",
+   "substitutional atoms",
+   "substitutional alloy",
+   "replaced lattice sites",
+   "comparable atomic radii",
+   "increased malleability",
+   "directional covalent bonds"
+  ],
+  "prompt": "Identify the host metal lattice, small solute species occupying gaps, void structure, mechanical lattice effect, and alloy classification for this metallic solid model.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-4-a_v2",
+  "tool": "labeler"
+ },
  "838": {
   "bins": [
    "Substitutional alloy",
@@ -14948,6 +16465,58 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "886": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "h1",
+    "label": "Positive metal cores",
+    "x": 0.167,
+    "y": 0.734
+   },
+   {
+    "id": "h2",
+    "label": "delocalized valence electrons",
+    "x": 0.5,
+    "y": 0.734
+   },
+   {
+    "id": "h3",
+    "label": "metallic lattice",
+    "x": 0.833,
+    "y": 0.734
+   },
+   {
+    "id": "h4",
+    "label": "mobile electrons",
+    "x": 0.333,
+    "y": 0.891
+   },
+   {
+    "id": "h5",
+    "label": "electrical conductivity",
+    "x": 0.667,
+    "y": 0.891
+   }
+  ],
+  "options": [
+   "Positive metal cores",
+   "delocalized valence electrons",
+   "metallic lattice",
+   "mobile electrons",
+   "electrical conductivity",
+   "Alternating positive and negative ions",
+   "Localized two-atom covalent bonds",
+   "Fixed electron pairs between adjacent cores",
+   "Directional shared pair bonds",
+   "Rigid ionic lattice",
+   "Insulating charge localization"
+  ],
+  "prompt": "Identify the structural components, electron characteristics, lattice type, and electrical properties in this metallic bonding model.",
+  "subject": "chem",
+  "svgKey": "chem_cmp/2-4-a_v1",
+  "tool": "labeler"
+ },
  "9": {
   "content_version": "bcfc9f2fbc92",
   "distractors": [
@@ -14998,126 +16567,6 @@
   "responseSurplus": 4,
   "subject": "chem",
   "tool": "matcher"
- },
- "900033": {
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Shorter bond length",
-    "x": 0.281,
-    "y": 0.436
-   },
-   {
-    "id": "h2",
-    "label": "Stronger bond (deeper well)",
-    "x": 0.333,
-    "y": 0.812
-   },
-   {
-    "id": "h3",
-    "label": "Longer bond length",
-    "x": 0.573,
-    "y": 0.374
-   },
-   {
-    "id": "h4",
-    "label": "Weaker bond (shallower well)",
-    "x": 0.625,
-    "y": 0.562
-   }
-  ],
-  "options": [
-   "Shorter bond length",
-   "Longer bond length",
-   "Stronger bond (deeper well)",
-   "Weaker bond (shallower well)",
-   "Higher activation energy",
-   "Endothermic",
-   "Exothermic",
-   "Bond order zero"
-  ],
-  "prompt": "Label the bond length and bond strength on two potential-energy curves",
-  "subject": "chem",
-  "svgKey": "chem_cmp/morse_two_species",
-  "tool": "labeler"
- },
- "901001": {
-  "LO_code": "2.1.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Nonpolar covalent",
-    "x": 0.151,
-    "y": 0.375
-   },
-   {
-    "id": "h2",
-    "label": "electrons shared equally",
-    "x": 0.151,
-    "y": 0.738
-   },
-   {
-    "id": "h3",
-    "label": "polar covalent",
-    "x": 0.384,
-    "y": 0.375
-   },
-   {
-    "id": "h4",
-    "label": "electrons shared unequally",
-    "x": 0.384,
-    "y": 0.738
-   },
-   {
-    "id": "h5",
-    "label": "ionic",
-    "x": 0.618,
-    "y": 0.375
-   },
-   {
-    "id": "h6",
-    "label": "electrons transferred",
-    "x": 0.618,
-    "y": 0.738
-   },
-   {
-    "id": "h7",
-    "label": "metallic",
-    "x": 0.851,
-    "y": 0.375
-   },
-   {
-    "id": "h8",
-    "label": "electrons delocalized",
-    "x": 0.851,
-    "y": 0.738
-   }
-  ],
-  "options": [
-   "Nonpolar covalent",
-   "polar covalent",
-   "ionic",
-   "metallic",
-   "electrons shared equally",
-   "electrons shared unequally",
-   "electrons transferred",
-   "electrons delocalized",
-   "strictly ionic above ΔEN = 1.7",
-   "purely covalent below ΔEN = 1.7",
-   "metal present so purely ionic",
-   "electrons shared in metal bonds",
-   "sharp numerical boundary between ionic and covalent",
-   "covalent due to metal element"
-  ],
-  "prompt": "Identify the bond type and electron behavior for each region/atom pair on the bonding continuum.",
-  "slug": "2-1-a_v1",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-1-a_v1",
-  "tool": "labeler"
  },
  "901002": {
   "LO_code": "2.1.A",
@@ -15287,122 +16736,6 @@
   "slug": "2-1-a_v4",
   "subject": "chem",
   "svgKey": "chem_cmp/2-1-a_v4",
-  "tool": "labeler"
- },
- "901005": {
-  "LO_code": "2.2.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "triple bond",
-    "x": 0.229,
-    "y": 0.094
-   },
-   {
-    "id": "h2",
-    "label": "shortest equilibrium distance",
-    "x": 0.292,
-    "y": 0.281
-   },
-   {
-    "id": "h3",
-    "label": "deepest potential well",
-    "x": 0.292,
-    "y": 0.844
-   },
-   {
-    "id": "h4",
-    "label": "double bond",
-    "x": 0.458,
-    "y": 0.453
-   },
-   {
-    "id": "h5",
-    "label": "Single bond",
-    "x": 0.667,
-    "y": 0.453
-   },
-   {
-    "id": "h6",
-    "label": "greatest bond energy",
-    "x": 0.156,
-    "y": 0.563
-   }
-  ],
-  "options": [
-   "Single bond",
-   "double bond",
-   "triple bond",
-   "shortest equilibrium distance",
-   "greatest bond energy",
-   "deepest potential well",
-   "longest equilibrium distance",
-   "lowest bond energy",
-   "shallower potential well",
-   "weakest bond energy"
-  ],
-  "prompt": "Identify the bond orders, equilibrium distances, and well depths on the potential-energy curves for C–C, C=C, and C≡C.",
-  "slug": "2-2-a_v1",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-2-a_v1",
-  "tool": "labeler"
- },
- "901006": {
-  "LO_code": "2.2.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Net repulsion",
-    "x": 0.219,
-    "y": 0.166
-   },
-   {
-    "id": "h2",
-    "label": "minimum potential energy",
-    "x": 0.25,
-    "y": 0.656
-   },
-   {
-    "id": "h3",
-    "label": "equilibrium bond length",
-    "x": 0.354,
-    "y": 0.913
-   },
-   {
-    "id": "h4",
-    "label": "net attraction",
-    "x": 0.573,
-    "y": 0.453
-   },
-   {
-    "id": "h5",
-    "label": "atoms effectively separated",
-    "x": 0.854,
-    "y": 0.188
-   }
-  ],
-  "options": [
-   "Net repulsion",
-   "equilibrium bond length",
-   "net attraction",
-   "atoms effectively separated",
-   "minimum potential energy",
-   "Strongest attractive force",
-   "Zero interaction forces",
-   "Net attraction at minimum",
-   "Zero potential energy",
-   "Equal attraction and repulsion at large distance"
-  ],
-  "prompt": "Represent the relationship between potential energy and internuclear distance by labeling the dominant interaction forces, key distance markers, energy states, and asymptotic behavior.",
-  "slug": "2-2-a_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-2-a_v2",
   "tool": "labeler"
  },
  "901007": {
@@ -15747,174 +17080,6 @@
   "svgKey": "chem_cmp/2-3-a_v4",
   "tool": "labeler"
  },
- "901013": {
-  "LO_code": "2.4.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Positive metal cores",
-    "x": 0.167,
-    "y": 0.734
-   },
-   {
-    "id": "h2",
-    "label": "delocalized valence electrons",
-    "x": 0.5,
-    "y": 0.734
-   },
-   {
-    "id": "h3",
-    "label": "metallic lattice",
-    "x": 0.833,
-    "y": 0.734
-   },
-   {
-    "id": "h4",
-    "label": "mobile electrons",
-    "x": 0.333,
-    "y": 0.891
-   },
-   {
-    "id": "h5",
-    "label": "electrical conductivity",
-    "x": 0.667,
-    "y": 0.891
-   }
-  ],
-  "options": [
-   "Positive metal cores",
-   "delocalized valence electrons",
-   "metallic lattice",
-   "mobile electrons",
-   "electrical conductivity",
-   "Alternating positive and negative ions",
-   "Localized two-atom covalent bonds",
-   "Fixed electron pairs between adjacent cores",
-   "Directional shared pair bonds",
-   "Rigid ionic lattice",
-   "Insulating charge localization"
-  ],
-  "prompt": "Identify the structural components, electron characteristics, lattice type, and electrical properties in this metallic bonding model.",
-  "slug": "2-4-a_v1",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-4-a_v1",
-  "tool": "labeler"
- },
- "901014": {
-  "LO_code": "2.4.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Host metal atoms",
-    "x": 0.177,
-    "y": 0.75
-   },
-   {
-    "id": "h2",
-    "label": "interstitial atoms",
-    "x": 0.5,
-    "y": 0.75
-   },
-   {
-    "id": "h3",
-    "label": "occupied lattice gaps",
-    "x": 0.823,
-    "y": 0.75
-   },
-   {
-    "id": "h4",
-    "label": "more rigid lattice",
-    "x": 0.333,
-    "y": 0.913
-   },
-   {
-    "id": "h5",
-    "label": "interstitial alloy",
-    "x": 0.667,
-    "y": 0.913
-   }
-  ],
-  "options": [
-   "Host metal atoms",
-   "interstitial atoms",
-   "occupied lattice gaps",
-   "more rigid lattice",
-   "interstitial alloy",
-   "substitutional atoms",
-   "substitutional alloy",
-   "replaced lattice sites",
-   "comparable atomic radii",
-   "increased malleability",
-   "directional covalent bonds"
-  ],
-  "prompt": "Identify the host metal lattice, small solute species occupying gaps, void structure, mechanical lattice effect, and alloy classification for this metallic solid model.",
-  "slug": "2-4-a_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-4-a_v2",
-  "tool": "labeler"
- },
- "901015": {
-  "LO_code": "2.4.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Host metal atom",
-    "x": 0.177,
-    "y": 0.75
-   },
-   {
-    "id": "h2",
-    "label": "substitutional atom",
-    "x": 0.5,
-    "y": 0.75
-   },
-   {
-    "id": "h3",
-    "label": "comparable atomic radius",
-    "x": 0.823,
-    "y": 0.75
-   },
-   {
-    "id": "h4",
-    "label": "substitutional alloy",
-    "x": 0.333,
-    "y": 0.913
-   },
-   {
-    "id": "h5",
-    "label": "delocalized electrons",
-    "x": 0.667,
-    "y": 0.913
-   }
-  ],
-  "options": [
-   "Host metal atom",
-   "substitutional atom",
-   "comparable atomic radius",
-   "substitutional alloy",
-   "delocalized electrons",
-   "interstitial atom",
-   "interstitial alloy",
-   "significantly smaller radius",
-   "localized electron pairs",
-   "directional covalent bonds",
-   "rigid ionic lattice"
-  ],
-  "prompt": "Identify the structural features, atomic size relationship, alloy classification, and bonding character in this metallic solid model.",
-  "slug": "2-4-a_v3",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-4-a_v3",
-  "tool": "labeler"
- },
  "901016": {
   "LO_code": "2.4.A",
   "_source": "C5/C6 gap-variant campaign 2026-07-25",
@@ -16198,66 +17363,6 @@
   "svgKey": "chem_cmp/2-6-a_v1",
   "tool": "labeler"
  },
- "901021": {
-  "LO_code": "2.6.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Three equivalent contributors",
-    "x": 0.156,
-    "y": 0.719
-   },
-   {
-    "id": "h2",
-    "label": "formal charge on N",
-    "x": 0.5,
-    "y": 0.719
-   },
-   {
-    "id": "h3",
-    "label": "formal charge on singly bonded O",
-    "x": 0.844,
-    "y": 0.719
-   },
-   {
-    "id": "h4",
-    "label": "delocalized negative charge",
-    "x": 0.327,
-    "y": 0.894
-   },
-   {
-    "id": "h5",
-    "label": "bracketed −1 ion.",
-    "x": 0.673,
-    "y": 0.894
-   }
-  ],
-  "options": [
-   "Three equivalent contributors",
-   "formal charge on N",
-   "formal charge on singly bonded O",
-   "delocalized negative charge",
-   "bracketed −1 ion.",
-   "single true ground-state structure",
-   "double bond fixed on upper oxygen",
-   "nonequivalent resonance contributors",
-   "formal charge of 0 on N",
-   "formal charge on double bonded O",
-   "formal charge of -1 on double bonded O",
-   "formal charge of 0 on singly bonded O",
-   "full -1 charge fixed on double bonded O",
-   "localized negative charge on central N",
-   "bracketed neutral molecule"
-  ],
-  "prompt": "Identify the resonance contributor relationship, formal charges, delocalization, and ion notation in the Lewis structures of the nitrate ion (NO3-).",
-  "slug": "2-6-a_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-6-a_v2",
-  "tool": "labeler"
- },
  "901022": {
   "LO_code": "3.1.A",
   "_source": "C5/C6 gap-variant campaign 2026-07-25",
@@ -16531,116 +17636,6 @@
   "svgKey": "chem_cmp/3-12-a_v2",
   "tool": "labeler"
  },
- "901027": {
-  "LO_code": "3.7.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h_vol",
-    "label": "Solution volume in liters",
-    "x": 0.354,
-    "y": 0.5
-   },
-   {
-    "id": "h_mol",
-    "label": "moles solute",
-    "x": 0.615,
-    "y": 0.5
-   },
-   {
-    "id": "h_avo",
-    "label": "Avogadro’s number",
-    "x": 0.865,
-    "y": 0.5
-   },
-   {
-    "id": "h_part",
-    "label": "number of solute particles",
-    "x": 0.802,
-    "y": 0.688
-   },
-   {
-    "id": "h_path",
-    "label": "dimensional-analysis path",
-    "x": 0.521,
-    "y": 0.891
-   }
-  ],
-  "options": [
-   "Solution volume in liters",
-   "moles solute",
-   "Avogadro’s number",
-   "number of solute particles",
-   "dimensional-analysis path",
-   "Molarity × Avogadro’s number",
-   "Molarity of solution"
-  ],
-  "prompt": "Identify the components of the dimensional-analysis path for calculating the number of particles.",
-  "slug": "3-7-a_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/3-7-a_v2",
-  "tool": "labeler"
- },
- "901028": {
-  "LO_code": "5.11.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Uncatalyzed transition state",
-    "x": 0.5416666666666666,
-    "y": 0.125
-   },
-   {
-    "id": "h2",
-    "label": "Two catalyzed transition states",
-    "x": 0.7083333333333334,
-    "y": 0.34375
-   },
-   {
-    "id": "h3",
-    "label": "Two catalyzed transition states",
-    "x": 0.375,
-    "y": 0.28125
-   },
-   {
-    "id": "h4",
-    "label": "Catalyzed intermediate",
-    "x": 0.5,
-    "y": 0.5625
-   },
-   {
-    "id": "h5",
-    "label": "Lower maximum activation barrier",
-    "x": 0.20833333333333334,
-    "y": 0.34375
-   },
-   {
-    "id": "h6",
-    "label": "Unchanged ΔH",
-    "x": 0.875,
-    "y": 0.5625
-   }
-  ],
-  "options": [
-   "Uncatalyzed transition state",
-   "Two catalyzed transition states",
-   "Catalyzed intermediate",
-   "Lower maximum activation barrier",
-   "Unchanged ΔH",
-   "Lower product energy",
-   "More negative ΔH"
-  ],
-  "prompt": "Identify the key features of the reaction energy profile.",
-  "slug": "5-11-a_a_v1",
-  "subject": "chem",
-  "svgKey": "chem_cmp/5-11-a_a_v1",
-  "tool": "labeler"
- },
  "901029": {
   "LO_code": "5.11.A",
   "_source": "C5/C6 gap-variant campaign 2026-07-25",
@@ -16749,106 +17744,6 @@
   "slug": "5-11-a_a_v3",
   "subject": "chem",
   "svgKey": "chem_cmp/5-11-a_a_v3",
-  "tool": "labeler"
- },
- "901031": {
-  "LO_code": "5.3.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Linear plot: [A] versus time, zero order",
-    "x": 0.219,
-    "y": 0.131
-   },
-   {
-    "id": "h2",
-    "label": "Slope equals negative k",
-    "x": 0.219,
-    "y": 0.609
-   },
-   {
-    "id": "h5",
-    "label": "Constant reaction rate, not constant concentration",
-    "x": 0.5,
-    "y": 0.852
-   },
-   {
-    "id": "h3",
-    "label": "Non-linear ln[A] versus time plot",
-    "x": 0.51,
-    "y": 0.131
-   },
-   {
-    "id": "h4",
-    "label": "Non-linear 1/[A] versus time plot",
-    "x": 0.802,
-    "y": 0.131
-   }
-  ],
-  "options": [
-   "Linear plot: [A] versus time, zero order",
-   "Slope equals negative k",
-   "Non-linear ln[A] versus time plot",
-   "Non-linear 1/[A] versus time plot",
-   "Constant reaction rate, not constant concentration",
-   "Reaction order is the coefficient of A in the balanced equation",
-   "Reaction rate depends on the coefficient of A"
-  ],
-  "prompt": "Identify the rate law expression of a chemical reaction using data that show how the concentrations of reaction species change over time.",
-  "slug": "5-3-a_c_v1",
-  "subject": "chem",
-  "svgKey": "chem_cmp/5-3-a_c_v1",
-  "tool": "labeler"
- },
- "901032": {
-  "LO_code": "5.3.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h_transform",
-    "label": "First-order transform",
-    "x": 0.4895833333333333,
-    "y": 0.171875
-   },
-   {
-    "id": "h_slope",
-    "label": "Slope = −k",
-    "x": 0.4765625,
-    "y": 0.486328125
-   },
-   {
-    "id": "h_curve",
-    "label": "Curved [A] plot vs straight line",
-    "x": 0.21875,
-    "y": 0.5625
-   },
-   {
-    "id": "h_halflife",
-    "label": "Constant half-life",
-    "x": 0.17708333333333334,
-    "y": 0.765625
-   }
-  ],
-  "options": [
-   "First-order transform",
-   "Slope = −k",
-   "Curved [A] plot vs straight line",
-   "Constant half-life",
-   "Linear 1/[A] plot",
-   "Linear [A] plot",
-   "Slope = k",
-   "Second-order transform",
-   "Zero-order transform"
-  ],
-  "prompt": "Identify the features of the first-order reaction data.",
-  "slug": "5-3-a_c_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/5-3-a_c_v2",
   "tool": "labeler"
  },
  "901033": {
@@ -17021,115 +17916,6 @@
   "slug": "5-7-a_b_v2",
   "subject": "chem",
   "svgKey": "chem_cmp/5-7-a_b_v2",
-  "tool": "labeler"
- },
- "901036": {
-  "LO_code": "5.8.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Step 1 as the rate-determining step",
-    "x": 0.15,
-    "y": 0.15
-   },
-   {
-    "id": "h2",
-    "label": "Intermediate produced by Step 1",
-    "x": 0.4375,
-    "y": 0.15
-   },
-   {
-    "id": "h3",
-    "label": "Same intermediate consumed by Step 2",
-    "x": 0.2604,
-    "y": 0.35
-   },
-   {
-    "id": "h4",
-    "label": "Rate law matching molecularity of the slow first elementary step",
-    "x": 0.25,
-    "y": 0.8125
-   },
-   {
-    "id": "h5",
-    "label": "Overall balanced equation, whose coefficients must NOT be used for the rate law",
-    "x": 0.25,
-    "y": 0.55
-   }
-  ],
-  "options": [
-   "Step 1 as the rate-determining step",
-   "Intermediate produced by Step 1",
-   "Same intermediate consumed by Step 2",
-   "Rate law matching molecularity of the slow first elementary step",
-   "Overall balanced equation, whose coefficients must NOT be used for the rate law",
-   "Rank 1 rate-law error: use coefficients from the overall balanced equation instead of the reactants in the slow elementary step."
-  ],
-  "prompt": "Identify the key components of the reaction mechanism and determine the correct rate law.",
-  "slug": "5-8-a_b_v3",
-  "subject": "chem",
-  "svgKey": "chem_cmp/5-8-a_b_v3",
-  "tool": "labeler"
- },
- "901037": {
-  "LO_code": "8.1.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h_h3o",
-    "label": "1.0×10⁻⁷ M",
-    "x": 0.318,
-    "y": 0.438
-   },
-   {
-    "id": "h_ph",
-    "label": "7.00",
-    "x": 0.531,
-    "y": 0.438
-   },
-   {
-    "id": "h_kw",
-    "label": "1.0×10⁻¹⁴",
-    "x": 0.781,
-    "y": 0.438
-   },
-   {
-    "id": "h_oh",
-    "label": "1.0×10⁻⁷ M",
-    "x": 0.318,
-    "y": 0.688
-   },
-   {
-    "id": "h_poh",
-    "label": "7.00",
-    "x": 0.531,
-    "y": 0.688
-   },
-   {
-    "id": "h_phpoh",
-    "label": "14.00",
-    "x": 0.839,
-    "y": 0.688
-   }
-  ],
-  "options": [
-   "1.0×10⁻⁷ M",
-   "7.00",
-   "1.0×10⁻¹⁴",
-   "14.00",
-   "0 M",
-   "1.0×10⁻¹⁴ M",
-   "0"
-  ],
-  "prompt": "Identify the values for a neutral water solution at 25°C.",
-  "slug": "8-1-a_v1",
-  "subject": "chem",
-  "svgKey": "chem_cmp/8-1-a_v1",
   "tool": "labeler"
  },
  "901038": {
@@ -17575,116 +18361,6 @@
   "svgKey": "chem_cmp/8-3-a_v3",
   "tool": "labeler"
  },
- "901046": {
-  "LO_code": "8.3.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Larger Ka",
-    "x": 0.271,
-    "y": 0.15
-   },
-   {
-    "id": "h2",
-    "label": "smaller Ka",
-    "x": 0.729,
-    "y": 0.15
-   },
-   {
-    "id": "h3",
-    "label": "more H₃O⁺/A⁻",
-    "x": 0.271,
-    "y": 0.5
-   },
-   {
-    "id": "h4",
-    "label": "more un-ionized HA",
-    "x": 0.729,
-    "y": 0.675
-   },
-   {
-    "id": "h5",
-    "label": "lower pH.",
-    "x": 0.271,
-    "y": 0.85
-   }
-  ],
-  "options": [
-   "Larger Ka",
-   "smaller Ka",
-   "more H₃O⁺/A⁻",
-   "more un-ionized HA",
-   "lower pH.",
-   "Equal Ka",
-   "Equal % ionization",
-   "more H₃O⁺ in smaller Ka",
-   "higher pH",
-   "Equal pH"
-  ],
-  "prompt": "Compare two weak acids at the same initial concentration with different Ka values using particulate equilibrium diagrams. Students label stronger weak acid and relative ionization.",
-  "slug": "8-3-a_v4",
-  "subject": "chem",
-  "svgKey": "chem_cmp/8-3-a_v4",
-  "tool": "labeler"
- },
- "901047": {
-  "LO_code": "8.3.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Conjugate acid",
-    "x": 0.264,
-    "y": 0.206
-   },
-   {
-    "id": "h2",
-    "label": "conjugate base",
-    "x": 0.736,
-    "y": 0.206
-   },
-   {
-    "id": "h3",
-    "label": "KaKb = Kw",
-    "x": 0.854,
-    "y": 0.606
-   },
-   {
-    "id": "h4",
-    "label": "pKa + pKb = pKw",
-    "x": 0.333,
-    "y": 0.731
-   },
-   {
-    "id": "h5",
-    "label": "stronger acid/weaker conjugate base",
-    "x": 0.854,
-    "y": 0.847
-   }
-  ],
-  "options": [
-   "Conjugate acid",
-   "conjugate base",
-   "KaKb = Kw",
-   "pKa + pKb = pKw",
-   "stronger acid/weaker conjugate base",
-   "Ka + Kb = Kw",
-   "pKa × pKb = pKw",
-   "Stronger acid → stronger conjugate base",
-   "Ka and Kb are independent",
-   "Strong acid gives a strong conjugate base"
-  ],
-  "prompt": "Label the conjugate species, equilibrium constant product, logarithmic relationship, and relative strength trend for a weak acid-base pair",
-  "slug": "8-3-a_v5",
-  "subject": "chem",
-  "svgKey": "chem_cmp/8-3-a_v5",
-  "tool": "labeler"
- },
  "901048": {
   "LO_code": "8.4.A",
   "_source": "C5/C6 gap-variant campaign 2026-07-25",
@@ -17740,222 +18416,6 @@
   "svgKey": "chem_cmp/8-4-a_v1",
   "tool": "labeler"
  },
- "901049": {
-  "LO_code": "8.4.A",
-  "_source": "C5/C6 gap-variant campaign 2026-07-25",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Complete stoichiometric conversion",
-    "x": 0.271,
-    "y": 0.234
-   },
-   {
-    "id": "h2",
-    "label": "conjugate base A⁻",
-    "x": 0.604,
-    "y": 0.469
-   },
-   {
-    "id": "h3",
-    "label": "no excess OH⁻",
-    "x": 0.229,
-    "y": 0.656
-   },
-   {
-    "id": "h4",
-    "label": "basic equivalence solution",
-    "x": 0.802,
-    "y": 0.131
-   },
-   {
-    "id": "h5",
-    "label": "A⁻ + H₂O ⇌ HA + OH⁻",
-    "x": 0.729,
-    "y": 0.781
-   }
-  ],
-  "options": [
-   "Complete stoichiometric conversion",
-   "conjugate base A⁻",
-   "no excess OH⁻",
-   "basic equivalence solution",
-   "A⁻ + H₂O ⇌ HA + OH⁻",
-   "Neutral equivalence solution (pH = 7.0)",
-   "Equal concentrations of HA and A⁻",
-   "Excess strong base OH⁻",
-   "HA + H₂O ⇌ A⁻ + H₃O⁺",
-   "Unreacted weak acid HA is major species"
-  ],
-  "prompt": "Identify the species, stoichiometry, and equilibrium conditions present in a weak acid - strong base equivalence mixture",
-  "slug": "8-4-a_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/8-4-a_v2",
-  "tool": "labeler"
- },
- "901100": {
-  "LO_code": "2.5.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Central C atom",
-    "x": 0.5,
-    "y": 0.15
-   },
-   {
-    "id": "h2",
-    "label": "C=O double bond",
-    "x": 0.25,
-    "y": 0.85
-   },
-   {
-    "id": "h3",
-    "label": "two lone pairs on each O",
-    "x": 0.15,
-    "y": 0.2
-   },
-   {
-    "id": "h4",
-    "label": "complete octets",
-    "x": 0.85,
-    "y": 0.2
-   },
-   {
-    "id": "h5",
-    "label": "total valence electrons = 16",
-    "x": 0.75,
-    "y": 0.85
-   }
-  ],
-  "options": [
-   "Central C atom",
-   "C=O double bond",
-   "two lone pairs on each O",
-   "complete octets",
-   "total valence electrons = 16",
-   "C–O single bond",
-   "three lone pairs on each O",
-   "six electrons around C",
-   "incomplete octet on C",
-   "total valence electrons = 20"
-  ],
-  "prompt": "Identify the features of the valid Lewis structure for CO₂, including bonds, lone pairs, and electron budget.",
-  "slug": "2-5-a_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-5-a_v2",
-  "tool": "labeler"
- },
- "901101": {
-  "LO_code": "2.6.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Equivalent resonance contributors",
-    "x": 0.125,
-    "y": 0.103125
-   },
-   {
-    "id": "h2",
-    "label": "two −1 oxygens per contributor",
-    "x": 0.5,
-    "y": 0.475
-   },
-   {
-    "id": "h3",
-    "label": "equal C–O bonds",
-    "x": 0.21875,
-    "y": 0.9
-   },
-   {
-    "id": "h4",
-    "label": "bond order between single and double",
-    "x": 0.21875,
-    "y": 0.61875
-   },
-   {
-    "id": "h5",
-    "label": "−2 overall charge",
-    "x": 0.8541666666666666,
-    "y": 0.78125
-   }
-  ],
-  "options": [
-   "Equivalent resonance contributors",
-   "two −1 oxygens per contributor",
-   "equal C–O bonds",
-   "bond order between single and double",
-   "−2 overall charge",
-   "Three ordinary single bonds",
-   "Three full double bonds",
-   "Rapidly oscillating single and double bonds",
-   "One permanent double and two permanent single bonds",
-   "Unequal resonance contributors",
-   "three −1 oxygens per contributor"
-  ],
-  "prompt": "Identify the resonance features and bond properties of the carbonate ion (CO₃²⁻).",
-  "slug": "2-6-a_v3",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-6-a_v3",
-  "tool": "labeler"
- },
- "901102": {
-  "LO_code": "2.6.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Lowest-magnitude formal charges",
-    "x": 0.15,
-    "y": 0.85
-   },
-   {
-    "id": "h2",
-    "label": "negative charge on more electronegative O",
-    "x": 0.38,
-    "y": 0.85
-   },
-   {
-    "id": "h3",
-    "label": "preferred contributor",
-    "x": 0.62,
-    "y": 0.85
-   },
-   {
-    "id": "h4",
-    "label": "less important contributor",
-    "x": 0.85,
-    "y": 0.85
-   },
-   {
-    "id": "h5",
-    "label": "overall neutral molecule.",
-    "x": 0.5,
-    "y": 0.15
-   }
-  ],
-  "options": [
-   "Lowest-magnitude formal charges",
-   "negative charge on more electronegative O",
-   "preferred contributor",
-   "less important contributor",
-   "overall neutral molecule.",
-   "zero formal charge on central atom",
-   "positive charge on more electronegative O",
-   "negative charge on less electronegative N"
-  ],
-  "prompt": "Evaluate the N2O Lewis structures to determine the most important contributor based on formal charges.",
-  "slug": "2-6-a_v4",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-6-a_v4",
-  "tool": "labeler"
- },
  "901103": {
   "LO_code": "2.6.A",
   "_speculative_row": true,
@@ -18004,118 +18464,6 @@
   "slug": "2-6-a_v5",
   "subject": "chem",
   "svgKey": "chem_cmp/2-6-a_v5",
-  "tool": "labeler"
- },
- "901104": {
-  "LO_code": "2.7.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h_elec_geom",
-    "label": "Tetrahedral electron-domain geometry",
-    "x": 0.5,
-    "y": 0.109375
-   },
-   {
-    "id": "h_ch4",
-    "label": "tetrahedral molecule",
-    "x": 0.16666666666666666,
-    "y": 0.890625
-   },
-   {
-    "id": "h_nh3",
-    "label": "trigonal pyramidal molecule",
-    "x": 0.5,
-    "y": 0.890625
-   },
-   {
-    "id": "h_h2o",
-    "label": "bent molecule",
-    "x": 0.8333333333333334,
-    "y": 0.890625
-   },
-   {
-    "id": "h_angle",
-    "label": "approximate bond angle.",
-    "x": 0.2708333333333333,
-    "y": 0.484375
-   },
-   {
-    "id": "h_comp",
-    "label": "lone-pair compression",
-    "x": 0.7291666666666666,
-    "y": 0.453125
-   }
-  ],
-  "options": [
-   "Tetrahedral electron-domain geometry",
-   "tetrahedral molecule",
-   "trigonal pyramidal molecule",
-   "bent molecule",
-   "lone-pair compression",
-   "approximate bond angle.",
-   "Molecular geometry is tetrahedral for all four-domain molecules",
-   "Square planar molecule",
-   "Lone pairs count as bonded atoms for molecular shape"
-  ],
-  "prompt": "Match the correct geometries and structural features for molecules with four electron domains.",
-  "slug": "2-7-a_v1",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-7-a_v1",
-  "tool": "labeler"
- },
- "901105": {
-  "LO_code": "2.7.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Linear nonpolar molecule",
-    "x": 0.25,
-    "y": 0.609375
-   },
-   {
-    "id": "h2",
-    "label": "bond dipoles cancel",
-    "x": 0.25,
-    "y": 0.796875
-   },
-   {
-    "id": "h3",
-    "label": "bent polar molecule",
-    "x": 0.75,
-    "y": 0.609375
-   },
-   {
-    "id": "h4",
-    "label": "bond dipoles do not cancel",
-    "x": 0.75,
-    "y": 0.796875
-   },
-   {
-    "id": "h5",
-    "label": "lone pair on central atom",
-    "x": 0.8541666666666666,
-    "y": 0.1875
-   }
-  ],
-  "options": [
-   "Linear nonpolar molecule",
-   "bent polar molecule",
-   "bond dipoles cancel",
-   "bond dipoles do not cancel",
-   "lone pair on central atom",
-   "Linear polar molecule",
-   "bent nonpolar molecule",
-   "no lone pairs on central atom",
-   "any molecule with polar bonds is polar"
-  ],
-  "prompt": "Identify geometry and net dipole for CO₂ and SO₂.",
-  "slug": "2-7-a_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-7-a_v2",
   "tool": "labeler"
  },
  "901106": {
@@ -18172,65 +18520,6 @@
   "slug": "2-7-a_v3",
   "subject": "chem",
   "svgKey": "chem_cmp/2-7-a_v3",
-  "tool": "labeler"
- },
- "901107": {
-  "LO_code": "2.7.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h3",
-    "label": "sp³ carbon",
-    "x": 0.125,
-    "y": 0.78125
-   },
-   {
-    "id": "h5",
-    "label": "free rotation",
-    "x": 0.25,
-    "y": 0.25
-   },
-   {
-    "id": "h1",
-    "label": "C–C σ bond",
-    "x": 0.3333333333333333,
-    "y": 0.78125
-   },
-   {
-    "id": "h4",
-    "label": "sp² carbon",
-    "x": 0.9166666666666666,
-    "y": 0.78125
-   },
-   {
-    "id": "h2",
-    "label": "C–C π bond",
-    "x": 0.75,
-    "y": 0.78125
-   },
-   {
-    "id": "h6",
-    "label": "restricted rotation",
-    "x": 0.75,
-    "y": 0.21875
-   }
-  ],
-  "options": [
-   "C–C σ bond",
-   "C–C π bond",
-   "sp³ carbon",
-   "sp² carbon",
-   "free rotation",
-   "restricted rotation",
-   "2 electron domains per double bond",
-   "double bonds permit free rotation",
-   "both bonds equally strong"
-  ],
-  "prompt": "Identify the bond types, carbon hybridizations, and rotation capabilities in ethane and ethene.",
-  "slug": "2-7-a_v4",
-  "subject": "chem",
-  "svgKey": "chem_cmp/2-7-a_v4",
   "tool": "labeler"
  },
  "901108": {
@@ -18338,60 +18627,6 @@
   "svgKey": "chem_cmp/8-4-a_v3",
   "tool": "labeler"
  },
- "901110": {
-  "LO_code": "8.4.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h_reaction",
-    "label": "proton-transfer reaction",
-    "x": 0.5,
-    "y": 0.125
-   },
-   {
-    "id": "h_b",
-    "label": "B remains",
-    "x": 0.20833333333333334,
-    "y": 0.34375
-   },
-   {
-    "id": "h_hb",
-    "label": "HB⁺ formed",
-    "x": 0.5,
-    "y": 0.4375
-   },
-   {
-    "id": "h_h3o",
-    "label": "H₃O⁺ limiting reactant",
-    "x": 0.7708333333333334,
-    "y": 0.53125
-   },
-   {
-    "id": "h_buffer",
-    "label": "weak-base buffer",
-    "x": 0.3958333333333333,
-    "y": 0.88125
-   }
-  ],
-  "options": [
-   "H₃O⁺ limiting reactant",
-   "B remains",
-   "HB⁺ formed",
-   "weak-base buffer",
-   "proton-transfer reaction",
-   "H₃O⁺ remains free",
-   "HB⁺ remains",
-   "B limiting reactant",
-   "weak-acid buffer",
-   "B formed"
-  ],
-  "prompt": "Identify the major species and reaction components when a weak base is mixed with a smaller amount of strong acid.",
-  "slug": "8-4-a_v4",
-  "subject": "chem",
-  "svgKey": "chem_cmp/8-4-a_v4",
-  "tool": "labeler"
- },
  "901111": {
   "LO_code": "8.4.A",
   "_speculative_row": true,
@@ -18446,171 +18681,6 @@
   "svgKey": "chem_cmp/8-4-a_v5",
   "tool": "labeler"
  },
- "901112": {
-  "LO_code": "8.5.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Initial strong-acid solution",
-    "x": 0.20208333333333334,
-    "y": 0.379375
-   },
-   {
-    "id": "h2",
-    "label": "excess H₃O⁺",
-    "x": 0.3754166666666666,
-    "y": 0.6690625
-   },
-   {
-    "id": "h3",
-    "label": "equivalence point",
-    "x": 0.5875,
-    "y": 0.4925
-   },
-   {
-    "id": "h4",
-    "label": "neutral equivalence pH",
-    "x": 0.125,
-    "y": 0.139375
-   },
-   {
-    "id": "h5",
-    "label": "excess OH⁻",
-    "x": 0.7416666666666667,
-    "y": 0.3159375
-   }
-  ],
-  "options": [
-   "Initial strong-acid solution",
-   "excess H₃O⁺",
-   "equivalence point",
-   "neutral equivalence pH",
-   "excess OH⁻",
-   "pH 7 midpoint",
-   "Endpoint",
-   "Weak acid initial solution"
-  ],
-  "prompt": "Identify the key regions and features of this titration curve.",
-  "slug": "8-5-a_v1",
-  "subject": "chem",
-  "svgKey": "chem_cmp/8-5-a_v1",
-  "tool": "labeler"
- },
- "901113": {
-  "LO_code": "8.5.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Weak acid initially",
-    "x": 0.1979,
-    "y": 0.781
-   },
-   {
-    "id": "h2",
-    "label": "buffer region",
-    "x": 0.2604,
-    "y": 0.515
-   },
-   {
-    "id": "h3",
-    "label": "half-equivalence pH = pKa",
-    "x": 0.3645,
-    "y": 0.703
-   },
-   {
-    "id": "h4",
-    "label": "equivalence dominated by A⁻",
-    "x": 0.3645,
-    "y": 0.296
-   },
-   {
-    "id": "h5",
-    "label": "basic equivalence point",
-    "x": 0.6145,
-    "y": 0.328
-   }
-  ],
-  "options": [
-   "Weak acid initially",
-   "buffer region",
-   "half-equivalence pH = pKa",
-   "equivalence dominated by A⁻",
-   "basic equivalence point",
-   "equivalence pH = pKa",
-   "neutral equivalence point",
-   "equivalence dominated by HA"
-  ],
-  "prompt": "Identify the key components of this weak-acid titration curve.",
-  "slug": "8-5-a_v2",
-  "subject": "chem",
-  "svgKey": "chem_cmp/8-5-a_v2",
-  "tool": "labeler"
- },
- "901114": {
-  "LO_code": "8.5.A",
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Weak base initially",
-    "x": 0.208,
-    "y": 0.141
-   },
-   {
-    "id": "h2",
-    "label": "B/HB⁺ buffer",
-    "x": 0.5,
-    "y": 0.156
-   },
-   {
-    "id": "h3",
-    "label": "half-equivalence",
-    "x": 0.208,
-    "y": 0.438
-   },
-   {
-    "id": "h4",
-    "label": "acidic equivalence point",
-    "x": 0.271,
-    "y": 0.609
-   },
-   {
-    "id": "h5",
-    "label": "equivalence dominated by HB⁺",
-    "x": 0.271,
-    "y": 0.797
-   },
-   {
-    "id": "h6",
-    "label": "excess acid",
-    "x": 0.688,
-    "y": 0.406
-   }
-  ],
-  "options": [
-   "Weak base initially",
-   "Weak acid initially",
-   "B/HB⁺ buffer",
-   "HA/A⁻ buffer",
-   "half-equivalence",
-   "equivalence dominated by HB⁺",
-   "equivalence dominated by A⁻",
-   "acidic equivalence point",
-   "basic equivalence point",
-   "excess acid",
-   "excess base"
-  ],
-  "prompt": "Label the key regions and points of the titration curve.",
-  "slug": "8-5-a_v3",
-  "subject": "chem",
-  "svgKey": "chem_cmp/8-5-a_v3",
-  "tool": "labeler"
- },
  "901115": {
   "LO_code": null,
   "_speculative_row": true,
@@ -18655,52 +18725,6 @@
   "slug": "acid_strength_3",
   "subject": "chem",
   "svgKey": "chem_cmp/acid_strength_3",
-  "tool": "labeler"
- },
- "901123": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "4s orbital",
-    "x": 0.229,
-    "y": 0.5
-   },
-   {
-    "id": "h2",
-    "label": "3d orbitals",
-    "x": 0.563,
-    "y": 0.703
-   },
-   {
-    "id": "h3",
-    "label": "Spin-up electron (unpaired)",
-    "x": 0.396,
-    "y": 0.5
-   },
-   {
-    "id": "h4",
-    "label": "Spin-up electron (unpaired)",
-    "x": 0.729,
-    "y": 0.5
-   }
-  ],
-  "options": [
-   "4s orbital",
-   "3d orbitals",
-   "Spin-up electron (unpaired)",
-   "Paired electrons (opposite spins)",
-   "2p orbital",
-   "4p orbital",
-   "Spin-down only",
-   "Empty orbital"
-  ],
-  "prompt": "Label the orbital diagram boxes and the electron arrows for this element",
-  "slug": "electron_config_orbital_v3",
-  "subject": "chem",
-  "svgKey": "chem_cmp/electron_config_orbital_v3",
   "tool": "labeler"
  },
  "901124": {
@@ -18795,52 +18819,6 @@
   "svgKey": "chem_cmp/electron_config_orbital_v5",
   "tool": "labeler"
  },
- "901126": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Uncatalysed pathway",
-    "x": 0.5,
-    "y": 0.125
-   },
-   {
-    "id": "h2",
-    "label": "Catalysed pathway",
-    "x": 0.688,
-    "y": 0.594
-   },
-   {
-    "id": "h3",
-    "label": "Lower activation energy",
-    "x": 0.5,
-    "y": 0.391
-   },
-   {
-    "id": "h4",
-    "label": "Enthalpy change (ΔH)",
-    "x": 0.854,
-    "y": 0.641
-   }
-  ],
-  "options": [
-   "Uncatalysed pathway",
-   "Catalysed pathway",
-   "Lower activation energy",
-   "Enthalpy change (ΔH)",
-   "Higher activation energy",
-   "Transition state",
-   "Reactants",
-   "Products"
-  ],
-  "prompt": "Label the catalysed and uncatalysed reaction pathways",
-  "slug": "energy_profile_cat",
-  "subject": "chem",
-  "svgKey": "chem_cmp/energy_profile_cat",
-  "tool": "labeler"
- },
  "901129": {
   "LO_code": null,
   "_speculative_row": true,
@@ -18915,44 +18893,6 @@
   "slug": "entropy_comparison_v4",
   "subject": "chem",
   "svgKey": "chem_cmp/entropy_comparison_v4",
-  "tool": "labeler"
- },
- "901131": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Lower entropy",
-    "x": 0.25,
-    "y": 0.866
-   },
-   {
-    "id": "h2",
-    "label": "Higher entropy",
-    "x": 0.75,
-    "y": 0.866
-   },
-   {
-    "id": "h3",
-    "label": "More microstates/dispersal",
-    "x": 0.75,
-    "y": 0.5
-   }
-  ],
-  "options": [
-   "Higher entropy",
-   "Lower entropy",
-   "More microstates/dispersal",
-   "Higher enthalpy",
-   "Lower enthalpy",
-   "Equilibrium"
-  ],
-  "prompt": "Label which system has higher entropy and why",
-  "slug": "entropy_comparison_v5",
-  "subject": "chem",
-  "svgKey": "chem_cmp/entropy_comparison_v5",
   "tool": "labeler"
  },
  "901132": {
@@ -19315,52 +19255,6 @@
   "svgKey": "chem_cmp/intermolecular_force_comparison_v4",
   "tool": "labeler"
  },
- "901140": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "CH3OH",
-    "x": 0.75,
-    "y": 0.594
-   },
-   {
-    "id": "h2",
-    "label": "C2H6",
-    "x": 0.25,
-    "y": 0.594
-   },
-   {
-    "id": "h3",
-    "label": "Hydrogen bonding",
-    "x": 0.75,
-    "y": 0.812
-   },
-   {
-    "id": "h4",
-    "label": "London dispersion forces",
-    "x": 0.25,
-    "y": 0.812
-   }
-  ],
-  "options": [
-   "C2H6",
-   "CH3OH",
-   "Hydrogen bonding",
-   "Dipole-dipole forces",
-   "London dispersion forces",
-   "Ionic bonding",
-   "Covalent bonding",
-   "Metallic bonding"
-  ],
-  "prompt": "Label which molecule has the dominant intermolecular force and identify that force",
-  "slug": "intermolecular_force_comparison_v5",
-  "subject": "chem",
-  "svgKey": "chem_cmp/intermolecular_force_comparison_v5",
-  "tool": "labeler"
- },
  "901141": {
   "LO_code": null,
   "_speculative_row": true,
@@ -19637,94 +19531,6 @@
   "svgKey": "econ/ad_as",
   "tool": "labeler"
  },
- "901148": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Households",
-    "x": 0.15,
-    "y": 0.5
-   },
-   {
-    "id": "h2",
-    "label": "Firms",
-    "x": 0.85,
-    "y": 0.5
-   },
-   {
-    "id": "h3",
-    "label": "Product market",
-    "x": 0.5,
-    "y": 0.15
-   },
-   {
-    "id": "h4",
-    "label": "Factor market",
-    "x": 0.5,
-    "y": 0.85
-   }
-  ],
-  "options": [
-   "Households",
-   "Firms",
-   "Product market",
-   "Factor market",
-   "Government",
-   "Financial market"
-  ],
-  "prompt": "Label the key sectors and markets in the circular flow model.",
-  "slug": "circular_flow",
-  "subject": "econ",
-  "svgKey": "econ/circular_flow",
-  "tool": "labeler"
- },
- "901149": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Consumer surplus area",
-    "x": 0.333,
-    "y": 0.281
-   },
-   {
-    "id": "h2",
-    "label": "Producer surplus area",
-    "x": 0.333,
-    "y": 0.656
-   },
-   {
-    "id": "h3",
-    "label": "Equilibrium price",
-    "x": 0.167,
-    "y": 0.469
-   },
-   {
-    "id": "h4",
-    "label": "Equilibrium quantity",
-    "x": 0.521,
-    "y": 0.812
-   }
-  ],
-  "options": [
-   "Consumer surplus area",
-   "Producer surplus area",
-   "Equilibrium price",
-   "Equilibrium quantity",
-   "Deadweight loss",
-   "Shortage"
-  ],
-  "prompt": "Label the areas and equilibrium values on this market diagram.",
-  "slug": "consumer_surplus",
-  "subject": "econ",
-  "svgKey": "econ/consumer_surplus",
-  "tool": "labeler"
- },
  "901150": {
   "LO_code": null,
   "_speculative_row": true,
@@ -19923,110 +19729,6 @@
   "slug": "exchange_rate_intervention_v2",
   "subject": "econ",
   "svgKey": "econ/exchange_rate_intervention_v2",
-  "tool": "labeler"
- },
- "901154": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Exchange rate",
-    "x": 0.125,
-    "y": 0.625
-   },
-   {
-    "id": "h2",
-    "label": "Quantity of currency",
-    "x": 0.792,
-    "y": 0.844
-   },
-   {
-    "id": "h3",
-    "label": "Demand for currency",
-    "x": 0.229,
-    "y": 0.234
-   },
-   {
-    "id": "h4",
-    "label": "Supply of currency",
-    "x": 0.656,
-    "y": 0.225
-   },
-   {
-    "id": "h5",
-    "label": "Central bank sells foreign currency",
-    "x": 0.365,
-    "y": 0.656
-   },
-   {
-    "id": "h6",
-    "label": "Fixed rate target",
-    "x": 0.896,
-    "y": 0.531
-   }
-  ],
-  "options": [
-   "Exchange rate",
-   "Quantity of currency",
-   "Supply of currency",
-   "Demand for currency",
-   "Central bank buys foreign currency",
-   "Central bank sells foreign currency",
-   "Fixed rate target",
-   "Floating rate",
-   "Trade balance",
-   "Interest rate"
-  ],
-  "prompt": "Label the currency market axes, the intervention action, and its effect on the exchange rate",
-  "slug": "exchange_rate_intervention_v3",
-  "subject": "econ",
-  "svgKey": "econ/exchange_rate_intervention_v3",
-  "tool": "labeler"
- },
- "901155": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Supply of loanable funds",
-    "x": 0.833,
-    "y": 0.221
-   },
-   {
-    "id": "h2",
-    "label": "Demand for loanable funds",
-    "x": 0.833,
-    "y": 0.717
-   },
-   {
-    "id": "h3",
-    "label": "Real interest rate",
-    "x": 0.167,
-    "y": 0.469
-   },
-   {
-    "id": "h4",
-    "label": "Quantity of loanable funds",
-    "x": 0.521,
-    "y": 0.812
-   }
-  ],
-  "options": [
-   "Supply of loanable funds",
-   "Demand for loanable funds",
-   "Real interest rate",
-   "Quantity of loanable funds",
-   "Nominal interest rate",
-   "Money supply"
-  ],
-  "prompt": "Label the key components of the loanable funds market.",
-  "slug": "loanable_funds",
-  "subject": "econ",
-  "svgKey": "econ/loanable_funds",
   "tool": "labeler"
  },
  "901156": {
@@ -20259,192 +19961,6 @@
   "svgKey": "econ/ppc_biased_rotation",
   "tool": "labeler"
  },
- "901161": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Good Y",
-    "x": 0.125,
-    "y": 0.5
-   },
-   {
-    "id": "h2",
-    "label": "Good X",
-    "x": 0.333,
-    "y": 0.8
-   },
-   {
-    "id": "h3",
-    "label": "PPC₁",
-    "x": 0.5,
-    "y": 0.425
-   },
-   {
-    "id": "h4",
-    "label": "PPC₂",
-    "x": 0.656,
-    "y": 0.294
-   },
-   {
-    "id": "h5",
-    "label": "Outward shift (economic growth)",
-    "x": 0.704,
-    "y": 0.594
-   }
-  ],
-  "options": [
-   "Good X",
-   "Good Y",
-   "PPC₁",
-   "PPC₂",
-   "Outward shift (economic growth)",
-   "Inward shift (loss of resources)",
-   "Price",
-   "Quantity",
-   "Efficient point",
-   "Unattainable point"
-  ],
-  "prompt": "Label the axes, the two production possibilities curves, and the direction of the shift",
-  "slug": "ppc_growth",
-  "subject": "econ",
-  "svgKey": "econ/ppc_growth",
-  "tool": "labeler"
- },
- "901162": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Efficient point (on curve)",
-    "x": 0.456,
-    "y": 0.319
-   },
-   {
-    "id": "h2",
-    "label": "Inefficient point (inside)",
-    "x": 0.35,
-    "y": 0.65
-   },
-   {
-    "id": "h3",
-    "label": "Unattainable point (outside)",
-    "x": 0.75,
-    "y": 0.25
-   },
-   {
-    "id": "h4",
-    "label": "Opportunity cost",
-    "x": 0.615,
-    "y": 0.5
-   }
-  ],
-  "options": [
-   "Efficient point (on curve)",
-   "Inefficient point (inside)",
-   "Unattainable point (outside)",
-   "Opportunity cost",
-   "Constant opportunity cost",
-   "Economic growth"
-  ],
-  "prompt": "Label the key points and concepts on this Production Possibilities Curve.",
-  "slug": "ppc_points",
-  "subject": "econ",
-  "svgKey": "econ/ppc_points",
-  "tool": "labeler"
- },
- "901163": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Price ceiling",
-    "x": 0.833,
-    "y": 0.625
-   },
-   {
-    "id": "h2",
-    "label": "Quantity supplied",
-    "x": 0.36,
-    "y": 0.812
-   },
-   {
-    "id": "h3",
-    "label": "Quantity demanded",
-    "x": 0.682,
-    "y": 0.812
-   },
-   {
-    "id": "h4",
-    "label": "Shortage",
-    "x": 0.521,
-    "y": 0.688
-   }
-  ],
-  "options": [
-   "Price ceiling",
-   "Quantity supplied",
-   "Quantity demanded",
-   "Shortage",
-   "Price floor",
-   "Surplus"
-  ],
-  "prompt": "Label the key points and areas resulting from this price ceiling.",
-  "slug": "price_ceiling",
-  "subject": "econ",
-  "svgKey": "econ/price_ceiling",
-  "tool": "labeler"
- },
- "901164": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Demand curve",
-    "x": 0.8,
-    "y": 0.8
-   },
-   {
-    "id": "h2",
-    "label": "Supply curve",
-    "x": 0.8,
-    "y": 0.2
-   },
-   {
-    "id": "h3",
-    "label": "Equilibrium price",
-    "x": 0.15,
-    "y": 0.5
-   },
-   {
-    "id": "h4",
-    "label": "Equilibrium quantity",
-    "x": 0.5,
-    "y": 0.88
-   }
-  ],
-  "options": [
-   "Demand curve",
-   "Supply curve",
-   "Equilibrium price",
-   "Equilibrium quantity",
-   "Price ceiling",
-   "Deadweight loss"
-  ],
-  "prompt": "Label the key components of this market diagram.",
-  "slug": "sd_equilibrium",
-  "subject": "econ",
-  "svgKey": "econ/sd_equilibrium",
-  "tool": "labeler"
- },
  "901165": {
   "LO_code": null,
   "_speculative_row": true,
@@ -20609,60 +20125,6 @@
   "svgKey": "econ/shift_demand_right",
   "tool": "labeler"
  },
- "901168": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h_yaxis",
-    "label": "Real interest rate",
-    "x": 0.125,
-    "y": 0.5
-   },
-   {
-    "id": "h_xaxis",
-    "label": "Quantity of loanable funds",
-    "x": 0.833,
-    "y": 0.875
-   },
-   {
-    "id": "h_d1",
-    "label": "D₁",
-    "x": 0.604,
-    "y": 0.781
-   },
-   {
-    "id": "h_d2",
-    "label": "D₂",
-    "x": 0.604,
-    "y": 0.594
-   },
-   {
-    "id": "h_arrow",
-    "label": "Shift right (more borrowing)",
-    "x": 0.312,
-    "y": 0.25
-   }
-  ],
-  "options": [
-   "Real interest rate",
-   "Quantity of loanable funds",
-   "D₁",
-   "D₂",
-   "Shift right (more borrowing)",
-   "Shift left (less borrowing)",
-   "Nominal interest rate",
-   "Money supply",
-   "Savings",
-   "Investment"
-  ],
-  "prompt": "Label the axes, the two demand curves for loanable funds, and the direction of the shift",
-  "slug": "shift_loanable_demand",
-  "subject": "econ",
-  "svgKey": "econ/shift_loanable_demand",
-  "tool": "labeler"
- },
  "901169": {
   "LO_code": null,
   "_speculative_row": true,
@@ -20715,113 +20177,6 @@
   "slug": "shift_money_supply",
   "subject": "econ",
   "svgKey": "econ/shift_money_supply",
-  "tool": "labeler"
- },
- "901170": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h1",
-    "label": "Price level",
-    "x": 0.125,
-    "y": 0.312
-   },
-   {
-    "id": "h2",
-    "label": "Real GDP",
-    "x": 0.833,
-    "y": 0.875
-   },
-   {
-    "id": "h3",
-    "label": "SRAS₁",
-    "x": 0.729,
-    "y": 0.25
-   },
-   {
-    "id": "h4",
-    "label": "SRAS₂",
-    "x": 0.542,
-    "y": 0.312
-   },
-   {
-    "id": "h5",
-    "label": "Shift left (adverse supply shock)",
-    "x": 0.417,
-    "y": 0.5
-   }
-  ],
-  "options": [
-   "Price level",
-   "Real GDP",
-   "SRAS₁",
-   "SRAS₂",
-   "Shift left (adverse supply shock)",
-   "Shift right (favourable supply shock)",
-   "AD",
-   "LRAS",
-   "Price",
-   "Quantity"
-  ],
-  "prompt": "Label the axes, the two short-run aggregate supply curves, and the direction of the shift",
-  "slug": "shift_sras",
-  "subject": "econ",
-  "svgKey": "econ/shift_sras",
-  "tool": "labeler"
- },
- "901171": {
-  "LO_code": null,
-  "_speculative_row": true,
-  "gate_status": "reviewed",
-  "hotspots": [
-   {
-    "id": "h_price",
-    "label": "Price",
-    "x": 0.125,
-    "y": 0.313
-   },
-   {
-    "id": "h_quantity",
-    "label": "Quantity",
-    "x": 0.792,
-    "y": 0.875
-   },
-   {
-    "id": "h_s1",
-    "label": "S₁",
-    "x": 0.792,
-    "y": 0.313
-   },
-   {
-    "id": "h_s2",
-    "label": "S₂",
-    "x": 0.583,
-    "y": 0.313
-   },
-   {
-    "id": "h_shift",
-    "label": "Shift left (decrease in supply)",
-    "x": 0.5,
-    "y": 0.594
-   }
-  ],
-  "options": [
-   "Price",
-   "Quantity",
-   "S₁",
-   "S₂",
-   "Shift left (decrease in supply)",
-   "Shift right (increase in supply)",
-   "Quantity supplied",
-   "Equilibrium",
-   "Cost"
-  ],
-  "prompt": "Label the axes, the two supply curves, and the direction of the shift",
-  "slug": "shift_supply_left",
-  "subject": "econ",
-  "svgKey": "econ/shift_supply_left",
   "tool": "labeler"
  },
  "901172": {
