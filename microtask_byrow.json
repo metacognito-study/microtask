@@ -112,6 +112,57 @@
   "remapped_on": "2026-09-05",
   "tool": "sequencer"
  },
+ "1018": {
+  "bins": [
+   "Zero-order k units",
+   "First-order k units",
+   "Second-order k units"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Zero-order k units",
+    "id": "a",
+    "label": "M·s⁻¹ (mol/L per second)"
+   },
+   {
+    "bin": "First-order k units",
+    "id": "b",
+    "label": "s⁻¹ (per second)"
+   },
+   {
+    "bin": "Second-order k units",
+    "id": "c",
+    "label": "M⁻¹·s⁻¹ (L/mol per second)"
+   },
+   {
+    "bin": "Zero-order k units",
+    "id": "d",
+    "label": "Units: mol L⁻¹ s⁻¹"
+   },
+   {
+    "bin": "Second-order k units",
+    "id": "e",
+    "label": "Units: L mol⁻¹ s⁻¹"
+   },
+   {
+    "bin": "First-order k units",
+    "id": "f",
+    "label": "Units: time⁻¹ only"
+   },
+   {
+    "bin": "Zero-order k units",
+    "id": "n1",
+    "label": "Units: mol L-1 min-1",
+    "note": "Zero-order k always carries concentration-per-time units regardless of which time unit is used (seconds, minutes, hours). Students pattern-match to the memorized 'M/s' exactly and miss that per-minute is the same pattern in a different time unit.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each set of units by the reaction order whose rate constant carries them.",
+  "remapped_from_key": "1557",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
  "1025": {
   "gate_status": "reviewed",
   "items": [
@@ -545,6 +596,101 @@
   "svgKey": "ch12/row_1619",
   "tool": "labeler"
  },
+ "1055": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "fwd_ea",
+    "label": "Forward Ea",
+    "x": 0.3,
+    "y": 0.38
+   },
+   {
+    "id": "rev_ea",
+    "label": "Reverse Ea",
+    "note": "The reverse activation energy is measured from the products up to the transition-state peak, not from the reactants. Since the peak is a single point, it is easy to measure both the forward and reverse Ea as if starting from the same energy level.",
+    "trap": true,
+    "x": 0.7,
+    "y": 0.52
+   },
+   {
+    "id": "r",
+    "label": "Reactants",
+    "x": 0.1,
+    "y": 0.68
+   },
+   {
+    "id": "ts",
+    "label": "Transition state (TS)",
+    "x": 0.5,
+    "y": 0.1
+   }
+  ],
+  "options": [
+   "Forward Ea",
+   "Reverse Ea",
+   "Reactants",
+   "Transition state (TS)",
+   "Products",
+   "ΔH",
+   "Catalyst energy level"
+  ],
+  "prompt": "Label the forward and reverse activation energies",
+  "remapped_from_key": "1620",
+  "remapped_on": "2026-09-05",
+  "svgKey": "ch12/row_1620",
+  "tool": "labeler"
+ },
+ "1058": {
+  "bins": [
+   "Exothermic overall",
+   "Endothermic overall"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Exothermic overall",
+    "id": "a",
+    "label": "Final energy < starting energy"
+   },
+   {
+    "bin": "Endothermic overall",
+    "id": "b",
+    "label": "Final energy > starting energy"
+   },
+   {
+    "bin": "Exothermic overall",
+    "id": "c",
+    "label": "Products lower on E diagram"
+   },
+   {
+    "bin": "Endothermic overall",
+    "id": "d",
+    "label": "Products higher on E diagram"
+   },
+   {
+    "bin": "Exothermic overall",
+    "id": "e",
+    "label": "ΔH overall is negative"
+   },
+   {
+    "bin": "Endothermic overall",
+    "id": "f",
+    "label": "ΔH overall is positive"
+   },
+   {
+    "bin": "Exothermic overall",
+    "id": "n1",
+    "label": "Breaking bonds needs 500 kJ; forming the new bonds releases 620 kJ",
+    "note": "The reaction is exothermic because more energy is released forming new bonds (620 kJ) than is absorbed breaking old ones (500 kJ), a net release of 120 kJ. Seeing the large 'energy needed to break bonds' number alone tempts a guess of endothermic without completing the subtraction.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each description by whether the multi-step mechanism is overall exothermic or endothermic.",
+  "remapped_from_key": "1623",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
  "1059": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -844,6 +990,165 @@
   ],
   "prompt": "Sort each description or substance by its state of matter at room temperature.",
   "subject": "chem",
+  "tool": "sorter"
+ },
+ "1178": {
+  "bins": [
+   "Weak acid (organic)",
+   "Weak base (organic)"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Weak acid (organic)",
+    "id": "a",
+    "label": "CH₃COOH"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "b",
+    "label": "CH₃NH₂ (methylamine)"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "c",
+    "label": "HCOOH"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "d",
+    "label": "(CH₃)₂NH (dimethylamine)"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "e",
+    "label": "C₆H₅COOH (benzoic acid)"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "f",
+    "label": "C₆H₅NH₂"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n1",
+    "label": "CH₃COOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n2",
+    "label": "CH₃CH₂COOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n3",
+    "label": "HCOOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n4",
+    "label": "C₆H₅COOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n5",
+    "label": "CH₃(CH₂)₂COOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n6",
+    "label": "ClCH₂COOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n7",
+    "label": "HOOC-COOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n8",
+    "label": "CH₃NH3+, the species left after CH₃NH₂ accepts a proton",
+    "note": "Conjugate acid of methylamine; donates H+ to reform the amine, so it is a weak acid. Correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n9",
+    "label": "CH₂(OH)COOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n10",
+    "label": "C₆H₅CH₂COOH"
+   },
+   {
+    "bin": "Weak acid (organic)",
+    "id": "n11",
+    "label": "CH₃CH₂CH₂CH₂COOH"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n12",
+    "label": "CH₃NH₂"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n13",
+    "label": "CH₃CH₂NH₂"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n14",
+    "label": "C₆H₅NH₂"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n15",
+    "label": "(CH₃)₂NH"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n16",
+    "label": "(CH₃)₃N"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n17",
+    "label": "CH₃CH₂CH₂NH₂"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n18",
+    "label": "CH₃COO-, the species left after CH₃COOH loses a proton",
+    "note": "Acetate; conjugate base of acetic acid, accepts H+. Correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n19",
+    "label": "(CH₃CH₂)₂NH"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n20",
+    "label": "H₂NCH₂CH₂CH₂NH₂"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n21",
+    "label": "C₆H₅CH₂NH₂"
+   },
+   {
+    "bin": "Weak base (organic)",
+    "id": "n22",
+    "label": "HOCH₂CH₂NH₂, reacting only through its nitrogen lone pair",
+    "note": "Ethanolamine; -OH is a spectator alcohol, N lone pair is the base. Correct trap.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each organic compound by whether it behaves as a weak acid or a weak base in water.",
+  "remapped_from_key": "1058",
+  "remapped_on": "2026-09-05",
   "tool": "sorter"
  },
  "118": {
@@ -1902,6 +2207,56 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1354": {
+  "bins": [
+   "Titrant",
+   "Analyte"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Titrant",
+    "id": "a",
+    "label": "NaOH of known concentration, added dropwise"
+   },
+   {
+    "bin": "Analyte",
+    "id": "b",
+    "label": "HCl solution of unknown concentration"
+   },
+   {
+    "bin": "Titrant",
+    "id": "c",
+    "label": "Strong base of known conc."
+   },
+   {
+    "bin": "Analyte",
+    "id": "d",
+    "label": "Unknown acid being tested"
+   },
+   {
+    "bin": "Titrant",
+    "id": "e",
+    "label": "H₂SO₄ added dropwise"
+   },
+   {
+    "bin": "Analyte",
+    "id": "f",
+    "label": "NaHCO₃ solution under test"
+   },
+   {
+    "bin": "Titrant",
+    "id": "n1",
+    "label": "HCl of known concentration in the buret, titrating an unknown NaOH sample",
+    "note": "The titrant is whichever solution is being added from the buret, regardless of whether it is the acid or the base; here HCl plays that role even though many worked examples add a base to an acid. Titrant/analyte is about the role in the setup, not about being an acid or a base.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each description by whether it names the titrant or the analyte.",
+  "remapped_from_key": "1202",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
  "1359": {
   "bins": [
    "Present initially",
@@ -1947,6 +2302,107 @@
     "trap": true
    }
   ],
+  "tool": "sorter"
+ },
+ "1361": {
+  "bins": [
+   "At equivalence point",
+   "Not at equiv. point"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "At equivalence point",
+    "id": "a",
+    "label": "Only water and spectator ions"
+   },
+   {
+    "bin": "At equivalence point",
+    "id": "b",
+    "label": "pH = 7 (neutral)"
+   },
+   {
+    "bin": "Not at equiv. point",
+    "id": "c",
+    "label": "Excess H₃O⁺ present"
+   },
+   {
+    "bin": "At equivalence point",
+    "id": "d",
+    "label": "Solution is neutral salt + water only"
+   },
+   {
+    "bin": "Not at equiv. point",
+    "id": "e",
+    "label": "Excess OH⁻ present"
+   },
+   {
+    "bin": "At equivalence point",
+    "id": "f",
+    "label": "Moles acid = moles base added"
+   },
+   {
+    "bin": "At equivalence point",
+    "id": "n1",
+    "label": "Sodium acetate solution (basic salt) + water only, moles acid = moles base",
+    "note": "At equivalence, the moles of acid and base are equal, whatever the resulting salt's pH. Sodium acetate is a basic salt because its acetate ion is a weak base, so 'salt plus water only' does not always mean a neutral solution; it still marks equivalence because the mole ratio, not the pH, is the defining condition.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each species by whether it is present at the equivalence point of a strong acid strong base titration.",
+  "remapped_from_key": "1209",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
+ "1363": {
+  "bins": [
+   "Before equivalence",
+   "At equivalence",
+   "After equivalence"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Before equivalence",
+    "id": "a",
+    "label": "H₃O⁺ determines pH"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "b",
+    "label": "Water determines pH (neutral)"
+   },
+   {
+    "bin": "After equivalence",
+    "id": "c",
+    "label": "Excess OH⁻ determines pH"
+   },
+   {
+    "bin": "Before equivalence",
+    "id": "d",
+    "label": "pH < 7"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "e",
+    "label": "pH = 7 exactly"
+   },
+   {
+    "bin": "After equivalence",
+    "id": "f",
+    "label": "pH > 7"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "n1",
+    "label": "Weak acid + strong base, moles acid = moles base; conjugate base makes the solution basic (pH > 7)",
+    "note": "'At equivalence' is set by the acid-base mole ratio, not by pH or by water alone controlling pH. For a weak acid and strong base, the conjugate base formed reacts with water to raise the pH above 7, so it is the conjugate base, not water alone, that determines pH here, and the point is still equivalence because the moles match.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each description by the stage of a strong acid strong base titration whose pH it controls.",
+  "remapped_from_key": "1211",
+  "remapped_on": "2026-09-05",
   "tool": "sorter"
  },
  "137": {
@@ -2491,6 +2947,94 @@
   "remapped_on": "2026-09-05",
   "tool": "sorter"
  },
+ "1487": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "endo_eq",
+    "label": "Endothermic",
+    "x": 0.25,
+    "y": 0.3
+   },
+   {
+    "id": "exo_eq",
+    "label": "Exothermic",
+    "x": 0.75,
+    "y": 0.3
+   },
+   {
+    "id": "heat_in",
+    "label": "Heat absorbed",
+    "note": "Heat absorbed means energy flows into the system from the surroundings, which is the endothermic direction. Since both absorbing and releasing involve energy 'moving', the two directions are easy to swap without a clear anchor for which one is which.",
+    "trap": true,
+    "x": 0.1,
+    "y": 0.55
+   },
+   {
+    "id": "heat_out",
+    "label": "Heat released",
+    "x": 0.9,
+    "y": 0.55
+   }
+  ],
+  "options": [
+   "Endothermic",
+   "Exothermic",
+   "Heat absorbed",
+   "Heat released",
+   "Spontaneous",
+   "Activation energy"
+  ],
+  "prompt": "Label each equation as endothermic or exothermic",
+  "remapped_from_key": "493",
+  "remapped_on": "2026-09-05",
+  "svgKey": "ch06/row_493",
+  "tool": "labeler"
+ },
+ "1488": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "eq_neg",
+    "label": "Exothermic (ΔH < 0)",
+    "x": 0.25,
+    "y": 0.35
+   },
+   {
+    "id": "eq_pos",
+    "label": "Endothermic (ΔH > 0)",
+    "x": 0.75,
+    "y": 0.35
+   },
+   {
+    "id": "arrow_neg",
+    "label": "Heat released to surroundings",
+    "x": 0.25,
+    "y": 0.7
+   },
+   {
+    "id": "arrow_pos",
+    "label": "Heat absorbed from surroundings",
+    "note": "An arrow showing heat flowing from surroundings into the system represents heat absorbed, which corresponds to an endothermic process. The arrow's drawn direction is easy to mix up with which side of the chemical equation the heat term is written on.",
+    "trap": true,
+    "x": 0.75,
+    "y": 0.7
+   }
+  ],
+  "options": [
+   "Exothermic (ΔH < 0)",
+   "Endothermic (ΔH > 0)",
+   "Heat released to surroundings",
+   "Heat absorbed from surroundings",
+   "No heat transfer (ΔH = 0)",
+   "Activation energy"
+  ],
+  "prompt": "Label each thermochemical equation as endothermic or exothermic using the sign of ΔH",
+  "remapped_from_key": "415",
+  "remapped_on": "2026-09-05",
+  "svgKey": "ch06/row_415",
+  "tool": "labeler"
+ },
  "15": {
   "bins": [
    "Observation",
@@ -2680,6 +3224,51 @@
   ],
   "prompt": "Order the operations to calculate ΔH for a multi-step process using Hess's law",
   "tool": "sequencer"
+ },
+ "1533": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "s",
+    "label": "Solid",
+    "x": 0.1,
+    "y": 0.78
+   },
+   {
+    "id": "sl",
+    "label": "Solid + liquid",
+    "note": "During a phase change, both phases coexist at once while temperature stays constant, which is why this plateau is labeled 'Solid + liquid' rather than a single phase. It is tempting to label a plateau by whichever phase looks visually dominant in the diagram instead.",
+    "trap": true,
+    "x": 0.28,
+    "y": 0.6
+   },
+   {
+    "id": "l",
+    "label": "Liquid",
+    "x": 0.5,
+    "y": 0.45
+   },
+   {
+    "id": "lg",
+    "label": "Liquid + gas",
+    "x": 0.7,
+    "y": 0.3
+   }
+  ],
+  "options": [
+   "Solid",
+   "Solid + liquid",
+   "Liquid",
+   "Liquid + gas",
+   "Gas",
+   "Supercritical fluid",
+   "Plasma"
+  ],
+  "prompt": "Label the phase(s) present in each section of the curve",
+  "remapped_from_key": "545",
+  "remapped_on": "2026-09-05",
+  "svgKey": "ch06/row_545",
+  "tool": "labeler"
  },
  "1551": {
   "gate_status": "reviewed",
@@ -3267,6 +3856,152 @@
   "subject": "chem",
   "svgKey": "ch01/row_16",
   "tool": "labeler"
+ },
+ "1604": {
+  "bins": [
+   "Easiest to oxidize",
+   "Easiest to reduce",
+   "Hardest to reduce"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Easiest to oxidize",
+    "id": "a",
+    "label": "Most negative E°red value"
+   },
+   {
+    "bin": "Easiest to reduce",
+    "id": "b",
+    "label": "Most positive E°red value"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "c",
+    "label": "Li (E°red = −3.05 V)"
+   },
+   {
+    "bin": "Easiest to reduce",
+    "id": "d",
+    "label": "F₂ (E°red = +2.87 V)"
+   },
+   {
+    "bin": "Hardest to reduce",
+    "id": "e",
+    "label": "Li⁺"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "f",
+    "label": "Strong reducing agent"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "n1",
+    "label": "Li(s)"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "n2",
+    "label": "K(s)"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "n3",
+    "label": "Ca(s)"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "n4",
+    "label": "Na(s)"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "n5",
+    "label": "Mg(s)"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "n6",
+    "label": "Al(s)"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "n7",
+    "label": "Zn(s), which spontaneously reduces Cu2+ in solution"
+   },
+   {
+    "bin": "Easiest to reduce",
+    "id": "n9",
+    "label": "F₂(g)"
+   },
+   {
+    "bin": "Easiest to reduce",
+    "id": "n10",
+    "label": "Au3+"
+   },
+   {
+    "bin": "Easiest to reduce",
+    "id": "n11",
+    "label": "Ag+"
+   },
+   {
+    "bin": "Easiest to reduce",
+    "id": "n12",
+    "label": "Cl₂(g)"
+   },
+   {
+    "bin": "Easiest to reduce",
+    "id": "n13",
+    "label": "Cu2+, which plates out when Zn metal is added"
+   },
+   {
+    "bin": "Easiest to reduce",
+    "id": "n14",
+    "label": "MnO4- in acidic solution"
+   },
+   {
+    "bin": "Hardest to reduce",
+    "id": "n16",
+    "label": "K+"
+   },
+   {
+    "bin": "Hardest to reduce",
+    "id": "n17",
+    "label": "Na+"
+   },
+   {
+    "bin": "Hardest to reduce",
+    "id": "n18",
+    "label": "Ca2+"
+   },
+   {
+    "bin": "Hardest to reduce",
+    "id": "n19",
+    "label": "Mg2+"
+   },
+   {
+    "bin": "Hardest to reduce",
+    "id": "n21",
+    "label": "Al3+"
+   },
+   {
+    "bin": "Hardest to reduce",
+    "id": "n22",
+    "label": "Rb+"
+   },
+   {
+    "bin": "Easiest to oxidize",
+    "id": "n23",
+    "label": "Mg (E red = -2.37 V)",
+    "note": "The most negative standard reduction potential in this set marks the species least willing to be reduced, which means it is the easiest to oxidize instead. Magnesium's negative value places it with the strong reducing agents like Li and K already in this row, not with the easy-to-reduce species.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each species by how readily it is oxidised or reduced, using the standard reduction potentials.",
+  "remapped_from_key": "1389",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
  },
  "1606": {
   "gate_status": "reviewed",
@@ -6342,6 +7077,56 @@
   "subject": "chem",
   "tool": "sequencer"
  },
+ "710": {
+  "bins": [
+   "Longer & weaker",
+   "Shorter & stronger"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Longer & weaker",
+    "id": "a",
+    "label": "C-I vs C-F (I is larger)"
+   },
+   {
+    "bin": "Shorter & stronger",
+    "id": "b",
+    "label": "C-F vs C-Cl (F is smaller)"
+   },
+   {
+    "bin": "Longer & weaker",
+    "id": "c",
+    "label": "C-Br vs C-Cl (Br is larger)"
+   },
+   {
+    "bin": "Shorter & stronger",
+    "id": "d",
+    "label": "H-F (F is very small)"
+   },
+   {
+    "bin": "Longer & weaker",
+    "id": "e",
+    "label": "N-I (I is large atom)"
+   },
+   {
+    "bin": "Shorter & stronger",
+    "id": "f",
+    "label": "O-H (O is small)"
+   },
+   {
+    "bin": "Longer & weaker",
+    "id": "n1",
+    "label": "O-O single bond, as in hydrogen peroxide (O is a small atom)",
+    "note": "Despite oxygen's small size, the O-O single bond is anomalously weak because the two small, lone-pair-dense oxygens repel each other, the same effect that weakens F-F and N-N single bonds. 'Small atom = shorter, stronger bond' solves every other item in this row but fails here.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each bond pair by whether the first bond is longer and weaker or shorter and stronger than the second.",
+  "remapped_from_key": "693",
+  "remapped_on": "2026-09-05",
+  "tool": "sorter"
+ },
  "716": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -6855,6 +7640,56 @@
   ],
   "prompt": "Graphite has layered covalent bonding. Sort each statement by whether it correctly explains graphite's electrical conductivity.",
   "subject": "chem",
+  "tool": "sorter"
+ },
+ "866": {
+  "bins": [
+   "Endothermic",
+   "Exothermic"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Endothermic",
+    "id": "a",
+    "label": "Melting (solid → liquid)"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "b",
+    "label": "Freezing (liquid → solid)"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "c",
+    "label": "Vaporization (liquid → gas)"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "d",
+    "label": "Condensation (gas → liquid)"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "e",
+    "label": "Sublimation (solid → gas)"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "f",
+    "label": "Deposition (gas → solid)"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "n1",
+    "label": "A heating curve shows a flat plateau at 0C while ice and liquid water coexist, even as a burner keeps supplying heat underneath",
+    "note": "Temperature holding steady does not mean heat flow has stopped; the added energy is going into breaking intermolecular forces (raising potential energy), not raising kinetic energy/temperature. Students read a flat plateau as 'nothing thermal is happening' and are pulled toward guessing this is not really absorbing energy.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each phase transition by whether it absorbs or releases energy.",
+  "remapped_from_key": "865",
+  "remapped_on": "2026-09-05",
   "tool": "sorter"
  },
  "877": {
