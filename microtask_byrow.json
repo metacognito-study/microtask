@@ -373,10 +373,10 @@
     "label": "SiCl₄"
    },
    {
-    "bin": "Ionic compound",
+    "bin": "Not a compound",
     "id": "n11",
-    "label": "NH₄Cl",
-    "note": "NH4+ polyatomic cation with Cl-; ionic despite all-nonmetal atoms.",
+    "label": "S₈",
+    "note": "A molecule containing only sulfur atoms is an elemental allotrope, not a compound.",
     "trap": true
    },
    {
@@ -1555,11 +1555,6 @@
     "bin": "Extensive property",
     "id": "n22",
     "label": "The mass of NaOH dissolved to make a solution"
-   },
-   {
-    "bin": "Extensive property",
-    "id": "n24",
-    "label": "The total surface area of a pile of zinc granules"
    }
   ],
   "prompt": "Sort each quantity by whether it depends on the amount of substance present.",
@@ -1669,11 +1664,6 @@
     "bin": "Extensive property",
     "id": "n22",
     "label": "The mass of NaOH dissolved to make a solution"
-   },
-   {
-    "bin": "Extensive property",
-    "id": "n24",
-    "label": "The total surface area of a pile of zinc granules"
    }
   ],
   "prompt": "Sort each quantity by whether it depends on the amount of substance present.",
@@ -1783,11 +1773,6 @@
     "bin": "Extensive property",
     "id": "n22",
     "label": "The mass of NaOH dissolved to make a solution"
-   },
-   {
-    "bin": "Extensive property",
-    "id": "n24",
-    "label": "The total surface area of a pile of zinc granules"
    }
   ],
   "prompt": "Sort each quantity by whether it depends on the amount of substance present.",
