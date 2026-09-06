@@ -1635,6 +1635,53 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1133": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "rxnt",
+    "label": "Reactant (P falling)",
+    "x": 0.25,
+    "y": 0.3
+   },
+   {
+    "id": "prod",
+    "label": "Product (P rising)",
+    "x": 0.25,
+    "y": 0.7
+   },
+   {
+    "id": "peq",
+    "label": "Equilibrium pressure Peq",
+    "x": 0.75,
+    "y": 0.25
+   },
+   {
+    "id": "flat",
+    "label": "At equilibrium (curves flat)",
+    "note": "At equilibrium, both curves flatten at the same time because concentrations stop changing, not because the reaction itself has stopped. Forward and reverse rates have simply become equal, so the reaction is still happening in both directions.",
+    "trap": true,
+    "x": 0.7,
+    "y": 0.55
+   }
+  ],
+  "options": [
+   "Reactant (P falling)",
+   "Product (P rising)",
+   "Equilibrium pressure Peq",
+   "At equilibrium (curves flat)",
+   "Boiling point",
+   "Activation energy",
+   "Partial pressure"
+  ],
+  "prompt": "Label the curves and equilibrium pressures on this graph",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “Label the curves and equilibrium pressures on this graph”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch13/row_1004",
+  "tool": "labeler"
+ },
  "1137": {
   "bins": [
    "Stronger acid",
@@ -6736,6 +6783,59 @@
   "retired_by": "claude-materials-index",
   "retired_on": "2026-09-04",
   "retired_reason": "Clear outcome mismatch: the current task tests “sort into Present after equiv., Absent (past equiv.)”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1379": {
+  "bins": [
+   "Initial (WA-SB)",
+   "Buffer region",
+   "Equivalence point",
+   "After equiv."
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Initial (WA-SB)",
+    "id": "a",
+    "label": "HA determines pH"
+   },
+   {
+    "bin": "Buffer region",
+    "id": "b",
+    "label": "HA/A⁻ ratio determines pH"
+   },
+   {
+    "bin": "Equivalence point",
+    "id": "c",
+    "label": "A⁻ hydrolysis sets pH"
+   },
+   {
+    "bin": "After equiv.",
+    "id": "d",
+    "label": "Excess OH⁻ sets pH"
+   },
+   {
+    "bin": "Buffer region",
+    "id": "e",
+    "label": "pH ≈ pKa (half-equiv. point)"
+   },
+   {
+    "bin": "Equivalence point",
+    "id": "f",
+    "label": "pH > 7 (basic salt formed)"
+   },
+   {
+    "bin": "Initial (WA-SB)",
+    "id": "n1",
+    "label": "pH is set almost entirely by the leftover weak acid HA, with only a trace of A- formed so far",
+    "note": "Very early in a weak-acid titration, only a little HA has been converted to A-, so HA still dominates the pH calculation the same way it does before any titrant is added at all. This describes the very start of the buffer region in words rather than naming a stage directly, which can read as if it belongs to the buffer region already.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Initial (WA-SB), Buffer region, Equivalence point, After equiv.”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -12252,6 +12352,59 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "179": {
+  "bins": [
+   "Period 2",
+   "Period 3",
+   "Period 4"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Period 2",
+    "id": "a",
+    "label": "Carbon (C, Z=6)"
+   },
+   {
+    "bin": "Period 2",
+    "id": "b",
+    "label": "Neon (Ne, Z=10)"
+   },
+   {
+    "bin": "Period 3",
+    "id": "c",
+    "label": "Sodium (Na, Z=11)"
+   },
+   {
+    "bin": "Period 3",
+    "id": "d",
+    "label": "Chlorine (Cl, Z=17)"
+   },
+   {
+    "bin": "Period 4",
+    "id": "e",
+    "label": "Potassium (K, Z=19)"
+   },
+   {
+    "bin": "Period 4",
+    "id": "f",
+    "label": "Bromine (Br, Z=35)"
+   },
+   {
+    "bin": "Period 3",
+    "id": "n1",
+    "label": "Magnesium (Mg, Z=12)",
+    "note": "Magnesium sits in Group 2, but group number and period number are different axes of the table; counting across row three (Na through Ar) places Mg in Period 3, not Period 2.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each element by its period on the periodic table.",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Sort each element by its period on the periodic…', while this card targets 'write the standard symbol for an atom, showing its mass number,…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "18": {
   "bins": [
    "Independent variable",
@@ -13711,6 +13864,61 @@
   "subject": "chem",
   "tool": "matcher"
  },
+ "222": {
+  "distractors": [
+   "NF₅",
+   "N₂O₃",
+   "PCl₃",
+   "S₂F₆"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "nitrogen trifluoride",
+    "right": "NF₃"
+   },
+   {
+    "id": "b",
+    "left": "dinitrogen pentoxide",
+    "right": "N₂O₅"
+   },
+   {
+    "id": "c",
+    "left": "phosphorus pentachloride",
+    "right": "PCl₅"
+   },
+   {
+    "id": "d",
+    "left": "carbon disulfide",
+    "right": "CS₂"
+   },
+   {
+    "id": "e",
+    "left": "dihydrogen monoxide",
+    "right": "H₂O"
+   },
+   {
+    "id": "f",
+    "left": "sulfur hexafluoride",
+    "right": "SF₆"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: writing dinitrogen tetroxide as N4O2",
+    "note": "Reading the prefixes out of order and applying them to the wrong element is a common transcription error when converting a covalent name back to a formula.",
+    "right": "WRONG - each prefix modifies the element right after it: di- gives N2, tetra- gives O4, so the formula is N2O4, not N4O2",
+    "trap": true
+   }
+  ],
+  "prompt": "Match each formula to its correct name.",
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Match each formula to its correct name.', while this card targets 'recall the names and formulas of the four most common polyatomic…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
+ },
  "225": {
   "content_version": "489a45e2ffe2",
   "distractors": [
@@ -13751,6 +13959,51 @@
   "responseSurplus": 4,
   "subject": "chem",
   "tool": "matcher"
+ },
+ "227": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "hcl",
+    "label": "Binary acid",
+    "x": 0.15,
+    "y": 0.5
+   },
+   {
+    "id": "hbr",
+    "label": "Binary acid",
+    "note": "HBr contains only hydrogen and bromine, with no oxygen, which makes it a binary acid. A less familiar binary acid than HCl can tempt a second-guess toward 'oxyacid' without actually checking for oxygen in the formula.",
+    "trap": true,
+    "x": 0.38,
+    "y": 0.5
+   },
+   {
+    "id": "hno3",
+    "label": "Oxyacid (has O)",
+    "x": 0.62,
+    "y": 0.5
+   },
+   {
+    "id": "hclo4",
+    "label": "Oxyacid (has O)",
+    "x": 0.85,
+    "y": 0.5
+   }
+  ],
+  "options": [
+   "Binary acid",
+   "Oxyacid (has O)",
+   "Strong base",
+   "Salt",
+   "Neutral molecule"
+  ],
+  "prompt": "Label each formula as binary acid or oxyacid",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Label each formula as binary acid or oxyacid', while this card targets 'define what a binary covalent compound is.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch02/row_219",
+  "tool": "labeler"
  },
  "229": {
   "distractors": [
@@ -17181,6 +17434,57 @@
   "subject": "chem",
   "tool": "sequencer"
  },
+ "622": {
+  "bins": [
+   "True",
+   "False"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "True",
+    "id": "a",
+    "label": "B IE < Be IE (2p orbital)"
+   },
+   {
+    "bin": "True",
+    "id": "b",
+    "label": "Al IE < Mg IE (3p orbital)"
+   },
+   {
+    "bin": "True",
+    "id": "c",
+    "label": "2p e⁻ less held than 2s e⁻"
+   },
+   {
+    "bin": "True",
+    "id": "d",
+    "label": "Group 13 IE < Group 2 IE"
+   },
+   {
+    "bin": "False",
+    "id": "e",
+    "label": "Be has lower IE than B"
+   },
+   {
+    "bin": "False",
+    "id": "f",
+    "label": "2p e⁻ harder to remove than 2s"
+   },
+   {
+    "bin": "False",
+    "id": "n1",
+    "label": "Boron's IE1 is lower than beryllium's because boron has less nuclear shielding from its core electrons",
+    "note": "The real cause is that boron's electron comes from the higher-energy 2p subshell (easier to remove) versus beryllium's filled, lower-energy 2s subshell, not a shielding difference. Shielding is the default explanation students reach for on any periodic anomaly, even when it is not the mechanism.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'True / False', while this card targets \"use Coulomb's law to justify the atomic-radius trend down a group.\". It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "627": {
   "content_version": "c5405135d199",
   "gate_status": "reviewed",
@@ -17541,6 +17845,108 @@
   "prompt": "Order these samples by density. (density = mass divided by volume)",
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "690": {
+  "bins": [
+   "True",
+   "False"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "True",
+    "id": "a",
+    "label": "Na⁺ is larger than Li⁺"
+   },
+   {
+    "bin": "True",
+    "id": "b",
+    "label": "K⁺ is larger than Na⁺"
+   },
+   {
+    "bin": "True",
+    "id": "c",
+    "label": "Cations grow larger down group"
+   },
+   {
+    "bin": "False",
+    "id": "d",
+    "label": "Li⁺ is larger than Na⁺"
+   },
+   {
+    "bin": "False",
+    "id": "e",
+    "label": "Cations shrink down group"
+   },
+   {
+    "bin": "False",
+    "id": "f",
+    "label": "Ca²⁺ is smaller than Mg²⁺"
+   },
+   {
+    "bin": "False",
+    "id": "n1",
+    "label": "A cation is always larger than its parent neutral atom",
+    "note": "Removing an electron reduces electron-electron repulsion and often removes a whole shell, shrinking the ion below its parent atom's size. Cations are always smaller than the neutral atom they came from, not larger.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'True / False', while this card targets 'Calculate the kinetic energy of an ejected electron given the work…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "692": {
+  "bins": [
+   "True",
+   "False"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "True",
+    "id": "a",
+    "label": "Cl⁻ is larger than F⁻"
+   },
+   {
+    "bin": "True",
+    "id": "b",
+    "label": "I⁻ is larger than Br⁻"
+   },
+   {
+    "bin": "True",
+    "id": "c",
+    "label": "Anions grow larger down group"
+   },
+   {
+    "bin": "False",
+    "id": "d",
+    "label": "F⁻ is the largest halide ion"
+   },
+   {
+    "bin": "False",
+    "id": "e",
+    "label": "O²⁻ is larger than S²⁻"
+   },
+   {
+    "bin": "True",
+    "id": "f",
+    "label": "Br⁻ is larger than Cl⁻"
+   },
+   {
+    "bin": "False",
+    "id": "n1",
+    "label": "An anion is always smaller than its parent neutral atom",
+    "note": "Adding an electron increases electron-electron repulsion and expands the electron cloud, so anions are always larger than their parent atom, not smaller. Students often apply the cation-shrinks intuition to anions as well.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'True / False', while this card targets 'Predict the direction of shift of PES core-electron binding-energy peaks for…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "693": {
   "bins": [
