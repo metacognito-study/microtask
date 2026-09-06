@@ -2994,6 +2994,60 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1192": {
+  "distractors": [
+   "NH₂⁻",
+   "OH⁻",
+   "CO₃²⁻",
+   "CH₃COO⁻"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "NH₃ (base)",
+    "right": "NH₄⁺"
+   },
+   {
+    "id": "b",
+    "left": "OH⁻ (base)",
+    "right": "H₂O"
+   },
+   {
+    "id": "c",
+    "left": "CH₃COO⁻ (base)",
+    "right": "CH₃COOH"
+   },
+   {
+    "id": "d",
+    "left": "HCO₃⁻ (base)",
+    "right": "H₂CO₃"
+   },
+   {
+    "id": "e",
+    "left": "H₂O (base)",
+    "right": "H₃O⁺"
+   },
+   {
+    "id": "f",
+    "left": "CO₃²⁻ (base)",
+    "right": "HCO₃⁻"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: pairing NH3's conjugate acid as NH2-",
+    "note": "Conjugate acid means gained a proton, conjugate base means lost one; NH2- and NH4+ sit on opposite sides of NH3 in that proton-transfer chain, so picking the wrong direction swaps them.",
+    "right": "WRONG - NH3 GAINS a proton to become its conjugate acid, NH4+; NH2- is what NH3 would become if it LOST a proton instead, making NH2- the conjugate BASE of NH3, not its conjugate acid",
+    "trap": true
+   }
+  ],
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “match NH₃ (base), OH⁻ (base), CH₃COO⁻ (base)”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
+ },
  "1201": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -4372,6 +4426,55 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1299": {
+  "distractors": [
+   "The acid with more hydrogen atoms is stronger because it can release more H⁺ ions",
+   "The acid with the higher molecular mass is stronger",
+   "The acid with the larger halogen atom is stronger because its H–X bond is weaker",
+   "The acid with the longer carbon chain is stronger"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "CF₃COOH vs CH₃COOH",
+    "right": "The acid with three fluorine atoms is stronger: fluorine withdraws electron density from the carboxyl group"
+   },
+   {
+    "id": "b",
+    "left": "Cl₂CHCOOH vs CH₃COOH",
+    "right": "The acid with two chlorine atoms is stronger: chlorine withdraws electron density from the carboxyl group"
+   },
+   {
+    "id": "c",
+    "left": "ClCH₂COOH vs FCH₂COOH",
+    "right": "The acid whose halogen is more electronegative is stronger: fluorine pulls electron density more strongly than chlorine"
+   },
+   {
+    "id": "d",
+    "left": "EN group near −COOH",
+    "right": "Stabilises −COO⁻ → shifts Ka larger"
+   },
+   {
+    "id": "e",
+    "left": "More EN groups on carbon chain",
+    "right": "Greater withdrawal → even stronger acid"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: assuming an electronegative group has the same inductive effect no matter how far it sits from -COOH",
+    "note": "Students correctly learn that electronegative groups withdraw electron density and strengthen an acid, but forget that this pull fades with each additional bond, so position along the chain matters as much as which halogen is present.",
+    "right": "WRONG - the inductive effect weakens quickly with distance through the carbon chain, so a halogen directly on the carbon next to -COOH withdraws far more electron density than the same halogen one carbon further away",
+    "trap": true
+   }
+  ],
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “match CF₃COOH vs CH₃COOH, Cl₂CHCOOH vs CH₃COOH, ClCH₂COOH vs FCH₂COOH”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
  },
  "130": {
   "bins": [
@@ -6256,6 +6359,57 @@
     "label": "2 C₄H₁₀(g) plus 13 O₂(g) to 8 CO₂(g) plus 10 H₂O(g)"
    }
   ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1349": {
+  "bins": [
+   "Useful pH range",
+   "Outside pH range"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Useful pH range",
+    "id": "a",
+    "label": "Buffer at pH 5.0 with pKa 5.0"
+   },
+   {
+    "bin": "Outside pH range",
+    "id": "b",
+    "label": "Buffer at pH 8.0 with pKa 5.0"
+   },
+   {
+    "bin": "Useful pH range",
+    "id": "c",
+    "label": "Buffer at pH 4.0 with pKa 4.5"
+   },
+   {
+    "bin": "Outside pH range",
+    "id": "d",
+    "label": "Buffer at pH 7.0 with pKa 4.0"
+   },
+   {
+    "bin": "Useful pH range",
+    "id": "e",
+    "label": "Buffer at pH 9.0 with pKa 8.5"
+   },
+   {
+    "bin": "Outside pH range",
+    "id": "f",
+    "label": "Buffer at pH 3.0 with pKa 7.0"
+   },
+   {
+    "bin": "Outside pH range",
+    "id": "n1",
+    "label": "Buffer at pH 6.0 with pKa 5.0",
+    "note": "A buffer is effective within about one pH unit of its pKa; at a full pH unit above pKa (here the gap is exactly 1.0), the buffer is already at the edge of its useful range and this row's own rule places anything beyond that boundary as outside range. The gap looks small, which tempts a guess of useful range.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Useful pH range, Outside pH range”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -15308,6 +15462,53 @@
   "svgKey": "ch03/row_314",
   "tool": "labeler"
  },
+ "326": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "stoich",
+    "label": "Stoichiometric point",
+    "note": "The stoichiometric point is where reactants combine in their exact mole ratio, matching maximum product formed on this graph. It is easy to confuse this with 'endpoint', which specifically means when an indicator visibly changes color in a titration, a related but distinct idea.",
+    "trap": true,
+    "x": 0.5,
+    "y": 0.2
+   },
+   {
+    "id": "lim",
+    "label": "Limiting reagent consumed",
+    "x": 0.25,
+    "y": 0.55
+   },
+   {
+    "id": "exc",
+    "label": "Excess reagent remains",
+    "x": 0.75,
+    "y": 0.12
+   },
+   {
+    "id": "prod",
+    "label": "Maximum product formed",
+    "x": 0.5,
+    "y": 0.5
+   }
+  ],
+  "options": [
+   "Stoichiometric point",
+   "Limiting reagent consumed",
+   "Excess reagent remains",
+   "Maximum product formed",
+   "Half-equivalence point",
+   "Endpoint",
+   "Inflection point"
+  ],
+  "prompt": "Label the key regions and point on this moles-added vs product-formed graph",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Label the key regions and point on this moles-added…', while this card targets 'Determine the composition by mass of a compound (X₂Y) given the…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch03/row_258",
+  "tool": "labeler"
+ },
  "337": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -16387,6 +16588,57 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "456": {
+  "bins": [
+   "Higher T, KE, speed",
+   "Lower T, KE, speed"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Higher T, KE, speed",
+    "id": "a",
+    "label": "Long arrows on each particle"
+   },
+   {
+    "bin": "Lower T, KE, speed",
+    "id": "b",
+    "label": "Short arrows on each particle"
+   },
+   {
+    "bin": "Higher T, KE, speed",
+    "id": "c",
+    "label": "More frequent wall collisions"
+   },
+   {
+    "bin": "Lower T, KE, speed",
+    "id": "d",
+    "label": "Fewer, slower wall collisions"
+   },
+   {
+    "bin": "Higher T, KE, speed",
+    "id": "e",
+    "label": "Average KE = 3/2 kT; T = 600 K"
+   },
+   {
+    "bin": "Lower T, KE, speed",
+    "id": "f",
+    "label": "Average KE = 3/2 kT; T = 300 K"
+   },
+   {
+    "bin": "Lower T, KE, speed",
+    "id": "n1",
+    "label": "Container compressed to half its volume; particle speed unchanged from the 300 K sample, but wall collisions become more frequent",
+    "note": "Compressing the container raises collision frequency by shrinking volume (Boyle's Law), not by raising temperature. Same particle speed as the 300 K sample means T and KE are unchanged, even though the frequent-collisions cue usually signals the hotter bin.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Higher T, KE, speed / Lower T, KE, speed', while this card targets 'Draw a hydration shell diagram showing the correct orientation of water…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "475": {
   "bins": [
    "W < 0",
@@ -17122,6 +17374,60 @@
   "remapped_on": "2026-09-05",
   "subject": "chem",
   "svgKey": "ch06/row_494",
+  "tool": "labeler"
+ },
+ "562": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "r",
+    "label": "Reactants",
+    "x": 0.1,
+    "y": 0.68
+   },
+   {
+    "id": "ts",
+    "label": "Transition state",
+    "x": 0.5,
+    "y": 0.1
+   },
+   {
+    "id": "p",
+    "label": "Products",
+    "x": 0.9,
+    "y": 0.78
+   },
+   {
+    "id": "ea",
+    "label": "Activation energy (Ea)",
+    "x": 0.32,
+    "y": 0.38
+   },
+   {
+    "id": "dh",
+    "label": "ΔH (enthalpy change)",
+    "note": "Delta-H is the overall energy difference between reactants and products, a single vertical comparison of start to end, not the height of the hump above the reactants, which is the activation energy instead. Both are read as vertical distances on the same diagram, which makes them easy to conflate.",
+    "trap": true,
+    "x": 0.82,
+    "y": 0.52
+   }
+  ],
+  "options": [
+   "Reactants",
+   "Transition state",
+   "Products",
+   "Activation energy (Ea)",
+   "ΔH (enthalpy change)",
+   "Catalyst",
+   "Intermediate",
+   "Reaction coordinate"
+  ],
+  "prompt": "Label all features of this energy diagram",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “Label all features of this energy diagram”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch12/row_1618",
   "tool": "labeler"
  },
  "573": {
@@ -18181,6 +18487,57 @@
   "retired_reason": "Clear outcome mismatch: the current task tests 'Order substances A to D by density, using the…', while this card targets 'explain how changing temperature affects the density of a pure substance,…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "645": {
+  "bins": [
+   "Absorbed by solution",
+   "Transmitted through"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Absorbed by solution",
+    "id": "a",
+    "label": "Blue light meeting an orange solution"
+   },
+   {
+    "bin": "Transmitted through",
+    "id": "b",
+    "label": "Orange light meeting an orange solution"
+   },
+   {
+    "bin": "Absorbed by solution",
+    "id": "c",
+    "label": "Green light meeting a red solution"
+   },
+   {
+    "bin": "Transmitted through",
+    "id": "d",
+    "label": "Red light meeting a red solution"
+   },
+   {
+    "bin": "Absorbed by solution",
+    "id": "e",
+    "label": "Missing wavelength in spectrum"
+   },
+   {
+    "bin": "Transmitted through",
+    "id": "f",
+    "label": "Colour the solution appears"
+   },
+   {
+    "bin": "Transmitted through",
+    "id": "n1",
+    "label": "Green light, the wavelength popularly linked to chlorophyll and photosynthesis",
+    "note": "Chlorophyll actually absorbs strongly in the red and blue regions and reflects/transmits green, which is why plants look green. Students associate green light with 'what plants use' and assume it must be absorbed, backwards from the real absorption spectrum.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Absorbed by solution / Transmitted through', while this card targets 'find the number of electrons in each orbital from the relative…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "673": {
   "bins": [
