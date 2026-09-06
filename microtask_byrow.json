@@ -222,6 +222,33 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1011": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "0th order: t₁/₂ shrinks (∝[A])",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "1st order: t₁/₂ constant",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "2nd order: t₁/₂ grows (∝1/[A])",
+    "note": "For a second-order reaction, each successive half-life takes LONGER than the one before it, since t-half is inversely proportional to the remaining [A], which keeps dropping. It is easy to expect half-lives to behave the same way across all orders, when only first order keeps a constant half-life throughout the reaction.",
+    "order": 3,
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence 0th order: t₁/₂ shrinks (∝[A]), 1st order: t₁/₂ constant, 2nd order: t₁/₂ grows (∝1/[A])”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
+ },
  "1013": {
   "gate_status": "reviewed",
   "items": [
@@ -12661,6 +12688,176 @@
   "svgKey": "ch18/row_1417",
   "tool": "labeler"
  },
+ "1636": {
+  "bins": [
+   "Anode half-cell",
+   "Cathode half-cell"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Anode half-cell",
+    "id": "a",
+    "label": "Lower E°red species is here"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "b",
+    "label": "Higher E°red species here"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "c",
+    "label": "Electrode mass decreases"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "d",
+    "label": "Solution [ion] increases"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "e",
+    "label": "Solution [ion] decreases"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "f",
+    "label": "e⁻ flow INTO this electrode"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n1",
+    "label": "Zn(s) loses two electrons to form Zn2+"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n2",
+    "label": "Cu2+ gains two electrons and plates onto the electrode"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n3",
+    "label": "Fe3+ + e- forms Fe2+ at this electrode"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n4",
+    "label": "The half-cell that supplies electrons to the external wire"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n5",
+    "label": "Ag+ ions are reduced and deposit as silver metal"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n6",
+    "label": "Mg(s) forms Mg2+ and its mass decreases over time"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n7",
+    "label": "The half-cell that receives electrons from the external circuit"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n8",
+    "label": "Ni(s) dissolves as Ni2+ into the solution"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n9",
+    "label": "2H+ + 2e- forms H₂ gas at the electrode surface"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n10",
+    "label": "Sn(s) is oxidized to Sn2+ during discharge"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n11",
+    "label": "MnO4- is reduced to Mn2+ in acidic solution here"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n12",
+    "label": "The electrode where the metal bar slowly corrodes away"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n13",
+    "label": "Cr₂O₇ 2- is reduced to Cr3+ at this electrode"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n14",
+    "label": "Al(s) releases three electrons to become Al3+"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n15",
+    "label": "Pb2+ gains electrons and deposits as lead metal"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n16",
+    "label": "In the salt bridge, negative ions migrate toward this compartment",
+    "note": "Anions migrate to anode to balance positive charge; correct anode trap.",
+    "trap": true
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n17",
+    "label": "In a galvanic cell, this electrode carries the negative sign",
+    "note": "In galvanic cell anode is negative; correct anode trap.",
+    "trap": true
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n18",
+    "label": "The half-cell with the more positive standard reduction potential",
+    "note": "Higher reduction potential species is reduced = cathode; correct cathode trap.",
+    "trap": true
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n19",
+    "label": "Co(s) is oxidized to Co2+ as the cell operates"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n20",
+    "label": "O₂ + 4H+ + 4e- forms water at this electrode"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n21",
+    "label": "Au3+ accepts three electrons and plates as gold"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n22",
+    "label": "I- is oxidized to I₂ at this electrode"
+   },
+   {
+    "bin": "Anode half-cell",
+    "id": "n23",
+    "label": "Cd(s) forms Cd2+ and the electrode mass drops"
+   },
+   {
+    "bin": "Cathode half-cell",
+    "id": "n24",
+    "label": "Fe2+ is reduced to Fe(s) at this electrode surface"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Anode half-cell, Cathode half-cell”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1638": {
   "bins": [
    "Electron flow",
@@ -13444,6 +13641,149 @@
   ],
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "1668": {
+  "bins": [
+   "Cathode product",
+   "Anode product"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Cathode product",
+    "id": "a",
+    "label": "Metal from MX₂(l) electrolysis"
+   },
+   {
+    "bin": "Anode product",
+    "id": "b",
+    "label": "Halogen gas from MX(l)"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "c",
+    "label": "Na metal from NaCl(l)"
+   },
+   {
+    "bin": "Anode product",
+    "id": "d",
+    "label": "Cl₂ gas from NaCl(l)"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "e",
+    "label": "Mg from MgCl₂(l) melt"
+   },
+   {
+    "bin": "Anode product",
+    "id": "f",
+    "label": "Br₂ from MgBr₂(l) melt"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n1",
+    "label": "Cu metal plating out during electrolysis of aqueous CuSO₄"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n2",
+    "label": "H₂ gas bubbling off during electrolysis of dilute Na₂SO₄"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n4",
+    "label": "Na metal formed from molten NaCl"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n5",
+    "label": "Zn metal collecting on the electrode from molten ZnCl₂"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n6",
+    "label": "H₂ released during electrolysis of aqueous KNO₃"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n7",
+    "label": "Al metal produced from molten Al₂O₃ in the Hall process"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n8",
+    "label": "Pb solid formed from molten PbBr₂"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n9",
+    "label": "K metal collecting from molten KOH"
+   },
+   {
+    "bin": "Cathode product",
+    "id": "n10",
+    "label": "Mg solid deposited from molten MgCl₂"
+   },
+   {
+    "bin": "Anode product",
+    "id": "n11",
+    "label": "O₂ gas evolved during electrolysis of dilute H₂SO₄"
+   },
+   {
+    "bin": "Anode product",
+    "id": "n12",
+    "label": "Cl₂ gas released from molten NaCl"
+   },
+   {
+    "bin": "Anode product",
+    "id": "n13",
+    "label": "Br₂ liquid formed from molten PbBr₂"
+   },
+   {
+    "bin": "Anode product",
+    "id": "n14",
+    "label": "O₂ bubbling off during electrolysis of aqueous Na₂SO₄"
+   },
+   {
+    "bin": "Anode product",
+    "id": "n15",
+    "label": "I₂ formed from molten KI"
+   },
+   {
+    "bin": "Anode product",
+    "id": "n16",
+    "label": "Cl₂ gas produced during electrolysis of concentrated aqueous NaCl"
+   },
+   {
+    "bin": "Anode product",
+    "id": "n17",
+    "label": "F₂ gas evolved from molten KHF₂"
+   },
+   {
+    "bin": "Anode product",
+    "id": "n18",
+    "label": "Cu2+ ions entering solution as a copper electrode dissolves",
+    "note": "Copper dissolving (Cu to Cu2+) is oxidation, so it happens at the anode, not the cathode where metal deposits.",
+    "trap": true
+   },
+   {
+    "bin": "Anode product",
+    "id": "n19",
+    "label": "O₂ evolved during electrolysis of aqueous CuSO₄ with inert electrodes",
+    "note": "Sulfate is not oxidized; water is oxidized to O₂ at the anode instead of any SO₄ species.",
+    "trap": true
+   },
+   {
+    "bin": "Anode product",
+    "id": "n20",
+    "label": "Sn2+ oxidized to Sn4+ during electrolysis of a tin solution"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Cathode product, Anode product”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "1669": {
   "bins": [
@@ -16219,6 +16559,56 @@
   ],
   "prompt": "Match each formula to its correct name.",
   "responseSurplus": 4,
+  "subject": "chem",
+  "tool": "matcher"
+ },
+ "233": {
+  "distractors": [
+   "HCO₃",
+   "HClO₂",
+   "H₃PO₄",
+   "H₂SO₃"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "carbonic acid",
+    "right": "H₂CO₃"
+   },
+   {
+    "id": "b",
+    "left": "hypochlorous acid",
+    "right": "HClO"
+   },
+   {
+    "id": "c",
+    "left": "chloric acid",
+    "right": "HClO₃"
+   },
+   {
+    "id": "d",
+    "left": "phosphorous acid",
+    "right": "H₃PO₃"
+   },
+   {
+    "id": "e",
+    "left": "acetic acid",
+    "right": "HC₂H₃O₂"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: writing phosphoric acid as H3PO3",
+    "note": "Phosphorous acid and phosphoric acid are near-homophones that differ by one oxygen atom, and students reach for the more familiar name (phosphoric) but pair it with the wrong formula.",
+    "right": "WRONG - phosphorous acid, the less-oxygen form, is H3PO3; phosphoric acid, the common form, is H3PO4",
+    "trap": true
+   }
+  ],
+  "prompt": "Match each formula to its correct name.",
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Match each formula to its correct name.', while this card targets 'label a substance as an acid based on its formula.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "matcher"
  },
@@ -20150,6 +20540,57 @@
   "retired_by": "claude-materials-index",
   "retired_on": "2026-09-04",
   "retired_reason": "Clear outcome mismatch: the current task tests 'Absorbed by solution / Transmitted through', while this card targets 'find the number of electrons in each orbital from the relative…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "671": {
+  "bins": [
+   "True",
+   "False"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "True",
+    "id": "a",
+    "label": "O IE < N IE (paired 2p e⁻)"
+   },
+   {
+    "bin": "True",
+    "id": "b",
+    "label": "S IE < P IE (paired 3p e⁻)"
+   },
+   {
+    "bin": "True",
+    "id": "c",
+    "label": "Group 15 IE > Group 16 IE"
+   },
+   {
+    "bin": "True",
+    "id": "d",
+    "label": "Paired 2p e⁻ lowers O's IE"
+   },
+   {
+    "bin": "False",
+    "id": "e",
+    "label": "Group 16 IE > Group 15 IE"
+   },
+   {
+    "bin": "False",
+    "id": "f",
+    "label": "O IE = N IE (same period)"
+   },
+   {
+    "bin": "False",
+    "id": "n1",
+    "label": "Every element in Period 2 has a higher IE1 than the element right before it, with no exceptions",
+    "note": "Oxygen's paired 2p electron makes its IE1 dip below nitrogen's, breaking the otherwise-rising trend. A blanket 'always increases' claim ignores this known exception.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'True / False', while this card targets \"use Coulomb's law to justify the atomic-radius trend across a period.\". It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -25894,6 +26335,46 @@
   "subject": "chem",
   "svgKey": "tables/buffer_strong_acid",
   "tool": "labeler"
+ },
+ "906": {
+  "bins": [
+   "Endothermic",
+   "Exothermic"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Endothermic",
+    "id": "s1",
+    "label": "NH₄NO₃ stirred into water makes the beaker feel cold to the touch"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s2",
+    "label": "A saturated solution of Firma Waha salt X takes up noticeably more solid after it is gently heated",
+    "note": "Increased solubility on heating implies the dissolving process absorbs heat (Le Chatelier). Reasoning-required; does not state the enthalpy sign directly.",
+    "trap": true
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s3",
+    "label": "When Firma Nakhla salt Y dissolves, a thermometer left in the water reads several degrees lower than before",
+    "note": "Falling temperature means the solution absorbed heat during dissolving; discriminating feature (the sign) is not stated, only the observation.",
+    "trap": true
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s4",
+    "label": "A hand-warmer sachet is snapped and its contents dissolve, and the pouch grows warm in your palm",
+    "note": "Warmth released to the hand indicates heat given off; the enthalpy sign is inferred, not stated.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Endothermic, Exothermic”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "910": {
   "gate_status": "reviewed",
