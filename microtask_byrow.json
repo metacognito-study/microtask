@@ -12818,6 +12818,109 @@
   "subject": "chem",
   "tool": "sequencer"
  },
+ "1579": {
+  "bins": [
+   "Favoured",
+   "Unfavoured"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Favoured",
+    "id": "r1",
+    "label": "Complete combustion of propane in a camp stove at 298 K"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r2",
+    "label": "Iron nails left outdoors slowly turning to rust over weeks",
+    "note": "Trap: students assume a SLOW reaction cannot be spontaneous. Kinetics (rate) is independent of thermodynamics; rusting is thermodynamically favoured despite being slow.",
+    "trap": true
+   },
+   {
+    "bin": "Favoured",
+    "id": "r3",
+    "label": "Hydrogen and oxygen combining to form liquid water at 298 K, releasing heat"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r4",
+    "label": "The zinc-copper cell in a fresh battery discharging under standard conditions"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r5",
+    "label": "Nitrogen and hydrogen forming ammonia in the Haber process at 298 K"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r6",
+    "label": "Table salt dissolving in water at room temperature until the solution is not yet saturated"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r7",
+    "label": "Neutralising hydrochloric acid with sodium hydroxide in a beaker at 298 K"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r8",
+    "label": "Solid carbon dioxide (dry ice) subliming to gas in a warm room at 298 K"
+   },
+   {
+    "bin": "Favoured",
+    "id": "r9",
+    "label": "Ice melting to liquid water in a room at 25 C and 1 atm",
+    "note": "Trap: students memorise 'freezing is unfavoured' but forget spontaneity flips with temperature. Above 0 C, MELTING is favoured (freezing is not); the phase change direction that is spontaneous depends on T relative to 0 C.",
+    "trap": true
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r10",
+    "label": "Photosynthesis building glucose from carbon dioxide and water with NO light supplied"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r11",
+    "label": "Splitting liquid water into hydrogen gas and oxygen gas at 298 K with no energy input"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r12",
+    "label": "Liquid water freezing to ice in a room at 25 C and 1 atm"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r13",
+    "label": "Ordinary oxygen gas converting into ozone at 298 K without an energy source"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r14",
+    "label": "The forced half-reaction driven at the cathode during industrial electrolysis"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r15",
+    "label": "Molten sodium chloride separating into sodium metal and chlorine gas on its own at room temperature"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r16",
+    "label": "Nitrogen and oxygen in air combining to form nitrogen monoxide at 298 K on their own"
+   },
+   {
+    "bin": "Unfavoured",
+    "id": "r17",
+    "label": "Reforming reactant back from products in a system where the forward reaction is the favoured one at 298 K"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Favoured, Unfavoured”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "158": {
   "gate_status": "reviewed",
   "hotspots": [
