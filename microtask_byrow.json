@@ -170,6 +170,58 @@
   "svgKey": "ch13/row_1004",
   "tool": "labeler"
  },
+ "1009": {
+  "bins": [
+   "Zero order",
+   "First order",
+   "Second order"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Zero order",
+    "id": "a",
+    "label": "Linear [A] vs t, neg. slope"
+   },
+   {
+    "bin": "First order",
+    "id": "b",
+    "label": "Linear ln[A] vs t, neg. slope"
+   },
+   {
+    "bin": "Second order",
+    "id": "c",
+    "label": "Linear 1/[A] vs t, pos. slope"
+   },
+   {
+    "bin": "Second order",
+    "id": "d",
+    "label": "t₁/₂ grows as [A] falls"
+   },
+   {
+    "bin": "Zero order",
+    "id": "e",
+    "label": "Curved ln[A] vs t plot"
+   },
+   {
+    "bin": "First order",
+    "id": "f",
+    "label": "Constant half-life pattern"
+   },
+   {
+    "bin": "Zero order",
+    "id": "n1",
+    "label": "Doubling [A] leaves the rate unchanged",
+    "note": "Rate = k[A]^0 = k, so the rate does not depend on concentration at all; doubling [A] changes nothing. This is the zero-order signature stated as a rate relationship rather than as a graph shape or half-life pattern.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "This duplicate-target task overlaps MT-CHEM-1568-SORTER and contains an ambiguous cue: a curved ln[A] versus t plot is not uniquely zero order. Retain the stronger card-1009 task after repair and remove this redundant variant from the card identity.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1013": {
   "gate_status": "reviewed",
   "items": [
@@ -253,6 +305,38 @@
   "remapped_on": "2026-09-05",
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1020": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Finding k or order?",
+    "note": "The method of initial rates is used when you have multiple separate runs with different starting concentrations to compare, which is what lets you find k or the order. If instead you have concentration-vs-time data from a single run, the integrated rate law approach applies instead, even though both methods can ultimately produce k.",
+    "order": 1,
+    "trap": true
+   },
+   {
+    "id": "b",
+    "label": "Yes → method of initial rates",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Finding [A] at t, or t value?",
+    "order": 3
+   },
+   {
+    "id": "d",
+    "label": "Yes → use integrated rate law",
+    "order": 4
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence Finding k or order?, Yes → method of initial rates, Finding [A] at t, or t value?”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
  },
  "1023": {
   "gate_status": "reviewed",
@@ -6456,6 +6540,50 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1377": {
+  "bins": [
+   "Present after equiv.",
+   "Absent (past equiv.)"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Present after equiv.",
+    "id": "a",
+    "label": "Excess OH⁻"
+   },
+   {
+    "bin": "Absent (past equiv.)",
+    "id": "b",
+    "label": "HA, the weak acid"
+   },
+   {
+    "bin": "Present after equiv.",
+    "id": "c",
+    "label": "A⁻ (conjugate base)"
+   },
+   {
+    "bin": "Absent (past equiv.)",
+    "id": "d",
+    "label": "NaOH as an intact molecule"
+   },
+   {
+    "bin": "Present after equiv.",
+    "id": "e",
+    "label": "Na⁺ (spectator cation)"
+   },
+   {
+    "bin": "Absent (past equiv.)",
+    "id": "f",
+    "label": "Large excess H₃O⁺"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Present after equiv., Absent (past equiv.)”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1382": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -6969,6 +7097,159 @@
   "subject": "chem",
   "svgKey": "chem_cmp/8-4-a_v2",
   "tool": "labeler"
+ },
+ "1394": {
+  "bins": [
+   "At equivalence",
+   "After equivalence"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "After equivalence",
+    "id": "a",
+    "label": "Excess OH⁻ present"
+   },
+   {
+    "bin": "After equivalence",
+    "id": "b",
+    "label": "pH > 7"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "c",
+    "label": "pH = 7 exactly"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "d",
+    "label": "Only H₂O + spectator ions"
+   },
+   {
+    "bin": "After equivalence",
+    "id": "e",
+    "label": "Moles base > moles acid"
+   },
+   {
+    "bin": "After equivalence",
+    "id": "f",
+    "label": "Phenolphthalein turns pink"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "n1",
+    "label": "Weak acid + strong base, moles acid = moles base (pH > 7, solution is basic)",
+    "note": "At equivalence is defined by the mole ratio, not by pH equal to 7. For a weak acid and strong base, the salt formed makes the solution basic at this point, so pH sits above 7 even though equivalence has been reached.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into At equivalence, After equivalence”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1395": {
+  "bins": [
+   "Initial stage",
+   "Equivalence pt."
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Initial stage",
+    "id": "a",
+    "label": "pH < 7 (low, acidic)"
+   },
+   {
+    "bin": "Equivalence pt.",
+    "id": "b",
+    "label": "pH = 7 exactly"
+   },
+   {
+    "bin": "Initial stage",
+    "id": "c",
+    "label": "H₃O⁺ from strong acid"
+   },
+   {
+    "bin": "Equivalence pt.",
+    "id": "d",
+    "label": "Moles acid = moles base"
+   },
+   {
+    "bin": "Initial stage",
+    "id": "e",
+    "label": "pH set by [H₃O⁺] of strong acid"
+   },
+   {
+    "bin": "Equivalence pt.",
+    "id": "f",
+    "label": "Only spectators + H₂O"
+   },
+   {
+    "bin": "Equivalence pt.",
+    "id": "n1",
+    "label": "Weak acid + strong base, moles acid = moles base (pH > 7, solution is basic)",
+    "note": "Equivalence is defined by moles acid equaling moles base, not by pH. For a weak acid titrated with a strong base, the conjugate base formed at this point makes the solution basic, so pH is above 7 even though the titration has reached equivalence.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Initial stage, Equivalence pt.”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1396": {
+  "bins": [
+   "Before equivalence",
+   "At equivalence"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Before equivalence",
+    "id": "a",
+    "label": "Excess H₃O⁺ present"
+   },
+   {
+    "bin": "Before equivalence",
+    "id": "b",
+    "label": "pH < 7"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "c",
+    "label": "Only water + spectators"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "d",
+    "label": "pH = 7 exactly"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "e",
+    "label": "H₃O⁺ = OH⁻ (very small)"
+   },
+   {
+    "bin": "Before equivalence",
+    "id": "f",
+    "label": "Moles acid still > moles base"
+   },
+   {
+    "bin": "At equivalence",
+    "id": "n1",
+    "label": "Weak acid + strong base, moles acid = moles base (pH > 7, solution is basic)",
+    "note": "At equivalence is defined by moles acid equaling moles base, not by pH equal to 7. For a weak acid and strong base, the salt formed makes the solution basic at this point, so pH is above 7 even though equivalence has been reached.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Before equivalence, At equivalence”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "1397": {
   "bins": [
@@ -9284,6 +9565,52 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1531": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "slope1",
+    "label": "Temperature changing",
+    "x": 0.12,
+    "y": 0.72
+   },
+   {
+    "id": "flat1",
+    "label": "Phase change (flat)",
+    "x": 0.3,
+    "y": 0.58
+   },
+   {
+    "id": "slope2",
+    "label": "Temperature changing",
+    "x": 0.52,
+    "y": 0.42
+   },
+   {
+    "id": "flat2",
+    "label": "Phase change (flat)",
+    "note": "Both flat regions show temperature holding steady while added energy breaks intermolecular forces instead of raising kinetic energy, so they look identical on the graph. Reading left to right, energy input only increases, so the first flat region is melting and the second is boiling; their position on the curve distinguishes them, not their appearance.",
+    "trap": true,
+    "x": 0.7,
+    "y": 0.28
+   }
+  ],
+  "options": [
+   "Temperature changing",
+   "Phase change (flat)",
+   "Condensation",
+   "Sublimation",
+   "Deposition",
+   "Isothermal"
+  ],
+  "prompt": "Label the temperature-change and phase-change sections",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Label the temperature-change and phase-change sections', while this card targets 'predict the direction of pressure change in a sealed rigid vessel…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch06/row_543",
+  "tool": "labeler"
+ },
  "1533": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -10591,6 +10918,147 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1639": {
+  "bins": [
+   "Toward anode",
+   "Toward cathode"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Toward anode",
+    "id": "a",
+    "label": "Anions in salt bridge"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "b",
+    "label": "Cations in salt bridge"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "c",
+    "label": "NO₃⁻ (from KNO₃)"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "d",
+    "label": "K⁺ (from KNO₃)"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "e",
+    "label": "Negative ions in bridge"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "f",
+    "label": "Positive ions in bridge"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n1",
+    "label": "SO₄ 2-"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "n2",
+    "label": "Na+"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n3",
+    "label": "Cl-"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "n4",
+    "label": "K+"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n5",
+    "label": "NO₃ -"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "n6",
+    "label": "Ca2+"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n7",
+    "label": "Br-"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "n8",
+    "label": "Mg2+"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n9",
+    "label": "CO₃ 2-"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "n10",
+    "label": "Li+"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n11",
+    "label": "PO₄ 3-"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "n12",
+    "label": "NH₄ +"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n13",
+    "label": "I-"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "n14",
+    "label": "Al3+"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n15",
+    "label": "ClO₄ -"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n17",
+    "label": "CrO₄ 2-"
+   },
+   {
+    "bin": "Toward cathode",
+    "id": "n18",
+    "label": "Sr2+"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n19",
+    "label": "F-"
+   },
+   {
+    "bin": "Toward anode",
+    "id": "n16",
+    "label": "SO4^2- (sulfate, a polyatomic anion in the salt bridge)",
+    "note": "Anions in the salt bridge always migrate toward the anode to balance the positive charge building up there from oxidation, regardless of whether the anion is a simple ion like NO3- or a larger polyatomic ion like sulfate. Its unfamiliar formula does not change which direction it moves.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Toward anode, Toward cathode”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1640": {
   "bins": [
    "Homogeneous catalyst",
@@ -10638,6 +11106,57 @@
     "trap": true
    }
   ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1645": {
+  "bins": [
+   "True (salt bridge)",
+   "False (salt bridge)"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "True (salt bridge)",
+    "id": "a",
+    "label": "Electrolyte solution inside"
+   },
+   {
+    "bin": "True (salt bridge)",
+    "id": "b",
+    "label": "Connects the two half-cells"
+   },
+   {
+    "bin": "False (salt bridge)",
+    "id": "c",
+    "label": "Allows e⁻ flow (not true)"
+   },
+   {
+    "bin": "True (salt bridge)",
+    "id": "d",
+    "label": "Maintains charge balance"
+   },
+   {
+    "bin": "True (salt bridge)",
+    "id": "e",
+    "label": "Usually KNO₃ or KCl inside"
+   },
+   {
+    "bin": "False (salt bridge)",
+    "id": "f",
+    "label": "Produces electricity directly"
+   },
+   {
+    "bin": "False (salt bridge)",
+    "id": "n1",
+    "label": "Ions flow directly between the two half-cell solutions with no salt bridge needed if the beakers touch",
+    "note": "Without a salt bridge (or porous barrier), the two half-cells stay charge-imbalanced and the cell current stops almost immediately, even if the solutions are physically close. The salt bridge's ion flow is what completes the circuit and maintains charge balance, not simple proximity.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into True (salt bridge), False (salt bridge)”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -10808,6 +11327,53 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1648": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "anode",
+    "label": "Anode (Zn, oxidation)",
+    "x": 0.15,
+    "y": 0.5
+   },
+   {
+    "id": "cath",
+    "label": "Cathode (Cu, reduction)",
+    "x": 0.85,
+    "y": 0.5
+   },
+   {
+    "id": "sb",
+    "label": "Salt bridge (ion flow)",
+    "x": 0.5,
+    "y": 0.2
+   },
+   {
+    "id": "wire",
+    "label": "External circuit (e⁻ flow)",
+    "note": "The external circuit is where electrons flow between the electrodes through the wire. This is easy to confuse with the ion flow through the salt bridge, which carries charge through the solution by a different path to complete the circuit.",
+    "trap": true,
+    "x": 0.5,
+    "y": 0.05
+   }
+  ],
+  "options": [
+   "Anode (Zn, oxidation)",
+   "Cathode (Cu, reduction)",
+   "Salt bridge (ion flow)",
+   "External circuit (e⁻ flow)",
+   "Power source",
+   "Electrolytic cell",
+   "Voltmeter"
+  ],
+  "prompt": "Label the parts of this galvanic cell diagram",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “Label the parts of this galvanic cell diagram”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch18/row_1415",
+  "tool": "labeler"
  },
  "165": {
   "bins": [
@@ -13425,6 +13991,53 @@
   "subject": "chem",
   "tool": "instrument"
  },
+ "268": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "xax",
+    "label": "Mass-to-charge ratio (m/z)",
+    "x": 0.55,
+    "y": 0.95
+   },
+   {
+    "id": "yax",
+    "label": "Relative abundance (%)",
+    "x": 0.03,
+    "y": 0.45
+   },
+   {
+    "id": "base",
+    "label": "Base peak (100%)",
+    "x": 0.45,
+    "y": 0.05
+   },
+   {
+    "id": "mion",
+    "label": "Molecular ion (M⁺)",
+    "note": "The molecular ion (M+) is the mass of the entire original molecule minus one electron, so it usually sits at the highest m/z value, but it is not necessarily the tallest peak; the tallest peak is the separately-defined base peak, which is often a smaller fragment instead.",
+    "trap": true,
+    "x": 0.88,
+    "y": 0.35
+   }
+  ],
+  "options": [
+   "Mass-to-charge ratio (m/z)",
+   "Relative abundance (%)",
+   "Base peak (100%)",
+   "Molecular ion (M⁺)",
+   "Fragment ion",
+   "Isotope peak",
+   "Retention time"
+  ],
+  "prompt": "Label the axes and peaks of this mass spectrum",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Label the axes and peaks of this mass spectrum', while this card targets 'draw particle diagrams that show the Law of Definite Composition in…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch03/row_248",
+  "tool": "labeler"
+ },
  "29": {
   "content_version": "8c9903efe78c",
   "gate_status": "reviewed",
@@ -13583,6 +14196,53 @@
    "Spectator ion"
   ],
   "prompt": "Label reactants and product in this particle diagram",
+  "subject": "chem",
+  "svgKey": "ch03/row_314",
+  "tool": "labeler"
+ },
+ "337": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "lim",
+    "label": "Limiting reactant",
+    "x": 0.2,
+    "y": 0.4
+   },
+   {
+    "id": "exc",
+    "label": "Excess reactant",
+    "x": 0.5,
+    "y": 0.4
+   },
+   {
+    "id": "prod",
+    "label": "Product (C)",
+    "x": 0.78,
+    "y": 0.55
+   },
+   {
+    "id": "left",
+    "label": "Leftover excess",
+    "note": "'Leftover excess' is the unreacted portion of the excess reactant remaining once the reaction stops; it is the same substance as the excess reactant, just its final leftover amount, not a separate species like a catalyst or spectator ion.",
+    "trap": true,
+    "x": 0.5,
+    "y": 0.7
+   }
+  ],
+  "options": [
+   "Limiting reactant",
+   "Excess reactant",
+   "Product (C)",
+   "Leftover excess",
+   "Catalyst",
+   "Solvent",
+   "Spectator ion"
+  ],
+  "prompt": "Label reactants and product in this particle diagram",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Label reactants and product in this particle diagram', while this card targets 'calculate percent yield from the actual and theoretical yields.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "svgKey": "ch03/row_314",
   "tool": "labeler"
@@ -15794,6 +16454,57 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "610": {
+  "bins": [
+   "Rises down a group",
+   "Flat down a group"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Rises down a group",
+    "id": "a",
+    "label": "Atomic radius"
+   },
+   {
+    "bin": "Rises down a group",
+    "id": "b",
+    "label": "Number of electron shells (n)"
+   },
+   {
+    "bin": "Rises down a group",
+    "id": "c",
+    "label": "Valence electron distance"
+   },
+   {
+    "bin": "Flat down a group",
+    "id": "d",
+    "label": "Effective nuclear charge"
+   },
+   {
+    "bin": "Flat down a group",
+    "id": "e",
+    "label": "Number of valence electrons"
+   },
+   {
+    "bin": "Rises down a group",
+    "id": "f",
+    "label": "Inner-electron shielding"
+   },
+   {
+    "bin": "Rises down a group",
+    "id": "n1",
+    "label": "Number of protons in the nucleus (Z)",
+    "note": "Z increases every time a new element with more protons is reached going down a group. Students conflate this with effective nuclear charge (Z_eff), which stays roughly flat down a group because shielding grows to match Z.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Rises down a group / Flat down a group', while this card targets 'write the valence electron configuration of an s- or p-block element.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "611": {
   "bins": [
    "IE increases",
@@ -16177,6 +16888,60 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "635": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "xax",
+    "label": "Binding energy (MJ/mol)",
+    "x": 0.55,
+    "y": 0.96
+   },
+   {
+    "id": "yax",
+    "label": "Relative # of electrons",
+    "x": 0.03,
+    "y": 0.4
+   },
+   {
+    "id": "val",
+    "label": "Valence electrons (low IE)",
+    "x": 0.8,
+    "y": 0.15
+   },
+   {
+    "id": "core",
+    "label": "Core electrons (high IE, 1s)",
+    "note": "Core electrons sit closer to the nucleus and are held more tightly, giving them a higher binding energy than valence electrons. On a PES axis where binding energy decreases moving right, that puts core electrons farther from the origin, the opposite of where 'core', meaning basic or central, might intuitively suggest.",
+    "trap": true,
+    "x": 0.15,
+    "y": 0.35
+   },
+   {
+    "id": "ht",
+    "label": "Peak height = electron count",
+    "x": 0.5,
+    "y": 0.6
+   }
+  ],
+  "options": [
+   "Binding energy (MJ/mol)",
+   "Relative # of electrons",
+   "Valence electrons (low IE)",
+   "Core electrons (high IE, 1s)",
+   "Peak height = electron count",
+   "Ionization energy",
+   "Electron affinity",
+   "Shielding"
+  ],
+  "prompt": "Label the axes and key features of this PES spectrum",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Label the axes and key features of this PES…', while this card targets 'explain the general electron-affinity trends across a period and down a…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch07/row_627",
+  "tool": "labeler"
+ },
  "637": {
   "bins": [
    "Absorbed by solution",
@@ -16225,6 +16990,38 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "64": {
+  "gate_status": "reviewed",
+  "graphSvgFile": "density_v_vs_m.svg",
+  "items": [
+   {
+    "id": "a",
+    "label": "Substance D",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "Substance C",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Substance B",
+    "order": 3
+   },
+   {
+    "id": "d",
+    "label": "Substance A",
+    "order": 4
+   }
+  ],
+  "prompt": "Order substances A to D by density, using the graph shown (volume against mass).",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Order substances A to D by density, using the…', while this card targets 'explain how changing temperature affects the density of a pure substance,…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
  },
  "673": {
   "bins": [
@@ -16749,6 +17546,34 @@
    }
   ],
   "prompt": "Order these bonds from fewest to most π bonds (lowest to highest bond order)",
+  "subject": "chem",
+  "tool": "sequencer"
+ },
+ "718": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "C-C single bond (σ only, 0 π)",
+    "order": 1
+   },
+   {
+    "id": "c",
+    "label": "C=C double bond (σ + 1π)",
+    "note": "A double bond has one sigma and one pi bond, giving a bond order of 2, but its pi-bond COUNT is only 1, not 2. Pi-bond count runs 0, 1, 2 for single, double, and triple bonds respectively, one less than the bond order itself.",
+    "order": 2,
+    "trap": true
+   },
+   {
+    "id": "e",
+    "label": "C≡C triple bond (σ + 2π)",
+    "order": 3
+   }
+  ],
+  "prompt": "Order these bonds from fewest to most π bonds (lowest to highest bond order)",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Order these bonds from fewest to most π bonds…', while this card targets 'determine the molecular polarity of a one-central-atom species from its bond…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sequencer"
  },
@@ -22210,6 +23035,38 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "984": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Zero order: rate ×1",
+    "note": "Zero order means the rate does not depend on [A] at all, so doubling [A] leaves the rate completely unchanged, multiplied by 1, not by zero. It is easy to think 'zero order' should make the rate become zero, when it actually means concentration has zero effect on rate.",
+    "order": 1,
+    "trap": true
+   },
+   {
+    "id": "b",
+    "label": "First order: rate ×2",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Second order: rate ×4",
+    "order": 3
+   },
+   {
+    "id": "d",
+    "label": "Third order: rate ×8",
+    "order": 4
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence Zero order: rate ×1, First order: rate ×2, Second order: rate ×4”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
+ },
  "993": {
   "bins": [
    "Stronger oxyacid",
@@ -22258,6 +23115,38 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "994": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Rate law: rate = k[A]²",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "Rearrange: k = rate/[A]²",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Sub units: (M/s) ÷ M²",
+    "note": "Dividing M/s by M-squared leaves one factor of M in the denominator, giving M^-1 s^-1, not M^-2 s^-1. It is easy to keep both powers of M in the denominator instead of cancelling one against the M already in the numerator.",
+    "order": 3,
+    "trap": true
+   },
+   {
+    "id": "d",
+    "label": "k units = M⁻¹·s⁻¹",
+    "order": 4
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence Rate law: rate = k[A]², Rearrange: k = rate/[A]², Sub units: (M/s) ÷ M²”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
  },
  "996": {
   "content_version": "256815f5f4a9",
