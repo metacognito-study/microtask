@@ -170,6 +170,70 @@
   "svgKey": "ch13/row_1004",
   "tool": "labeler"
  },
+ "1005": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "ln[A] vs t linear → 1st order",
+    "note": "A straight line specifically when ln[A], not [A] itself, is plotted against time is what identifies first order. Plotting raw [A] against time and seeing a curve is not evidence of first order, since any order except zero produces a curve when [A] is plotted directly.",
+    "order": 1,
+    "trap": true
+   },
+   {
+    "id": "b",
+    "label": "ln[A]t = ln[A]₀ − kt (IRL)",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Plug in known: k, [A]₀, t",
+    "order": 3
+   },
+   {
+    "id": "d",
+    "label": "Solve for [A]t or t",
+    "order": 4
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence ln[A] vs t linear → 1st order, ln[A]t = ln[A]₀ − kt (IRL), Plug in known: k, [A]₀, t”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
+ },
+ "1006": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "1/[A] vs t linear → 2nd order",
+    "note": "A straight line specifically when 1/[A] is plotted against time identifies second order. Each order has its own transformed variable that produces a straight line, so a linear plot for one transformation does not rule in or out the others without actually testing them.",
+    "order": 1,
+    "trap": true
+   },
+   {
+    "id": "b",
+    "label": "1/[A]t = 1/[A]₀ + kt (IRL)",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Plug in known: k, [A]₀, t",
+    "order": 3
+   },
+   {
+    "id": "d",
+    "label": "Solve for [A]t or t",
+    "order": 4
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence 1/[A] vs t linear → 2nd order, 1/[A]t = 1/[A]₀ + kt (IRL), Plug in known: k, [A]₀, t”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
+ },
  "1009": {
   "bins": [
    "Zero order",
@@ -1696,6 +1760,38 @@
   "retired_reason": "Clear outcome mismatch: the current task tests “sort into Homogeneous catalyst, Heterogen. catalyst, Enzyme”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1087": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Plot [A] vs t; linear? → 0th",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "Plot ln[A] vs t → 1st order?",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Plot 1/[A] vs t → 2nd order?",
+    "order": 3
+   },
+   {
+    "id": "d",
+    "label": "Check t₁/₂ pattern for confirm",
+    "note": "Checking the half-life pattern is a CONFIRMATION step after a graph already looks linear, since two different orders can sometimes produce visually similar near-straight plots on limited data. It is tempting to trust the first linear-looking plot alone and skip this cross-check, especially when the concentration range tested is narrow.",
+    "order": 4,
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence Plot [A] vs t; linear? → 0th, Plot ln[A] vs t → 1st order?, Plot 1/[A] vs t → 2nd order?”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
  },
  "1092": {
   "bins": [
@@ -4312,6 +4408,112 @@
   "subject": "chem",
   "svgKey": "ch01/row_126",
   "tool": "labeler"
+ },
+ "1262": {
+  "bins": [
+   "Stronger oxyacid",
+   "Weaker oxyacid"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Stronger oxyacid",
+    "id": "a",
+    "label": "H₂SO₄ (S in period 3)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "b",
+    "label": "H₂SeO₄ (Se in period 4)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "c",
+    "label": "HClO₄ vs HBrO₄ (Cl more EN)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "d",
+    "label": "HBrO₄ vs HClO₄ (Br less EN)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "e",
+    "label": "HNO₃ vs H₃PO₄ (N more EN)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "f",
+    "label": "H₃PO₄ (P less EN than N)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n1",
+    "label": "HClO₄"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "n2",
+    "label": "HClO"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n3",
+    "label": "H₂SO₄ compared with H₂SO₃"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n4",
+    "label": "HNO₃ compared with HNO₂"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n5",
+    "label": "HClO₃ compared with HClO₂"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n6",
+    "label": "HIO₄ compared with HIO₃"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n7",
+    "label": "H₃PO₄ compared with H₃PO₃"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n8",
+    "label": "HMnO₄, manganese at +7"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n9",
+    "label": "HBrO₄, bromine at +7"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n10",
+    "label": "H₂SeO₄ compared with H₂SeO₃"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n11",
+    "label": "HIO₃ compared with HIO"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n12",
+    "label": "HClO₄, the highest chlorine oxidation state at +7",
+    "note": "Cl +7, most O; strongest. Correct trap (fewer-atoms misconception).",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Stronger oxyacid, Weaker oxyacid”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "1263": {
   "bins": [
@@ -7517,6 +7719,152 @@
     "trap": true
    }
   ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1368": {
+  "bins": [
+   "WA-SB initial stage",
+   "Later stage"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "WA-SB initial stage",
+    "id": "a",
+    "label": "Mostly HA molecules"
+   },
+   {
+    "bin": "Later stage",
+    "id": "b",
+    "label": "Mix of HA and A⁻"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "c",
+    "label": "Very few A⁻ ions"
+   },
+   {
+    "bin": "Later stage",
+    "id": "d",
+    "label": "Only A⁻ (conjugate base)"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "e",
+    "label": "pH determined by HA"
+   },
+   {
+    "bin": "Later stage",
+    "id": "f",
+    "label": "HA and A⁻ in buffer region"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n1",
+    "label": "A flask of 0.10 M CH₃COOH, pH 2.9"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n2",
+    "label": "pH near 3, set almost entirely by the acid's Ka"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n3",
+    "label": "Solution where CH₃COOH molecules greatly outnumber CH₃COO- ions"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n4",
+    "label": "5 mL of NaOH added to 50 mL of 0.10 M propanoic acid"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n5",
+    "label": "Point where added OH- is far less than moles of weak acid"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n6",
+    "label": "pH rising slowly on the early, gently sloped part of the curve"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n8",
+    "label": "pH still below 5 after a small first splash of base"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n9",
+    "label": "Only a trace of the conjugate base has formed so far"
+   },
+   {
+    "bin": "WA-SB initial stage",
+    "id": "n11",
+    "label": "Beaker where hydronium comes mostly from the acid's own dissociation"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n12",
+    "label": "Equivalence point of CH₃COOH titrated with NaOH sitting above pH 7"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n13",
+    "label": "All weak acid converted to conjugate base, which now hydrolyzes"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n14",
+    "label": "Solution is only 0.05 M sodium propanoate after full neutralization"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n15",
+    "label": "Excess NaOH added past the endpoint pushes pH toward 12"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n16",
+    "label": "CH₃COO- outnumbers CH₃COOH by a wide margin"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n17",
+    "label": "Steep, nearly vertical jump in pH on the titration curve"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n18",
+    "label": "pH governed by Kb of the acetate ion accepting a proton"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n19",
+    "label": "Moles of OH- added now exceed the original moles of weak acid"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n20",
+    "label": "Nearly flat, high-pH tail of the curve past the endpoint"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n22",
+    "label": "Adding one drop past equivalence swings pH sharply upward"
+   },
+   {
+    "bin": "Later stage",
+    "id": "n23",
+    "label": "Region where a good indicator like phenolphthalein changes color",
+    "note": "Phenolphthalein (pH 8-10) matches the basic WA-SB endpoint; tied to later stage.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into WA-SB initial stage, Later stage”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -11026,6 +11374,49 @@
   "prompt": "Order the operations to calculate ΔH for a multi-step process using Hess's law",
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "1529": {
+  "bins": [
+   "Temperature changing",
+   "Phase change"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Temperature changing",
+    "id": "s1",
+    "label": "Heat added to solid ice below 0C; average kinetic energy of the molecules climbs"
+   },
+   {
+    "bin": "Temperature changing",
+    "id": "s2",
+    "label": "A steady flame keeps heating a beaker of pure liquid ethylene glycol; molecules move faster on average"
+   },
+   {
+    "bin": "Phase change",
+    "id": "s3",
+    "label": "Solid stearic acid is being converted to liquid while heat continues to be supplied",
+    "note": "Trap: many students assume that because heat is still added the temperature must keep rising; during melting the energy breaks IPFs so temperature is constant.",
+    "trap": true
+   },
+   {
+    "bin": "Phase change",
+    "id": "s4",
+    "label": "Heat still enters a pot of water that is actively turning to steam at its boiling point",
+    "note": "Trap: 'heat added = temperature up' misconception; during vaporization the absorbed energy converts liquid to gas at constant temperature.",
+    "trap": true
+   },
+   {
+    "bin": "Temperature changing",
+    "id": "s5",
+    "label": "Warmed liquid water between 20C and 90C absorbs energy that raises the molecules' average speed"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Temperature changing / Phase change', while this card targets 'use heating and cooling curves to identify the phases present in…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "153": {
   "bins": [
@@ -16913,6 +17304,56 @@
   "subject": "chem",
   "tool": "matcher"
  },
+ "242": {
+  "distractors": [
+   "copper(II) sulfate hexahydrate",
+   "sodium carbonate monohydrate",
+   "magnesium sulfate pentahydrate",
+   "calcium chloride trihydrate"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "CuSO₄·5H₂O",
+    "right": "Cu(II) sulfate pentahydrate"
+   },
+   {
+    "id": "b",
+    "left": "Na₂CO₃·10H₂O",
+    "right": "sodium carbonate decahydrate"
+   },
+   {
+    "id": "c",
+    "left": "MgSO₄·7H₂O",
+    "right": "magnesium sulfate heptahydrate"
+   },
+   {
+    "id": "d",
+    "left": "CaCl₂·2H₂O",
+    "right": "calcium chloride dihydrate"
+   },
+   {
+    "id": "e",
+    "left": "BaCl₂·2H₂O",
+    "right": "barium chloride dihydrate"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: naming MgSO4*7H2O magnesium sulfate pentahydrate",
+    "note": "Pentahydrate is the most common hydrate prefix students memorize first (as in copper sulfate pentahydrate), so it gets reached for by habit instead of reading the actual water count in the formula.",
+    "right": "WRONG - the number before H2O in the formula gives the exact hydrate name directly: 7H2O is heptahydrate, not pentahydrate (which would be 5H2O)",
+    "trap": true
+   }
+  ],
+  "prompt": "Match each formula to its correct name.",
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Match each formula to its correct name.', while this card targets 'recall common acid-name exceptions.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
+ },
  "246": {
   "bins": [
    "Same compound",
@@ -20023,6 +20464,54 @@
     "trap": true
    }
   ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "618": {
+  "bins": [
+   "IE increases",
+   "IE decreases"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "IE decreases",
+    "id": "r1",
+    "label": "Comparing Na then K then Rb in that order"
+   },
+   {
+    "bin": "IE increases",
+    "id": "r2",
+    "label": "Comparing B then C then N then O left to right"
+   },
+   {
+    "bin": "IE decreases",
+    "id": "r3",
+    "label": "Removing the outer electron from Cs versus from Li"
+   },
+   {
+    "bin": "IE increases",
+    "id": "r4",
+    "label": "Removing the outer electron from F versus from Li (same period)"
+   },
+   {
+    "bin": "IE decreases",
+    "id": "r5",
+    "label": "Comparing Mg to Al in the same period (first IE)",
+    "note": "Misconception: students assume IE always rises across a period, so they bin this as increases. In reality Al's 3p electron is higher in energy and shielded by the 3s pair, giving Al a LOWER first IE than Mg. Real dip, must be reasoned.",
+    "trap": true
+   },
+   {
+    "bin": "IE decreases",
+    "id": "r6",
+    "label": "Comparing N to O in the same period (first IE)",
+    "note": "Misconception: strict left-to-right rule predicts increases. But O's paired 2p electron feels extra pair repulsion, so O's first IE is slightly LOWER than N's. Student must know the half-filled-subshell exception.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'IE increases / IE decreases', while this card targets 'explain why valence-electron distance from the nucleus rises down a group…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
