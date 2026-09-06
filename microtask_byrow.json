@@ -1618,6 +1618,58 @@
   "svgKey": "chem_cmp/energy_profile_cat",
   "tool": "labeler"
  },
+ "1077": {
+  "bins": [
+   "Homogeneous catalyst",
+   "Heterogen. catalyst",
+   "Enzyme"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Homogeneous catalyst",
+    "id": "a",
+    "label": "H⁺(aq) catalyzes ester rxn"
+   },
+   {
+    "bin": "Heterogen. catalyst",
+    "id": "b",
+    "label": "Solid Pt (cat. converter)"
+   },
+   {
+    "bin": "Enzyme",
+    "id": "c",
+    "label": "Amylase breaks down starch"
+   },
+   {
+    "bin": "Heterogen. catalyst",
+    "id": "d",
+    "label": "Fe catalyst in Haber process"
+   },
+   {
+    "bin": "Enzyme",
+    "id": "e",
+    "label": "Lactase digests lactose"
+   },
+   {
+    "bin": "Homogeneous catalyst",
+    "id": "f",
+    "label": "MnO₄⁻ same phase as reactant"
+   },
+   {
+    "bin": "Homogeneous catalyst",
+    "id": "n1",
+    "label": "Dissolved Fe3+(aq) catalyzing H2O2 decomposition in the same aqueous solution",
+    "note": "Homogeneous vs heterogeneous depends on whether the catalyst is in the same phase as the reactants, not on whether it is a metal. Dissolved Fe3+ is aqueous like the H2O2 it acts on, unlike the solid Fe catalyst in the Haber process already in this row.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Homogeneous catalyst, Heterogen. catalyst, Enzyme”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1092": {
   "bins": [
    "At equilibrium",
@@ -2546,6 +2598,57 @@
     "id": "n1",
     "label": "One snapshot shows equal numbers of reactant and product particles, but the next snapshot shows different counts",
     "note": "Equilibrium requires the counts to stay the same snapshot to snapshot, not to be numerically equal to each other at one snapshot. Since the next snapshot differs, the system is still reacting.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into At equilibrium, Not at equilibrium”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1168": {
+  "bins": [
+   "At equilibrium",
+   "Not at equilibrium"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "At equilibrium",
+    "id": "a",
+    "label": "Table: first row values repeat"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "b",
+    "label": "Table: concs. still falling"
+   },
+   {
+    "bin": "At equilibrium",
+    "id": "c",
+    "label": "All table values constant"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "d",
+    "label": "Product column still rising"
+   },
+   {
+    "bin": "At equilibrium",
+    "id": "e",
+    "label": "Q = K confirmed for this row"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "f",
+    "label": "Values differ between two rows"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "n1",
+    "label": "One table row shows reactant and product concentrations as numerically equal, but the row after that has different values",
+    "note": "A single row where the two concentrations happen to match is not evidence of equilibrium; equilibrium requires the SAME row's values to persist into later rows. Since the next row differs, the system is still changing.",
     "trap": true
    }
   ],
@@ -4727,6 +4830,50 @@
   "retired_reason": "Clear outcome mismatch: the current task tests “sort into Stronger oxyacid, Weaker oxyacid”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1284": {
+  "distractors": [
+   "Dimethylamine weaker",
+   "Aniline stronger",
+   "CF₃NH₂ stronger",
+   "Fewer alkyl groups → stronger base"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "(CH₃)₂NH vs CH₃NH₂",
+    "right": "Dimethylamine stronger"
+   },
+   {
+    "id": "b",
+    "left": "Aniline (C₆H₅NH₂) vs NH₃",
+    "right": "Aniline weaker (π delocal.)"
+   },
+   {
+    "id": "c",
+    "left": "CF₃NH₂ vs CH₃NH₂",
+    "right": "CF₃NH₂ weaker (F pulls LP)"
+   },
+   {
+    "id": "d",
+    "left": "Two alkyl groups on N",
+    "right": "More e⁻ density → stronger"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: assuming CF3NH2 and aniline are both weaker bases than NH3 for the same reason",
+    "note": "Several distinct effects (alkyl donation, inductive withdrawal, resonance delocalization) all move basicity in predictable directions, which tempts students to treat every 'weaker base' example as caused by the same underlying mechanism.",
+    "right": "WRONG - CF3NH2 is weaker from an inductive effect (the electronegative fluorines pull electron density through the bonds), while aniline is weaker from resonance (the lone pair delocalizes into the aromatic ring); both weaken the base but through different mechanisms",
+    "trap": true
+   }
+  ],
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “match (CH₃)₂NH vs CH₃NH₂, Aniline (C₆H₅NH₂) vs NH₃, CF₃NH₂ vs CH₃NH₂”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
  },
  "1288": {
   "bins": [
@@ -16331,6 +16478,51 @@
   "title": "Table",
   "tool": "table"
  },
+ "240": {
+  "distractors": [
+   "copper(II) sulfate pentahydrate",
+   "sodium bicarbonate",
+   "calcium carbonate",
+   "magnesium chloride"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "CuSO₄",
+    "right": "anhydrous copper(II) sulfate"
+   },
+   {
+    "id": "b",
+    "left": "Na₂CO₃",
+    "right": "anhydrous sodium carbonate"
+   },
+   {
+    "id": "c",
+    "left": "CaCl₂",
+    "right": "anhydrous calcium chloride"
+   },
+   {
+    "id": "d",
+    "left": "MgSO₄",
+    "right": "anhydrous magnesium sulfate"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: calling CuSO4 with no water in its formula copper(II) sulfate pentahydrate",
+    "note": "Students associate a compound's common lab form (often the hydrate) with its name by default, forgetting that the formula itself must show the water of crystallization for a hydrate name to apply.",
+    "right": "WRONG - pentahydrate means five water molecules are chemically bound in the formula, written CuSO4*5H2O; a formula with no attached water, like plain CuSO4, is anhydrous",
+    "trap": true
+   }
+  ],
+  "prompt": "Match each formula to its correct name.",
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Match each formula to its correct name.', while this card targets 'choose the correct suffix (-ic or -ous) when naming acids.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
+ },
  "246": {
   "bins": [
    "Same compound",
@@ -19858,6 +20050,57 @@
   "retired_reason": "Clear outcome mismatch: the current task tests 'Order substances A to D by density, using the…', while this card targets 'explain how changing temperature affects the density of a pure substance,…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "641": {
+  "bins": [
+   "Higher KE",
+   "Lower KE"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Higher KE",
+    "id": "a",
+    "label": "BE = 5 eV (photon = 500 eV)"
+   },
+   {
+    "bin": "Lower KE",
+    "id": "b",
+    "label": "BE = 200 eV (photon = 500 eV)"
+   },
+   {
+    "bin": "Higher KE",
+    "id": "c",
+    "label": "BE = 50 eV (photon = 500 eV)"
+   },
+   {
+    "bin": "Lower KE",
+    "id": "d",
+    "label": "BE = 300 eV (photon = 500 eV)"
+   },
+   {
+    "bin": "Higher KE",
+    "id": "e",
+    "label": "Valence e⁻: very loosely held"
+   },
+   {
+    "bin": "Lower KE",
+    "id": "f",
+    "label": "Core 1s e⁻: very tightly bound"
+   },
+   {
+    "bin": "Higher KE",
+    "id": "n1",
+    "label": "Core 1s electron (BE = 500 eV) struck by an unusually high-energy 2000 eV photon",
+    "note": "KE = photon energy minus binding energy = 2000 - 500 = 1500 eV, higher than any other item's result, even though this is a tightly bound core electron. Items e/f teach a qualitative 'core = lower KE' shortcut that only holds when photon energy is fixed; here the photon energy itself changed.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Higher KE / Lower KE', while this card targets 'compare photoelectron spectroscopy with other methods by phenomenon, radiation, and measurement.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "645": {
   "bins": [
@@ -26151,6 +26394,38 @@
   "retired_by": "claude-materials-index",
   "retired_on": "2026-09-04",
   "retired_reason": "Clear outcome mismatch: the current task tests “sequence 2 runs: only [A] changes, Compute rate ratio R₂/R₁, Compute [A]₂/[A]₁ ratio”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
+ },
+ "988": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "2 runs: only [A] changes",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "Compute rate ratio R₂/R₁",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Find ([A]₂/[A]₁)² (square it)",
+    "note": "Squaring the concentration ratio, not the rate ratio, is the step that lets you compare it directly to the measured rate ratio for a second-order test. It is easy to instead try squaring the rate ratio itself, backwards from what the test requires.",
+    "order": 3,
+    "trap": true
+   },
+   {
+    "id": "d",
+    "label": "If rate ratio = ([A])²: m = 2",
+    "order": 4
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence 2 runs: only [A] changes, Compute rate ratio R₂/R₁, Find ([A]₂/[A]₁)² (square it)”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sequencer"
  },
