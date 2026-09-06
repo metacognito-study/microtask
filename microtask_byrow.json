@@ -2472,6 +2472,162 @@
   "subject": "chem",
   "tool": "matcher"
  },
+ "1177": {
+  "bins": [
+   "Acid",
+   "Base"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Acid",
+    "id": "a",
+    "label": "H₂SO₄ (donates H⁺)"
+   },
+   {
+    "bin": "Base",
+    "id": "b",
+    "label": "Ca(OH)₂ (releases OH⁻)"
+   },
+   {
+    "bin": "Acid",
+    "id": "c",
+    "label": "HBr (proton donor)"
+   },
+   {
+    "bin": "Base",
+    "id": "d",
+    "label": "LiOH (metal hydroxide)"
+   },
+   {
+    "bin": "Acid",
+    "id": "e",
+    "label": "HClO₄ (strong, fully dissociates)"
+   },
+   {
+    "bin": "Base",
+    "id": "f",
+    "label": "NH₃ (accepts H⁺ to form NH₄⁺)"
+   },
+   {
+    "bin": "Acid",
+    "id": "n1",
+    "label": "HNO₃"
+   },
+   {
+    "bin": "Acid",
+    "id": "n2",
+    "label": "HBr"
+   },
+   {
+    "bin": "Acid",
+    "id": "n3",
+    "label": "H₂SO₄"
+   },
+   {
+    "bin": "Acid",
+    "id": "n4",
+    "label": "CH₃COOH"
+   },
+   {
+    "bin": "Acid",
+    "id": "n5",
+    "label": "HF"
+   },
+   {
+    "bin": "Acid",
+    "id": "n6",
+    "label": "H₃PO₄"
+   },
+   {
+    "bin": "Acid",
+    "id": "n7",
+    "label": "HClO₄"
+   },
+   {
+    "bin": "Acid",
+    "id": "n8",
+    "label": "H₂S"
+   },
+   {
+    "bin": "Acid",
+    "id": "n11",
+    "label": "HCN"
+   },
+   {
+    "bin": "Acid",
+    "id": "n12",
+    "label": "H₂C₂O₄"
+   },
+   {
+    "bin": "Base",
+    "id": "n13",
+    "label": "NH₃"
+   },
+   {
+    "bin": "Base",
+    "id": "n14",
+    "label": "OH-"
+   },
+   {
+    "bin": "Base",
+    "id": "n15",
+    "label": "CO₃ 2-"
+   },
+   {
+    "bin": "Base",
+    "id": "n16",
+    "label": "CH₃NH₂"
+   },
+   {
+    "bin": "Base",
+    "id": "n17",
+    "label": "F-"
+   },
+   {
+    "bin": "Base",
+    "id": "n18",
+    "label": "CN-"
+   },
+   {
+    "bin": "Base",
+    "id": "n19",
+    "label": "C₅H₅N (pyridine)"
+   },
+   {
+    "bin": "Base",
+    "id": "n20",
+    "label": "PO₄ 3-"
+   },
+   {
+    "bin": "Base",
+    "id": "n21",
+    "label": "S2-"
+   },
+   {
+    "bin": "Base",
+    "id": "n22",
+    "label": "CH₃COO-"
+   },
+   {
+    "bin": "Base",
+    "id": "n24",
+    "label": "NO2-"
+   },
+   {
+    "bin": "Acid",
+    "id": "n25",
+    "label": "NH4+ (ammonium ion, formed when NH3 accepts a proton)",
+    "note": "NH4+ is the conjugate acid of the base NH3 and can donate that extra proton back, so it behaves as an acid in solution. Students often default to Base because NH4+ is built from ammonia, missing that gaining a proton makes something more acidic, not more basic.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Acid, Base”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1178": {
   "bins": [
    "Weak acid (organic)",
@@ -2993,6 +3149,60 @@
   "retired_reason": "Clear outcome mismatch: the current task tests “sort into Strong acid, Weak acid, Strong base, Weak base”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1191": {
+  "distractors": [
+   "H₂O",
+   "ClO⁻",
+   "NH₂⁻",
+   "SO₄²⁻"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "HCl (acid)",
+    "right": "Cl⁻"
+   },
+   {
+    "id": "b",
+    "left": "H₂O (acid)",
+    "right": "OH⁻"
+   },
+   {
+    "id": "c",
+    "left": "CH₃COOH (acid)",
+    "right": "CH₃COO⁻"
+   },
+   {
+    "id": "d",
+    "left": "H₂CO₃ (acid)",
+    "right": "HCO₃⁻"
+   },
+   {
+    "id": "e",
+    "left": "NH₄⁺ (acid)",
+    "right": "NH₃"
+   },
+   {
+    "id": "f",
+    "left": "H₂SO₄ (acid)",
+    "right": "HSO₄⁻"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: pairing HCl's conjugate base as OH-",
+    "note": "With several acid/conjugate-base pairs listed together, it is easy to cross-pair an acid with another row's conjugate base instead of tracking which acid lost which proton.",
+    "right": "WRONG - removing a proton from HCl leaves Cl-; OH- is the conjugate base of H2O, not of HCl",
+    "trap": true
+   }
+  ],
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “match HCl (acid), H₂O (acid), CH₃COOH (acid)”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
  },
  "1192": {
   "distractors": [
@@ -4280,6 +4490,107 @@
     "trap": true
    }
   ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1276": {
+  "bins": [
+   "Stronger oxyacid",
+   "Weaker oxyacid"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Stronger oxyacid",
+    "id": "a",
+    "label": "HClO₄ (4 oxygens)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "b",
+    "label": "HClO (1 oxygen)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "c",
+    "label": "HNO₃ vs HNO₂ (more O)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "d",
+    "label": "H₂SO₃ vs H₂SO₄ (fewer O)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "e",
+    "label": "HClO₃ vs HClO₂ (3 vs 2 O)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "f",
+    "label": "HClO vs HClO₂ (1 vs 2 O)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n1",
+    "label": "HClO₄"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "n2",
+    "label": "HClO"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n3",
+    "label": "H₂SO₄ compared with H₂SO₃"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n4",
+    "label": "HNO₃ compared with HNO₂"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n5",
+    "label": "HClO₃ compared with HClO₂"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n6",
+    "label": "HIO₄ compared with HIO₃"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n8",
+    "label": "HMnO₄, manganese at +7"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n9",
+    "label": "HBrO₄, bromine at +7"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n10",
+    "label": "H₂SeO₄ compared with H₂SeO₃"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n11",
+    "label": "HIO₃ compared with HIO"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n12",
+    "label": "HOCl vs HOBr (same single oxygen, Cl smaller and more electronegative than Br)",
+    "note": "With oxygen count tied at one, the more electronegative chlorine pulls more electron density away from the O-H bond than bromine does, making HOCl the stronger acid. The usual oxygen-counting shortcut has nothing to compare here since both have exactly one oxygen.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Stronger oxyacid, Weaker oxyacid”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -11835,6 +12146,122 @@
   "svgKey": "ch18/row_1417",
   "tool": "labeler"
  },
+ "1638": {
+  "bins": [
+   "Electron flow",
+   "Ion flow"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Electron flow",
+    "id": "a",
+    "label": "Anode → cathode (wire)"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "b",
+    "label": "Anions → anode (salt bridge)"
+   },
+   {
+    "bin": "Electron flow",
+    "id": "c",
+    "label": "e⁻ flow through ext. wire"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "d",
+    "label": "Cations → cathode (bridge)"
+   },
+   {
+    "bin": "Electron flow",
+    "id": "e",
+    "label": "Negative to positive (wire)"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "f",
+    "label": "Ions maintain charge balance"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n1",
+    "label": "Na+ moves out of the bridge toward the cathode compartment"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n2",
+    "label": "K+ migrates through the porous barrier into the cathode beaker"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n3",
+    "label": "NO3- drifts toward the anode compartment through the bridge"
+   },
+   {
+    "bin": "Electron flow",
+    "id": "n4",
+    "label": "Charge carried by the wire from anode terminal to cathode terminal"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n5",
+    "label": "Cl- migrates across the barrier to balance charge at the anode side"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n6",
+    "label": "Ca2+ moves through the salt bridge into the reduction beaker"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n7",
+    "label": "Br- drifts through the connecting bridge toward the anode"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n8",
+    "label": "NH4+ moves through the bridge into the cathode compartment"
+   },
+   {
+    "bin": "Electron flow",
+    "id": "n9",
+    "label": "Path of negative charge from the Zn strip to the Cu strip"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n11",
+    "label": "Li+ passes through the barrier toward the cathode half-cell"
+   },
+   {
+    "bin": "Electron flow",
+    "id": "n12",
+    "label": "Charge that flows through the metal wire to complete the circuit",
+    "note": "Trap: only electrons move in the metal wire; correct electron-flow answer.",
+    "trap": true
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n13",
+    "label": "Al3+ migrates through solution to neutralize buildup at the cathode"
+   },
+   {
+    "bin": "Electron flow",
+    "id": "n14",
+    "label": "Transfer along the wire from the negative terminal outward"
+   },
+   {
+    "bin": "Ion flow",
+    "id": "n15",
+    "label": "PO₄ 3- drifts through the bridge toward the anode compartment"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Electron flow, Ion flow”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1639": {
   "bins": [
    "Toward anode",
@@ -13802,6 +14229,181 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "202": {
+  "bins": [
+   "Made of ions",
+   "Made of molecules",
+   "Neither"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Made of ions",
+    "id": "a",
+    "label": "NaCl"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "b",
+    "label": "H2O"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "c",
+    "label": "KBr"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "d",
+    "label": "CO2"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "e",
+    "label": "CaCl2"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "f",
+    "label": "NH3"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n1",
+    "label": "KBr"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n2",
+    "label": "Na₂SO₄"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n3",
+    "label": "CaF₂"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n5",
+    "label": "Li₂O"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n6",
+    "label": "NH₄Cl",
+    "note": "All-nonmetal atoms yet ionic: NH4+ cation + Cl- anion. Correct bin; good trap; no leak.",
+    "trap": true
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n7",
+    "label": "MgO"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n8",
+    "label": "K₂CO₃"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n9",
+    "label": "SrCl₂"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n10",
+    "label": "BaSO₄"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n11",
+    "label": "FeCl₃"
+   },
+   {
+    "bin": "Made of ions",
+    "id": "n12",
+    "label": "Ca(NO₃)₂"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n13",
+    "label": "CO₂"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n14",
+    "label": "NH₃"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n15",
+    "label": "CH₄"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n16",
+    "label": "SO₂"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n17",
+    "label": "H₂O"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n18",
+    "label": "C₆H₁₂O₆ glucose"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n19",
+    "label": "PCl₃"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n20",
+    "label": "N₂"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n21",
+    "label": "CCl₄"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n22",
+    "label": "SF₆"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n23",
+    "label": "C₂H₅OH ethanol"
+   },
+   {
+    "bin": "Made of molecules",
+    "id": "n24",
+    "label": "P₄"
+   },
+   {
+    "bin": "Neither",
+    "id": "m1",
+    "label": "Cu, a block of copper metal"
+   },
+   {
+    "bin": "Neither",
+    "id": "m2",
+    "label": "Fe, an iron nail",
+    "note": "Metals are neither discrete ions nor molecules; a shared electron sea binds neutral metal atoms in a lattice.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each substance by what it is made of at the particle level.",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Sort each substance by what it is made of…', while this card targets 'explain why protons stay fixed during a chemical reaction.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "209": {
   "content_version": "8059d7db70dc",
   "distractors": [
@@ -14002,6 +14604,61 @@
   "prompt": "Sort each number into exact (defined or counted) versus measured (read from an instrument, always uncertain).",
   "subject": "chem",
   "tool": "sorter"
+ },
+ "211": {
+  "distractors": [
+   "magnesium chloride",
+   "calcium oxide",
+   "sodium fluoride",
+   "potassium chloride"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "NaCl",
+    "right": "sodium chloride"
+   },
+   {
+    "id": "b",
+    "left": "MgO",
+    "right": "magnesium oxide"
+   },
+   {
+    "id": "c",
+    "left": "CaCl₂",
+    "right": "calcium chloride"
+   },
+   {
+    "id": "d",
+    "left": "Al₂O₃",
+    "right": "aluminium oxide"
+   },
+   {
+    "id": "e",
+    "left": "K₂S",
+    "right": "potassium sulfide"
+   },
+   {
+    "id": "f",
+    "left": "CaF₂",
+    "right": "calcium fluoride"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: naming MgO as magnesium(II) oxide",
+    "note": "Students over-apply the Stock (Roman numeral) system, which is only needed for transition and multi-valent metals, to fixed-charge Group 1/2 metals like magnesium.",
+    "right": "WRONG - magnesium only forms one common ion (Mg2+), so no Roman numeral is needed; Roman numerals are reserved for metals with more than one common charge",
+    "trap": true
+   }
+  ],
+  "prompt": "Match each formula to its correct name.",
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Match each formula to its correct name.', while this card targets 'work out the charge of a Group 15, 16, or 17…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
  },
  "213": {
   "content_version": "50ac706832f2",
