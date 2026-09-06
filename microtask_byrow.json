@@ -2741,6 +2741,161 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1181": {
+  "bins": [
+   "Strong acid",
+   "Weak acid",
+   "Strong base",
+   "Weak base"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Strong acid",
+    "id": "a",
+    "label": "HCl (dissociates fully)"
+   },
+   {
+    "bin": "Weak acid",
+    "id": "b",
+    "label": "HF (partial dissociation)"
+   },
+   {
+    "bin": "Strong base",
+    "id": "c",
+    "label": "NaOH (fully dissociates)"
+   },
+   {
+    "bin": "Weak base",
+    "id": "d",
+    "label": "NH₃ (partial protonation)"
+   },
+   {
+    "bin": "Strong acid",
+    "id": "e",
+    "label": "HNO₃ (fully ionized)"
+   },
+   {
+    "bin": "Weak acid",
+    "id": "f",
+    "label": "HCN (Ka = 4.9×10⁻¹⁰)"
+   },
+   {
+    "bin": "Strong base",
+    "id": "g",
+    "label": "KOH (metal hydroxide)"
+   },
+   {
+    "bin": "Strong acid",
+    "id": "n1",
+    "label": "HClO₄"
+   },
+   {
+    "bin": "Strong acid",
+    "id": "n2",
+    "label": "HBr"
+   },
+   {
+    "bin": "Strong acid",
+    "id": "n3",
+    "label": "HNO₃"
+   },
+   {
+    "bin": "Strong acid",
+    "id": "n4",
+    "label": "HI"
+   },
+   {
+    "bin": "Strong acid",
+    "id": "n5",
+    "label": "H₂SO₄",
+    "note": "Sulfuric acid; first proton fully ionizes so classified strong. Correct; good polyprotic trap.",
+    "trap": true
+   },
+   {
+    "bin": "Weak acid",
+    "id": "n6",
+    "label": "HF",
+    "note": "Hydrofluoric acid, the ONE weak hydrohalic acid (Ka~6.8e-4). Correct; good trap.",
+    "trap": true
+   },
+   {
+    "bin": "Weak acid",
+    "id": "n7",
+    "label": "CH₃COOH"
+   },
+   {
+    "bin": "Weak acid",
+    "id": "n8",
+    "label": "HCN"
+   },
+   {
+    "bin": "Weak acid",
+    "id": "n9",
+    "label": "HClO"
+   },
+   {
+    "bin": "Weak acid",
+    "id": "n10",
+    "label": "HNO₂"
+   },
+   {
+    "bin": "Strong base",
+    "id": "n11",
+    "label": "NaOH"
+   },
+   {
+    "bin": "Strong base",
+    "id": "n12",
+    "label": "KOH"
+   },
+   {
+    "bin": "Strong base",
+    "id": "n13",
+    "label": "Ba(OH)₂"
+   },
+   {
+    "bin": "Strong base",
+    "id": "n14",
+    "label": "LiOH"
+   },
+   {
+    "bin": "Strong base",
+    "id": "n15",
+    "label": "Sr(OH)₂"
+   },
+   {
+    "bin": "Weak base",
+    "id": "n16",
+    "label": "NH₃"
+   },
+   {
+    "bin": "Weak base",
+    "id": "n17",
+    "label": "CH₃NH₂"
+   },
+   {
+    "bin": "Weak base",
+    "id": "n18",
+    "label": "C₅H₅N"
+   },
+   {
+    "bin": "Weak base",
+    "id": "n19",
+    "label": "(CH₃)₂NH"
+   },
+   {
+    "bin": "Weak base",
+    "id": "n20",
+    "label": "C₆H₅NH₂"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Strong acid, Weak acid, Strong base, Weak base”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1201": {
   "gate_status": "reviewed",
   "hotspots": [
@@ -9109,6 +9264,44 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1485": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Write the target reaction you need ΔH for",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "Identify known thermochemical equations that combine to give the target",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Reverse and/or multiply each equation as needed (flip sign / scale ΔH)",
+    "note": "It is tempting to sum the delta-H values right after identifying the known equations, but each equation must first be reversed or scaled to match the target reaction's stoichiometry and direction. Skipping this adjustment means summing values that do not correspond to the actual pathway being built.",
+    "order": 3,
+    "trap": true
+   },
+   {
+    "id": "d",
+    "label": "Cancel species that appear on both sides",
+    "order": 4
+   },
+   {
+    "id": "e",
+    "label": "Sum the adjusted ΔH values to get the overall ΔH",
+    "order": 5
+   }
+  ],
+  "prompt": "Order the Hess's law steps to find ΔH for: 2C(s) + H₂(g) → C₂H₂(g)",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests \"Order the Hess's law steps to find ΔH for:…\", while this card targets 'recognise common acetate, nitrate, and ammonium salts as soluble and write…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
+ },
  "1487": {
   "content_version": "d2314f4f0aee",
   "gate_status": "reviewed",
@@ -10917,6 +11110,53 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1634": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "asol",
+    "label": "Anode solution (Zn²⁺ builds)",
+    "x": 0.18,
+    "y": 0.72
+   },
+   {
+    "id": "csol",
+    "label": "Cathode solution (Cu²⁺ used)",
+    "x": 0.82,
+    "y": 0.72
+   },
+   {
+    "id": "anion",
+    "label": "Anions → anode side",
+    "note": "Anions migrate toward the anode side through the salt bridge to balance the buildup of positive Zn2+ ions there as oxidation proceeds. It is easy to instead expect negative ions to move toward the cathode, by analogy with how electrons flow through the external wire toward the cathode.",
+    "trap": true,
+    "x": 0.35,
+    "y": 0.28
+   },
+   {
+    "id": "cation",
+    "label": "Cations → cathode side",
+    "x": 0.65,
+    "y": 0.28
+   }
+  ],
+  "options": [
+   "Anode solution (Zn²⁺ builds)",
+   "Cathode solution (Cu²⁺ used)",
+   "Anions → anode side",
+   "Cations → cathode side",
+   "Distilled water",
+   "Buffer solution",
+   "Electrolyte only"
+  ],
+  "prompt": "Label the solutions and ion directions in this galvanic cell",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “Label the solutions and ion directions in this galvanic cell”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch18/row_1417",
+  "tool": "labeler"
  },
  "1639": {
   "bins": [
@@ -13416,6 +13656,61 @@
   "subject": "chem",
   "tool": "matcher"
  },
+ "221": {
+  "distractors": [
+   "carbon monoxide",
+   "sulfur dioxide",
+   "phosphorus pentoxide",
+   "nitrogen dioxide"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "CO₂",
+    "right": "carbon dioxide"
+   },
+   {
+    "id": "b",
+    "left": "SO₃",
+    "right": "sulfur trioxide"
+   },
+   {
+    "id": "c",
+    "left": "N₂O₄",
+    "right": "dinitrogen tetroxide"
+   },
+   {
+    "id": "d",
+    "left": "PCl₃",
+    "right": "phosphorus trichloride"
+   },
+   {
+    "id": "e",
+    "left": "NO",
+    "right": "nitrogen monoxide"
+   },
+   {
+    "id": "f",
+    "left": "CCl₄",
+    "right": "carbon tetrachloride"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: naming CO monocarbon monoxide",
+    "note": "Students apply the mono- prefix consistently to both elements, not realizing the rule explicitly drops it from the first element's name.",
+    "right": "WRONG - the prefix mono- is never used on the first element in a covalent name, only on the second if needed; the correct name is simply carbon monoxide",
+    "trap": true
+   }
+  ],
+  "prompt": "Match each formula to its correct name.",
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Match each formula to its correct name.', while this card targets 'name a monatomic nonmetal anion.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
+ },
  "225": {
   "content_version": "489a45e2ffe2",
   "distractors": [
@@ -13454,6 +13749,56 @@
   ],
   "prompt": "Match each formula to its correct name.",
   "responseSurplus": 4,
+  "subject": "chem",
+  "tool": "matcher"
+ },
+ "229": {
+  "distractors": [
+   "hydrocyanic acid",
+   "hydronitric acid",
+   "hydrogen chloride",
+   "chloric acid"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "HF(aq)",
+    "right": "hydrofluoric acid"
+   },
+   {
+    "id": "b",
+    "left": "HCl(aq)",
+    "right": "hydrochloric acid"
+   },
+   {
+    "id": "c",
+    "left": "HBr(aq)",
+    "right": "hydrobromic acid"
+   },
+   {
+    "id": "d",
+    "left": "HI(aq)",
+    "right": "hydroiodic acid"
+   },
+   {
+    "id": "e",
+    "left": "H₂S(aq)",
+    "right": "hydrosulfuric acid"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: naming H2SO4(aq) hydrosulfuric acid",
+    "note": "The presence of hydro- as a prefix and sulfuric/sulfuric-sounding names invites confusion between the binary acid H2S and the oxyacid H2SO4, which follow completely different naming rules.",
+    "right": "WRONG - H2SO4 is sulfuric acid, an oxyacid that contains oxygen; the hydro-...-ic naming pattern is reserved for binary acids with no oxygen, like H2S(aq)",
+    "trap": true
+   }
+  ],
+  "prompt": "Match each formula to its correct name.",
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Match each formula to its correct name.', while this card targets 'list the first ten greek prefixes used in naming.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "matcher"
  },
@@ -13835,6 +14180,53 @@
   "subject": "chem",
   "title": "Table",
   "tool": "table"
+ },
+ "246": {
+  "bins": [
+   "Same compound",
+   "Different compound"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Same compound",
+    "id": "a",
+    "label": "A: 2g H, 16g O; B: 4g H, 32g O"
+   },
+   {
+    "bin": "Different compound",
+    "id": "b",
+    "label": "C: 2g H, 8g O; D: 1g H, 6g O"
+   },
+   {
+    "bin": "Same compound",
+    "id": "c",
+    "label": "12g C:4g H vs 3g C:1g H"
+   },
+   {
+    "bin": "Same compound",
+    "id": "d",
+    "label": "Na:Cl = 23:35.5 vs 46:71"
+   },
+   {
+    "bin": "Different compound",
+    "id": "e",
+    "label": "6g C:16g O vs 3g C:4g O"
+   },
+   {
+    "bin": "Different compound",
+    "id": "n1",
+    "label": "1g H:8g O vs 1g H:16g O",
+    "note": "1 g H to 8 g O is water's ratio; 1 g H to 16 g O is hydrogen peroxide's, twice the oxygen per gram of hydrogen. Same two elements does not mean same compound: the law of definite proportions is about the mass ratio, not which elements show up.",
+    "trap": true
+   }
+  ],
+  "prompt": "Sort each pair of mass ratios by whether they describe the same compound (law of definite proportions).",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Sort each pair of mass ratios by whether they…', while this card targets 'explain how heating a hydrate removes water and forms an anhydrous…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "248": {
   "content_version": "a290f04cd91f",
@@ -17349,6 +17741,39 @@
   "subject": "chem",
   "svgKey": "chem_cmp/2-2-a_v2",
   "tool": "labeler"
+ },
+ "705": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Higher bond order = more electrons shared between nuclei",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "More shared electrons draw nuclei closer together → shorter bond",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Shorter internuclear distance means stronger electrostatic attraction",
+    "note": "It is tempting to think shorter bonds are just 'more compact' without a clear reason, but the actual mechanism is electrostatic: closer nuclei feel a stronger Coulombic pull toward the shared electrons between them, which is what makes the bond both shorter and require more energy to break. Length and energy are linked through this shared cause, not independent coincidences.",
+    "order": 3,
+    "trap": true
+   },
+   {
+    "id": "d",
+    "label": "Stronger attraction requires more energy to break → higher bond energy",
+    "order": 4
+   }
+  ],
+  "prompt": "Order these statements describing how bond order relates to bond length and bond energy",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Order these statements describing how bond order relates to…', while this card targets 'rank the regions of the electromagnetic spectrum from highest to lowest…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
  },
  "709": {
   "bins": [
@@ -23225,5 +23650,37 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "999": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Write rate law: rate = k[A]^m",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "Find m for A from data",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Ratio: R₂/R₁ = ([A]₂/[A]₁)^m",
+    "note": "The exponent m in this ratio equation is the reaction order for A, the very thing usually being solved for. It is tempting to already assume a value for m before this step, but the point of the ratio is to solve for m from the numbers, not to plug in a guessed order.",
+    "order": 3,
+    "trap": true
+   },
+   {
+    "id": "d",
+    "label": "Solve for the new rate",
+    "order": 4
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence Write rate law: rate = k[A]^m, Find m for A from data, Ratio: R₂/R₁ = ([A]₂/[A]₁)^m”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
  }
 }
