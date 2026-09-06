@@ -13232,6 +13232,309 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1608": {
+  "bins": [
+   "E°cell > 0",
+   "E°cell < 0"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "E°cell > 0",
+    "id": "r1",
+    "label": "An iron nail sits in a blue Cu(NO₃)₂ bath"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r2",
+    "label": "Magnesium ribbon dropped into a ZnCl₂ solution"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r3",
+    "label": "Cl₂ gas bubbled through a solution of NaBr"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r4",
+    "label": "Cl₂ gas bubbled through a solution of KI"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r5",
+    "label": "Liquid bromine shaken with an NaI solution"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r6",
+    "label": "A nickel strip immersed in Pb(NO₃)₂ solution"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r7",
+    "label": "Tin foil dipped in AgNO₃ solution"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r8",
+    "label": "An iron rod set in a Pb(NO₃)₂ solution"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r9",
+    "label": "A zinc plate placed in a NiCl₂ solution"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r10",
+    "label": "Aluminum foil dropped into an AgNO₃ solution"
+   },
+   {
+    "bin": "E°cell > 0",
+    "id": "r11",
+    "label": "A cobalt strip dropped into a Pb(NO₃)₂ solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r12",
+    "label": "A copper wire placed in an FeSO₄ solution",
+    "note": "Students see two familiar metals and assume displacement, but Cu is below Fe, so Cu cannot reduce Fe2+; non-spontaneous.",
+    "trap": true
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r13",
+    "label": "Liquid bromine mixed with an NaCl solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r14",
+    "label": "Solid iodine stirred into an NaCl solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r15",
+    "label": "A lead strip placed in a NiCl₂ solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r16",
+    "label": "A silver wire lowered into a SnCl₂ solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r17",
+    "label": "A lead strip set in an FeSO₄ solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r18",
+    "label": "A nickel strip placed in a ZnCl₂ solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r19",
+    "label": "A silver wire dipped in a CuSO₄ solution",
+    "note": "Reverses the famous Cu/Ag couple; Ag is below Cu, so Ag cannot reduce Cu2+; non-spontaneous.",
+    "trap": true
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r20",
+    "label": "Solid iodine added to an NaBr solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r21",
+    "label": "A tin strip placed in a NiCl₂ solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r22",
+    "label": "A lead strip set in a SnCl₂ solution"
+   },
+   {
+    "bin": "E°cell < 0",
+    "id": "r23",
+    "label": "A copper strip lowered into a NiCl₂ solution"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into E°cell > 0, E°cell < 0”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1613": {
+  "bins": [
+   "Will occur",
+   "Will NOT occur"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Will occur",
+    "id": "a",
+    "label": "Zn in CuSO₄ (Zn displaces Cu)"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "b",
+    "label": "Cu in ZnSO₄ (Cu weaker red.)"
+   },
+   {
+    "bin": "Will occur",
+    "id": "c",
+    "label": "Fe in HCl (Fe above H)"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "d",
+    "label": "Au in HCl (Au below H)"
+   },
+   {
+    "bin": "Will occur",
+    "id": "e",
+    "label": "Mg in CuSO₄ (Mg more reactive)"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "f",
+    "label": "Ag in HCl (Ag below H)"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n1",
+    "label": "Zn metal placed in CuSO₄ solution"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n2",
+    "label": "Fe strip dipped in AgNO₃ solution"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n3",
+    "label": "Mg ribbon added to dilute HCl"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n4",
+    "label": "Al foil placed in Pb(NO₃)₂ solution"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n5",
+    "label": "Zn added to a solution of SnCl₂"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n6",
+    "label": "Ni metal dropped into CuSO₄ solution"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n7",
+    "label": "Ca metal added to cold water"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n8",
+    "label": "Sn placed in AgNO₃ solution"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n9",
+    "label": "Cd metal added to NiCl₂ solution"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n10",
+    "label": "Mn metal placed in FeSO₄ solution"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n11",
+    "label": "Cr strip dipped in a Ni(NO₃)₂ solution"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n12",
+    "label": "K metal dropped into water"
+   },
+   {
+    "bin": "Will occur",
+    "id": "n13",
+    "label": "Fe added to a warm solution of dilute H₂SO₄"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n14",
+    "label": "Cu wire placed in ZnSO₄ solution"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n15",
+    "label": "Ag strip dipped in Cu(NO₃)₂ solution"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n16",
+    "label": "Cu metal added to dilute HCl",
+    "note": "Common error: assume all metals react with acids; Cu is below H, so no H₂ forms.",
+    "trap": true
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n17",
+    "label": "Pb placed in a solution of MgCl₂"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n18",
+    "label": "Sn metal added to FeSO₄ solution",
+    "note": "Sn is below Fe in activity, so it cannot displace Fe2+ despite being a common metal.",
+    "trap": true
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n19",
+    "label": "Au wire dipped in AgNO₃ solution"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n20",
+    "label": "Ni placed in a solution of ZnCl₂"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n21",
+    "label": "Ag added to dilute H₂SO₄"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n22",
+    "label": "Cu metal placed in FeSO₄ solution",
+    "note": "Cu cannot displace Fe2+; Cu is below Fe even though Cu can displace Ag+.",
+    "trap": true
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n23",
+    "label": "Pb wire dipped in NiSO₄ solution"
+   },
+   {
+    "bin": "Will NOT occur",
+    "id": "n24",
+    "label": "Fe strip placed in AlCl₃ solution"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Will occur, Will NOT occur”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1618": {
   "content_version": "2a562c1df23e",
   "gate_status": "reviewed",
@@ -14498,6 +14801,157 @@
   ],
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "1660": {
+  "bins": [
+   "Electrolytic anode",
+   "Electrolytic cathode"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Electrolytic cathode",
+    "id": "a",
+    "label": "Negative battery terminal"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "b",
+    "label": "Positive battery terminal"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "c",
+    "label": "Where reduction occurs"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "d",
+    "label": "Where oxidation occurs"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "e",
+    "label": "Metal deposits here (plating)"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "f",
+    "label": "O₂ or Cl₂ evolves here"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "n1",
+    "label": "Electrode connected to the positive terminal of the battery"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "n2",
+    "label": "2Cl- gives Cl₂ plus 2e- at this electrode"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "n3",
+    "label": "Site where 2H₂O gives O₂ plus 4H+ plus 4e-"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "n4",
+    "label": "Electrode that loses mass in Cu electrorefining as Cu gives Cu2+ plus 2e-"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "n5",
+    "label": "Electrode where the oxidation number of the species increases"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "n6",
+    "label": "Carbon electrode that burns away as CO₂ in aluminum smelting"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "n7",
+    "label": "This electrode carries a plus sign in an electrolysis diagram"
+   },
+   {
+    "bin": "Electrolytic anode",
+    "id": "n8",
+    "label": "Where 2Br- is converted to Br₂ in molten MgBr₂ electrolysis"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n10",
+    "label": "Electrode connected to the negative terminal of the power supply"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n11",
+    "label": "Electrode where reduction occurs during electrolysis of water"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n12",
+    "label": "Na+ plus e- gives Na at this electrode in molten NaCl"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n13",
+    "label": "Site where 2H₂O plus 2e- gives H₂ plus 2OH-"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n14",
+    "label": "Electrode that gains mass as Cu2+ plus 2e- gives Cu in electroplating"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n15",
+    "label": "Electrons flow into this electrode from the external power source"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n16",
+    "label": "Electrode where the oxidation number of the species decreases"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n17",
+    "label": "In electroplating, the spoon that receives the metal coating"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n18",
+    "label": "This electrode carries a minus sign in an electrolysis diagram"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n19",
+    "label": "Where Al3+ plus 3e- gives molten Al in aluminum production"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n20",
+    "label": "Where Mg2+ plus 2e- gives Mg in molten MgCl₂ electrolysis"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n22",
+    "label": "Electrode drawing cations toward it in an electrolysis cell"
+   },
+   {
+    "bin": "Electrolytic cathode",
+    "id": "n21",
+    "label": "Metal ions are reduced and plate out onto this electrode in electroplating",
+    "note": "Electroplating deposits metal by reducing dissolved metal ions at the cathode, the same reduction-happens-here rule that applies in any electrolytic cell. The word 'electroplating' can read as new, unrelated vocabulary, but the underlying rule (reduction = cathode) is unchanged.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Electrolytic anode, Electrolytic cathode”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "1668": {
   "bins": [
@@ -20356,6 +20810,117 @@
   "subject": "chem",
   "svgKey": "ch06/row_494",
   "tool": "labeler"
+ },
+ "556": {
+  "bins": [
+   "W < 0",
+   "W > 0",
+   "W = 0"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "W < 0",
+    "id": "r1",
+    "label": "At constant pressure, solid NH₄HS decomposes: NH₄HS(s) -> NH₃(g) + H₂S(g)"
+   },
+   {
+    "bin": "W > 0",
+    "id": "r2",
+    "label": "In a movable-piston flask at constant P: 2 CO(g) + O₂(g) -> 2 CO₂(g)"
+   },
+   {
+    "bin": "W < 0",
+    "id": "r3",
+    "label": "At constant P: 2 KClO₃(s) -> 2 KCl(s) + 3 O₂(g)"
+   },
+   {
+    "bin": "W = 0",
+    "id": "r4",
+    "label": "N₂(g) + 3 H₂(g) -> 2 NH₃(g) proceeds in a sealed steel bomb of fixed 2.0 L",
+    "note": "Misconception: students see 4 mol -> 2 mol gas and pick compression, but a rigid vessel cannot change volume so dV = 0 and W = 0 regardless of Dn_gas.",
+    "trap": true
+   },
+   {
+    "bin": "W = 0",
+    "id": "r5",
+    "label": "At constant P: BaCl₂(aq) + Na₂SO₄(aq) -> BaSO₄(s) + 2 NaCl(aq)",
+    "note": "Misconception: students count total moles; but no species is a gas, Dn_gas = 0, so no volume change and W = 0.",
+    "trap": true
+   },
+   {
+    "bin": "W = 0",
+    "id": "r6",
+    "label": "A sample of Ar gas in a rigid sealed cylinder is heated from 300 K to 450 K",
+    "note": "Misconception: 'heating a gas always makes it do work.' Rigid walls hold V fixed, dV = 0, so W = 0 even though T and P rise.",
+    "trap": true
+   },
+   {
+    "bin": "W < 0",
+    "id": "r7",
+    "label": "At constant P: CaCO₃(s) -> CaO(s) + CO₂(g)"
+   },
+   {
+    "bin": "W > 0",
+    "id": "r8",
+    "label": "At constant P: 4 Fe(s) + 3 O₂(g) -> 2 Fe₂O₃(s)"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'W < 0 / W > 0 / W…', while this card targets 'rearrange and solve a gas-law equation, keeping units consistent.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "560": {
+  "bins": [
+   "Exothermic",
+   "Endothermic"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Exothermic",
+    "id": "r1",
+    "label": "Solid NaOH is stirred into water until it fully dissolves"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "r2",
+    "label": "NH₄NO₃ fertilizer granules are mixed into water and dissolve",
+    "note": "Dissolution of ammonium nitrate is endothermic; the enthalpy of solution is positive.",
+    "trap": true
+   },
+   {
+    "bin": "Exothermic",
+    "id": "r3",
+    "label": "Dilute HCl is combined with aqueous KOH in a beaker"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "r4",
+    "label": "Solid Ba(OH)₂*8H₂O is ground together with solid NH₄Cl",
+    "note": "This solid-solid double displacement has a large positive enthalpy despite looking acid-base like.",
+    "trap": true
+   },
+   {
+    "bin": "Exothermic",
+    "id": "r5",
+    "label": "A strip of magnesium ribbon is dropped into aqueous HCl"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "r6",
+    "label": "Solid citric acid is dissolved into a solution of baking soda (NaHCO₃)",
+    "note": "The acid-carbonate reaction absorbs heat even though it fizzes vigorously.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Exothermic / Endothermic', while this card targets 'Evaluate whether evaporation of a reaction mixture is a valid alternative…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "562": {
   "gate_status": "reviewed",
