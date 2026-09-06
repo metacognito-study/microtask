@@ -4959,6 +4959,142 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1275": {
+  "bins": [
+   "Stronger acid",
+   "Weaker acid"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Stronger acid",
+    "id": "a",
+    "label": "HClO (O-Cl, Cl more EN than I)"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "b",
+    "label": "HIO (O-I, I less EN than Cl)"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "c",
+    "label": "Cl₂CHCOOH (2 EN Cl pull e⁻)"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "d",
+    "label": "ClCH₂COOH (1 Cl vs 2 Cl)"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "e",
+    "label": "CF₃COOH (EN F groups pull e⁻)"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "f",
+    "label": "CH₃COOH (no EN groups)"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n1",
+    "label": "HClO (chlorine backbone) vs HBrO"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n2",
+    "label": "H₂SO₄ compared with H₂SeO₄"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n4",
+    "label": "CCl₃COOH compared with CH₃COOH"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n5",
+    "label": "CF₃COOH versus CH₃COOH"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n7",
+    "label": "H₂CO₃ (carbon center) vs H₂SiO₃ (silicon center)"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n8",
+    "label": "FCH₂COOH compared with ICH₂COOH"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n9",
+    "label": "Cl₂CHCOOH versus Br₂CHCOOH"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n10",
+    "label": "HClO₂ whose central atom is Cl vs central atom Br"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n11",
+    "label": "CH₂FCOOH compared with CH₂BrCOOH"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n12",
+    "label": "H₂SeO₄ compared with H₂SO₄"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n13",
+    "label": "CH₃COOH next to its trichloro relative"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n14",
+    "label": "H₂SiO₃ (silicon center) vs H₂CO₃ (carbon center)"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n15",
+    "label": "ICH₂COOH compared with FCH₂COOH"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n16",
+    "label": "HOI compared with HOBr"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n17",
+    "label": "Br₂CHCOOH versus Cl₂CHCOOH"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n18",
+    "label": "CH₂BrCOOH compared with CH₂FCOOH"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n20",
+    "label": "HIO₂ central atom I vs HClO₂ central atom Cl"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n21",
+    "label": "C6H5COOH (benzoic acid, ring delocalizes the negative charge) vs CH3COOH (acetic acid, no such delocalization)",
+    "note": "Benzoic acid is the stronger acid because its aromatic ring helps stabilize the conjugate base by resonance, not because of an electron-withdrawing halogen or a central-atom electronegativity difference like the row's other items. Resonance stabilization is a distinct reason for acid strength from the ones tested so far.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Stronger acid, Weaker acid”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1276": {
   "bins": [
    "Stronger oxyacid",
@@ -11855,6 +11991,174 @@
   "subject": "chem",
   "tool": "sequencer"
  },
+ "1555": {
+  "bins": [
+   "Higher entropy",
+   "Lower entropy"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Higher entropy",
+    "id": "a",
+    "label": "H₂O(g) vs H₂O(l)"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "b",
+    "label": "H₂O(s) vs H₂O(l)"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "c",
+    "label": "H₂O(l) vs H₂O(g)"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "d",
+    "label": "H₂O(g) vs H₂O(s)"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "e",
+    "label": "CO₂(g) vs CO₂(s)"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "f",
+    "label": "NaCl(s) vs NaCl(l)"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n1",
+    "label": "One mole of CO₂ as a gas at 25 C"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n2",
+    "label": "One mole of CO₂ frozen as dry ice"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n3",
+    "label": "Water vapor at 120 C"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n4",
+    "label": "Ice at -20 C"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n5",
+    "label": "NaCl fully dissolved in water"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n6",
+    "label": "A solid crystal of pure NaCl"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n7",
+    "label": "Products of 2 H₂O₂(l) yielding 2 H₂O(l) plus O₂(g)"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n8",
+    "label": "N₂ and O₂ gases after they have mixed evenly"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n9",
+    "label": "N₂ and O₂ kept unmixed in separate sealed flasks"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n10",
+    "label": "Bromine liquid heated until it becomes Br₂ vapor"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n11",
+    "label": "Br₂ vapor cooled back into liquid bromine"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n12",
+    "label": "Sugar spread as individual molecules through hot tea"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n13",
+    "label": "A sugar cube sitting intact on a spoon"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n14",
+    "label": "Helium gas warmed from 200 K to 400 K"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n15",
+    "label": "Helium gas cooled from 400 K to 200 K"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n16",
+    "label": "3 mol of gas products from a reaction making 1 mol gas",
+    "note": "3 mol gas > 1 mol gas; more moles of gas is higher entropy. Correctly binned; counters the fewer-moles misconception.",
+    "trap": true
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n17",
+    "label": "Molten iron just above its melting point"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n18",
+    "label": "A solid bar of iron at room temperature"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n19",
+    "label": "Liquid water compared with solid ice at 0 C",
+    "note": "Liquid > solid entropy; correctly binned despite the ordered-looking-liquid misconception.",
+    "trap": true
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n20",
+    "label": "KNO₃ crystals stirred until they disperse in water"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n21",
+    "label": "Perfectly ordered diamond crystal near absolute zero"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n22",
+    "label": "Neon atoms filling a large evacuated container"
+   },
+   {
+    "bin": "Lower entropy",
+    "id": "n23",
+    "label": "Neon atoms compressed into a tiny sealed volume"
+   },
+   {
+    "bin": "Higher entropy",
+    "id": "n24",
+    "label": "Two colored gases spread uniformly through a flask"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Higher entropy, Lower entropy”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1556": {
   "content_version": "58eca3341648",
   "gate_status": "reviewed",
@@ -11988,6 +12292,168 @@
   ],
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "1560": {
+  "bins": [
+   "ΔS > 0",
+   "ΔS < 0"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "ΔS > 0",
+    "id": "r1",
+    "label": "2 H₂O(l) to 2 H₂(g) plus O₂(g)"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r2",
+    "label": "CaCO₃(s) to CaO(s) plus CO₂(g)"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r3",
+    "label": "2 KClO₃(s) to 2 KCl(s) plus 3 O₂(g)"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r4",
+    "label": "A block of solid dry ice sublimes into vapor"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r5",
+    "label": "A crystal of NH₄NO₃(s) dissolves into free ions in water"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r6",
+    "label": "Liquid bromine is heated until it boils away as vapor"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r7",
+    "label": "2 H₂O₂(l) to 2 H₂O(l) plus O₂(g)"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r8",
+    "label": "N₂O₄(g) to 2 NO₂(g)"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r9",
+    "label": "A cube of ice at room temperature melts to liquid water"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r10",
+    "label": "2 NaHCO₃(s) to Na₂CO₃(s) plus H₂O(g) plus CO₂(g)"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r11",
+    "label": "Table sugar crystals dissolve to form a clear solution"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r12",
+    "label": "2 O₃(g) to 3 O₂(g)"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r13",
+    "label": "Dissolved CO₂ gas fizzes out of a freshly opened bottle of soda water"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r14",
+    "label": "A sealed flask of I₂(s) is warmed until purple I₂(g) fills it"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r15",
+    "label": "N₂(g) plus 3 H₂(g) to 2 NH₃(g)"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r16",
+    "label": "Water vapor in the air condenses into droplets on a cold window"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r17",
+    "label": "2 SO₂(g) plus O₂(g) to 2 SO₃(g)",
+    "trap": true
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r18",
+    "label": "Ag+(aq) plus Cl-(aq) to AgCl(s)",
+    "trap": true
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r19",
+    "label": "Molten mercury cools and freezes into a solid ingot"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r20",
+    "label": "2 NO(g) plus O₂(g) to 2 NO₂(g)"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r21",
+    "label": "Water vapor deposits directly as a layer of frost"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r22",
+    "label": "4 Fe(s) plus 3 O₂(g) to 2 Fe₂O₃(s)",
+    "trap": true
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r23",
+    "label": "CO(g) plus 2 H₂(g) to CH₃OH(l)"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r24",
+    "label": "P₄(s) plus 6 Cl₂(g) to 4 PCl₃(l)"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r25",
+    "label": "Ba2+(aq) plus SO₄ 2-(aq) to BaSO₄(s)"
+   },
+   {
+    "bin": "ΔS < 0",
+    "id": "r26",
+    "label": "H₂O(g) is cooled at constant pressure until it becomes liquid water"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r27",
+    "label": "2 C(s) plus O₂(g) to 2 CO(g)"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r28",
+    "label": "A pinch of KI(s) dissolves completely into K+ and I- in a beaker of water"
+   },
+   {
+    "bin": "ΔS > 0",
+    "id": "r29",
+    "label": "CO₂(g) plus C(s) to 2 CO(g)"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into ΔS > 0, ΔS < 0”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "1565": {
   "bins": [
@@ -15028,6 +15494,178 @@
     "scene": "A student is investigating how the concentration of sodium thiosulfate affects the time it takes for a mixture to turn cloudy. They mix the same acid with three different concentrations of thiosulfate."
    }
   ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "181": {
+  "bins": [
+   "Metal",
+   "Nonmetal",
+   "Metalloid"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Metal",
+    "id": "a",
+    "label": "Copper (Cu"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "b",
+    "label": "Sulfur (S"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "c",
+    "label": "Arsenic (As"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "d",
+    "label": "Nitrogen (N"
+   },
+   {
+    "bin": "Metal",
+    "id": "e",
+    "label": "Tin (Sn"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "f",
+    "label": "Antimony (Sb"
+   },
+   {
+    "bin": "Metal",
+    "id": "n1",
+    "label": "Potassium (K)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n2",
+    "label": "Barium (Ba)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n3",
+    "label": "Aluminum (Al)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n4",
+    "label": "Nickel (Ni)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n5",
+    "label": "Tin (Sn)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n6",
+    "label": "Cesium (Cs)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n7",
+    "label": "Lead (Pb)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n8",
+    "label": "Titanium (Ti)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n9",
+    "label": "Selenium (Se)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n10",
+    "label": "Fluorine (F)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n11",
+    "label": "Phosphorus (P)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n12",
+    "label": "Argon (Ar)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n13",
+    "label": "Iodine (I)",
+    "note": "Misconception: shiny gray solid looks metallic, but iodine is a nonmetal (Group 17).",
+    "trap": true
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n14",
+    "label": "Bromine (Br)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n15",
+    "label": "Sulfur (S)"
+   },
+   {
+    "bin": "Nonmetal",
+    "id": "n16",
+    "label": "Carbon (C)",
+    "note": "Misconception: sits in the 'staircase' column but period-2 C is a nonmetal, not a metalloid.",
+    "trap": true
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n17",
+    "label": "Silicon (Si)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n18",
+    "label": "Germanium (Ge)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n19",
+    "label": "Arsenic (As)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n20",
+    "label": "Antimony (Sb)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n21",
+    "label": "Tellurium (Te)"
+   },
+   {
+    "bin": "Metalloid",
+    "id": "n22",
+    "label": "Boron (B)"
+   },
+   {
+    "bin": "Metal",
+    "id": "n23",
+    "label": "Gallium (Ga)",
+    "note": "Misconception: low melting point and staircase-adjacency suggest metalloid, but Ga is a metal.",
+    "trap": true
+   },
+   {
+    "bin": "Metal",
+    "id": "n24",
+    "label": "Sodium (Na)"
+   }
+  ],
+  "prompt": "Sort each element by its position on the periodic table: metal, nonmetal, or metalloid.",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Sort each element by its position on the periodic…', while this card targets 'explain how simple distillation and evaporation are not the same process,…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -19773,6 +20411,151 @@
   "svgKey": "ch12/row_1618",
   "tool": "labeler"
  },
+ "564": {
+  "bins": [
+   "Exothermic",
+   "Endothermic"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Exothermic",
+    "id": "s1",
+    "label": "CH₄ + 2O₂ -> CO₂ + 2H₂O, methane burning in a Bunsen flame"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s2",
+    "label": "Solid NH₄NO₃ stirred into water in a fictional lab kit"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s3",
+    "label": "HCl(aq) mixed with NaOH(aq) to form salt and water"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s4",
+    "label": "Photosynthesis building glucose from CO₂ and water"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s5",
+    "label": "Liquid ethanol substitute vaporizing into gas"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s6",
+    "label": "2H₂(g) + O₂(g) -> 2H₂O(l) forming water from its elements"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s7",
+    "label": "Liquid water turning into solid ice in a freezer tray",
+    "note": "Misconception: because ice is cold, students call freezing endothermic. Freezing RELEASES energy to the surroundings, so it is exothermic.",
+    "trap": true
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s8",
+    "label": "Steam contacting a cool mirror and forming liquid droplets",
+    "note": "Misconception: condensation happens on a cold surface, so students label it endothermic. Gas-to-liquid releases energy, so it is exothermic.",
+    "trap": true
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s9",
+    "label": "Respiration turning glucose and O₂ into CO₂ and water in cells"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s10",
+    "label": "Solid CO₂ (dry ice) turning directly into gas at room temperature"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s11",
+    "label": "A strip of magnesium ribbon reacting with O₂ in a bright flash"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s12",
+    "label": "Concentrated H₂SO₄ being poured slowly into a beaker of water"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s13",
+    "label": "Baking soda reacting with vinegar substitute in an open cup"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s14",
+    "label": "Liquid nitrogen changing into nitrogen gas in open air"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s15",
+    "label": "An iron nail slowly rusting on a fictional workbench over weeks"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s16",
+    "label": "The bond-breaking step alone within a larger reaction pathway",
+    "note": "Misconception: students assume any step in an exothermic reaction is exothermic. Breaking bonds always ABSORBS energy, so this isolated step is endothermic.",
+    "trap": true
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s17",
+    "label": "Molten candle wax hardening back into a solid disc"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s18",
+    "label": "Thermite mix: 2Al + Fe₂O₃ -> Al₂O₃ + 2Fe"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s19",
+    "label": "Barium hydroxide crystals mixed with ammonium salt in a flask"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s20",
+    "label": "Propane, C₃H₈ + 5O₂ -> 3CO₂ + 4H₂O, in a camp stove"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s21",
+    "label": "Electrolysis splitting water into H₂ and O₂ gases"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s22",
+    "label": "Sodium metal reacting vigorously with water"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s23",
+    "label": "Solid iodine subliming into purple vapor when warmed"
+   },
+   {
+    "bin": "Exothermic",
+    "id": "s24",
+    "label": "Ammonia and hydrogen chloride gases combining into solid NH₄Cl"
+   },
+   {
+    "bin": "Endothermic",
+    "id": "s25",
+    "label": "Cracking a long hydrocarbon into smaller alkane and alkene"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Exothermic / Endothermic', while this card targets 'draw and justify the speed distribution (Maxwell-Boltzmann distribution) for gases that…'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "573": {
   "bins": [
    "Larger cation",
@@ -20020,6 +20803,53 @@
   "responseSurplus": 4,
   "subject": "chem",
   "tool": "matcher"
+ },
+ "600": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "1s",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "2s",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "2p",
+    "order": 3
+   },
+   {
+    "id": "d",
+    "label": "3s",
+    "order": 4
+   },
+   {
+    "id": "e",
+    "label": "3p",
+    "order": 5
+   },
+   {
+    "id": "f",
+    "label": "4s",
+    "order": 6
+   },
+   {
+    "id": "g",
+    "label": "3d",
+    "note": "3d might seem like it should fill before 4s since n=3 is lower than n=4, but by the Aufbau (n+l) rule, 4s has n+l=4 and fills before 3d, which has n+l=5. The principal quantum number alone is not enough to predict filling order once d subshells are involved.",
+    "order": 7,
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'sequencer', while this card targets 'explain the photoelectric effect.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
  },
  "602": {
   "bins": [
@@ -20593,6 +21423,69 @@
   "prompt": "Order substances A to D by density, using the graph shown (volume against mass).",
   "subject": "chem",
   "tool": "sequencer"
+ },
+ "620": {
+  "bins": [
+   "Group 1",
+   "Group 2",
+   "Group 13",
+   "Group 16"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Group 1",
+    "id": "a",
+    "label": "Li: IE₁=520, IE₂=7298 kJ/mol"
+   },
+   {
+    "bin": "Group 1",
+    "id": "b",
+    "label": "Na: IE₁=496, IE₂=4562 kJ/mol"
+   },
+   {
+    "bin": "Group 2",
+    "id": "c",
+    "label": "Mg: 738, 1451, 7733 kJ/mol"
+   },
+   {
+    "bin": "Group 2",
+    "id": "d",
+    "label": "Be: 900, 1757, 14850 kJ/mol"
+   },
+   {
+    "bin": "Group 13",
+    "id": "e",
+    "label": "Al: 578, 1817, 2745, 11578"
+   },
+   {
+    "bin": "Group 13",
+    "id": "f",
+    "label": "B: 801, 2427, 3660, 25026"
+   },
+   {
+    "bin": "Group 16",
+    "id": "g",
+    "label": "S: 6 low IEs, then big jump"
+   },
+   {
+    "bin": "Group 16",
+    "id": "h",
+    "label": "O: IE₁-IE₆ low, IE₇ jumps up"
+   },
+   {
+    "bin": "Group 13",
+    "id": "n1",
+    "label": "Ga: IE1=579, IE2=1979, IE3=2963, IE4=6180 kJ/mol",
+    "note": "IE1 is coincidentally close to the alkali metals' (Li 520, Na 496), tempting a magnitude-only guess of Group 1. The group is set by where the big jump sits, not by how low IE1 looks; here the jump lands after the third electron (at IE4), matching three valence electrons.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Group 1 / Group 2 / Group 13', while this card targets 'define atomic radius.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
  },
  "622": {
   "bins": [
@@ -27396,6 +28289,38 @@
   "retired_by": "claude-materials-index",
   "retired_on": "2026-09-04",
   "retired_reason": "Clear outcome mismatch: the current task tests “sequence 2 runs: only [A] changes, Compute rate ratio R₂/R₁, Find ([A]₂/[A]₁)² (square it)”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
+ },
+ "991": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "0th order k: M·s⁻¹",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "1st order k: s⁻¹",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "2nd order k: M⁻¹·s⁻¹",
+    "note": "As reaction order increases, the units of k pick up increasingly negative powers of concentration alongside inverse time. It is tempting to think units get simpler or drop out as order rises, rather than becoming more negative in the concentration exponent.",
+    "order": 3,
+    "trap": true
+   },
+   {
+    "id": "d",
+    "label": "3rd order k: M⁻²·s⁻¹",
+    "order": 4
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sequence 0th order k: M·s⁻¹, 1st order k: s⁻¹, 2nd order k: M⁻¹·s⁻¹”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sequencer"
  },
