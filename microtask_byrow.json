@@ -1682,6 +1682,57 @@
   "svgKey": "ch13/row_1004",
   "tool": "labeler"
  },
+ "1134": {
+  "bins": [
+   "At equilibrium",
+   "Not at equilibrium"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "At equilibrium",
+    "id": "a",
+    "label": "Pressure-time curves flatten"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "b",
+    "label": "Partial pressures changing"
+   },
+   {
+    "bin": "At equilibrium",
+    "id": "c",
+    "label": "All partial pressures constant"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "d",
+    "label": "Product pressure still rising"
+   },
+   {
+    "bin": "At equilibrium",
+    "id": "e",
+    "label": "Both P lines horizontal"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "f",
+    "label": "Reactant pressure falling"
+   },
+   {
+    "bin": "Not at equilibrium",
+    "id": "n1",
+    "label": "Partial pressures of reactant and product become equal at one instant, then continue changing",
+    "note": "Equal partial pressures at a single moment is not the same as constant partial pressures over time. Both are still changing after that instant, so the system has not reached equilibrium yet.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into At equilibrium, Not at equilibrium”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "1137": {
   "bins": [
    "Stronger acid",
@@ -3571,6 +3622,127 @@
   "subject": "chem",
   "tool": "sorter"
  },
+ "1256": {
+  "bins": [
+   "Stronger acid",
+   "Weaker acid"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Stronger acid",
+    "id": "a",
+    "label": "HI (largest, weakest H-I bond)"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "b",
+    "label": "HF (shortest, strongest H-F)"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "c",
+    "label": "HCl vs HF (Cl bigger)"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "d",
+    "label": "HBr vs HCl (Br bigger)"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "e",
+    "label": "H₂S vs H₂O (S bigger)"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "f",
+    "label": "H₂O vs H₂S (O smaller)"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n1",
+    "label": "HI"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n2",
+    "label": "HBr"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n3",
+    "label": "HF"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n4",
+    "label": "HCl"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n5",
+    "label": "H₂Se"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n6",
+    "label": "H₂Te"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n7",
+    "label": "The hydride of astatine, HAt"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n8",
+    "label": "NH₃ acting as a proton donor"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n9",
+    "label": "HX with the longest H to halogen bond in the group"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n10",
+    "label": "The most electronegative halogen bonded to H",
+    "note": "F; students expect strong acid, but short strong H-F bond makes it weakest. Correct trap.",
+    "trap": true
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n11",
+    "label": "HX with the highest bond dissociation energy in the halogens"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n12",
+    "label": "The smallest halogen atom bonded to hydrogen"
+   },
+   {
+    "bin": "Stronger acid",
+    "id": "n13",
+    "label": "The largest atom in the group bonded to hydrogen"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n14",
+    "label": "The hydride whose central atom sits highest in group 16"
+   },
+   {
+    "bin": "Weaker acid",
+    "id": "n15",
+    "label": "The hydride of the period 2 halogen"
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Stronger acid, Weaker acid”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sorter"
+ },
  "126": {
   "content_version": "8f7cf9c85fff",
   "gate_status": "reviewed",
@@ -3659,6 +3831,57 @@
     "trap": true
    }
   ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1265": {
+  "bins": [
+   "Stronger oxyacid",
+   "Weaker oxyacid"
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "Stronger oxyacid",
+    "id": "a",
+    "label": "HClO₄ (4 O atoms on Cl)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "b",
+    "label": "HClO (1 O atom on Cl)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "c",
+    "label": "HNO₃ (N in +5) vs HNO₂ (N in +3)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "d",
+    "label": "H₂SO₃ (2 extra O) vs H₂SO₄ (3 extra O)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "e",
+    "label": "HClO₃ (3 O) vs HClO₂ (2 O)"
+   },
+   {
+    "bin": "Weaker oxyacid",
+    "id": "f",
+    "label": "HBrO vs HBrO₂ (BrO has fewer O)"
+   },
+   {
+    "bin": "Stronger oxyacid",
+    "id": "n1",
+    "label": "HClO2 vs HBrO2 (same number of oxygens, Cl more electronegative than Br)",
+    "note": "When the oxygen count is tied, the more electronegative central atom pulls more electron density from the O-H bond, weakening it and releasing H+ more easily. This row's other items all vary the oxygen count; this one holds oxygen count fixed and varies the central atom instead.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into Stronger oxyacid, Weaker oxyacid”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -5830,6 +6053,50 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "1345": {
+  "distractors": [
+   "Buffer (strong acid + its conjugate base)",
+   "Buffer (two different weak acids)",
+   "Not a buffer (weak acid + its conjugate base)",
+   "Not a buffer (a weak base alone)"
+  ],
+  "gate_status": "reviewed",
+  "pairs": [
+   {
+    "id": "a",
+    "left": "CH₃COOH + CH₃COONa (both)",
+    "right": "Buffer (WA + conjugate base)"
+   },
+   {
+    "id": "b",
+    "left": "0.1 M CH₃COOH only",
+    "right": "Not a buffer (no conjugate)"
+   },
+   {
+    "id": "c",
+    "left": "NH₃ + NH₄Cl solution",
+    "right": "Buffer (WB + conjugate acid)"
+   },
+   {
+    "id": "d",
+    "left": "HCl + NaCl solution",
+    "right": "Not a buffer (strong acid)"
+   },
+   {
+    "id": "n1",
+    "label": "COMMON MISTAKE: assuming a more concentrated weak-acid-only solution becomes a buffer",
+    "note": "A more concentrated acid solution resists small pH changes slightly better in an absolute sense, which can be mistaken for buffering, but true buffer action needs the conjugate pair present together, not just a higher concentration of one species.",
+    "right": "WRONG - concentration alone does not create a buffer; a buffer specifically requires both the weak acid and its conjugate base (or weak base and conjugate acid) present together, no matter how concentrated a single-component solution is",
+    "trap": true
+   }
+  ],
+  "responseSurplus": 4,
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “match CH₃COOH + CH₃COONa (both), 0.1 M CH₃COOH only, NH₃ + NH₄Cl solution”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "matcher"
  },
  "1346": {
   "bins": [
@@ -8021,6 +8288,162 @@
     "label": "A copper strip lowered into a NiCl₂ solution"
    }
   ],
+  "subject": "chem",
+  "tool": "sorter"
+ },
+ "1410": {
+  "bins": [
+   "pH = 7 at equiv.",
+   "pH > 7 at equiv.",
+   "pH < 7 at equiv."
+  ],
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "bin": "pH = 7 at equiv.",
+    "id": "a",
+    "label": "Strong acid + strong base"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "b",
+    "label": "Weak acid + strong base"
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "c",
+    "label": "Weak base + strong acid"
+   },
+   {
+    "bin": "pH = 7 at equiv.",
+    "id": "d",
+    "label": "HCl titrated with NaOH"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "e",
+    "label": "CH₃COOH titrated with NaOH"
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "f",
+    "label": "NH₃ titrated with HCl"
+   },
+   {
+    "bin": "pH = 7 at equiv.",
+    "id": "n1",
+    "label": "Titrating HNO₃ with KOH"
+   },
+   {
+    "bin": "pH = 7 at equiv.",
+    "id": "n2",
+    "label": "NaCl dissolved in water"
+   },
+   {
+    "bin": "pH = 7 at equiv.",
+    "id": "n3",
+    "label": "Titrating HBr with NaOH"
+   },
+   {
+    "bin": "pH = 7 at equiv.",
+    "id": "n4",
+    "label": "KNO₃ dissolved in water"
+   },
+   {
+    "bin": "pH = 7 at equiv.",
+    "id": "n5",
+    "label": "Titrating HClO₄ with LiOH"
+   },
+   {
+    "bin": "pH = 7 at equiv.",
+    "id": "n6",
+    "label": "Titrating HCl with KOH"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "n7",
+    "label": "Titrating CH₃COOH with NaOH"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "n8",
+    "label": "Titrating HF with KOH"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "n9",
+    "label": "Titrating HCN with NaOH"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "n10",
+    "label": "Titrating HNO₂ with KOH"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "n11",
+    "label": "Titrating HClO with NaOH"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "n12",
+    "label": "Titrating benzoic acid C₆H₅COOH with NaOH"
+   },
+   {
+    "bin": "pH > 7 at equiv.",
+    "id": "n13",
+    "label": "NaCN dissolved in water",
+    "note": "Na+ spectator, CN- (conj base of weak HCN) hydrolyzes basic.",
+    "trap": true
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "n14",
+    "label": "Titrating NH₃ with HCl"
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "n15",
+    "label": "NH₄Cl dissolved in water"
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "n16",
+    "label": "Titrating CH₃NH₂ with HCl"
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "n17",
+    "label": "Titrating pyridine C₅H₅N with HBr"
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "n18",
+    "label": "NH₄NO₃ dissolved in water"
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "n19",
+    "label": "Titrating aniline C₆H₅NH₂ with HCl"
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "n20",
+    "label": "FeCl₃ dissolved in water",
+    "note": "Hydrated Fe3+ is a Lewis acid, [Fe(H₂O)₆]3+ donates protons, acidic; Cl- spectator.",
+    "trap": true
+   },
+   {
+    "bin": "pH < 7 at equiv.",
+    "id": "n21",
+    "label": "Titrating NH₃ with HNO₃",
+    "note": "Weak base NH₃ + strong acid gives NH₄NO₃, NH4+ acidic.",
+    "trap": true
+   }
+  ],
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests “sort into pH = 7 at equiv., pH > 7 at equiv., pH < 7 at equiv.”, while the card serves a different stated learning outcome. Remove it from this card identity and recover/remap any useful task content separately.",
   "subject": "chem",
   "tool": "sorter"
  },
@@ -14683,6 +15106,46 @@
   "svgKey": "ch03/row_248",
   "tool": "labeler"
  },
+ "271": {
+  "gate_status": "reviewed",
+  "hotspots": [
+   {
+    "id": "xax",
+    "label": "Mass-to-charge ratio (m/z)",
+    "x": 0.55,
+    "y": 0.95
+   },
+   {
+    "id": "yax",
+    "label": "Relative abundance (%)",
+    "x": 0.04,
+    "y": 0.45
+   },
+   {
+    "id": "base",
+    "label": "Base peak (tallest bar)",
+    "note": "The base peak is the tallest peak in the spectrum by definition, but that is not necessarily the peak at the highest mass-to-charge ratio; a tall peak can appear anywhere along the x-axis.",
+    "trap": true,
+    "x": 0.42,
+    "y": 0.08
+   }
+  ],
+  "options": [
+   "Mass-to-charge ratio (m/z)",
+   "Relative abundance (%)",
+   "Base peak (tallest bar)",
+   "Molecular ion (M⁺)",
+   "Retention time",
+   "Wavelength (nm)"
+  ],
+  "prompt": "Label the axes of this mass spectrum",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Label the axes of this mass spectrum', while this card targets 'name a monatomic metal cation.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "svgKey": "ch03/row_213",
+  "tool": "labeler"
+ },
  "29": {
   "content_version": "8c9903efe78c",
   "gate_status": "reviewed",
@@ -19338,6 +19801,39 @@
   ],
   "subject": "chem",
   "tool": "sorter"
+ },
+ "86": {
+  "gate_status": "reviewed",
+  "items": [
+   {
+    "id": "a",
+    "label": "Start: 72 km/h",
+    "order": 1
+   },
+   {
+    "id": "b",
+    "label": "Step 1 - convert km to m: × (1000 m / 1 km)",
+    "order": 2
+   },
+   {
+    "id": "c",
+    "label": "Step 2 - convert h to s: ÷ (3600 s / 1 h)",
+    "note": "It is easy to multiply by 3600 instead of dividing, since both numbers in this conversion are large. But converting hours to seconds within a rate means dividing by 3600, exactly as shown, because a rate expressed per second (a much smaller time unit) is a correspondingly smaller number than the same rate per hour.",
+    "order": 3,
+    "trap": true
+   },
+   {
+    "id": "d",
+    "label": "Result: 20 m/s",
+    "order": 4
+   }
+  ],
+  "prompt": "Follow the unit-conversion steps in the correct order.",
+  "retired_by": "claude-materials-index",
+  "retired_on": "2026-09-04",
+  "retired_reason": "Clear outcome mismatch: the current task tests 'Follow the unit-conversion steps in the correct order.', while this card targets 'define what temperature measures.'. It is misaligned beyond a local content edit; remove it from this card identity and recover/remap any useful task content separately.",
+  "subject": "chem",
+  "tool": "sequencer"
  },
  "865": {
   "bins": [
